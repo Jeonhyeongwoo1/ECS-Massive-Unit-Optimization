@@ -1,0 +1,570 @@
+fileFormatVersion: 2
+guid: e83fd3890f7115b4d996d0d3035ddd1d
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: 51
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BOMBie00
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 520
+        width: 139
+        height: 230
+      alignment: 9
+      pivot: {x: 0.4820144, y: 0.5217391}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6162737a1c6a187458eb47de736762ba
+      internalID: 1140616297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOMBie01
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 520
+        width: 141
+        height: 230
+      alignment: 9
+      pivot: {x: 0.47517732, y: 0.5217391}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1351f706e6192244694dab373d90c20d
+      internalID: -742176834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOMBie02
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 781
+        width: 142
+        height: 228
+      alignment: 9
+      pivot: {x: 0.45774648, y: 0.51754385}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa6b8dd1e6e466744866866060c9fd39
+      internalID: -1534109361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOMBie03
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 781
+        width: 136
+        height: 228
+      alignment: 9
+      pivot: {x: 0.4779412, y: 0.51754385}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc7681b713852ec4d933275c45c8655c
+      internalID: 1497634000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOMBie04
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 252
+        width: 142
+        height: 237
+      alignment: 9
+      pivot: {x: 0.471831, y: 0.5063291}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66fadc5cf55698b49b69fa32de417fd4
+      internalID: 317688153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOMBie05
+      rect:
+        serializedVersion: 2
+        x: 853
+        y: 251
+        width: 140
+        height: 238
+      alignment: 9
+      pivot: {x: 0.47857141, y: 0.5042017}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d0b853cfdcf7e14b91cd50fd348eb62
+      internalID: -1385978363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOMBie06
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 253
+        width: 139
+        height: 236
+      alignment: 9
+      pivot: {x: 0.4820144, y: 0.5127119}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39ffc86dd37ccf94abf59af903e191f2
+      internalID: -1641239640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOMBie07
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 253
+        width: 140
+        height: 236
+      alignment: 9
+      pivot: {x: 0.47857141, y: 0.5127119}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad3e4750d225ccd4cae566af0ee07cf8
+      internalID: -10450701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOMBie08
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 252
+        width: 135
+        height: 237
+      alignment: 9
+      pivot: {x: 0.4888889, y: 0.51476794}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b09a40cfff8aac24cb62556d5f30089f
+      internalID: -992872727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOMBie09
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 252
+        width: 132
+        height: 237
+      alignment: 9
+      pivot: {x: 0.5, y: 0.51476794}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b1cfd16bb3317b4ca9118bbd8885c11
+      internalID: 1459289327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOMBie10
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 780
+        width: 136
+        height: 229
+      alignment: 9
+      pivot: {x: 0.4852941, y: 0.4978166}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11a80f6911d0e8f41a1c55dedf5051e2
+      internalID: -551797468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOMBie11
+      rect:
+        serializedVersion: 2
+        x: 865
+        y: 780
+        width: 129
+        height: 229
+      alignment: 9
+      pivot: {x: 0.5116279, y: 0.4978166}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13dc9b3b344a26b46ae403b1b80d00e6
+      internalID: 2077165707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOMBie12
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 519
+        width: 138
+        height: 231
+      alignment: 9
+      pivot: {x: 0.49275362, y: 0.5064935}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce9f3d9dec926d0498521ad7cf8c938c
+      internalID: 1449922907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOMBie13
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 519
+        width: 140
+        height: 231
+      alignment: 9
+      pivot: {x: 0.4857143, y: 0.5064935}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfd51aa16b6486c408a4c752d9ee5b11
+      internalID: 739803098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOMBie14
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 520
+        width: 136
+        height: 230
+      alignment: 9
+      pivot: {x: 0.4852941, y: 0.5043478}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 529ae02a36488554082b7163c0e6c083
+      internalID: -325216290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOMBie15
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 520
+        width: 133
+        height: 230
+      alignment: 9
+      pivot: {x: 0.49624062, y: 0.5043478}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 074c2345f4205e14c846eda7322dcc62
+      internalID: 2111085392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOMBie16
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 788
+        width: 144
+        height: 221
+      alignment: 9
+      pivot: {x: 0.47916666, y: 0.5339367}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18070cc3ec5d46342ac8d0a5e80fa78a
+      internalID: -1034256369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOMBie17
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 787
+        width: 142
+        height: 222
+      alignment: 9
+      pivot: {x: 0.48591548, y: 0.5315315}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf65a58146a4ffc4f8ec7dfdbc4a03a1
+      internalID: 1595255312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 2b82ac73ce1fd6141bbc6370468b7937
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      BOMBie00: 1140616297
+      BOMBie01: -742176834
+      BOMBie02: -1534109361
+      BOMBie03: 1497634000
+      BOMBie04: 317688153
+      BOMBie05: -1385978363
+      BOMBie06: -1641239640
+      BOMBie07: -10450701
+      BOMBie08: -992872727
+      BOMBie09: 1459289327
+      BOMBie10: -551797468
+      BOMBie11: 2077165707
+      BOMBie12: 1449922907
+      BOMBie13: 739803098
+      BOMBie14: -325216290
+      BOMBie15: 2111085392
+      BOMBie16: -1034256369
+      BOMBie17: 1595255312
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

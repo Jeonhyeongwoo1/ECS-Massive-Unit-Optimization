@@ -1,0 +1,233 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Data
+  m_EditorClassIdentifier: 
+  m_GroupName: Data
+  m_GUID: 4f688e64c12232e4e83ae6149f877cb2
+  m_SerializeEntries:
+  - m_GUID: 087a5d48c182cab448809bca6eb628d6
+    m_Address: AchievementData
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0ceaafe1bc6562648abfd6ab77a65171
+    m_Address: MissionData
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 11a87d690266d4c029f25b4403951a16
+    m_Address: ConfigurationSetting
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 144e87a52deed8546a9b25667ba438dd
+    m_Address: LevelData
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1b99dd13068e0a7489fcdc8651a26d91
+    m_Address: DropItemData
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 23902c312c2384f62b21c39bd21627c5
+    m_Address: LocalizationData
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2b3fde487c8afe3458cf48309565fc69
+    m_Address: CheckOutData
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3739d8f9a3dc4473b9cb51692228ffb4
+    m_Address: PassRewardData
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3a3da2183cf3240949bc6581f85035b3
+    m_Address: WaveData
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3e06d481310b8486aadb07dc9ec60a94
+    m_Address: HuntPassConfigData
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4b1cdacc5d056a14692ad7cfc3479975
+    m_Address: AttackSkillData
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5631a33f0755142a4a8c7630dda24f04
+    m_Address: BanWordData
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6263e59c807114b7ba87c951b421eff7
+    m_Address: EquipmentSkillData
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7bfc53c1454054bd1a32209f9ac246a0
+    m_Address: EvolutionData
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7f5704d8128ba41f58ae13d83ed59a8f
+    m_Address: WebSettings
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7f720a3275e7d2f49b670415ca7ef77b
+    m_Address: EquipmentData
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 86fbdafff8c9a43ea85e197e3a548da2
+    m_Address: InfiniteModeConfigData
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8e41739032c275e46bc0763a1d48797a
+    m_Address: StagePackageData
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9461caf937f8b4c1085a53c3660f285f
+    m_Address: ShopSubscribeData
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9b7af7b54cd6d4742874e1486220814d
+    m_Address: ShopData
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9daacea83a096d9449414fe91088dd84
+    m_Address: EquipmentLevelData
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a48665bef879ca84aa7d149a1879695b
+    m_Address: DailyQuestRewardData
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ab8c69fdec2cb4ca2a9d5ca71bcf2824
+    m_Address: GlobalConfigData
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b31c7bd75af7ad243b7c01b1909596a5
+    m_Address: QuestData
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ba5246aecfad043ba9d2fc0ba71f24fb
+    m_Address: ItemData
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ba92f3c02ea3d9741941eb0addadfa9f
+    m_Address: OfflineRewardData
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bcdfb6c57b253408781ff7cb75043d1a
+    m_Address: DefaultUserData
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c8497f7c4c8944d799b861b19a3e12f6
+    m_Address: AccountLevelData
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cada8dd290371ac4b948f3f1d2c6908f
+    m_Address: AccountPassData
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d10674463d563e64a90720be3e20df8e
+    m_Address: CreatureData
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dffbb5aa80f2cdf40afbd849b0851639
+    m_Address: BattlePassData
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f465542105c0ba643bc6a3c11732b1a4
+    m_Address: StageData
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f63306831473a416c9f116b03d99e4a0
+    m_Address: EquipmentSkillGroupData
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: feb6965d8258a401ebbbae06f29907a9
+    m_Address: EquipmentDropData
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fee162826cf7d2145a59280f05fb26ba
+    m_Address: PassiveSkillData
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: ea05dd4d5f043fa4b93db9e6de435d8f, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: f7f1fc4ab0e72ba40a964ae13f448186, type: 2}
+    - {fileID: 11400000, guid: f3be19a2b87285b40bb54425fd00dd94, type: 2}

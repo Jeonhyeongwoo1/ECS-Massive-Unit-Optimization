@@ -1,0 +1,536 @@
+{
+  "SkillGroupDatas": [
+    {
+      "DataId": 40000,
+      "ItemCode": [
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110
+      ],
+      "UncommonGradeSkill": 101001,
+      "RareGradeSkill": 105002,
+      "EpicGradeSkill": 103003,
+      "LegendaryGradeSkill": 101004
+    },
+    {
+      "DataId": 40001,
+      "ItemCode": [
+        111,
+        112,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118,
+        119,
+        120
+      ],
+      "UncommonGradeSkill": 103001,
+      "RareGradeSkill": 111002,
+      "EpicGradeSkill": 101003,
+      "LegendaryGradeSkill": 106004
+    },
+    {
+      "DataId": 40002,
+      "ItemCode": [
+        121,
+        122,
+        123,
+        124,
+        125,
+        126,
+        127,
+        128,
+        129,
+        130
+      ],
+      "UncommonGradeSkill": 113001,
+      "RareGradeSkill": 106002,
+      "EpicGradeSkill": 106003,
+      "LegendaryGradeSkill": 105004
+    },
+    {
+      "DataId": 40003,
+      "ItemCode": [
+        131,
+        132,
+        133,
+        134,
+        135,
+        136,
+        137,
+        138,
+        139,
+        140
+      ],
+      "UncommonGradeSkill": 102001,
+      "RareGradeSkill": 103002,
+      "EpicGradeSkill": 104003,
+      "LegendaryGradeSkill": 101004
+    },
+    {
+      "DataId": 40004,
+      "ItemCode": [
+        141,
+        142,
+        143,
+        144,
+        145,
+        146,
+        147,
+        148,
+        149,
+        150
+      ],
+      "UncommonGradeSkill": 103001,
+      "RareGradeSkill": 106002,
+      "EpicGradeSkill": 101003,
+      "LegendaryGradeSkill": 103004
+    },
+    {
+      "DataId": 40005,
+      "ItemCode": [
+        151,
+        152,
+        153,
+        154,
+        155,
+        156,
+        157,
+        158,
+        159,
+        160
+      ],
+      "UncommonGradeSkill": 104001,
+      "RareGradeSkill": 105002,
+      "EpicGradeSkill": 106003,
+      "LegendaryGradeSkill": 107004
+    },
+    {
+      "DataId": 40006,
+      "ItemCode": [
+        161,
+        162,
+        163,
+        164,
+        165,
+        166,
+        167,
+        168,
+        169,
+        170
+      ],
+      "UncommonGradeSkill": 105001,
+      "RareGradeSkill": 103002,
+      "EpicGradeSkill": 104003,
+      "LegendaryGradeSkill": 105004
+    },
+    {
+      "DataId": 40007,
+      "ItemCode": [
+        171,
+        172,
+        173,
+        174,
+        175,
+        176,
+        177,
+        178,
+        179,
+        180
+      ],
+      "UncommonGradeSkill": 106001,
+      "RareGradeSkill": 107002,
+      "EpicGradeSkill": 108003,
+      "LegendaryGradeSkill": 102004
+    },
+    {
+      "DataId": 40008,
+      "ItemCode": [
+        181,
+        182,
+        183,
+        184,
+        185,
+        186,
+        187,
+        188,
+        189,
+        190
+      ],
+      "UncommonGradeSkill": 107001,
+      "RareGradeSkill": 108002,
+      "EpicGradeSkill": 109003,
+      "LegendaryGradeSkill": 110004
+    },
+    {
+      "DataId": 40009,
+      "ItemCode": [
+        191,
+        192,
+        193,
+        194,
+        195,
+        196,
+        197,
+        198,
+        199,
+        200
+      ],
+      "UncommonGradeSkill": 108001,
+      "RareGradeSkill": 109002,
+      "EpicGradeSkill": 110003,
+      "LegendaryGradeSkill": 101004
+    },
+    {
+      "DataId": 40010,
+      "ItemCode": [
+        201,
+        202,
+        203,
+        204,
+        205,
+        206,
+        207,
+        208,
+        209,
+        210
+      ],
+      "UncommonGradeSkill": 109001,
+      "RareGradeSkill": 110002,
+      "EpicGradeSkill": 111003,
+      "LegendaryGradeSkill": 112004
+    },
+    {
+      "DataId": 40011,
+      "ItemCode": [
+        211,
+        212,
+        213,
+        214,
+        215,
+        216,
+        217,
+        218,
+        219,
+        220
+      ],
+      "UncommonGradeSkill": 110001,
+      "RareGradeSkill": 111002,
+      "EpicGradeSkill": 112003,
+      "LegendaryGradeSkill": 113004
+    },
+    {
+      "DataId": 40012,
+      "ItemCode": [
+        221,
+        222,
+        223,
+        224,
+        225,
+        226,
+        227,
+        228,
+        229,
+        230
+      ],
+      "UncommonGradeSkill": 111001,
+      "RareGradeSkill": 112002,
+      "EpicGradeSkill": 113003,
+      "LegendaryGradeSkill": 101004
+    },
+    {
+      "DataId": 40013,
+      "ItemCode": [
+        231,
+        232,
+        233,
+        234,
+        235,
+        236,
+        237,
+        238,
+        239,
+        240
+      ],
+      "UncommonGradeSkill": 112001,
+      "RareGradeSkill": 113002,
+      "EpicGradeSkill": 114003,
+      "LegendaryGradeSkill": 109004
+    },
+    {
+      "DataId": 40014,
+      "ItemCode": [
+        241,
+        242,
+        243,
+        244,
+        245,
+        246,
+        247,
+        248,
+        249,
+        250
+      ],
+      "UncommonGradeSkill": 113001,
+      "RareGradeSkill": 114002,
+      "EpicGradeSkill": 113003,
+      "LegendaryGradeSkill": 114004
+    },
+    {
+      "DataId": 40015,
+      "ItemCode": [
+        251,
+        252,
+        253,
+        254,
+        255,
+        256,
+        257,
+        258,
+        259,
+        260
+      ],
+      "UncommonGradeSkill": 114001,
+      "RareGradeSkill": 114002,
+      "EpicGradeSkill": 114003,
+      "LegendaryGradeSkill": 110004
+    },
+    {
+      "DataId": 40016,
+      "ItemCode": [
+        261,
+        262,
+        263,
+        264,
+        265,
+        266,
+        267,
+        268,
+        269,
+        270
+      ],
+      "UncommonGradeSkill": 115001,
+      "RareGradeSkill": 115002,
+      "EpicGradeSkill": 115003,
+      "LegendaryGradeSkill": 115004
+    },
+    {
+      "DataId": 40017,
+      "ItemCode": [
+        271,
+        272,
+        273,
+        274,
+        275,
+        276,
+        277,
+        278,
+        279,
+        280
+      ],
+      "UncommonGradeSkill": 101001,
+      "RareGradeSkill": 101002,
+      "EpicGradeSkill": 108003,
+      "LegendaryGradeSkill": 104004
+    },
+    {
+      "DataId": 40018,
+      "ItemCode": [
+        281,
+        282,
+        283,
+        284,
+        285,
+        286,
+        287,
+        288,
+        289,
+        290
+      ],
+      "UncommonGradeSkill": 102001,
+      "RareGradeSkill": 102002,
+      "EpicGradeSkill": 116003,
+      "LegendaryGradeSkill": 116004
+    },
+    {
+      "DataId": 40019,
+      "ItemCode": [
+        291,
+        292,
+        293,
+        294,
+        295,
+        296,
+        297,
+        298,
+        299,
+        300
+      ],
+      "UncommonGradeSkill": 103001,
+      "RareGradeSkill": 105002,
+      "EpicGradeSkill": 107003,
+      "LegendaryGradeSkill": 109004
+    },
+    {
+      "DataId": 40020,
+      "ItemCode": [
+        301,
+        302,
+        303,
+        304,
+        305,
+        306,
+        307,
+        308,
+        309,
+        310
+      ],
+      "UncommonGradeSkill": 115001,
+      "RareGradeSkill": 103002,
+      "EpicGradeSkill": 109003,
+      "LegendaryGradeSkill": 110004
+    },
+    {
+      "DataId": 40021,
+      "ItemCode": [
+        311,
+        312,
+        313,
+        314,
+        315,
+        316,
+        317,
+        318,
+        319,
+        320
+      ],
+      "UncommonGradeSkill": 114001,
+      "RareGradeSkill": 107002,
+      "EpicGradeSkill": 110003,
+      "LegendaryGradeSkill": 101004
+    },
+    {
+      "DataId": 40022,
+      "ItemCode": [
+        321,
+        322,
+        323,
+        324,
+        325,
+        326,
+        327,
+        328,
+        329,
+        330
+      ],
+      "UncommonGradeSkill": 113001,
+      "RareGradeSkill": 108002,
+      "EpicGradeSkill": 111003,
+      "LegendaryGradeSkill": 112004
+    },
+    {
+      "DataId": 40023,
+      "ItemCode": [
+        331,
+        332,
+        333,
+        334,
+        335,
+        336,
+        337,
+        338,
+        339,
+        340
+      ],
+      "UncommonGradeSkill": 101001,
+      "RareGradeSkill": 109002,
+      "EpicGradeSkill": 107003,
+      "LegendaryGradeSkill": 108004
+    },
+    {
+      "DataId": 40024,
+      "ItemCode": [
+        341,
+        342,
+        343,
+        344,
+        345,
+        346,
+        347,
+        348,
+        349,
+        350
+      ],
+      "UncommonGradeSkill": 103001,
+      "RareGradeSkill": 101002,
+      "EpicGradeSkill": 105003,
+      "LegendaryGradeSkill": 106004
+    },
+    {
+      "DataId": 40025,
+      "ItemCode": [
+        351,
+        352,
+        353,
+        354,
+        355,
+        356,
+        357,
+        358,
+        359,
+        360
+      ],
+      "UncommonGradeSkill": 103001,
+      "RareGradeSkill": 101002,
+      "EpicGradeSkill": 109003,
+      "LegendaryGradeSkill": 101004
+    },
+    {
+      "DataId": 40026,
+      "ItemCode": [
+        361,
+        362,
+        363,
+        364,
+        365,
+        366,
+        367,
+        368,
+        369,
+        370
+      ],
+      "UncommonGradeSkill": 104001,
+      "RareGradeSkill": 102002,
+      "EpicGradeSkill": 101003,
+      "LegendaryGradeSkill": 102004
+    },
+    {
+      "DataId": 40027,
+      "ItemCode": [
+        371,
+        372,
+        373,
+        374,
+        375,
+        376,
+        377,
+        378,
+        379,
+        380
+      ],
+      "UncommonGradeSkill": 105001,
+      "RareGradeSkill": 105002,
+      "EpicGradeSkill": 108003,
+      "LegendaryGradeSkill": 109004
+    }
+  ]
+}

@@ -1,0 +1,1812 @@
+fileFormatVersion: 2
+guid: 3786f01b4fc19e5449a674f28de913f2
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 51
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: RatBotDEATH09
+      rect:
+        serializedVersion: 2
+        x: 3746
+        y: 1864
+        width: 121
+        height: 169
+      alignment: 9
+      pivot: {x: 0.61157024, y: 0.6390532}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6a07300853c7a84bbbc9ccab698a62a
+      internalID: -1934989474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RatBotDEATH10
+      rect:
+        serializedVersion: 2
+        x: 2298
+        y: 1864
+        width: 121
+        height: 169
+      alignment: 9
+      pivot: {x: 0.61157024, y: 0.6390532}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c71ab2725501b94b8c9e8b577309b48
+      internalID: 1322985935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RatBotDEATH11
+      rect:
+        serializedVersion: 2
+        x: 2298
+        y: 1864
+        width: 121
+        height: 169
+      alignment: 9
+      pivot: {x: 0.61157024, y: 0.6390532}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39dc7d57d4e29c3498f24fe88b824a6c
+      internalID: -246604153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RatBotDEATH12
+      rect:
+        serializedVersion: 2
+        x: 2145
+        y: 1826
+        width: 123
+        height: 207
+      alignment: 9
+      pivot: {x: 0.6422764, y: 0.5362319}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60af4eb7aea7f52469cee754db20d5cf
+      internalID: 1710957927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RatBotDEATH13
+      rect:
+        serializedVersion: 2
+        x: 3937
+        y: 1585
+        width: 144
+        height: 224
+      alignment: 9
+      pivot: {x: 0.5486111, y: 0.4955357}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7fec39fd9a1c22468ec6e025f8878c6
+      internalID: 1739634960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RatBotDEATH14
+      rect:
+        serializedVersion: 2
+        x: 1935
+        y: 1805
+        width: 180
+        height: 228
+      alignment: 9
+      pivot: {x: 0.6166667, y: 0.48245615}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90a30e5077916ab41a25d996e360bf88
+      internalID: 1554102849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RatBotDEATH15
+      rect:
+        serializedVersion: 2
+        x: 1622
+        y: 161
+        width: 183
+        height: 237
+      alignment: 9
+      pivot: {x: 0.6666667, y: 0.46413502}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 561a63d5fd0338647b15231ae3f36bae
+      internalID: -84371933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RatBotDEATH16
+      rect:
+        serializedVersion: 2
+        x: 1512
+        y: 428
+        width: 191
+        height: 246
+      alignment: 9
+      pivot: {x: 0.66492146, y: 0.4593496}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fca01630d42678548938ea8bfd43664d
+      internalID: 209333321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RatBotDEATH17
+      rect:
+        serializedVersion: 2
+        x: 1741
+        y: 710
+        width: 189
+        height: 242
+      alignment: 9
+      pivot: {x: 0.67724866, y: 0.46694216}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc6a37535e4f5fd46b964a1f868061e1
+      internalID: -1767169569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RatBotDEATH18
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 152
+        width: 192
+        height: 242
+      alignment: 9
+      pivot: {x: 0.671875, y: 0.46694216}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 942c365644d6bcf498a47b665b128ac6
+      internalID: -1657035887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RatBotDEATH19
+      rect:
+        serializedVersion: 2
+        x: 1512
+        y: 704
+        width: 199
+        height: 248
+      alignment: 9
+      pivot: {x: 0.67839193, y: 0.45564517}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d7b2af3b94cd624094e4614abf5e5c7
+      internalID: 284868486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RatBotDEATH20
+      rect:
+        serializedVersion: 2
+        x: 1835
+        y: 215
+        width: 187
+        height: 223
+      alignment: 9
+      pivot: {x: 0.7112299, y: 0.50672644}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 664aff3bd0c4a2a40b4d0c9f5223e37e
+      internalID: 1198576942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RatBotDEATH21
+      rect:
+        serializedVersion: 2
+        x: 3897
+        y: 1839
+        width: 184
+        height: 194
+      alignment: 9
+      pivot: {x: 0.7336956, y: 0.58247423}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d8a6604e64aaba40972d97bacbf2efb
+      internalID: 265663885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RatBotDEATH22
+      rect:
+        serializedVersion: 2
+        x: 1733
+        y: 468
+        width: 214
+        height: 207
+      alignment: 9
+      pivot: {x: 0.53271025, y: 0.5458937}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d13a38d5a909a544930694012530fd6
+      internalID: 1360822141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RatBotDEATH23
+      rect:
+        serializedVersion: 2
+        x: 1076
+        y: 120
+        width: 294
+        height: 274
+      alignment: 9
+      pivot: {x: 0.53061223, y: 0.47445256}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35d6ffb357987174eb9f065fb26eaa79
+      internalID: 1901070911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RatBotDEATH24
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 118
+        width: 301
+        height: 276
+      alignment: 9
+      pivot: {x: 0.5182724, y: 0.4746377}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93a243dcdbbb89e4fb701033afc486ad
+      internalID: 978196193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RatBotDEATH25
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 113
+        width: 315
+        height: 282
+      alignment: 9
+      pivot: {x: 0.51746035, y: 0.47517732}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 223829945eef2cf4bb4ce240bbed26a0
+      internalID: 1460767091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RatBotDEATH26
+      rect:
+        serializedVersion: 2
+        x: 1514
+        y: 1424
+        width: 325
+        height: 279
+      alignment: 9
+      pivot: {x: 0.51692307, y: 0.4767025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4da70c440d56907489648b58d7bff244
+      internalID: 427044497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RatBotDEATH27
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 1416
+        width: 329
+        height: 283
+      alignment: 9
+      pivot: {x: 0.5167173, y: 0.47349823}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4df01bb290fd4d347b09e26d3342ad19
+      internalID: -916796683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RatBotDEATH28
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 424
+        width: 331
+        height: 287
+      alignment: 9
+      pivot: {x: 0.5166163, y: 0.4738676}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11bcb3a2ad50bd44395ad4802c8c6c9b
+      internalID: -658131222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RatBotDEATH29
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 425
+        width: 334
+        height: 293
+      alignment: 9
+      pivot: {x: 0.51497006, y: 0.47440273}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 598f9a0899ee58d47a310eabcbe6fb96
+      internalID: 1505978431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RatBotDEATH30
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 425
+        width: 334
+        height: 293
+      alignment: 9
+      pivot: {x: 0.51497006, y: 0.47440273}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eae4645bbc1d1e64c9b8d4f34768aba2
+      internalID: 742478805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RatBotDEATH31
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 741
+        width: 338
+        height: 298
+      alignment: 9
+      pivot: {x: 0.5147929, y: 0.47651008}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a08557912f05a384898378d5dfee2a17
+      internalID: -1877397259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RatBotDEATH32
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 1069
+        width: 338
+        height: 298
+      alignment: 9
+      pivot: {x: 0.5147929, y: 0.47651008}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3b49bdfed0b87c48a5baf4724457212
+      internalID: -228411005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RatBotDEATH33
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 749
+        width: 339
+        height: 299
+      alignment: 9
+      pivot: {x: 0.5162242, y: 0.4749164}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9019bbad73cd122448fae54652c708f2
+      internalID: -1191186717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RatBotDEATH34
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 1078
+        width: 339
+        height: 299
+      alignment: 9
+      pivot: {x: 0.5162242, y: 0.4749164}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1ece76953e7c8247966e4584f4741a1
+      internalID: -1288664239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RatBotDEATH35
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 1397
+        width: 343
+        height: 302
+      alignment: 9
+      pivot: {x: 0.51603496, y: 0.47682118}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f48c922c012d17947a3cfbdbee903ee0
+      internalID: -1762884098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RatBotDEATH36
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 73
+        width: 343
+        height: 302
+      alignment: 9
+      pivot: {x: 0.51603496, y: 0.47682118}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43ae141d555e90c4f8ed9180297516f4
+      internalID: -1192549352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RatBotDEATH37
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 727
+        width: 348
+        height: 304
+      alignment: 9
+      pivot: {x: 0.5143678, y: 0.47697368}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61fe49fbb13172748854d92eccb27bf7
+      internalID: -1369523463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RatBotDEATH38
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1061
+        width: 348
+        height: 304
+      alignment: 9
+      pivot: {x: 0.5143678, y: 0.47697368}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 040c69699ac189f4597cfdd0abb2c380
+      internalID: 690807674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RatBotDEATH39
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 1729
+        width: 352
+        height: 304
+      alignment: 9
+      pivot: {x: 0.51420456, y: 0.47697368}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c169eed9d29c84d4f9d277a36fc2fe9c
+      internalID: -1656121124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RatBotDEATH40
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1395
+        width: 352
+        height: 304
+      alignment: 9
+      pivot: {x: 0.51420456, y: 0.47697368}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9557c9f30ffdf1a498294d1a0890b2dc
+      internalID: -1756530024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RatBotDEATH41
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 1729
+        width: 354
+        height: 304
+      alignment: 9
+      pivot: {x: 0.5141243, y: 0.47697368}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b163d6c27ff9726458060a31ea5a53cb
+      internalID: -571720441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RatBotDEATH42
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1729
+        width: 354
+        height: 304
+      alignment: 9
+      pivot: {x: 0.5141243, y: 0.47697368}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a37f47587d112824ea46991b5dd4870e
+      internalID: 751303382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RatBotDEATH43
+      rect:
+        serializedVersion: 2
+        x: 1550
+        y: 1733
+        width: 355
+        height: 300
+      alignment: 9
+      pivot: {x: 0.515493, y: 0.47666666}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 860312d9ed9575a43b2353d5c96974be
+      internalID: -1435571883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RatBotDEATH44
+      rect:
+        serializedVersion: 2
+        x: 1165
+        y: 1733
+        width: 355
+        height: 300
+      alignment: 9
+      pivot: {x: 0.515493, y: 0.47666666}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70e5a2f2423178d459fa086fdd777f59
+      internalID: -2067797389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RatBotDEATH45
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 405
+        width: 355
+        height: 292
+      alignment: 9
+      pivot: {x: 0.515493, y: 0.4760274}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3aec717a64e4f2d449d1f9cc407c2542
+      internalID: -84122303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RatBotDEATH46
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 1407
+        width: 355
+        height: 292
+      alignment: 9
+      pivot: {x: 0.515493, y: 0.4760274}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c52ac9d4a8e2a7c4f81b373b5b64c94e
+      internalID: -1359159848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RatBotDEATH47
+      rect:
+        serializedVersion: 2
+        x: 1130
+        y: 646
+        width: 352
+        height: 192
+      alignment: 9
+      pivot: {x: 0.51420456, y: 0.47395834}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d1d14f02b092f4459036387d79fe342
+      internalID: -514656233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RatBotDEATH48
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 424
+        width: 352
+        height: 192
+      alignment: 9
+      pivot: {x: 0.51420456, y: 0.47395834}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 022d642f8529d96429138faceb9f98b5
+      internalID: -141215172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RatBotDEATH49
+      rect:
+        serializedVersion: 2
+        x: 1134
+        y: 1089
+        width: 340
+        height: 191
+      alignment: 9
+      pivot: {x: 0.5147059, y: 0.4764398}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b8b781f91988ff449d6f8d310f81f1b
+      internalID: 488508968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RatBotDEATH50
+      rect:
+        serializedVersion: 2
+        x: 1134
+        y: 868
+        width: 340
+        height: 191
+      alignment: 9
+      pivot: {x: 0.5147059, y: 0.4764398}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c070ba0c56d045488f7fcbc47c73aa5
+      internalID: 472891130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RatBotDEATH51
+      rect:
+        serializedVersion: 2
+        x: 1504
+        y: 982
+        width: 336
+        height: 189
+      alignment: 9
+      pivot: {x: 0.51488096, y: 0.4814815}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84c75109754e5e143b46a9a197414572
+      internalID: -1987080263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RatBotDEATH52
+      rect:
+        serializedVersion: 2
+        x: 1513
+        y: 1201
+        width: 336
+        height: 193
+      alignment: 9
+      pivot: {x: 0.51488096, y: 0.49222797}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4dc6f6842fdbe94a9c570f7a2cf53ea
+      internalID: -242106277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RatBotDEATH53
+      rect:
+        serializedVersion: 2
+        x: 2591
+        y: 1883
+        width: 112
+        height: 150
+      alignment: 9
+      pivot: {x: 0.53571427, y: 0.66}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75fe5ff45127b3f4bbcce2606f963516
+      internalID: 1892535759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RatBotDEATH54
+      rect:
+        serializedVersion: 2
+        x: 3969
+        y: 1405
+        width: 112
+        height: 150
+      alignment: 9
+      pivot: {x: 0.53571427, y: 0.68666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a24f455eba7a2841ab710bfe2eecce5
+      internalID: 1909115492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RatBotDEATH55
+      rect:
+        serializedVersion: 2
+        x: 3604
+        y: 1883
+        width: 112
+        height: 150
+      alignment: 9
+      pivot: {x: 0.53571427, y: 0.7133333}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba9b2425fe3c47947a94ea38137bc56b
+      internalID: 1496525194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RatBotDEATH56
+      rect:
+        serializedVersion: 2
+        x: 2449
+        y: 1883
+        width: 112
+        height: 150
+      alignment: 9
+      pivot: {x: 0.53571427, y: 0.74}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac9bd98f6c946294fb50f43ee202926c
+      internalID: -114541791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RatBotDEATH57
+      rect:
+        serializedVersion: 2
+        x: 2733
+        y: 1891
+        width: 112
+        height: 142
+      alignment: 9
+      pivot: {x: 0.53571427, y: 0.75352114}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7938eedf8948da409bcf29f0cc21071
+      internalID: 325094325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RatBotDEATH58
+      rect:
+        serializedVersion: 2
+        x: 3462
+        y: 1892
+        width: 112
+        height: 141
+      alignment: 9
+      pivot: {x: 0.53571427, y: 0.78723407}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2331b4ea55e59ef48910485dac5da6f2
+      internalID: 915948421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RatBotDEATH59
+      rect:
+        serializedVersion: 2
+        x: 3320
+        y: 1898
+        width: 112
+        height: 135
+      alignment: 9
+      pivot: {x: 0.53571427, y: 0.8074074}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 798119dc0deace246b085b960953a352
+      internalID: -446286619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RatBotDEATH60
+      rect:
+        serializedVersion: 2
+        x: 2875
+        y: 1898
+        width: 112
+        height: 135
+      alignment: 9
+      pivot: {x: 0.53571427, y: 0.837037}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2e1bdb17d1eb154bb232ffc45ee6d5a
+      internalID: 92503958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RatBotDEATH61
+      rect:
+        serializedVersion: 2
+        x: 3017
+        y: 1919
+        width: 112
+        height: 114
+      alignment: 9
+      pivot: {x: 0.53571427, y: 0.95614034}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad72ec697cb9b944d8b3544dcdfcab27
+      internalID: 1410237424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RatBotDEATH62
+      rect:
+        serializedVersion: 2
+        x: 3017
+        y: 1919
+        width: 112
+        height: 114
+      alignment: 9
+      pivot: {x: 0.53571427, y: 0.95614034}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0d3e046b547bf44cb073b7e3347d4da
+      internalID: 792361730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RatBotDEATH63
+      rect:
+        serializedVersion: 2
+        x: 3178
+        y: 1932
+        width: 112
+        height: 101
+      alignment: 9
+      pivot: {x: 0.53571427, y: 1.0792079}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f236ec58da6067b4c8b1a89718e1e7fa
+      internalID: 1296131507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RatBotDEATH64
+      rect:
+        serializedVersion: 2
+        x: 3178
+        y: 1932
+        width: 112
+        height: 101
+      alignment: 9
+      pivot: {x: 0.53571427, y: 1.0792079}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2830d1761d5bc5b46952fa0451982957
+      internalID: -1130010224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RatBotDEATH65
+      rect:
+        serializedVersion: 2
+        x: 3971
+        y: 1279
+        width: 110
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5181818, y: 1.1354166}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ceb11cd721d94cc4fa46a8c5fc5799cd
+      internalID: 34764074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RatBotDEATH66
+      rect:
+        serializedVersion: 2
+        x: 3971
+        y: 1279
+        width: 110
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5181818, y: 1.1354166}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96808748f0f4bb5409ef4ffae022f25c
+      internalID: 452210836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RatBotDEATH67
+      rect:
+        serializedVersion: 2
+        x: 1378
+        y: 1313
+        width: 105
+        height: 73
+      alignment: 9
+      pivot: {x: 0.47619048, y: 1.4931507}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9d5333ce910a0f4db005859211947fa
+      internalID: -1754785246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RatBotDEATH68
+      rect:
+        serializedVersion: 2
+        x: 1378
+        y: 1313
+        width: 105
+        height: 73
+      alignment: 9
+      pivot: {x: 0.47619048, y: 1.4931507}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f2f681b102f757498ebbe74b32cdeda
+      internalID: -1140535799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RatBotDEATH69
+      rect:
+        serializedVersion: 2
+        x: 3980
+        y: 1180
+        width: 101
+        height: 69
+      alignment: 9
+      pivot: {x: 0.48514852, y: 1.5797101}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bc647021982fcd4f82531c6f146dd06
+      internalID: -504560327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RatBotDEATH70
+      rect:
+        serializedVersion: 2
+        x: 3980
+        y: 1180
+        width: 101
+        height: 69
+      alignment: 9
+      pivot: {x: 0.48514852, y: 1.5797101}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9748c4add0977e546aa8e6ec0733f7c5
+      internalID: 703659046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RatBotDEATH71
+      rect:
+        serializedVersion: 2
+        x: 1242
+        y: 1315
+        width: 106
+        height: 71
+      alignment: 9
+      pivot: {x: 0.5, y: 1.6056339}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 358e28a387e86fd4ca9437022343b16f
+      internalID: 224553297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RatBotDEATH00
+      rect:
+        serializedVersion: 2
+        x: 3746
+        y: 1864
+        width: 121
+        height: 169
+      alignment: 9
+      pivot: {x: 0.61157024, y: 0.6390532}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55f9fb7163fbf0e45a652ea28a037cd4
+      internalID: -1987080530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RatBotDEATH01
+      rect:
+        serializedVersion: 2
+        x: 3746
+        y: 1864
+        width: 121
+        height: 169
+      alignment: 9
+      pivot: {x: 0.61157024, y: 0.6390532}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d89bac2050f274458736a491c6f4702
+      internalID: 328969897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RatBotDEATH02
+      rect:
+        serializedVersion: 2
+        x: 3746
+        y: 1864
+        width: 121
+        height: 169
+      alignment: 9
+      pivot: {x: 0.61157024, y: 0.6390532}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92d79763cc08105468be8b46d9bfdbf0
+      internalID: -1241703494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RatBotDEATH03
+      rect:
+        serializedVersion: 2
+        x: 3746
+        y: 1864
+        width: 121
+        height: 169
+      alignment: 9
+      pivot: {x: 0.61157024, y: 0.6390532}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e491d64417a2b9439dd7aaf1dd2f03a
+      internalID: -1189548228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RatBotDEATH04
+      rect:
+        serializedVersion: 2
+        x: 3746
+        y: 1864
+        width: 121
+        height: 169
+      alignment: 9
+      pivot: {x: 0.61157024, y: 0.6390532}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af8993ea19e04a34086ebb2d459208d9
+      internalID: -935827249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RatBotDEATH05
+      rect:
+        serializedVersion: 2
+        x: 3746
+        y: 1864
+        width: 121
+        height: 169
+      alignment: 9
+      pivot: {x: 0.61157024, y: 0.6390532}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76ab7d50849246447a3e67b31187de6c
+      internalID: 1687764129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RatBotDEATH06
+      rect:
+        serializedVersion: 2
+        x: 3746
+        y: 1864
+        width: 121
+        height: 169
+      alignment: 9
+      pivot: {x: 0.61157024, y: 0.6390532}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67cf5995aadc4654f9d2099a5d6ea3ab
+      internalID: 26262858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RatBotDEATH07
+      rect:
+        serializedVersion: 2
+        x: 3746
+        y: 1864
+        width: 121
+        height: 169
+      alignment: 9
+      pivot: {x: 0.61157024, y: 0.6390532}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f564e09ec7c10d546a477f30620b3dc4
+      internalID: -988623833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RatBotDEATH08
+      rect:
+        serializedVersion: 2
+        x: 3746
+        y: 1864
+        width: 121
+        height: 169
+      alignment: 9
+      pivot: {x: 0.61157024, y: 0.6390532}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44dce51b41655514cbfec0a70cbea7cc
+      internalID: 601547372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: a9c29b24a5b1e5640b1271fbbc1cc2cd
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      RatBotDEATH00: -1987080530
+      RatBotDEATH01: 328969897
+      RatBotDEATH02: -1241703494
+      RatBotDEATH03: -1189548228
+      RatBotDEATH04: -935827249
+      RatBotDEATH05: 1687764129
+      RatBotDEATH06: 26262858
+      RatBotDEATH07: -988623833
+      RatBotDEATH08: 601547372
+      RatBotDEATH09: -1934989474
+      RatBotDEATH10: 1322985935
+      RatBotDEATH11: -246604153
+      RatBotDEATH12: 1710957927
+      RatBotDEATH13: 1739634960
+      RatBotDEATH14: 1554102849
+      RatBotDEATH15: -84371933
+      RatBotDEATH16: 209333321
+      RatBotDEATH17: -1767169569
+      RatBotDEATH18: -1657035887
+      RatBotDEATH19: 284868486
+      RatBotDEATH20: 1198576942
+      RatBotDEATH21: 265663885
+      RatBotDEATH22: 1360822141
+      RatBotDEATH23: 1901070911
+      RatBotDEATH24: 978196193
+      RatBotDEATH25: 1460767091
+      RatBotDEATH26: 427044497
+      RatBotDEATH27: -916796683
+      RatBotDEATH28: -658131222
+      RatBotDEATH29: 1505978431
+      RatBotDEATH30: 742478805
+      RatBotDEATH31: -1877397259
+      RatBotDEATH32: -228411005
+      RatBotDEATH33: -1191186717
+      RatBotDEATH34: -1288664239
+      RatBotDEATH35: -1762884098
+      RatBotDEATH36: -1192549352
+      RatBotDEATH37: -1369523463
+      RatBotDEATH38: 690807674
+      RatBotDEATH39: -1656121124
+      RatBotDEATH40: -1756530024
+      RatBotDEATH41: -571720441
+      RatBotDEATH42: 751303382
+      RatBotDEATH43: -1435571883
+      RatBotDEATH44: -2067797389
+      RatBotDEATH45: -84122303
+      RatBotDEATH46: -1359159848
+      RatBotDEATH47: -514656233
+      RatBotDEATH48: -141215172
+      RatBotDEATH49: 488508968
+      RatBotDEATH50: 472891130
+      RatBotDEATH51: -1987080263
+      RatBotDEATH52: -242106277
+      RatBotDEATH53: 1892535759
+      RatBotDEATH54: 1909115492
+      RatBotDEATH55: 1496525194
+      RatBotDEATH56: -114541791
+      RatBotDEATH57: 325094325
+      RatBotDEATH58: 915948421
+      RatBotDEATH59: -446286619
+      RatBotDEATH60: 92503958
+      RatBotDEATH61: 1410237424
+      RatBotDEATH62: 792361730
+      RatBotDEATH63: 1296131507
+      RatBotDEATH64: -1130010224
+      RatBotDEATH65: 34764074
+      RatBotDEATH66: 452210836
+      RatBotDEATH67: -1754785246
+      RatBotDEATH68: -1140535799
+      RatBotDEATH69: -504560327
+      RatBotDEATH70: 703659046
+      RatBotDEATH71: 224553297
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

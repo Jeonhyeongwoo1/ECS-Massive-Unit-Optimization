@@ -1,0 +1,616 @@
+fileFormatVersion: 2
+guid: d044331be7fd19647972c1c5f1f63cc5
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 51
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MAXPOWER00
+      rect:
+        serializedVersion: 2
+        x: 1748
+        y: 1337
+        width: 285
+        height: 330
+      alignment: 9
+      pivot: {x: 0.47719297, y: 0.48181817}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1639309bd4ab1a46bf2f1ea12398d9d
+      internalID: 1852924920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MAXPOWER01
+      rect:
+        serializedVersion: 2
+        x: 1769
+        y: 980
+        width: 264
+        height: 327
+      alignment: 9
+      pivot: {x: 0.47727272, y: 0.48623854}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08f8c5822401f49449dfcd56bbfeb6f0
+      internalID: 1801037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MAXPOWER02
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 1363
+        width: 284
+        height: 314
+      alignment: 9
+      pivot: {x: 0.45774648, y: 0.5063694}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4843712b863b4c440a9aab3e38a42e69
+      internalID: 232267935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MAXPOWER03
+      rect:
+        serializedVersion: 2
+        x: 1113
+        y: 1361
+        width: 289
+        height: 318
+      alignment: 9
+      pivot: {x: 0.449827, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2056167190d507f4b8a60823ef89aba7
+      internalID: -1115679182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MAXPOWER04
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 1350
+        width: 296
+        height: 318
+      alignment: 9
+      pivot: {x: 0.4695946, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2478ffebfcfeb3429c118ea1930a8c5
+      internalID: -893279644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MAXPOWER05
+      rect:
+        serializedVersion: 2
+        x: 1026
+        y: 1709
+        width: 303
+        height: 324
+      alignment: 9
+      pivot: {x: 0.48514852, y: 0.49074075}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 860f4c6dbcaa0d945a9d6c54b59a18ea
+      internalID: 924789185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MAXPOWER06
+      rect:
+        serializedVersion: 2
+        x: 1409
+        y: 1711
+        width: 304
+        height: 322
+      alignment: 9
+      pivot: {x: 0.49342105, y: 0.4937888}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19a98df007c690e428c5974848e2b3dc
+      internalID: -1190142389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MAXPOWER07
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 15
+        width: 261
+        height: 324
+      alignment: 9
+      pivot: {x: 0.55172414, y: 0.49074075}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d91a52bd6884e444db046c9b198ff654
+      internalID: -515551513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MAXPOWER08
+      rect:
+        serializedVersion: 2
+        x: 1785
+        y: 15
+        width: 248
+        height: 322
+      alignment: 9
+      pivot: {x: 0.5322581, y: 0.4937888}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99a6a9c29726b984993f59ecc04e2ad9
+      internalID: 1343544349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MAXPOWER09
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 628
+        width: 241
+        height: 322
+      alignment: 9
+      pivot: {x: 0.5186722, y: 0.4937888}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c2372d46499b2147b84e148da0427ea
+      internalID: -69649998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MAXPOWER10
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 985
+        width: 244
+        height: 319
+      alignment: 9
+      pivot: {x: 0.5327869, y: 0.5109718}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab739811f3b82204a84ef1011315259f
+      internalID: 601957942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MAXPOWER11
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 369
+        width: 243
+        height: 294
+      alignment: 9
+      pivot: {x: 0.5308642, y: 0.5408163}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7270e25194261864dbb8f6997fe66fc8
+      internalID: 1886578876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MAXPOWER12
+      rect:
+        serializedVersion: 2
+        x: 1502
+        y: 15
+        width: 253
+        height: 293
+      alignment: 9
+      pivot: {x: 0.5256917, y: 0.54266214}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb5affcc3452fb34580ced8c7d074be0
+      internalID: -2143107197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MAXPOWER13
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 15
+        width: 257
+        height: 294
+      alignment: 9
+      pivot: {x: 0.51361865, y: 0.5408163}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15250736d9589564c8c70367394722a2
+      internalID: 913281935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MAXPOWER14
+      rect:
+        serializedVersion: 2
+        x: 1432
+        y: 1355
+        width: 281
+        height: 326
+      alignment: 9
+      pivot: {x: 0.55516016, y: 0.48773006}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 051e096170a37c3408a9be467e3dfdb8
+      internalID: 411521352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MAXPOWER15
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 1707
+        width: 302
+        height: 326
+      alignment: 9
+      pivot: {x: 0.48675495, y: 0.48773006}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22b81d4c46e1ab74883f5c9e19cf6df1
+      internalID: -1825028633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MAXPOWER16
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1698
+        width: 311
+        height: 335
+      alignment: 9
+      pivot: {x: 0.488746, y: 0.47462687}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b0dcc608eb8ecb49b81d40064b49c74
+      internalID: -282064793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MAXPOWER17
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 1701
+        width: 308
+        height: 332
+      alignment: 9
+      pivot: {x: 0.49025974, y: 0.47891566}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4f17124553eb394cbcdfe7d30b9b56d
+      internalID: 204848627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MAXPOWER18
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1334
+        width: 296
+        height: 334
+      alignment: 9
+      pivot: {x: 0.47972974, y: 0.4760479}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1660bd081678184990e07482feeb25d
+      internalID: 1656502765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MAXPOWER19
+      rect:
+        serializedVersion: 2
+        x: 1743
+        y: 1697
+        width: 290
+        height: 336
+      alignment: 9
+      pivot: {x: 0.46896553, y: 0.4732143}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e42afdea5f0e2b74d81d99e4f9dfc9ca
+      internalID: -316061251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: f21917e78ed3d7c4480a9ffeb748c222
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      MAXPOWER00: 1852924920
+      MAXPOWER01: 1801037
+      MAXPOWER02: 232267935
+      MAXPOWER03: -1115679182
+      MAXPOWER04: -893279644
+      MAXPOWER05: 924789185
+      MAXPOWER06: -1190142389
+      MAXPOWER07: -515551513
+      MAXPOWER08: 1343544349
+      MAXPOWER09: -69649998
+      MAXPOWER10: 601957942
+      MAXPOWER11: 1886578876
+      MAXPOWER12: -2143107197
+      MAXPOWER13: 913281935
+      MAXPOWER14: 411521352
+      MAXPOWER15: -1825028633
+      MAXPOWER16: -282064793
+      MAXPOWER17: 204848627
+      MAXPOWER18: 1656502765
+      MAXPOWER19: -316061251
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

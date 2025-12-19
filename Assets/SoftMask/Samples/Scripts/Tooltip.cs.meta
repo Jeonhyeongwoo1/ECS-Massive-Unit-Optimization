@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: e5179c384eb10614c86a1b17ac6af1f6
+timeCreated: 1487707911
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 80667
+  packageName: Soft Mask
+  packageVersion: 1.6.3
+  assetPath: Assets/SoftMask/Samples/Scripts/Tooltip.cs
+  uploadId: 465158

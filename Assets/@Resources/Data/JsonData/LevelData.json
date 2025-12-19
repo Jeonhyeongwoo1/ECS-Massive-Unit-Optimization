@@ -1,0 +1,400 @@
+{
+  "levels": [
+    {
+      "Level": 1,
+      "AccumulatedEXP": 8
+    },
+    {
+      "Level": 2,
+      "AccumulatedEXP": 14
+    },
+    {
+      "Level": 3,
+      "AccumulatedEXP": 22
+    },
+    {
+      "Level": 4,
+      "AccumulatedEXP": 37
+    },
+    {
+      "Level": 5,
+      "AccumulatedEXP": 56
+    },
+    {
+      "Level": 6,
+      "AccumulatedEXP": 83
+    },
+    {
+      "Level": 7,
+      "AccumulatedEXP": 122
+    },
+    {
+      "Level": 8,
+      "AccumulatedEXP": 136
+    },
+    {
+      "Level": 9,
+      "AccumulatedEXP": 173
+    },
+    {
+      "Level": 10,
+      "AccumulatedEXP": 238
+    },
+    {
+      "Level": 11,
+      "AccumulatedEXP": 326
+    },
+    {
+      "Level": 12,
+      "AccumulatedEXP": 438
+    },
+    {
+      "Level": 13,
+      "AccumulatedEXP": 584
+    },
+    {
+      "Level": 14,
+      "AccumulatedEXP": 768
+    },
+    {
+      "Level": 15,
+      "AccumulatedEXP": 998
+    },
+    {
+      "Level": 16,
+      "AccumulatedEXP": 1157
+    },
+    {
+      "Level": 17,
+      "AccumulatedEXP": 1477
+    },
+    {
+      "Level": 18,
+      "AccumulatedEXP": 1867
+    },
+    {
+      "Level": 19,
+      "AccumulatedEXP": 2341
+    },
+    {
+      "Level": 20,
+      "AccumulatedEXP": 2915
+    },
+    {
+      "Level": 21,
+      "AccumulatedEXP": 2918
+    },
+    {
+      "Level": 22,
+      "AccumulatedEXP": 3584
+    },
+    {
+      "Level": 23,
+      "AccumulatedEXP": 4374
+    },
+    {
+      "Level": 24,
+      "AccumulatedEXP": 5306
+    },
+    {
+      "Level": 25,
+      "AccumulatedEXP": 6400
+    },
+    {
+      "Level": 26,
+      "AccumulatedEXP": 8030
+    },
+    {
+      "Level": 27,
+      "AccumulatedEXP": 9731
+    },
+    {
+      "Level": 28,
+      "AccumulatedEXP": 11502
+    },
+    {
+      "Level": 29,
+      "AccumulatedEXP": 13344
+    },
+    {
+      "Level": 30,
+      "AccumulatedEXP": 15253
+    },
+    {
+      "Level": 31,
+      "AccumulatedEXP": 17232
+    },
+    {
+      "Level": 32,
+      "AccumulatedEXP": 19278
+    },
+    {
+      "Level": 33,
+      "AccumulatedEXP": 21394
+    },
+    {
+      "Level": 34,
+      "AccumulatedEXP": 23578
+    },
+    {
+      "Level": 35,
+      "AccumulatedEXP": 25830
+    },
+    {
+      "Level": 36,
+      "AccumulatedEXP": 28154
+    },
+    {
+      "Level": 37,
+      "AccumulatedEXP": 30546
+    },
+    {
+      "Level": 38,
+      "AccumulatedEXP": 33008
+    },
+    {
+      "Level": 39,
+      "AccumulatedEXP": 35539
+    },
+    {
+      "Level": 40,
+      "AccumulatedEXP": 38144
+    },
+    {
+      "Level": 41,
+      "AccumulatedEXP": 40818
+    },
+    {
+      "Level": 42,
+      "AccumulatedEXP": 43565
+    },
+    {
+      "Level": 43,
+      "AccumulatedEXP": 46384
+    },
+    {
+      "Level": 44,
+      "AccumulatedEXP": 49275
+    },
+    {
+      "Level": 45,
+      "AccumulatedEXP": 52242
+    },
+    {
+      "Level": 46,
+      "AccumulatedEXP": 55280
+    },
+    {
+      "Level": 47,
+      "AccumulatedEXP": 58395
+    },
+    {
+      "Level": 48,
+      "AccumulatedEXP": 61586
+    },
+    {
+      "Level": 49,
+      "AccumulatedEXP": 64851
+    },
+    {
+      "Level": 50,
+      "AccumulatedEXP": 68195
+    },
+    {
+      "Level": 51,
+      "AccumulatedEXP": 71614
+    },
+    {
+      "Level": 52,
+      "AccumulatedEXP": 75114
+    },
+    {
+      "Level": 53,
+      "AccumulatedEXP": 78690
+    },
+    {
+      "Level": 54,
+      "AccumulatedEXP": 82347
+    },
+    {
+      "Level": 55,
+      "AccumulatedEXP": 86083
+    },
+    {
+      "Level": 56,
+      "AccumulatedEXP": 89902
+    },
+    {
+      "Level": 57,
+      "AccumulatedEXP": 93802
+    },
+    {
+      "Level": 58,
+      "AccumulatedEXP": 97782
+    },
+    {
+      "Level": 59,
+      "AccumulatedEXP": 101848
+    },
+    {
+      "Level": 60,
+      "AccumulatedEXP": 105997
+    },
+    {
+      "Level": 61,
+      "AccumulatedEXP": 110230
+    },
+    {
+      "Level": 62,
+      "AccumulatedEXP": 114549
+    },
+    {
+      "Level": 63,
+      "AccumulatedEXP": 118954
+    },
+    {
+      "Level": 64,
+      "AccumulatedEXP": 123445
+    },
+    {
+      "Level": 65,
+      "AccumulatedEXP": 128024
+    },
+    {
+      "Level": 66,
+      "AccumulatedEXP": 132691
+    },
+    {
+      "Level": 67,
+      "AccumulatedEXP": 137448
+    },
+    {
+      "Level": 68,
+      "AccumulatedEXP": 142294
+    },
+    {
+      "Level": 69,
+      "AccumulatedEXP": 147232
+    },
+    {
+      "Level": 70,
+      "AccumulatedEXP": 152261
+    },
+    {
+      "Level": 71,
+      "AccumulatedEXP": 157382
+    },
+    {
+      "Level": 72,
+      "AccumulatedEXP": 162597
+    },
+    {
+      "Level": 73,
+      "AccumulatedEXP": 167906
+    },
+    {
+      "Level": 74,
+      "AccumulatedEXP": 173309
+    },
+    {
+      "Level": 75,
+      "AccumulatedEXP": 178808
+    },
+    {
+      "Level": 76,
+      "AccumulatedEXP": 184403
+    },
+    {
+      "Level": 77,
+      "AccumulatedEXP": 190098
+    },
+    {
+      "Level": 78,
+      "AccumulatedEXP": 195888
+    },
+    {
+      "Level": 79,
+      "AccumulatedEXP": 201778
+    },
+    {
+      "Level": 80,
+      "AccumulatedEXP": 207768
+    },
+    {
+      "Level": 81,
+      "AccumulatedEXP": 213858
+    },
+    {
+      "Level": 82,
+      "AccumulatedEXP": 220048
+    },
+    {
+      "Level": 83,
+      "AccumulatedEXP": 226342
+    },
+    {
+      "Level": 84,
+      "AccumulatedEXP": 232741
+    },
+    {
+      "Level": 85,
+      "AccumulatedEXP": 239242
+    },
+    {
+      "Level": 86,
+      "AccumulatedEXP": 245846
+    },
+    {
+      "Level": 87,
+      "AccumulatedEXP": 252558
+    },
+    {
+      "Level": 88,
+      "AccumulatedEXP": 259376
+    },
+    {
+      "Level": 89,
+      "AccumulatedEXP": 266301
+    },
+    {
+      "Level": 90,
+      "AccumulatedEXP": 273336
+    },
+    {
+      "Level": 91,
+      "AccumulatedEXP": 280478
+    },
+    {
+      "Level": 92,
+      "AccumulatedEXP": 287731
+    },
+    {
+      "Level": 93,
+      "AccumulatedEXP": 295096
+    },
+    {
+      "Level": 94,
+      "AccumulatedEXP": 302571
+    },
+    {
+      "Level": 95,
+      "AccumulatedEXP": 310160
+    },
+    {
+      "Level": 96,
+      "AccumulatedEXP": 317862
+    },
+    {
+      "Level": 97,
+      "AccumulatedEXP": 325678
+    },
+    {
+      "Level": 98,
+      "AccumulatedEXP": 333611
+    },
+    {
+      "Level": 99,
+      "AccumulatedEXP": 341661
+    }
+  ]
+}

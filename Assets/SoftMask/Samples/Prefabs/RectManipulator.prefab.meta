@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: d8b3964ff0cdcb040b3841e825846076
+timeCreated: 1556528996
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 80667
+  packageName: Soft Mask
+  packageVersion: 1.6.3
+  assetPath: Assets/SoftMask/Samples/Prefabs/RectManipulator.prefab
+  uploadId: 465158

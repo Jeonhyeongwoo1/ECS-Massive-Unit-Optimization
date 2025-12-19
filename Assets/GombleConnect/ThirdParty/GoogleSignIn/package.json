@@ -1,0 +1,24 @@
+{
+  "name": "com.google.google-sign-in-unity",
+  "version": "1.0.4",
+  "displayName": "Google Sign-In Unity Plugin",
+  "keywords": [
+    "Google",
+    "Auth",
+    "Authentication"
+  ],
+  "author": {
+    "name": "Google LLC",
+    "url": "https://gitlab.111percent.net/leet/google-signin-unity"
+  },
+  "description": "It forked from https://github.com/CodeMasterYi/google-signin-unity",
+  "unity": "2020.3",
+  "dependencies": {},
+  "samples": [
+    {
+      "displayName": "Sign-In Sample",
+      "description": "Google Sign in sample.",
+      "path": "Samples~/SignInSample"
+    }
+  ]
+}

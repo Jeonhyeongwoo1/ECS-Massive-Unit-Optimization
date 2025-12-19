@@ -1,0 +1,38 @@
+Name,Value,Description
+OneWaveTime,20, 1개 웨이브(동일한 노말 몬스터가 등장하는 단위) 진행 시간 (단위: 초)
+NormalEnemyOnceSpawnTime,3,웨이브 내에서 노말 몬스터가 등장하는 주기 (단위: 초)
+EliteEnemyOnceSpawnTime,150,엘리트 몬스터가 등장하는 주기 (단위: 초)
+BossEnemyOnceSpawnTime,300,보스 몬스터가 등장하는 주기 (단위: 초)
+FirstEnemySpawnCount,10,매 웨이브의 첫 번째 몬스터가 등장하는 수량
+NormalEnemySpawnUpCount,5, NormalEnemnyOncenSpawnTime이 지날 때마다 일반 몬스터가 몇 마리씩 추가되며 생성할 것인지 설정하는 값.
+NormalEnemyStatUpRate,0.4, 일반 몬스터의 공격력과 체력이 증가하는 비율
+EliteEnemyStatUpRate,1, 엘리트 몬스터의 공격력과 체력이 증가하는 비율
+BossStatUpRate,1, 보스 몬스터의 공격력과 체력이 증가하는 비율
+IncreasedDifficultyCycle,240, 난이도 상승 주기 (단위: 초)
+IncreasedDifficultyStatValue,2,난이도 상승 값
+BlueGemDropRate,0.8, 일반 몬스터 처치 시 SmallGem 1개가 드랍될 확률
+GreenGemDropRate,0.1, 일반 몬스터 처치 시 GreenGem 1개가 드랍될 확률
+PurpleGemDropRate,0.08, 일반 몬스터 처치 시 BlueGem 1개가 드랍될 확률
+RedGemDropRate,0.02, 일반 몬스터 처치 시 YellowGem 1개가 드랍될 확률
+BossAndEliteClearDropItemId,60007, 엘리트 그리고 보스 몬스터 처치 시 드랍하는 인게임 아이템 (아이템 상자. 자석. 폭탄 등)
+BossAndEliteClearDropItemAmount,1, 엘리트 그리고 보스 몬스터 처치 시 드랍하는 인게임 아이템 수량
+RewardForNormalEnemyKillCount,5, 일반 몬스터를 몇 마리 처치할 때마다 보상을 줄건지 설정하는 값
+RewardItemIdForNormalKill,50001, 일반 몬스터를 RewardPerNormalEnemyKillCount만큼 처치할 때마다 지급하는 아이템 종류
+RewardItemAmountForNormalKill,1, 일반 몬스터를 처치 보상으로 지급하는 아이템 수량
+RewardForEliteEnemyKillCount,1, 엘리트 몬스터를 몇 마리 처치할 때마다 보상을 줄건지 설정하는 값
+RewardItemIdForEliteKill,50301, 엘리트 몬스터를 Reward_NormalCount만큼 처치할 때마다 지급하는 아이템 종류
+RewardItemAmountForEliteKill,1, 엘리트 몬스터를 처치 보상으로 지급하는 아이템 수량
+RewardForBossEnemyKillCount,1, 보스 몬스터를 몇 마리 처치할 때마다 보상을 줄건지 설정하는 값
+RewardItemIdForBossKill,50101, 보스 몬스터를 Reward_NormalCount만큼 처치할 때마다 지급하는 아이템 종류
+RewardItemAmountForBossKill,1, 보스 몬스터를 처치 보상으로 지급하는 아이템 수량
+RandomRewardIdForBossKill,50202, 보스 처치 시 랜덤으로 지급하는 보상 종류
+RandomRewardMinAmountForBossKill,1, 랜덤 보상의 최소 수량
+RandomRewardMaxAmountForBossKill,3," 랜덤 보상의 최대 수량 (최소, 최대 중 랜덤으로 지급)"
+RandomRewardProbForBossKill,0.2, 랜덤 보상을 지급할 확률 (0.2는 20%를 의미함)
+NormalEnemyDefaultAttack,30,첫 번째 등장하는 일반 몬스터의 공격력
+NormalEnemyDefaultHP,220,첫 번째 등장하는 일반 몬스터의 체력
+EliteEnemyDefaultAttack,100,첫 번째 등장하는 엘리트 몬스터의 공격력
+EliteEnemyDefaultHP,10000,첫 번째 등장하는 엘리트 몬스터의 체력
+BossEnemyDefaultAttack,250,첫 번째 등장하는 보스 몬스터의 공격력
+BossEnemyDefaultHP,25000,첫 번째 등장하는 보스 몬스터의 체력
+SkillUpItemDropProb,0.0002,일반 몬스터 처치 시 스킬업 아이템 (ID: 60007)이 드랍될 확률 (DropItemData 테이블 참조)

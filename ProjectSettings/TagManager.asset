@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 3
+  tags:
+  - MapBoundary
+  - Weapon
+  - MagicField
+  - Monster
+  - ItemBox
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Monster
+  - Player
+  - Boss
+  - ExpGem
+  - BossBarrier
+  - ItemBox
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: BG
+    uniqueID: 2708372313
+    locked: 0
+  - name: Alpha
+    uniqueID: 639984287
+    locked: 0
+  - name: FireEffect
+    uniqueID: 2382486585
+    locked: 0
+  - name: Additive
+    uniqueID: 2896754743
+    locked: 0
+  - name: FireSmall
+    uniqueID: 2584303773
+    locked: 0
+  - name: Under_Skill
+    uniqueID: 1781107441
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Skill
+    uniqueID: 4034515757
+    locked: 0
+  - name: Indicator
+    uniqueID: 2017964005
+    locked: 0
+  - name: UI
+    uniqueID: 729493841
+    locked: 0
+  - name: 6
+    uniqueID: 1590122225
+    locked: 0
+  - name: 7
+    uniqueID: 3796382671
+    locked: 0
+  - name: 8
+    uniqueID: 3258120609
+    locked: 0
+  m_RenderingLayers:
+  - Default

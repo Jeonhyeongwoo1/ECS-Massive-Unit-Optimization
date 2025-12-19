@@ -1,0 +1,164 @@
+{
+  "Achievements": [
+    {
+      "AchievementMissionID": 90001,
+      "DescriptionTextKey": "AchievementText_90001",
+      "AchievementMissionTarget": 90001,
+      "AchievementMissionDefaultGoal": 5,
+      "AchievementMissionIncreaseGoal": 5,
+      "AchievementMissionMaxLevel": 0,
+      "Reward_Id": 50002,
+      "Reward_Amount": 10
+    },
+    {
+      "AchievementMissionID": 90002,
+      "DescriptionTextKey": "AchievementText_90002",
+      "AchievementMissionTarget": 90002,
+      "AchievementMissionDefaultGoal": 60,
+      "AchievementMissionIncreaseGoal": 60,
+      "AchievementMissionMaxLevel": 0,
+      "Reward_Id": 50002,
+      "Reward_Amount": 20
+    },
+    {
+      "AchievementMissionID": 90003,
+      "DescriptionTextKey": "AchievementText_90003",
+      "AchievementMissionTarget": 90003,
+      "AchievementMissionDefaultGoal": 30,
+      "AchievementMissionIncreaseGoal": 30,
+      "AchievementMissionMaxLevel": 30,
+      "Reward_Id": 50002,
+      "Reward_Amount": 30
+    },
+    {
+      "AchievementMissionID": 90004,
+      "DescriptionTextKey": "AchievementText_90004",
+      "AchievementMissionTarget": 90003,
+      "AchievementMissionDefaultGoal": 20,
+      "AchievementMissionIncreaseGoal": 20,
+      "AchievementMissionMaxLevel": 30,
+      "Reward_Id": 50002,
+      "Reward_Amount": 30
+    },
+    {
+      "AchievementMissionID": 90005,
+      "DescriptionTextKey": "AchievementText_90005",
+      "AchievementMissionTarget": 90003,
+      "AchievementMissionDefaultGoal": 10,
+      "AchievementMissionIncreaseGoal": 10,
+      "AchievementMissionMaxLevel": 30,
+      "Reward_Id": 50002,
+      "Reward_Amount": 30
+    },
+    {
+      "AchievementMissionID": 90006,
+      "DescriptionTextKey": "AchievementText_90006",
+      "AchievementMissionTarget": 90003,
+      "AchievementMissionDefaultGoal": 5,
+      "AchievementMissionIncreaseGoal": 5,
+      "AchievementMissionMaxLevel": 30,
+      "Reward_Id": 50002,
+      "Reward_Amount": 30
+    },
+    {
+      "AchievementMissionID": 90007,
+      "DescriptionTextKey": "AchievementText_90007",
+      "AchievementMissionTarget": 90003,
+      "AchievementMissionDefaultGoal": 1,
+      "AchievementMissionIncreaseGoal": 1,
+      "AchievementMissionMaxLevel": 30,
+      "Reward_Id": 50002,
+      "Reward_Amount": 300
+    },
+    {
+      "AchievementMissionID": 90008,
+      "DescriptionTextKey": "AchievementText_90008",
+      "AchievementMissionTarget": 90003,
+      "AchievementMissionDefaultGoal": 1,
+      "AchievementMissionIncreaseGoal": 1,
+      "AchievementMissionMaxLevel": 30,
+      "Reward_Id": 50002,
+      "Reward_Amount": 300
+    },
+    {
+      "AchievementMissionID": 90009,
+      "DescriptionTextKey": "AchievementText_90009",
+      "AchievementMissionTarget": 90004,
+      "AchievementMissionDefaultGoal": 5000,
+      "AchievementMissionIncreaseGoal": 5000,
+      "AchievementMissionMaxLevel": 30,
+      "Reward_Id": 50002,
+      "Reward_Amount": 10
+    },
+    {
+      "AchievementMissionID": 90010,
+      "DescriptionTextKey": "AchievementText_90010",
+      "AchievementMissionTarget": 90004,
+      "AchievementMissionDefaultGoal": 2,
+      "AchievementMissionIncreaseGoal": 2,
+      "AchievementMissionMaxLevel": 30,
+      "Reward_Id": 50002,
+      "Reward_Amount": 20
+    },
+    {
+      "AchievementMissionID": 90011,
+      "DescriptionTextKey": "AchievementText_90011",
+      "AchievementMissionTarget": 90004,
+      "AchievementMissionDefaultGoal": 1,
+      "AchievementMissionIncreaseGoal": 1,
+      "AchievementMissionMaxLevel": 30,
+      "Reward_Id": 50002,
+      "Reward_Amount": 20
+    },
+    {
+      "AchievementMissionID": 90012,
+      "DescriptionTextKey": "AchievementText_90012",
+      "AchievementMissionTarget": 90006,
+      "AchievementMissionDefaultGoal": 3,
+      "AchievementMissionIncreaseGoal": 3,
+      "AchievementMissionMaxLevel": 30,
+      "Reward_Id": 50002,
+      "Reward_Amount": 10
+    },
+    {
+      "AchievementMissionID": 90013,
+      "DescriptionTextKey": "AchievementText_90013",
+      "AchievementMissionTarget": 90005,
+      "AchievementMissionDefaultGoal": 3,
+      "AchievementMissionIncreaseGoal": 3,
+      "AchievementMissionMaxLevel": 30,
+      "Reward_Id": 50002,
+      "Reward_Amount": 10
+    },
+    {
+      "AchievementMissionID": 90014,
+      "DescriptionTextKey": "AchievementText_90014",
+      "AchievementMissionTarget": 90007,
+      "AchievementMissionDefaultGoal": 3,
+      "AchievementMissionIncreaseGoal": 3,
+      "AchievementMissionMaxLevel": 30,
+      "Reward_Id": 50002,
+      "Reward_Amount": 10
+    },
+    {
+      "AchievementMissionID": 90015,
+      "DescriptionTextKey": "AchievementText_90015",
+      "AchievementMissionTarget": 90008,
+      "AchievementMissionDefaultGoal": 10000,
+      "AchievementMissionIncreaseGoal": 10000,
+      "AchievementMissionMaxLevel": 0,
+      "Reward_Id": 50002,
+      "Reward_Amount": 10
+    },
+    {
+      "AchievementMissionID": 90016,
+      "DescriptionTextKey": "AchievementText_90016",
+      "AchievementMissionTarget": 90008,
+      "AchievementMissionDefaultGoal": 300,
+      "AchievementMissionIncreaseGoal": 300,
+      "AchievementMissionMaxLevel": 0,
+      "Reward_Id": 50002,
+      "Reward_Amount": 10
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 6ac91480cf825654ca364ac6717c6498
+timeCreated: 1504872482
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 80667
+  packageName: Soft Mask
+  packageVersion: 1.6.3
+  assetPath: Assets/SoftMask/Samples/TextMeshPro/Prefabs/ItemButton.prefab
+  uploadId: 465158

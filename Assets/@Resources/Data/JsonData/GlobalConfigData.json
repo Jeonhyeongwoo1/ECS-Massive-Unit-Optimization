@@ -1,0 +1,104 @@
+{
+  "globalConfigs": [
+    {
+      "Name": "StageEnterStamina",
+      "Value": 5.0,
+      "Description": "?�게???�장 ???�용?�는 ?�테미나 ?�량"
+    },
+    {
+      "Name": "StaminaChargeTime",
+      "Value": 300.0,
+      "Description": "?�테미나 1개�? 충전?�는 ?�간 (?�위: �?"
+    },
+    {
+      "Name": "MaxChargedStamina",
+      "Value": 30.0,
+      "Description": "보유???�테미나가 ?�당 ?�량 ?�상?�면 EnergyChargeTime???�동?��? ?�음"
+    },
+    {
+      "Name": "IngameItemBoxCycle",
+      "Value": 30.0,
+      "Description": "?�게?�에???�이??박스가 ?�장?�는 주기 (?�위: �?"
+    },
+    {
+      "Name": "IngameItemBoxSpawnRange",
+      "Value": 15.0,
+      "Description": "?�게?�에???�이??박스 ?�폰 범위"
+    },
+    {
+      "Name": "WeightOwnedSkill",
+      "Value": 850.0,
+      "Description": "?��? 보유???�킬???�장 가중치"
+    },
+    {
+      "Name": "WeightNewSkill",
+      "Value": 350.0,
+      "Description": "보유?��??��? ?�킬???�장 가중치"
+    },
+    {
+      "Name": "OnlyAttackSkillUpToCount",
+      "Value": 4.0,
+      "Description": "?�당 ?�수만큼 ?�킬???�택?�기 ?�까지???�택 ?�킬�??�택지??출현??"
+    },
+    {
+      "Name": "EvolutionDefaultCost",
+      "Value": 500.0,
+      "Description": "�?번째 ?�장???�요??비용 (골드)"
+    },
+    {
+      "Name": "EvolutionCostIncrease",
+      "Value": 500.0,
+      "Description": "?�전 ?�계 ?�장 ?? 증�??�는 비용 (골드)"
+    },
+    {
+      "Name": "EvolutionMaxCost",
+      "Value": 30000.0,
+      "Description": "?�장???�요??골드?�이 ?�당 �??�상?�론 증�??��? ?�음."
+    },
+    {
+      "Name": "BlueGemExpAmount",
+      "Value": 1.0,
+      "Description": "?�게??경험�?최소) ?�득 ??증�??�는 경험�??�치"
+    },
+    {
+      "Name": "GreenGemExpAmount",
+      "Value": 3.0,
+      "Description": "?�게??경험�??? ?�득 ??증�??�는 경험�??�치"
+    },
+    {
+      "Name": "PurpleGemExpAmount",
+      "Value": 5.0,
+      "Description": "?�게??경험�?�? ?�득 ??증�??�는 경험�??�치"
+    },
+    {
+      "Name": "RedGemExpAmount",
+      "Value": 10.0,
+      "Description": "?�게??경험�??�) ?�득 ??증�??�는 경험�??�치"
+    },
+    {
+      "Name": "InfiniteEnterInfiniteTicket",
+      "Value": 1.0,
+      "Description": "무한 모드 ?�장 ???�요??무한모드 ?�켓 개수"
+    },
+    {
+      "Name": "InfiniteTicketChargeTime",
+      "Value": 3600.0,
+      "Description": "무한 모드 충전 ?�간 (?�위: �?"
+    },
+    {
+      "Name": "MaxChargedInfiniteTicket",
+      "Value": 3.0,
+      "Description": "보유??무한모드 ?�켓???�당 ?�량 ?�상?�면 InfiniteTicketChargeTime???�동?��? ?�음"
+    },
+    {
+      "Name": "ReviveCostJewel",
+      "Value": 30.0,
+      "Description": "부?????�요??보석 ?�량"
+    },
+    {
+      "Name": "MonsterCountLimit",
+      "Value": 1500.0,
+      "Description": "몬스??리밋"
+    }
+  ]
+}

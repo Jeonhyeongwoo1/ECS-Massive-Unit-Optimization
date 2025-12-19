@@ -1,0 +1,915 @@
+fileFormatVersion: 2
+guid: 379bc9221bce31b46a59640203b01215
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: 51
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MagicBlast_AIRBORN00
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1888
+        width: 182
+        height: 145
+      alignment: 9
+      pivot: {x: 0.4945055, y: 0.49655172}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e5cdc8b6f9b847419cfe92fd4b5fb31
+      internalID: 1463328443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicBlast_AIRBORN01
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 1796
+        width: 241
+        height: 237
+      alignment: 9
+      pivot: {x: 0.5020747, y: 0.5021097}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49cb8bbc6f5a0db4a84b9e0874010ba4
+      internalID: 1805005575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicBlast_AIRBORN02
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 1795
+        width: 242
+        height: 238
+      alignment: 9
+      pivot: {x: 0.4876033, y: 0.49159664}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 999b7b1b2d2fba844a63f2dbb0ae481a
+      internalID: -298810424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicBlast_AIRBORN03
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 1795
+        width: 253
+        height: 238
+      alignment: 9
+      pivot: {x: 0.4743083, y: 0.5126051}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d05dd998b392c745aa474b85e6f218a
+      internalID: -2021175595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicBlast_AIRBORN04
+      rect:
+        serializedVersion: 2
+        x: 1053
+        y: 1805
+        width: 270
+        height: 228
+      alignment: 9
+      pivot: {x: 0.47407407, y: 0.49561402}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a122f99b43659c42b5fc444591f8a4d
+      internalID: 781974085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicBlast_AIRBORN05
+      rect:
+        serializedVersion: 2
+        x: 1353
+        y: 1802
+        width: 261
+        height: 231
+      alignment: 9
+      pivot: {x: 0.4827586, y: 0.4935065}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25484da7e60fd574197e98e10f8644a2
+      internalID: -977680687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicBlast_AIRBORN06
+      rect:
+        serializedVersion: 2
+        x: 1644
+        y: 1796
+        width: 272
+        height: 237
+      alignment: 9
+      pivot: {x: 0.4742647, y: 0.47679326}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ffaef48070ce2a41b1f1e9471d7777c
+      internalID: 2089981354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicBlast_AIRBORN07
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1527
+        width: 265
+        height: 238
+      alignment: 9
+      pivot: {x: 0.48301888, y: 0.49159664}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b941f71cc98cf3b41b8f2b1b350497b3
+      internalID: -1589222003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicBlast_AIRBORN08
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 1527
+        width: 265
+        height: 238
+      alignment: 9
+      pivot: {x: 0.48301888, y: 0.49159664}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3105cd8c60aaab446836effea889495a
+      internalID: 1500081781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicBlast_AIRBORN09
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 1519
+        width: 277
+        height: 246
+      alignment: 9
+      pivot: {x: 0.48375452, y: 0.48373982}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 187a0268f47c2e64d9b5508d2d3f39f8
+      internalID: -526814647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicBlast_AIRBORN10
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 1519
+        width: 277
+        height: 246
+      alignment: 9
+      pivot: {x: 0.48375452, y: 0.48373982}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 868698b0ef09f444083da7ddda02db0a
+      internalID: 219841035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicBlast_AIRBORN11
+      rect:
+        serializedVersion: 2
+        x: 1219
+        y: 1516
+        width: 274
+        height: 249
+      alignment: 9
+      pivot: {x: 0.47810218, y: 0.4939759}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b96699bae510dd44854fd2f4f15c9a3
+      internalID: 1576793534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicBlast_AIRBORN12
+      rect:
+        serializedVersion: 2
+        x: 1523
+        y: 1516
+        width: 274
+        height: 249
+      alignment: 9
+      pivot: {x: 0.47810218, y: 0.4939759}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a20c3b27de8c4e1459fda6ae5e302141
+      internalID: -1241153925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicBlast_AIRBORN13
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1239
+        width: 278
+        height: 247
+      alignment: 9
+      pivot: {x: 0.4820144, y: 0.48987854}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98f97e6d67802d141975a03c124df0bb
+      internalID: 2079578015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicBlast_AIRBORN14
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 1239
+        width: 278
+        height: 247
+      alignment: 9
+      pivot: {x: 0.4820144, y: 0.48987854}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 278d8de0798b7494a8901e1f36d041ea
+      internalID: -449845260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicBlast_AIRBORN15
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 1229
+        width: 284
+        height: 257
+      alignment: 9
+      pivot: {x: 0.4753521, y: 0.49416342}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97b36a15f9f9a9b46aa86d119132a502
+      internalID: 658854237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicBlast_AIRBORN16
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 1229
+        width: 284
+        height: 257
+      alignment: 9
+      pivot: {x: 0.4753521, y: 0.49416342}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65a80c0aa6c675b45a66a2845e6c03a8
+      internalID: 678903912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicBlast_AIRBORN17
+      rect:
+        serializedVersion: 2
+        x: 1259
+        y: 1230
+        width: 284
+        height: 256
+      alignment: 9
+      pivot: {x: 0.4753521, y: 0.5078125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c691fb6319b070e4cb6686befbbcacc7
+      internalID: -1756699250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicBlast_AIRBORN18
+      rect:
+        serializedVersion: 2
+        x: 1573
+        y: 1230
+        width: 284
+        height: 256
+      alignment: 9
+      pivot: {x: 0.4753521, y: 0.5078125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2047304223b39154a91595e0bdc7a252
+      internalID: -1630069327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicBlast_AIRBORN19
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 954
+        width: 288
+        height: 245
+      alignment: 9
+      pivot: {x: 0.4826389, y: 0.49387756}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60eaedd9d4ddca348b934061bf0439f7
+      internalID: 1754655720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicBlast_AIRBORN20
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 954
+        width: 288
+        height: 245
+      alignment: 9
+      pivot: {x: 0.4826389, y: 0.49387756}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fd75df731175044e9eb1f69214ca6e7
+      internalID: -1468062352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicBlast_AIRBORN21
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 954
+        width: 289
+        height: 245
+      alignment: 9
+      pivot: {x: 0.4948097, y: 0.50612247}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d2854279666c4b4f93b93c4cc16022b
+      internalID: -1083181939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicBlast_AIRBORN22
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 953
+        width: 288
+        height: 246
+      alignment: 9
+      pivot: {x: 0.4861111, y: 0.50406504}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45c5956fa2154984ba8253ed74d5d380
+      internalID: 1937003230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicBlast_AIRBORN23
+      rect:
+        serializedVersion: 2
+        x: 1288
+        y: 975
+        width: 290
+        height: 224
+      alignment: 9
+      pivot: {x: 0.4827586, y: 0.4955357}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e61dc4968129324d8793164951c4fea
+      internalID: -333374677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicBlast_AIRBORN24
+      rect:
+        serializedVersion: 2
+        x: 1608
+        y: 975
+        width: 290
+        height: 224
+      alignment: 9
+      pivot: {x: 0.4827586, y: 0.4955357}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53bcbd54158ff40489dd3324fa541917
+      internalID: -1940067401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicBlast_AIRBORN25
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 767
+        width: 282
+        height: 156
+      alignment: 9
+      pivot: {x: 0.4787234, y: 0.4871795}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e19f9b4b4473b5429626cf770ee5438
+      internalID: 1445710595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicBlast_AIRBORN26
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 767
+        width: 282
+        height: 156
+      alignment: 9
+      pivot: {x: 0.4787234, y: 0.4871795}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f0cda0e555a7f840977da08bb54e6f9
+      internalID: 457184542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicBlast_AIRBORN27
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 777
+        width: 260
+        height: 146
+      alignment: 9
+      pivot: {x: 0.48076922, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83d5b61f8c1827247bbf31986a446835
+      internalID: 1033737245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicBlast_AIRBORN28
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 777
+        width: 260
+        height: 146
+      alignment: 9
+      pivot: {x: 0.48076922, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9cf58a88c73a7c4da3cb64258f6293f
+      internalID: 24255222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicBlast_AIRBORN29
+      rect:
+        serializedVersion: 2
+        x: 1219
+        y: 784
+        width: 253
+        height: 139
+      alignment: 9
+      pivot: {x: 0.49407116, y: 0.51079136}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb3ddf41fe71d08418ae6aa6442e195a
+      internalID: 565662989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicBlast_AIRBORN30
+      rect:
+        serializedVersion: 2
+        x: 1502
+        y: 784
+        width: 253
+        height: 139
+      alignment: 9
+      pivot: {x: 0.49407116, y: 0.51079136}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dcec8af47d1f574081c38bd05ee5e9a
+      internalID: 222339040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicBlast_AIRBORN31
+      rect:
+        serializedVersion: 2
+        x: 1785
+        y: 922
+        width: 1
+        height: 1
+      alignment: 9
+      pivot: {x: 150, y: -149}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a929ee196417b14090cee5275ce0f6e
+      internalID: 510776549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicBlast_AIRBORN32
+      rect:
+        serializedVersion: 2
+        x: 1816
+        y: 922
+        width: 1
+        height: 1
+      alignment: 9
+      pivot: {x: 150, y: -149}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58995432dbe38cc4f839fb8f907d39bc
+      internalID: 515720430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: feda923349b08384399346684664307f
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      MagicBlast_AIRBORN00: 1463328443
+      MagicBlast_AIRBORN01: 1805005575
+      MagicBlast_AIRBORN02: -298810424
+      MagicBlast_AIRBORN03: -2021175595
+      MagicBlast_AIRBORN04: 781974085
+      MagicBlast_AIRBORN05: -977680687
+      MagicBlast_AIRBORN06: 2089981354
+      MagicBlast_AIRBORN07: -1589222003
+      MagicBlast_AIRBORN08: 1500081781
+      MagicBlast_AIRBORN09: -526814647
+      MagicBlast_AIRBORN10: 219841035
+      MagicBlast_AIRBORN11: 1576793534
+      MagicBlast_AIRBORN12: -1241153925
+      MagicBlast_AIRBORN13: 2079578015
+      MagicBlast_AIRBORN14: -449845260
+      MagicBlast_AIRBORN15: 658854237
+      MagicBlast_AIRBORN16: 678903912
+      MagicBlast_AIRBORN17: -1756699250
+      MagicBlast_AIRBORN18: -1630069327
+      MagicBlast_AIRBORN19: 1754655720
+      MagicBlast_AIRBORN20: -1468062352
+      MagicBlast_AIRBORN21: -1083181939
+      MagicBlast_AIRBORN22: 1937003230
+      MagicBlast_AIRBORN23: -333374677
+      MagicBlast_AIRBORN24: -1940067401
+      MagicBlast_AIRBORN25: 1445710595
+      MagicBlast_AIRBORN26: 457184542
+      MagicBlast_AIRBORN27: 1033737245
+      MagicBlast_AIRBORN28: 24255222
+      MagicBlast_AIRBORN29: 565662989
+      MagicBlast_AIRBORN30: 222339040
+      MagicBlast_AIRBORN31: 510776549
+      MagicBlast_AIRBORN32: 515720430
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

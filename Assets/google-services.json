@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1033451965493",
+    "project_id": "mew-survivor-4e9b5",
+    "storage_bucket": "mew-survivor-4e9b5.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1033451965493:android:60f0d931722abda027b57c",
+        "android_client_info": {
+          "package_name": "com.gomble.mewvivor_client"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1033451965493-8bq667a18ftt0lhqtuqmc91gc5307mn9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.gomble.mewvivor_client",
+            "certificate_hash": "f0b0d24ef8564d2333ea662d254aba2053b17e51"
+          }
+        },
+        {
+          "client_id": "1033451965493-nnlc0ve136qm8i6h9spu057euih5eqd2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBep1RGX7FeS-JyAEawtZi11Mko5LnQ2GE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1033451965493-bnkvcvpqrmif8dk03rcdtajool11tfa8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

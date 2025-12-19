@@ -1,0 +1,158 @@
+{
+  "Materials": [
+    {
+      "ID": 50001,
+      "MaterialType": 50001,
+      "MaterialGrade": 3,
+      "DescriptionTextID": "Text_50001",
+      "SpriteName": "Gold_Icon.sprite"
+    },
+    {
+      "ID": 50002,
+      "MaterialType": 50002,
+      "MaterialGrade": 3,
+      "DescriptionTextID": "Text_50002",
+      "SpriteName": "Drop_Jewel_1.sprite"
+    },
+    {
+      "ID": 50003,
+      "MaterialType": 50003,
+      "MaterialGrade": 3,
+      "DescriptionTextID": "Text_50003",
+      "SpriteName": "Stamina_Icon.sprite"
+    },
+    {
+      "ID": 50004,
+      "MaterialType": 50004,
+      "MaterialGrade": 2,
+      "DescriptionTextID": "Text_50004",
+      "SpriteName": "Exp_Icon.sprite"
+    },
+    {
+      "ID": 50005,
+      "MaterialType": 50005,
+      "MaterialGrade": 0,
+      "DescriptionTextID": "Text_50005",
+      "SpriteName": "QuestExp_Icon.sprite"
+    },
+    {
+      "ID": 50101,
+      "MaterialType": 50101,
+      "MaterialGrade": 0,
+      "DescriptionTextID": "Text_50101",
+      "SpriteName": "Scroll_Weapon_Icon.sprite"
+    },
+    {
+      "ID": 50102,
+      "MaterialType": 50102,
+      "MaterialGrade": 0,
+      "DescriptionTextID": "Text_50102",
+      "SpriteName": "Scroll_Gloves_Icon.sprite"
+    },
+    {
+      "ID": 50103,
+      "MaterialType": 50103,
+      "MaterialGrade": 0,
+      "DescriptionTextID": "Text_50103",
+      "SpriteName": "Scroll_Ring_Icon.sprite"
+    },
+    {
+      "ID": 50104,
+      "MaterialType": 50104,
+      "MaterialGrade": 0,
+      "DescriptionTextID": "Text_50104",
+      "SpriteName": "Scroll_Belt_Icon.sprite"
+    },
+    {
+      "ID": 50105,
+      "MaterialType": 50105,
+      "MaterialGrade": 0,
+      "DescriptionTextID": "Text_50105",
+      "SpriteName": "Scroll_Armor_Icon.sprite"
+    },
+    {
+      "ID": 50106,
+      "MaterialType": 50106,
+      "MaterialGrade": 0,
+      "DescriptionTextID": "Text_50106",
+      "SpriteName": "Scroll_Boots_Icon.sprite"
+    },
+    {
+      "ID": 50201,
+      "MaterialType": 50201,
+      "MaterialGrade": 0,
+      "DescriptionTextID": "Text_50201",
+      "SpriteName": "Clover_Icon.sprite"
+    },
+    {
+      "ID": 50202,
+      "MaterialType": 50203,
+      "MaterialGrade": 2,
+      "DescriptionTextID": "Text_50202",
+      "SpriteName": "Key_Silver_Icon.sprite"
+    },
+    {
+      "ID": 50203,
+      "MaterialType": 50204,
+      "MaterialGrade": 3,
+      "DescriptionTextID": "Text_50203",
+      "SpriteName": "Key_Gold_Icon.sprite"
+    },
+    {
+      "ID": 50301,
+      "MaterialType": 50301,
+      "MaterialGrade": 0,
+      "DescriptionTextID": "Text_50301",
+      "SpriteName": "Scroll_Random_Icon.sprite"
+    },
+    {
+      "ID": 50302,
+      "MaterialType": 50302,
+      "MaterialGrade": 0,
+      "DescriptionTextID": "Text_50302",
+      "SpriteName": "EqptBoxAllRandom_Icon.sprite"
+    },
+    {
+      "ID": 50303,
+      "MaterialType": 50303,
+      "MaterialGrade": 0,
+      "DescriptionTextID": "Text_50303",
+      "SpriteName": "EqptBox_Icon.sprite"
+    },
+    {
+      "ID": 50304,
+      "MaterialType": 50304,
+      "MaterialGrade": 1,
+      "DescriptionTextID": "Text_50304",
+      "SpriteName": "EqptBox_Icon.sprite"
+    },
+    {
+      "ID": 50305,
+      "MaterialType": 50305,
+      "MaterialGrade": 2,
+      "DescriptionTextID": "Text_50305",
+      "SpriteName": "EqptBox_Icon.sprite"
+    },
+    {
+      "ID": 50306,
+      "MaterialType": 50306,
+      "MaterialGrade": 3,
+      "DescriptionTextID": "Text_50306",
+      "SpriteName": "EqptBox_Icon.sprite"
+    },
+    {
+      "ID": 50307,
+      "MaterialType": 50307,
+      "MaterialGrade": 6,
+      "DescriptionTextID": "Text_50307",
+      "SpriteName": "EqptBox_Icon.sprite"
+    },
+    {
+      "ID": 50401,
+      "MaterialType": 50401,
+      "MaterialGrade": 0,
+      "DescriptionTextID": "Text_50401",
+      "SpriteName": "Endless_Ticket.sprite"
+    }
+  ]
+}

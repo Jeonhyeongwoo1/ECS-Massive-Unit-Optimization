@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 60d3e3691f66e80449a4d071bc02d532
+timeCreated: 1487949007
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 80667
+  packageName: Soft Mask
+  packageVersion: 1.6.3
+  assetPath: Assets/SoftMask/Samples/Prefabs/Camera.prefab
+  uploadId: 465158

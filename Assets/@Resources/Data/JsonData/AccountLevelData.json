@@ -1,0 +1,1192 @@
+{
+  "levels": [
+    {
+      "Level": 1,
+      "NeedExp": 5000,
+      "Reward_ID": [
+        50001,
+        50202
+      ],
+      "Reward_Amount": [
+        3000,
+        1
+      ]
+    },
+    {
+      "Level": 2,
+      "NeedExp": 7000,
+      "Reward_ID": [
+        50001,
+        50202
+      ],
+      "Reward_Amount": [
+        3000,
+        1
+      ]
+    },
+    {
+      "Level": 3,
+      "NeedExp": 9000,
+      "Reward_ID": [
+        50001,
+        50202
+      ],
+      "Reward_Amount": [
+        3000,
+        1
+      ]
+    },
+    {
+      "Level": 4,
+      "NeedExp": 11000,
+      "Reward_ID": [
+        50001,
+        50202
+      ],
+      "Reward_Amount": [
+        3000,
+        1
+      ]
+    },
+    {
+      "Level": 5,
+      "NeedExp": 13000,
+      "Reward_ID": [
+        50001,
+        50202
+      ],
+      "Reward_Amount": [
+        3000,
+        1
+      ]
+    },
+    {
+      "Level": 6,
+      "NeedExp": 15000,
+      "Reward_ID": [
+        50001,
+        50202
+      ],
+      "Reward_Amount": [
+        3000,
+        1
+      ]
+    },
+    {
+      "Level": 7,
+      "NeedExp": 17000,
+      "Reward_ID": [
+        50001,
+        50202
+      ],
+      "Reward_Amount": [
+        3000,
+        1
+      ]
+    },
+    {
+      "Level": 8,
+      "NeedExp": 19000,
+      "Reward_ID": [
+        50001,
+        50202
+      ],
+      "Reward_Amount": [
+        3000,
+        1
+      ]
+    },
+    {
+      "Level": 9,
+      "NeedExp": 21000,
+      "Reward_ID": [
+        50001,
+        50202
+      ],
+      "Reward_Amount": [
+        3000,
+        1
+      ]
+    },
+    {
+      "Level": 10,
+      "NeedExp": 23000,
+      "Reward_ID": [
+        50001,
+        50202
+      ],
+      "Reward_Amount": [
+        3000,
+        1
+      ]
+    },
+    {
+      "Level": 11,
+      "NeedExp": 25000,
+      "Reward_ID": [
+        50001,
+        50202
+      ],
+      "Reward_Amount": [
+        3000,
+        1
+      ]
+    },
+    {
+      "Level": 12,
+      "NeedExp": 27000,
+      "Reward_ID": [
+        50001,
+        50202
+      ],
+      "Reward_Amount": [
+        3000,
+        1
+      ]
+    },
+    {
+      "Level": 13,
+      "NeedExp": 29000,
+      "Reward_ID": [
+        50001,
+        50202
+      ],
+      "Reward_Amount": [
+        3000,
+        1
+      ]
+    },
+    {
+      "Level": 14,
+      "NeedExp": 31000,
+      "Reward_ID": [
+        50001,
+        50202
+      ],
+      "Reward_Amount": [
+        3000,
+        1
+      ]
+    },
+    {
+      "Level": 15,
+      "NeedExp": 33000,
+      "Reward_ID": [
+        50001,
+        50202
+      ],
+      "Reward_Amount": [
+        3000,
+        1
+      ]
+    },
+    {
+      "Level": 16,
+      "NeedExp": 35000,
+      "Reward_ID": [
+        50001,
+        50202
+      ],
+      "Reward_Amount": [
+        3000,
+        1
+      ]
+    },
+    {
+      "Level": 17,
+      "NeedExp": 37000,
+      "Reward_ID": [
+        50001,
+        50202
+      ],
+      "Reward_Amount": [
+        3000,
+        1
+      ]
+    },
+    {
+      "Level": 18,
+      "NeedExp": 39000,
+      "Reward_ID": [
+        50001,
+        50202
+      ],
+      "Reward_Amount": [
+        3000,
+        1
+      ]
+    },
+    {
+      "Level": 19,
+      "NeedExp": 41000,
+      "Reward_ID": [
+        50001,
+        50202
+      ],
+      "Reward_Amount": [
+        3000,
+        1
+      ]
+    },
+    {
+      "Level": 20,
+      "NeedExp": 43000,
+      "Reward_ID": [
+        50001,
+        50202
+      ],
+      "Reward_Amount": [
+        3000,
+        1
+      ]
+    },
+    {
+      "Level": 21,
+      "NeedExp": 45000,
+      "Reward_ID": [
+        50001,
+        50202
+      ],
+      "Reward_Amount": [
+        3000,
+        1
+      ]
+    },
+    {
+      "Level": 22,
+      "NeedExp": 47000,
+      "Reward_ID": [
+        50001,
+        50202
+      ],
+      "Reward_Amount": [
+        3000,
+        1
+      ]
+    },
+    {
+      "Level": 23,
+      "NeedExp": 49000,
+      "Reward_ID": [
+        50001,
+        50202
+      ],
+      "Reward_Amount": [
+        3000,
+        1
+      ]
+    },
+    {
+      "Level": 24,
+      "NeedExp": 51000,
+      "Reward_ID": [
+        50001,
+        50202
+      ],
+      "Reward_Amount": [
+        3000,
+        1
+      ]
+    },
+    {
+      "Level": 25,
+      "NeedExp": 53000,
+      "Reward_ID": [
+        50001,
+        50202
+      ],
+      "Reward_Amount": [
+        3000,
+        1
+      ]
+    },
+    {
+      "Level": 26,
+      "NeedExp": 55000,
+      "Reward_ID": [
+        50001,
+        50202
+      ],
+      "Reward_Amount": [
+        3000,
+        1
+      ]
+    },
+    {
+      "Level": 27,
+      "NeedExp": 57000,
+      "Reward_ID": [
+        50001,
+        50202
+      ],
+      "Reward_Amount": [
+        3000,
+        1
+      ]
+    },
+    {
+      "Level": 28,
+      "NeedExp": 59000,
+      "Reward_ID": [
+        50001,
+        50202
+      ],
+      "Reward_Amount": [
+        3000,
+        1
+      ]
+    },
+    {
+      "Level": 29,
+      "NeedExp": 61000,
+      "Reward_ID": [
+        50001,
+        50202
+      ],
+      "Reward_Amount": [
+        3000,
+        1
+      ]
+    },
+    {
+      "Level": 30,
+      "NeedExp": 63000,
+      "Reward_ID": [
+        50001,
+        50202
+      ],
+      "Reward_Amount": [
+        3000,
+        1
+      ]
+    },
+    {
+      "Level": 31,
+      "NeedExp": 65000,
+      "Reward_ID": [
+        50001,
+        50202
+      ],
+      "Reward_Amount": [
+        3000,
+        1
+      ]
+    },
+    {
+      "Level": 32,
+      "NeedExp": 67000,
+      "Reward_ID": [
+        50001,
+        50202
+      ],
+      "Reward_Amount": [
+        3000,
+        1
+      ]
+    },
+    {
+      "Level": 33,
+      "NeedExp": 69000,
+      "Reward_ID": [
+        50001,
+        50202
+      ],
+      "Reward_Amount": [
+        3000,
+        1
+      ]
+    },
+    {
+      "Level": 34,
+      "NeedExp": 71000,
+      "Reward_ID": [
+        50001,
+        50202
+      ],
+      "Reward_Amount": [
+        3000,
+        1
+      ]
+    },
+    {
+      "Level": 35,
+      "NeedExp": 73000,
+      "Reward_ID": [
+        50001,
+        50202
+      ],
+      "Reward_Amount": [
+        3000,
+        1
+      ]
+    },
+    {
+      "Level": 36,
+      "NeedExp": 75000,
+      "Reward_ID": [
+        50001,
+        50202
+      ],
+      "Reward_Amount": [
+        3000,
+        1
+      ]
+    },
+    {
+      "Level": 37,
+      "NeedExp": 77000,
+      "Reward_ID": [
+        50001,
+        50202
+      ],
+      "Reward_Amount": [
+        3000,
+        1
+      ]
+    },
+    {
+      "Level": 38,
+      "NeedExp": 79000,
+      "Reward_ID": [
+        50001,
+        50202
+      ],
+      "Reward_Amount": [
+        3000,
+        1
+      ]
+    },
+    {
+      "Level": 39,
+      "NeedExp": 81000,
+      "Reward_ID": [
+        50001,
+        50202
+      ],
+      "Reward_Amount": [
+        3000,
+        1
+      ]
+    },
+    {
+      "Level": 40,
+      "NeedExp": 83000,
+      "Reward_ID": [
+        50001,
+        50202
+      ],
+      "Reward_Amount": [
+        3000,
+        1
+      ]
+    },
+    {
+      "Level": 41,
+      "NeedExp": 85000,
+      "Reward_ID": [
+        50001,
+        50202
+      ],
+      "Reward_Amount": [
+        3000,
+        1
+      ]
+    },
+    {
+      "Level": 42,
+      "NeedExp": 87000,
+      "Reward_ID": [
+        50001,
+        50202
+      ],
+      "Reward_Amount": [
+        3000,
+        1
+      ]
+    },
+    {
+      "Level": 43,
+      "NeedExp": 89000,
+      "Reward_ID": [
+        50001,
+        50202
+      ],
+      "Reward_Amount": [
+        3000,
+        1
+      ]
+    },
+    {
+      "Level": 44,
+      "NeedExp": 91000,
+      "Reward_ID": [
+        50001,
+        50202
+      ],
+      "Reward_Amount": [
+        3000,
+        1
+      ]
+    },
+    {
+      "Level": 45,
+      "NeedExp": 93000,
+      "Reward_ID": [
+        50001,
+        50202
+      ],
+      "Reward_Amount": [
+        3000,
+        1
+      ]
+    },
+    {
+      "Level": 46,
+      "NeedExp": 95000,
+      "Reward_ID": [
+        50001,
+        50202
+      ],
+      "Reward_Amount": [
+        3000,
+        1
+      ]
+    },
+    {
+      "Level": 47,
+      "NeedExp": 97000,
+      "Reward_ID": [
+        50001,
+        50202
+      ],
+      "Reward_Amount": [
+        3000,
+        1
+      ]
+    },
+    {
+      "Level": 48,
+      "NeedExp": 99000,
+      "Reward_ID": [
+        50001,
+        50202
+      ],
+      "Reward_Amount": [
+        3000,
+        1
+      ]
+    },
+    {
+      "Level": 49,
+      "NeedExp": 101000,
+      "Reward_ID": [
+        50001,
+        50202
+      ],
+      "Reward_Amount": [
+        3000,
+        1
+      ]
+    },
+    {
+      "Level": 50,
+      "NeedExp": 103000,
+      "Reward_ID": [
+        50001,
+        50202
+      ],
+      "Reward_Amount": [
+        3000,
+        1
+      ]
+    },
+    {
+      "Level": 51,
+      "NeedExp": 105000,
+      "Reward_ID": [
+        50001,
+        50202
+      ],
+      "Reward_Amount": [
+        3000,
+        1
+      ]
+    },
+    {
+      "Level": 52,
+      "NeedExp": 107000,
+      "Reward_ID": [
+        50001,
+        50202
+      ],
+      "Reward_Amount": [
+        3000,
+        1
+      ]
+    },
+    {
+      "Level": 53,
+      "NeedExp": 109000,
+      "Reward_ID": [
+        50001,
+        50202
+      ],
+      "Reward_Amount": [
+        3000,
+        1
+      ]
+    },
+    {
+      "Level": 54,
+      "NeedExp": 111000,
+      "Reward_ID": [
+        50001,
+        50202
+      ],
+      "Reward_Amount": [
+        3000,
+        1
+      ]
+    },
+    {
+      "Level": 55,
+      "NeedExp": 113000,
+      "Reward_ID": [
+        50001,
+        50202
+      ],
+      "Reward_Amount": [
+        3000,
+        1
+      ]
+    },
+    {
+      "Level": 56,
+      "NeedExp": 115000,
+      "Reward_ID": [
+        50001,
+        50202
+      ],
+      "Reward_Amount": [
+        3000,
+        1
+      ]
+    },
+    {
+      "Level": 57,
+      "NeedExp": 117000,
+      "Reward_ID": [
+        50001,
+        50202
+      ],
+      "Reward_Amount": [
+        3000,
+        1
+      ]
+    },
+    {
+      "Level": 58,
+      "NeedExp": 119000,
+      "Reward_ID": [
+        50001,
+        50202
+      ],
+      "Reward_Amount": [
+        3000,
+        1
+      ]
+    },
+    {
+      "Level": 59,
+      "NeedExp": 121000,
+      "Reward_ID": [
+        50001,
+        50202
+      ],
+      "Reward_Amount": [
+        3000,
+        1
+      ]
+    },
+    {
+      "Level": 60,
+      "NeedExp": 123000,
+      "Reward_ID": [
+        50001,
+        50202
+      ],
+      "Reward_Amount": [
+        3000,
+        1
+      ]
+    },
+    {
+      "Level": 61,
+      "NeedExp": 125000,
+      "Reward_ID": [
+        50001,
+        50202
+      ],
+      "Reward_Amount": [
+        3000,
+        1
+      ]
+    },
+    {
+      "Level": 62,
+      "NeedExp": 127000,
+      "Reward_ID": [
+        50001,
+        50202
+      ],
+      "Reward_Amount": [
+        3000,
+        1
+      ]
+    },
+    {
+      "Level": 63,
+      "NeedExp": 129000,
+      "Reward_ID": [
+        50001,
+        50202
+      ],
+      "Reward_Amount": [
+        3000,
+        1
+      ]
+    },
+    {
+      "Level": 64,
+      "NeedExp": 131000,
+      "Reward_ID": [
+        50001,
+        50202
+      ],
+      "Reward_Amount": [
+        3000,
+        1
+      ]
+    },
+    {
+      "Level": 65,
+      "NeedExp": 133000,
+      "Reward_ID": [
+        50001,
+        50202
+      ],
+      "Reward_Amount": [
+        3000,
+        1
+      ]
+    },
+    {
+      "Level": 66,
+      "NeedExp": 135000,
+      "Reward_ID": [
+        50001,
+        50202
+      ],
+      "Reward_Amount": [
+        3000,
+        1
+      ]
+    },
+    {
+      "Level": 67,
+      "NeedExp": 137000,
+      "Reward_ID": [
+        50001,
+        50202
+      ],
+      "Reward_Amount": [
+        3000,
+        1
+      ]
+    },
+    {
+      "Level": 68,
+      "NeedExp": 139000,
+      "Reward_ID": [
+        50001,
+        50202
+      ],
+      "Reward_Amount": [
+        3000,
+        1
+      ]
+    },
+    {
+      "Level": 69,
+      "NeedExp": 141000,
+      "Reward_ID": [
+        50001,
+        50202
+      ],
+      "Reward_Amount": [
+        3000,
+        1
+      ]
+    },
+    {
+      "Level": 70,
+      "NeedExp": 143000,
+      "Reward_ID": [
+        50001,
+        50202
+      ],
+      "Reward_Amount": [
+        3000,
+        1
+      ]
+    },
+    {
+      "Level": 71,
+      "NeedExp": 145000,
+      "Reward_ID": [
+        50001,
+        50202
+      ],
+      "Reward_Amount": [
+        3000,
+        1
+      ]
+    },
+    {
+      "Level": 72,
+      "NeedExp": 147000,
+      "Reward_ID": [
+        50001,
+        50202
+      ],
+      "Reward_Amount": [
+        3000,
+        1
+      ]
+    },
+    {
+      "Level": 73,
+      "NeedExp": 149000,
+      "Reward_ID": [
+        50001,
+        50202
+      ],
+      "Reward_Amount": [
+        3000,
+        1
+      ]
+    },
+    {
+      "Level": 74,
+      "NeedExp": 151000,
+      "Reward_ID": [
+        50001,
+        50202
+      ],
+      "Reward_Amount": [
+        3000,
+        1
+      ]
+    },
+    {
+      "Level": 75,
+      "NeedExp": 153000,
+      "Reward_ID": [
+        50001,
+        50202
+      ],
+      "Reward_Amount": [
+        3000,
+        1
+      ]
+    },
+    {
+      "Level": 76,
+      "NeedExp": 155000,
+      "Reward_ID": [
+        50001,
+        50202
+      ],
+      "Reward_Amount": [
+        3000,
+        1
+      ]
+    },
+    {
+      "Level": 77,
+      "NeedExp": 157000,
+      "Reward_ID": [
+        50001,
+        50202
+      ],
+      "Reward_Amount": [
+        3000,
+        1
+      ]
+    },
+    {
+      "Level": 78,
+      "NeedExp": 159000,
+      "Reward_ID": [
+        50001,
+        50202
+      ],
+      "Reward_Amount": [
+        3000,
+        1
+      ]
+    },
+    {
+      "Level": 79,
+      "NeedExp": 161000,
+      "Reward_ID": [
+        50001,
+        50202
+      ],
+      "Reward_Amount": [
+        3000,
+        1
+      ]
+    },
+    {
+      "Level": 80,
+      "NeedExp": 163000,
+      "Reward_ID": [
+        50001,
+        50202
+      ],
+      "Reward_Amount": [
+        3000,
+        1
+      ]
+    },
+    {
+      "Level": 81,
+      "NeedExp": 165000,
+      "Reward_ID": [
+        50001,
+        50202
+      ],
+      "Reward_Amount": [
+        3000,
+        1
+      ]
+    },
+    {
+      "Level": 82,
+      "NeedExp": 167000,
+      "Reward_ID": [
+        50001,
+        50202
+      ],
+      "Reward_Amount": [
+        3000,
+        1
+      ]
+    },
+    {
+      "Level": 83,
+      "NeedExp": 169000,
+      "Reward_ID": [
+        50001,
+        50202
+      ],
+      "Reward_Amount": [
+        3000,
+        1
+      ]
+    },
+    {
+      "Level": 84,
+      "NeedExp": 171000,
+      "Reward_ID": [
+        50001,
+        50202
+      ],
+      "Reward_Amount": [
+        3000,
+        1
+      ]
+    },
+    {
+      "Level": 85,
+      "NeedExp": 173000,
+      "Reward_ID": [
+        50001,
+        50202
+      ],
+      "Reward_Amount": [
+        3000,
+        1
+      ]
+    },
+    {
+      "Level": 86,
+      "NeedExp": 175000,
+      "Reward_ID": [
+        50001,
+        50202
+      ],
+      "Reward_Amount": [
+        3000,
+        1
+      ]
+    },
+    {
+      "Level": 87,
+      "NeedExp": 177000,
+      "Reward_ID": [
+        50001,
+        50202
+      ],
+      "Reward_Amount": [
+        3000,
+        1
+      ]
+    },
+    {
+      "Level": 88,
+      "NeedExp": 179000,
+      "Reward_ID": [
+        50001,
+        50202
+      ],
+      "Reward_Amount": [
+        3000,
+        1
+      ]
+    },
+    {
+      "Level": 89,
+      "NeedExp": 181000,
+      "Reward_ID": [
+        50001,
+        50202
+      ],
+      "Reward_Amount": [
+        3000,
+        1
+      ]
+    },
+    {
+      "Level": 90,
+      "NeedExp": 183000,
+      "Reward_ID": [
+        50001,
+        50202
+      ],
+      "Reward_Amount": [
+        3000,
+        1
+      ]
+    },
+    {
+      "Level": 91,
+      "NeedExp": 185000,
+      "Reward_ID": [
+        50001,
+        50202
+      ],
+      "Reward_Amount": [
+        3000,
+        1
+      ]
+    },
+    {
+      "Level": 92,
+      "NeedExp": 187000,
+      "Reward_ID": [
+        50001,
+        50202
+      ],
+      "Reward_Amount": [
+        3000,
+        1
+      ]
+    },
+    {
+      "Level": 93,
+      "NeedExp": 189000,
+      "Reward_ID": [
+        50001,
+        50202
+      ],
+      "Reward_Amount": [
+        3000,
+        1
+      ]
+    },
+    {
+      "Level": 94,
+      "NeedExp": 191000,
+      "Reward_ID": [
+        50001,
+        50202
+      ],
+      "Reward_Amount": [
+        3000,
+        1
+      ]
+    },
+    {
+      "Level": 95,
+      "NeedExp": 193000,
+      "Reward_ID": [
+        50001,
+        50202
+      ],
+      "Reward_Amount": [
+        3000,
+        1
+      ]
+    },
+    {
+      "Level": 96,
+      "NeedExp": 195000,
+      "Reward_ID": [
+        50001,
+        50202
+      ],
+      "Reward_Amount": [
+        3000,
+        1
+      ]
+    },
+    {
+      "Level": 97,
+      "NeedExp": 197000,
+      "Reward_ID": [
+        50001,
+        50202
+      ],
+      "Reward_Amount": [
+        3000,
+        1
+      ]
+    },
+    {
+      "Level": 98,
+      "NeedExp": 199000,
+      "Reward_ID": [
+        50001,
+        50202
+      ],
+      "Reward_Amount": [
+        3000,
+        1
+      ]
+    },
+    {
+      "Level": 99,
+      "NeedExp": 201000,
+      "Reward_ID": [
+        50001,
+        50202
+      ],
+      "Reward_Amount": [
+        3000,
+        1
+      ]
+    }
+  ]
+}

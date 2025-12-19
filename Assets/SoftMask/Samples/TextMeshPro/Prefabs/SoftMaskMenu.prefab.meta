@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 10e84d8fa03fe1e4ba440d11c147aa8f
+timeCreated: 1504871917
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 80667
+  packageName: Soft Mask
+  packageVersion: 1.6.3
+  assetPath: Assets/SoftMask/Samples/TextMeshPro/Prefabs/SoftMaskMenu.prefab
+  uploadId: 465158

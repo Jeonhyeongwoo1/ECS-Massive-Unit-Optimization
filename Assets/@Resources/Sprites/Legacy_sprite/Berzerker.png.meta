@@ -1,0 +1,708 @@
+fileFormatVersion: 2
+guid: 9a24d5ac363e0f14cb8db644c4ef2d90
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: 51
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Berzerker00
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 342
+        width: 198
+        height: 182
+      alignment: 9
+      pivot: {x: 0.5959596, y: 0.64285713}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e79c86e3fca12f49abc927120326a3d
+      internalID: -2084693970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berzerker01
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 129
+        width: 191
+        height: 181
+      alignment: 9
+      pivot: {x: 0.6230366, y: 0.64640886}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2daf2a6afef58d4286e5dab77231e05
+      internalID: 797534059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berzerker02
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 126
+        width: 186
+        height: 184
+      alignment: 9
+      pivot: {x: 0.63978493, y: 0.63586956}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2316fb6b4873369419216810a5d7aca5
+      internalID: 1014400289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berzerker03
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 342
+        width: 183
+        height: 193
+      alignment: 9
+      pivot: {x: 0.55191255, y: 0.6217617}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 442aa6baabd876c48996269fe0ac1610
+      internalID: -127797480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berzerker04
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 805
+        width: 194
+        height: 203
+      alignment: 9
+      pivot: {x: 0.46907216, y: 0.591133}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f0aeddf91e83df48ab564982a50a525
+      internalID: -580278981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berzerker05
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 323
+        width: 185
+        height: 201
+      alignment: 9
+      pivot: {x: 0.44324324, y: 0.60199004}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea254b976111ba0408344da8c9899a4c
+      internalID: 437796828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berzerker06
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 90
+        width: 181
+        height: 201
+      alignment: 9
+      pivot: {x: 0.4640884, y: 0.60199004}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e1e05f93d8d5c04fa8bac864876b723
+      internalID: 781873905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berzerker07
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 578
+        width: 193
+        height: 195
+      alignment: 9
+      pivot: {x: 0.51295334, y: 0.61025643}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26a58daa50d0da84a93ce0451788d218
+      internalID: 1537137956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berzerker08
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 556
+        width: 209
+        height: 183
+      alignment: 9
+      pivot: {x: 0.53588516, y: 0.6393443}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9149106b604edb54184944e9d263612c
+      internalID: -2023660925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berzerker09
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 342
+        width: 198
+        height: 182
+      alignment: 9
+      pivot: {x: 0.5959596, y: 0.64285713}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22b4cbaf4fa80e9458e7a1a4440fc89c
+      internalID: -1047602925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berzerker10
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 129
+        width: 191
+        height: 181
+      alignment: 9
+      pivot: {x: 0.6230366, y: 0.64640886}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa6336e814762b843a694d424e9e50f8
+      internalID: -1848733919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berzerker11
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 126
+        width: 186
+        height: 184
+      alignment: 9
+      pivot: {x: 0.63978493, y: 0.63586956}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2222d748357268c4cb06d6bc9c40dd5d
+      internalID: 1484311452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berzerker12
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 342
+        width: 183
+        height: 193
+      alignment: 9
+      pivot: {x: 0.55191255, y: 0.6217617}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acff42fa014e9d54bb19c9788cd3b688
+      internalID: -138730731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berzerker13
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 805
+        width: 194
+        height: 203
+      alignment: 9
+      pivot: {x: 0.46907216, y: 0.591133}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4102fa7cc239c2541ab0c87e8495b02a
+      internalID: 915085917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berzerker14
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 323
+        width: 185
+        height: 201
+      alignment: 9
+      pivot: {x: 0.44324324, y: 0.60199004}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b630bd1be113d7b49814e5a1742e2fd5
+      internalID: -1714982429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berzerker15
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 90
+        width: 181
+        height: 201
+      alignment: 9
+      pivot: {x: 0.4640884, y: 0.60199004}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b94f726f4ba0def42874c63ceef1d8bd
+      internalID: 1135738727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berzerker16
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 578
+        width: 193
+        height: 195
+      alignment: 9
+      pivot: {x: 0.51295334, y: 0.61025643}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93f6c9e0c5c4a3342835ad0f7125ce48
+      internalID: -743783380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berzerker17
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 567
+        width: 198
+        height: 189
+      alignment: 9
+      pivot: {x: 0.52020204, y: 0.6137566}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 691804ec21f72d74c9f4c93e2af31882
+      internalID: -1806994142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berzerker18
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 157
+        width: 193
+        height: 150
+      alignment: 9
+      pivot: {x: 0.54404145, y: 0.67333335}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acc15a627c940af4885b669b4e463182
+      internalID: -1007661487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berzerker19
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 339
+        width: 149
+        height: 196
+      alignment: 9
+      pivot: {x: 0.52348995, y: 0.49489796}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f391f40c9b97794683d057b7f097ac4
+      internalID: 1541323663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berzerker20
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 788
+        width: 174
+        height: 220
+      alignment: 9
+      pivot: {x: 0.55172414, y: 0.5090909}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 240313fafe64f3640a79e0318e9edbc8
+      internalID: 1739875509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berzerker21
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 771
+        width: 177
+        height: 237
+      alignment: 9
+      pivot: {x: 0.59887004, y: 0.51054853}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01f32eddc35e7e3499a3b0404e9a6a82
+      internalID: 1567844421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berzerker22
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 813
+        width: 200
+        height: 195
+      alignment: 9
+      pivot: {x: 0.635, y: 0.6051282}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8a40ed858d587246894cdc3302cc138
+      internalID: -123209116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berzerker23
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 577
+        width: 207
+        height: 179
+      alignment: 9
+      pivot: {x: 0.6328502, y: 0.65363127}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 296c77cd509aec5439cbdb1b47b94ec6
+      internalID: -1466654076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 3a265505e2c69f14a86bdfc2ac2599f1
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Berzerker00: -2084693970
+      Berzerker01: 797534059
+      Berzerker02: 1014400289
+      Berzerker03: -127797480
+      Berzerker04: -580278981
+      Berzerker05: 437796828
+      Berzerker06: 781873905
+      Berzerker07: 1537137956
+      Berzerker08: -2023660925
+      Berzerker09: -1047602925
+      Berzerker10: -1848733919
+      Berzerker11: 1484311452
+      Berzerker12: -138730731
+      Berzerker13: 915085917
+      Berzerker14: -1714982429
+      Berzerker15: 1135738727
+      Berzerker16: -743783380
+      Berzerker17: -1806994142
+      Berzerker18: -1007661487
+      Berzerker19: 1541323663
+      Berzerker20: 1739875509
+      Berzerker21: 1567844421
+      Berzerker22: -123209116
+      Berzerker23: -1466654076
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

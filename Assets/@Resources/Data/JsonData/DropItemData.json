@@ -1,0 +1,144 @@
+{
+  "DropItems": [
+    {
+      "DataId": 60001,
+      "DropItemType": 0,
+      "NameTextID": null,
+      "PROB": 0.0,
+      "DescriptionTextID": null,
+      "Description": null,
+      "Value": 0.0,
+      "SpriteName": "Drop_ItemBox.sprite"
+    },
+    {
+      "DataId": 60002,
+      "DropItemType": 1,
+      "NameTextID": null,
+      "PROB": 0.107,
+      "DescriptionTextID": null,
+      "Description": null,
+      "Value": 0.0,
+      "SpriteName": "Drop_Magnet.sprite"
+    },
+    {
+      "DataId": 60003,
+      "DropItemType": 2,
+      "NameTextID": null,
+      "PROB": 0.3,
+      "DescriptionTextID": null,
+      "Description": null,
+      "Value": 10.0,
+      "SpriteName": "Drop_Bomb_Small.sprite"
+    },
+    {
+      "DataId": 60004,
+      "DropItemType": 2,
+      "NameTextID": null,
+      "PROB": 0.1,
+      "DescriptionTextID": null,
+      "Description": null,
+      "Value": 10000.0,
+      "SpriteName": "Drop_Bomb_Normal.sprite"
+    },
+    {
+      "DataId": 60005,
+      "DropItemType": 3,
+      "NameTextID": null,
+      "PROB": 0.15,
+      "DescriptionTextID": null,
+      "Description": null,
+      "Value": 0.1,
+      "SpriteName": "Drop_Heal_Small.sprite"
+    },
+    {
+      "DataId": 60006,
+      "DropItemType": 3,
+      "NameTextID": null,
+      "PROB": 0.12,
+      "DescriptionTextID": null,
+      "Description": null,
+      "Value": 0.3,
+      "SpriteName": "Drop_Heal_Normal.sprite"
+    },
+    {
+      "DataId": 60007,
+      "DropItemType": 4,
+      "NameTextID": null,
+      "PROB": 0.042,
+      "DescriptionTextID": null,
+      "Description": null,
+      "Value": 0.0,
+      "SpriteName": "Drop_SkillUp.sprite"
+    },
+    {
+      "DataId": 60008,
+      "DropItemType": 5,
+      "NameTextID": null,
+      "PROB": 0.04,
+      "DescriptionTextID": null,
+      "Description": null,
+      "Value": 10.0,
+      "SpriteName": "Drop_Gold_10.sprite"
+    },
+    {
+      "DataId": 60009,
+      "DropItemType": 5,
+      "NameTextID": null,
+      "PROB": 0.031,
+      "DescriptionTextID": null,
+      "Description": null,
+      "Value": 50.0,
+      "SpriteName": "Drop_Gold_50.sprite"
+    },
+    {
+      "DataId": 60010,
+      "DropItemType": 5,
+      "NameTextID": null,
+      "PROB": 0.03,
+      "DescriptionTextID": null,
+      "Description": null,
+      "Value": 100.0,
+      "SpriteName": "Drop_Gold_100.sprite"
+    },
+    {
+      "DataId": 60011,
+      "DropItemType": 5,
+      "NameTextID": null,
+      "PROB": 0.025,
+      "DescriptionTextID": null,
+      "Description": null,
+      "Value": 300.0,
+      "SpriteName": "Drop_Gold_300.sprite"
+    },
+    {
+      "DataId": 60012,
+      "DropItemType": 6,
+      "NameTextID": null,
+      "PROB": 0.021,
+      "DescriptionTextID": null,
+      "Description": null,
+      "Value": 1.0,
+      "SpriteName": "Drop_Jewel_1.sprite"
+    },
+    {
+      "DataId": 60013,
+      "DropItemType": 6,
+      "NameTextID": null,
+      "PROB": 0.019,
+      "DescriptionTextID": null,
+      "Description": null,
+      "Value": 5.0,
+      "SpriteName": "Drop_Jewel_5.sprite"
+    },
+    {
+      "DataId": 60014,
+      "DropItemType": 6,
+      "NameTextID": null,
+      "PROB": 0.015,
+      "DescriptionTextID": null,
+      "Description": null,
+      "Value": 10.0,
+      "SpriteName": "Drop_Jewel_10.sprite"
+    }
+  ]
+}

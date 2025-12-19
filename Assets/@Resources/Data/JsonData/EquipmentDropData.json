@@ -1,0 +1,424 @@
+{
+  "Equipments": [
+    {
+      "ProbId": "CommonWeapon",
+      "Grade": 1,
+      "EquipmentType": 0,
+      "SilverKeyDropProb": 0.04,
+      "GoldenKeyDropProb": 0.0
+    },
+    {
+      "ProbId": "UncommonWeapon",
+      "Grade": 2,
+      "EquipmentType": 0,
+      "SilverKeyDropProb": 0.03,
+      "GoldenKeyDropProb": 0.05
+    },
+    {
+      "ProbId": "RareWeapon",
+      "Grade": 3,
+      "EquipmentType": 0,
+      "SilverKeyDropProb": 0.02,
+      "GoldenKeyDropProb": 0.03
+    },
+    {
+      "ProbId": "EpicWeapon",
+      "Grade": 4,
+      "EquipmentType": 0,
+      "SilverKeyDropProb": 0.01,
+      "GoldenKeyDropProb": 0.01
+    },
+    {
+      "ProbId": "Epic1Weapon",
+      "Grade": 5,
+      "EquipmentType": 0,
+      "SilverKeyDropProb": 0.0,
+      "GoldenKeyDropProb": 0.01
+    },
+    {
+      "ProbId": "Epic2Weapon",
+      "Grade": 6,
+      "EquipmentType": 0,
+      "SilverKeyDropProb": 0.0,
+      "GoldenKeyDropProb": 0.003
+    },
+    {
+      "ProbId": "LegendaryWeapon",
+      "Grade": 7,
+      "EquipmentType": 0,
+      "SilverKeyDropProb": 0.0,
+      "GoldenKeyDropProb": 0.0005
+    },
+    {
+      "ProbId": "Legendary1Weapon",
+      "Grade": 8,
+      "EquipmentType": 0,
+      "SilverKeyDropProb": 0.0,
+      "GoldenKeyDropProb": 0.0
+    },
+    {
+      "ProbId": "Legendary2Weapon",
+      "Grade": 9,
+      "EquipmentType": 0,
+      "SilverKeyDropProb": 0.0,
+      "GoldenKeyDropProb": 0.0
+    },
+    {
+      "ProbId": "MythWeapon",
+      "Grade": 11,
+      "EquipmentType": 0,
+      "SilverKeyDropProb": 0.0,
+      "GoldenKeyDropProb": 0.0
+    },
+    {
+      "ProbId": "CommonGloves",
+      "Grade": 1,
+      "EquipmentType": 1,
+      "SilverKeyDropProb": 0.072,
+      "GoldenKeyDropProb": 0.0
+    },
+    {
+      "ProbId": "UncommonGloves",
+      "Grade": 2,
+      "EquipmentType": 1,
+      "SilverKeyDropProb": 0.054,
+      "GoldenKeyDropProb": 0.09
+    },
+    {
+      "ProbId": "RareGloves",
+      "Grade": 3,
+      "EquipmentType": 1,
+      "SilverKeyDropProb": 0.036,
+      "GoldenKeyDropProb": 0.05
+    },
+    {
+      "ProbId": "EpicGloves",
+      "Grade": 4,
+      "EquipmentType": 1,
+      "SilverKeyDropProb": 0.018,
+      "GoldenKeyDropProb": 0.02
+    },
+    {
+      "ProbId": "Epic1Gloves",
+      "Grade": 5,
+      "EquipmentType": 1,
+      "SilverKeyDropProb": 0.0,
+      "GoldenKeyDropProb": 0.012
+    },
+    {
+      "ProbId": "Epic2Gloves",
+      "Grade": 6,
+      "EquipmentType": 1,
+      "SilverKeyDropProb": 0.0,
+      "GoldenKeyDropProb": 0.007
+    },
+    {
+      "ProbId": "LegendaryGloves",
+      "Grade": 7,
+      "EquipmentType": 1,
+      "SilverKeyDropProb": 0.0,
+      "GoldenKeyDropProb": 0.002
+    },
+    {
+      "ProbId": "Legendary1Gloves",
+      "Grade": 8,
+      "EquipmentType": 1,
+      "SilverKeyDropProb": 0.0,
+      "GoldenKeyDropProb": 0.0
+    },
+    {
+      "ProbId": "Legendary2Gloves",
+      "Grade": 9,
+      "EquipmentType": 1,
+      "SilverKeyDropProb": 0.0,
+      "GoldenKeyDropProb": 0.0
+    },
+    {
+      "ProbId": "MythGloves",
+      "Grade": 11,
+      "EquipmentType": 1,
+      "SilverKeyDropProb": 0.0,
+      "GoldenKeyDropProb": 0.0
+    },
+    {
+      "ProbId": "CommonArmor",
+      "Grade": 1,
+      "EquipmentType": 4,
+      "SilverKeyDropProb": 0.072,
+      "GoldenKeyDropProb": 0.0
+    },
+    {
+      "ProbId": "UncommonArmor",
+      "Grade": 2,
+      "EquipmentType": 4,
+      "SilverKeyDropProb": 0.054,
+      "GoldenKeyDropProb": 0.09
+    },
+    {
+      "ProbId": "RareArmor",
+      "Grade": 3,
+      "EquipmentType": 4,
+      "SilverKeyDropProb": 0.036,
+      "GoldenKeyDropProb": 0.05
+    },
+    {
+      "ProbId": "EpicArmor",
+      "Grade": 4,
+      "EquipmentType": 4,
+      "SilverKeyDropProb": 0.018,
+      "GoldenKeyDropProb": 0.02
+    },
+    {
+      "ProbId": "Epic1Armor",
+      "Grade": 5,
+      "EquipmentType": 4,
+      "SilverKeyDropProb": 0.0,
+      "GoldenKeyDropProb": 0.012
+    },
+    {
+      "ProbId": "Epic2Armor",
+      "Grade": 6,
+      "EquipmentType": 4,
+      "SilverKeyDropProb": 0.0,
+      "GoldenKeyDropProb": 0.007
+    },
+    {
+      "ProbId": "LegendaryArmor",
+      "Grade": 7,
+      "EquipmentType": 4,
+      "SilverKeyDropProb": 0.0,
+      "GoldenKeyDropProb": 0.002
+    },
+    {
+      "ProbId": "Legendary1Armor",
+      "Grade": 8,
+      "EquipmentType": 4,
+      "SilverKeyDropProb": 0.0,
+      "GoldenKeyDropProb": 0.0
+    },
+    {
+      "ProbId": "Legendary2Armor",
+      "Grade": 9,
+      "EquipmentType": 4,
+      "SilverKeyDropProb": 0.0,
+      "GoldenKeyDropProb": 0.0
+    },
+    {
+      "ProbId": "MythArmor",
+      "Grade": 11,
+      "EquipmentType": 4,
+      "SilverKeyDropProb": 0.0,
+      "GoldenKeyDropProb": 0.0
+    },
+    {
+      "ProbId": "CommonBelt",
+      "Grade": 1,
+      "EquipmentType": 3,
+      "SilverKeyDropProb": 0.072,
+      "GoldenKeyDropProb": 0.0
+    },
+    {
+      "ProbId": "UncommonBelt",
+      "Grade": 2,
+      "EquipmentType": 3,
+      "SilverKeyDropProb": 0.054,
+      "GoldenKeyDropProb": 0.09
+    },
+    {
+      "ProbId": "RareBelt",
+      "Grade": 3,
+      "EquipmentType": 3,
+      "SilverKeyDropProb": 0.036,
+      "GoldenKeyDropProb": 0.05
+    },
+    {
+      "ProbId": "EpicBelt",
+      "Grade": 4,
+      "EquipmentType": 3,
+      "SilverKeyDropProb": 0.018,
+      "GoldenKeyDropProb": 0.02
+    },
+    {
+      "ProbId": "Epic1Belt",
+      "Grade": 5,
+      "EquipmentType": 3,
+      "SilverKeyDropProb": 0.0,
+      "GoldenKeyDropProb": 0.012
+    },
+    {
+      "ProbId": "Epic2Belt",
+      "Grade": 6,
+      "EquipmentType": 3,
+      "SilverKeyDropProb": 0.0,
+      "GoldenKeyDropProb": 0.007
+    },
+    {
+      "ProbId": "LegendaryBelt",
+      "Grade": 7,
+      "EquipmentType": 3,
+      "SilverKeyDropProb": 0.0,
+      "GoldenKeyDropProb": 0.002
+    },
+    {
+      "ProbId": "Legendary1Belt",
+      "Grade": 8,
+      "EquipmentType": 3,
+      "SilverKeyDropProb": 0.0,
+      "GoldenKeyDropProb": 0.0
+    },
+    {
+      "ProbId": "Legendary2Belt",
+      "Grade": 9,
+      "EquipmentType": 3,
+      "SilverKeyDropProb": 0.0,
+      "GoldenKeyDropProb": 0.0
+    },
+    {
+      "ProbId": "MythBelt",
+      "Grade": 11,
+      "EquipmentType": 3,
+      "SilverKeyDropProb": 0.0,
+      "GoldenKeyDropProb": 0.0
+    },
+    {
+      "ProbId": "CommonBoots",
+      "Grade": 1,
+      "EquipmentType": 5,
+      "SilverKeyDropProb": 0.072,
+      "GoldenKeyDropProb": 0.0
+    },
+    {
+      "ProbId": "UncommonBoots",
+      "Grade": 2,
+      "EquipmentType": 5,
+      "SilverKeyDropProb": 0.054,
+      "GoldenKeyDropProb": 0.09
+    },
+    {
+      "ProbId": "RareBoots",
+      "Grade": 3,
+      "EquipmentType": 5,
+      "SilverKeyDropProb": 0.036,
+      "GoldenKeyDropProb": 0.05
+    },
+    {
+      "ProbId": "EpicBoots",
+      "Grade": 4,
+      "EquipmentType": 5,
+      "SilverKeyDropProb": 0.018,
+      "GoldenKeyDropProb": 0.02
+    },
+    {
+      "ProbId": "Epic1Boots",
+      "Grade": 5,
+      "EquipmentType": 5,
+      "SilverKeyDropProb": 0.0,
+      "GoldenKeyDropProb": 0.012
+    },
+    {
+      "ProbId": "Epic2Boots",
+      "Grade": 6,
+      "EquipmentType": 5,
+      "SilverKeyDropProb": 0.0,
+      "GoldenKeyDropProb": 0.007
+    },
+    {
+      "ProbId": "LegendaryBoots",
+      "Grade": 7,
+      "EquipmentType": 5,
+      "SilverKeyDropProb": 0.0,
+      "GoldenKeyDropProb": 0.002
+    },
+    {
+      "ProbId": "Legendary1Boots",
+      "Grade": 8,
+      "EquipmentType": 5,
+      "SilverKeyDropProb": 0.0,
+      "GoldenKeyDropProb": 0.0
+    },
+    {
+      "ProbId": "Legendary2Boots",
+      "Grade": 9,
+      "EquipmentType": 5,
+      "SilverKeyDropProb": 0.0,
+      "GoldenKeyDropProb": 0.0
+    },
+    {
+      "ProbId": "MythBoots",
+      "Grade": 11,
+      "EquipmentType": 5,
+      "SilverKeyDropProb": 0.0,
+      "GoldenKeyDropProb": 0.0
+    },
+    {
+      "ProbId": "CommonRing",
+      "Grade": 1,
+      "EquipmentType": 2,
+      "SilverKeyDropProb": 0.072,
+      "GoldenKeyDropProb": 0.0
+    },
+    {
+      "ProbId": "UncommonRing",
+      "Grade": 2,
+      "EquipmentType": 2,
+      "SilverKeyDropProb": 0.054,
+      "GoldenKeyDropProb": 0.09
+    },
+    {
+      "ProbId": "RareRing",
+      "Grade": 3,
+      "EquipmentType": 2,
+      "SilverKeyDropProb": 0.036,
+      "GoldenKeyDropProb": 0.042
+    },
+    {
+      "ProbId": "EpicRing",
+      "Grade": 4,
+      "EquipmentType": 2,
+      "SilverKeyDropProb": 0.018,
+      "GoldenKeyDropProb": 0.02
+    },
+    {
+      "ProbId": "Epic1Ring",
+      "Grade": 5,
+      "EquipmentType": 2,
+      "SilverKeyDropProb": 0.0,
+      "GoldenKeyDropProb": 0.012
+    },
+    {
+      "ProbId": "Epic2Ring",
+      "Grade": 6,
+      "EquipmentType": 2,
+      "SilverKeyDropProb": 0.0,
+      "GoldenKeyDropProb": 0.007
+    },
+    {
+      "ProbId": "LegendaryRing",
+      "Grade": 7,
+      "EquipmentType": 2,
+      "SilverKeyDropProb": 0.0,
+      "GoldenKeyDropProb": 0.0015
+    },
+    {
+      "ProbId": "Legendary1Ring",
+      "Grade": 8,
+      "EquipmentType": 2,
+      "SilverKeyDropProb": 0.0,
+      "GoldenKeyDropProb": 0.0
+    },
+    {
+      "ProbId": "Legendary2Ring",
+      "Grade": 9,
+      "EquipmentType": 2,
+      "SilverKeyDropProb": 0.0,
+      "GoldenKeyDropProb": 0.0
+    },
+    {
+      "ProbId": "MythRing",
+      "Grade": 11,
+      "EquipmentType": 2,
+      "SilverKeyDropProb": 0.0,
+      "GoldenKeyDropProb": 0.0
+    }
+  ]
+}

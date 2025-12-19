@@ -1,0 +1,1283 @@
+fileFormatVersion: 2
+guid: 055e42162dd5ce948a67cdd25e625c6d
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 51
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MECH00
+      rect:
+        serializedVersion: 2
+        x: 1151
+        y: 3553
+        width: 328
+        height: 519
+      alignment: 9
+      pivot: {x: 0.4390244, y: 0.52793837}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b34294407f40ff4597c8a82d624ca33
+      internalID: 1992318576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MECH01
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 3553
+        width: 328
+        height: 519
+      alignment: 9
+      pivot: {x: 0.4390244, y: 0.52793837}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7f7a1a0c9bea8a4b807ca90f9aee8bd
+      internalID: 488498711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MECH02
+      rect:
+        serializedVersion: 2
+        x: 1902
+        y: 3553
+        width: 327
+        height: 519
+      alignment: 9
+      pivot: {x: 0.44036698, y: 0.52793837}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 982da74ab6e46134e8da7ee732c36c68
+      internalID: -152297653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MECH03
+      rect:
+        serializedVersion: 2
+        x: 1527
+        y: 3553
+        width: 327
+        height: 519
+      alignment: 9
+      pivot: {x: 0.44036698, y: 0.52793837}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e19b1dc714919bf47a771272beaafafe
+      internalID: 712245479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MECH04
+      rect:
+        serializedVersion: 2
+        x: 3374
+        y: 3554
+        width: 325
+        height: 518
+      alignment: 9
+      pivot: {x: 0.44, y: 0.52895755}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cbf601c492b63c47aab400212749293
+      internalID: -222679663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MECH05
+      rect:
+        serializedVersion: 2
+        x: 2277
+        y: 3554
+        width: 325
+        height: 518
+      alignment: 9
+      pivot: {x: 0.44, y: 0.52895755}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9e0a2a5aa689d4498dbfd578c154086
+      internalID: -1447624594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MECH06
+      rect:
+        serializedVersion: 2
+        x: 3750
+        y: 2417
+        width: 322
+        height: 520
+      alignment: 9
+      pivot: {x: 0.4378882, y: 0.52692306}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d16a2f86843cb44891b1d2b6fd11ddd
+      internalID: -1676680159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MECH07
+      rect:
+        serializedVersion: 2
+        x: 3750
+        y: 2985
+        width: 322
+        height: 520
+      alignment: 9
+      pivot: {x: 0.4378882, y: 0.52692306}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12f6d2102430d164c8e7141c3cbf76aa
+      internalID: -1681306208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MECH08
+      rect:
+        serializedVersion: 2
+        x: 763
+        y: 2982
+        width: 316
+        height: 523
+      alignment: 9
+      pivot: {x: 0.43670887, y: 0.52390057}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c431ff64cf1d694e99c054c6e099c1a
+      internalID: 1411750517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MECH09
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 2980
+        width: 316
+        height: 523
+      alignment: 9
+      pivot: {x: 0.43670887, y: 0.52390057}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75ba4bfda0998744c91a845b7a5ab06f
+      internalID: 1242870170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MECH10
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 2410
+        width: 309
+        height: 524
+      alignment: 9
+      pivot: {x: 0.4368932, y: 0.52290076}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c52109e4b7588024f960a138acf583b1
+      internalID: 1567409582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MECH11
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 2407
+        width: 309
+        height: 525
+      alignment: 9
+      pivot: {x: 0.4368932, y: 0.52190477}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e08737b1924787a4ab721266e8b12d4b
+      internalID: -1452707813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MECH12
+      rect:
+        serializedVersion: 2
+        x: 1497
+        y: 2980
+        width: 300
+        height: 525
+      alignment: 9
+      pivot: {x: 0.43333334, y: 0.52190477}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f1b940c6b8647f49a05653ca8da0f68
+      internalID: 1850949933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MECH13
+      rect:
+        serializedVersion: 2
+        x: 3026
+        y: 3547
+        width: 300
+        height: 525
+      alignment: 9
+      pivot: {x: 0.43333334, y: 0.52190477}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5120cb244cc14424593f12a114442601
+      internalID: -1222949067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MECH14
+      rect:
+        serializedVersion: 2
+        x: 2699
+        y: 2417
+        width: 291
+        height: 521
+      alignment: 9
+      pivot: {x: 0.4329897, y: 0.5239923}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dc34a3cbbdd7f84ab0c4c95410147f4
+      internalID: 1753022411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MECH15
+      rect:
+        serializedVersion: 2
+        x: 2360
+        y: 2420
+        width: 291
+        height: 518
+      alignment: 9
+      pivot: {x: 0.4329897, y: 0.5212355}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a65b5f7469e439349acc6e9ed6af3018
+      internalID: 193311876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MECH16
+      rect:
+        serializedVersion: 2
+        x: 3788
+        y: 1855
+        width: 284
+        height: 514
+      alignment: 9
+      pivot: {x: 0.42957747, y: 0.5252918}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2657129bd18e324e9201ece58aa4239
+      internalID: 40549326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MECH17
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 24
+        width: 284
+        height: 513
+      alignment: 9
+      pivot: {x: 0.42957747, y: 0.5243665}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 726edae1010d1394f890e59a769e980b
+      internalID: -542870649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MECH18
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 1853
+        width: 283
+        height: 513
+      alignment: 9
+      pivot: {x: 0.4204947, y: 0.5302144}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bdf9817eb5756a4aa0845cae6081023
+      internalID: 1952604551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MECH19
+      rect:
+        serializedVersion: 2
+        x: 3789
+        y: 27
+        width: 283
+        height: 513
+      alignment: 9
+      pivot: {x: 0.4204947, y: 0.5302144}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a48fc98e9911c2b49b52f5c5047e8a02
+      internalID: 206754094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MECH20
+      rect:
+        serializedVersion: 2
+        x: 2603
+        y: 24
+        width: 275
+        height: 513
+      alignment: 9
+      pivot: {x: 0.42909092, y: 0.5263158}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d644304248f4c04a8cead708412c019
+      internalID: -100989935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MECH21
+      rect:
+        serializedVersion: 2
+        x: 2284
+        y: 27
+        width: 275
+        height: 513
+      alignment: 9
+      pivot: {x: 0.42909092, y: 0.5263158}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35d05e496b345c241871c89ead0515f2
+      internalID: 2043225670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MECH22
+      rect:
+        serializedVersion: 2
+        x: 1963
+        y: 24
+        width: 273
+        height: 515
+      alignment: 9
+      pivot: {x: 0.42857143, y: 0.52427185}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c480b0c61d121f488b58c904abf8973
+      internalID: 2038919662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MECH23
+      rect:
+        serializedVersion: 2
+        x: 1642
+        y: 24
+        width: 273
+        height: 517
+      alignment: 9
+      pivot: {x: 0.42857143, y: 0.5261122}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 181a744bee06e404387f333026905086
+      internalID: 627315670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MECH24
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 1287
+        width: 273
+        height: 518
+      alignment: 9
+      pivot: {x: 0.42857143, y: 0.52509654}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00676f9ab6c9c9a4caf91993961bac0d
+      internalID: 2042091150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MECH25
+      rect:
+        serializedVersion: 2
+        x: 1321
+        y: 24
+        width: 273
+        height: 517
+      alignment: 9
+      pivot: {x: 0.42857143, y: 0.52417797}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4c6cfabdd56f7c4e9b6cddf2d85e1a4
+      internalID: -1129026651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MECH26
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 24
+        width: 273
+        height: 517
+      alignment: 9
+      pivot: {x: 0.42857143, y: 0.52417797}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfd8d69fe50a1f748ab5b93e9a18f8f3
+      internalID: 2009043827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MECH27
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 27
+        width: 273
+        height: 517
+      alignment: 9
+      pivot: {x: 0.42857143, y: 0.52417797}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afeec44122711484c836feb9152565a5
+      internalID: 1072497021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MECH28
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 24
+        width: 275
+        height: 515
+      alignment: 9
+      pivot: {x: 0.42909092, y: 0.52427185}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97d70fdf8d93fa943824ffa587c53650
+      internalID: 926314474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MECH29
+      rect:
+        serializedVersion: 2
+        x: 3797
+        y: 585
+        width: 275
+        height: 515
+      alignment: 9
+      pivot: {x: 0.42909092, y: 0.52427185}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 516c678a19b26294eb70dfd90a0d7282
+      internalID: -1802443770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MECH30
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 588
+        width: 278
+        height: 516
+      alignment: 9
+      pivot: {x: 0.42805755, y: 0.52131784}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05c1d16855298954d902fa7839921304
+      internalID: -1897585793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MECH31
+      rect:
+        serializedVersion: 2
+        x: 3794
+        y: 1291
+        width: 278
+        height: 516
+      alignment: 9
+      pivot: {x: 0.42805755, y: 0.52131784}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b6dc998fc5598446a28fa112d245fd4
+      internalID: 1100404590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MECH32
+      rect:
+        serializedVersion: 2
+        x: 2029
+        y: 2423
+        width: 283
+        height: 519
+      alignment: 9
+      pivot: {x: 0.4310954, y: 0.5202312}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 421b6ee5a673c7a4eabb241bce49a5c3
+      internalID: -174776700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MECH33
+      rect:
+        serializedVersion: 2
+        x: 1468
+        y: 2413
+        width: 283
+        height: 519
+      alignment: 9
+      pivot: {x: 0.4310954, y: 0.5202312}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c11dca26e2e24144286810d8b7022a12
+      internalID: 1095112835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MECH34
+      rect:
+        serializedVersion: 2
+        x: 2360
+        y: 2986
+        width: 291
+        height: 520
+      alignment: 9
+      pivot: {x: 0.4329897, y: 0.5173077}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23e6a563febff044f9a01dde64734cc5
+      internalID: 1680183648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MECH35
+      rect:
+        serializedVersion: 2
+        x: 2699
+        y: 2986
+        width: 291
+        height: 521
+      alignment: 9
+      pivot: {x: 0.4329897, y: 0.5182342}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 524c057c83b39fd44bfcbd62812b7811
+      internalID: 575373157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MECH36
+      rect:
+        serializedVersion: 2
+        x: 3038
+        y: 2978
+        width: 300
+        height: 521
+      alignment: 9
+      pivot: {x: 0.43333334, y: 0.5182342}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d47fc2002ab38443ba1002f1414a680
+      internalID: 142150285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MECH37
+      rect:
+        serializedVersion: 2
+        x: 3038
+        y: 2410
+        width: 300
+        height: 520
+      alignment: 9
+      pivot: {x: 0.43333334, y: 0.5173077}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c41757fad9132024ea98a0f71342ea99
+      internalID: 359176118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MECH38
+      rect:
+        serializedVersion: 2
+        x: 1111
+        y: 2425
+        width: 309
+        height: 516
+      alignment: 9
+      pivot: {x: 0.4368932, y: 0.52131784}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fa607990fba25c4b82d82d7868a1733
+      internalID: -1712927366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MECH39
+      rect:
+        serializedVersion: 2
+        x: 1845
+        y: 2993
+        width: 309
+        height: 515
+      alignment: 9
+      pivot: {x: 0.4368932, y: 0.52038836}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7d5c81deb882ba49ab480e468f739c0
+      internalID: 1279286555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MECH40
+      rect:
+        serializedVersion: 2
+        x: 3386
+        y: 2420
+        width: 316
+        height: 519
+      alignment: 9
+      pivot: {x: 0.43670887, y: 0.5317919}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e75b78c66f320414eb144248ae4a8a85
+      internalID: -1330338564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MECH41
+      rect:
+        serializedVersion: 2
+        x: 3386
+        y: 2987
+        width: 316
+        height: 519
+      alignment: 9
+      pivot: {x: 0.43670887, y: 0.5317919}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 179890650a73f9b4d9d7cb16fc5838dc
+      internalID: -564164261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MECH42
+      rect:
+        serializedVersion: 2
+        x: 1127
+        y: 2989
+        width: 322
+        height: 516
+      alignment: 9
+      pivot: {x: 0.4378882, y: 0.53488374}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e972f5ac00b375847bd6c9ac9df02fde
+      internalID: 364428540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MECH43
+      rect:
+        serializedVersion: 2
+        x: 2650
+        y: 3555
+        width: 322
+        height: 517
+      alignment: 9
+      pivot: {x: 0.4378882, y: 0.53578335}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23937ac7beaf78448ac5815dd9f131bb
+      internalID: 1455830044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MECH44
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 2414
+        width: 325
+        height: 519
+      alignment: 9
+      pivot: {x: 0.44, y: 0.5337187}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ec901da298d7874296befa246d6d241
+      internalID: -125376189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MECH45
+      rect:
+        serializedVersion: 2
+        x: 3747
+        y: 3553
+        width: 325
+        height: 519
+      alignment: 9
+      pivot: {x: 0.44, y: 0.5337187}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2d43d4cfe920ac4f8506b16557ac436
+      internalID: 1920445563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MECH46
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 2981
+        width: 327
+        height: 521
+      alignment: 9
+      pivot: {x: 0.44036698, y: 0.53166986}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ff1e0a7fdc6454408a5a80685ba1971
+      internalID: 1769275782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MECH47
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 3551
+        width: 327
+        height: 521
+      alignment: 9
+      pivot: {x: 0.44036698, y: 0.53166986}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee0378e764e618d4dbf214f12f73f8f5
+      internalID: -1965102149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MECH48
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 3550
+        width: 328
+        height: 522
+      alignment: 9
+      pivot: {x: 0.4390244, y: 0.53065133}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 695c9a872e856354eb6f63c052916adc
+      internalID: 1544478575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: f78771895f1c58241aa9ebdc49a75c51
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      MECH00: 1992318576
+      MECH01: 488498711
+      MECH02: -152297653
+      MECH03: 712245479
+      MECH04: -222679663
+      MECH05: -1447624594
+      MECH06: -1676680159
+      MECH07: -1681306208
+      MECH08: 1411750517
+      MECH09: 1242870170
+      MECH10: 1567409582
+      MECH11: -1452707813
+      MECH12: 1850949933
+      MECH13: -1222949067
+      MECH14: 1753022411
+      MECH15: 193311876
+      MECH16: 40549326
+      MECH17: -542870649
+      MECH18: 1952604551
+      MECH19: 206754094
+      MECH20: -100989935
+      MECH21: 2043225670
+      MECH22: 2038919662
+      MECH23: 627315670
+      MECH24: 2042091150
+      MECH25: -1129026651
+      MECH26: 2009043827
+      MECH27: 1072497021
+      MECH28: 926314474
+      MECH29: -1802443770
+      MECH30: -1897585793
+      MECH31: 1100404590
+      MECH32: -174776700
+      MECH33: 1095112835
+      MECH34: 1680183648
+      MECH35: 575373157
+      MECH36: 142150285
+      MECH37: 359176118
+      MECH38: -1712927366
+      MECH39: 1279286555
+      MECH40: -1330338564
+      MECH41: -564164261
+      MECH42: 364428540
+      MECH43: 1455830044
+      MECH44: -125376189
+      MECH45: 1920445563
+      MECH46: 1769275782
+      MECH47: -1965102149
+      MECH48: 1544478575
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

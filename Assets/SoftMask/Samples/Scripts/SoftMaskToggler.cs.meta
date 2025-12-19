@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 6fe23b337ced67a448bc3b2d99e2e5e2
+timeCreated: 1483632000
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 80667
+  packageName: Soft Mask
+  packageVersion: 1.6.3
+  assetPath: Assets/SoftMask/Samples/Scripts/SoftMaskToggler.cs
+  uploadId: 465158

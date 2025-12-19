@@ -1,0 +1,718 @@
+fileFormatVersion: 2
+guid: 46461555fe4615348921718de8787c4d
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Yarnbomb01
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 874
+        width: 34
+        height: 54
+      alignment: 9
+      pivot: {x: 6.779412, y: 0.9814815}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84560c0115566d94085c4a3c9af781a8
+      internalID: -1822834104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yarnbomb02
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 981
+        width: 28
+        height: 28
+      alignment: 9
+      pivot: {x: 6.875, y: 1.0714285}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4885845e2b63628498dec54643e67488
+      internalID: 2088449199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yarnbomb03
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 978
+        width: 55
+        height: 31
+      alignment: 9
+      pivot: {x: 2.8636363, y: 0.48387095}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b06a71260ac4bc84a92ff602a37715b2
+      internalID: -921751265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yarnbomb04
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 960
+        width: 43
+        height: 49
+      alignment: 9
+      pivot: {x: 2.8488371, y: 0.5510204}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10028080d2dcd2d4592dc73793700c0e
+      internalID: -1271758456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yarnbomb05
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 869
+        width: 33
+        height: 59
+      alignment: 9
+      pivot: {x: 2.7424242, y: 0.47457626}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae4589439c5f02d46a231ff9a092b6b2
+      internalID: 345173503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yarnbomb06
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 967
+        width: 42
+        height: 42
+      alignment: 9
+      pivot: {x: 1.6309524, y: 0.35714287}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 173745dfa4d110348b01c37b321bc92e
+      internalID: 1657346868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yarnbomb07
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 963
+        width: 28
+        height: 46
+      alignment: 9
+      pivot: {x: 1.875, y: 0.5217391}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a6668bd2c5f73d4db98aba4f3da6e4a
+      internalID: -1797472334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yarnbomb08
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 868
+        width: 36
+        height: 60
+      alignment: 9
+      pivot: {x: 0.9305556, y: 0.75}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95d8ad7870402e14f8eaaac5c34d0c2d
+      internalID: 52859693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yarnbomb09
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 859
+        width: 39
+        height: 69
+      alignment: 9
+      pivot: {x: 0.42307693, y: 0.9130435}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e27f955b684565b459548ad0bd7fc0a2
+      internalID: -809849062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yarnbomb10
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 866
+        width: 32
+        height: 62
+      alignment: 9
+      pivot: {x: -0.390625, y: 1.3870968}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39ce15e7a5a6de64ebec82ed1c623e77
+      internalID: -894046006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yarnbomb11
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 960
+        width: 49
+        height: 49
+      alignment: 9
+      pivot: {x: -0.25510204, y: 1.8571428}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 860c23cebb7622043acfba2347919c28
+      internalID: -3621744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yarnbomb12
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 958
+        width: 58
+        height: 51
+      alignment: 9
+      pivot: {x: -0.45689654, y: 1.6078432}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 162b0010bed131b47810204c39f83f96
+      internalID: 1349536166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yarnbomb13
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 985
+        width: 42
+        height: 24
+      alignment: 9
+      pivot: {x: -1.0119047, y: 2.75}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba49fc9426b2bdb4baff75b690d7d1a8
+      internalID: -79166509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yarnbomb14
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 978
+        width: 83
+        height: 31
+      alignment: 9
+      pivot: {x: -0.3433735, y: 2.064516}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3e947450b383a7468e4990bedf1bb8b
+      internalID: 1986453161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yarnbomb15
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 970
+        width: 62
+        height: 39
+      alignment: 9
+      pivot: {x: -0.766129, y: 1.8461539}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0ba78953436f364ea3bb4bc2c05e640
+      internalID: -759425122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yarnbomb16
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 967
+        width: 59
+        height: 42
+      alignment: 9
+      pivot: {x: -1.0084746, y: 1.9285715}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa97426feac23f74fb100971af825b0d
+      internalID: 1193805245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yarnbomb17
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 876
+        width: 60
+        height: 52
+      alignment: 9
+      pivot: {x: -1.3583333, y: 1.6346154}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67de08a56e5fe5844abcaea192511579
+      internalID: -176310075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yarnbomb18
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 986
+        width: 32
+        height: 23
+      alignment: 9
+      pivot: {x: -2.828125, y: 3.5652175}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91a9f55aea413a6428cd07bbec5b58b2
+      internalID: -16828473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yarnbomb19
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 869
+        width: 94
+        height: 59
+      alignment: 9
+      pivot: {x: -0.7287234, y: 1.559322}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fed546aca4bca66488a2eda122630171
+      internalID: -140121189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yarnbomb20
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 807
+        width: 246
+        height: 121
+      alignment: 9
+      pivot: {x: 0.018292682, y: 0.78512394}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 005940dba3bf9cb4f99e5c70fbed8021
+      internalID: 1390316982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yarnbomb21
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 236
+        width: 332
+        height: 266
+      alignment: 9
+      pivot: {x: 0.19728915, y: 0.43984962}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbbce590ccdb97249adb149caea4fd8d
+      internalID: -1467889416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yarnbomb22
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 247
+        width: 265
+        height: 255
+      alignment: 9
+      pivot: {x: 0.09622642, y: 0.4627451}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f78f382007728f42bdbcd4623b77bc1
+      internalID: 1761327234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yarnbomb23
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 534
+        width: 299
+        height: 243
+      alignment: 9
+      pivot: {x: 0.13879599, y: 0.46090534}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e75f944502ea954b9df3dff89ffa4c2
+      internalID: -1486285163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yarnbomb24
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 532
+        width: 292
+        height: 245
+      alignment: 9
+      pivot: {x: 0.13527398, y: 0.4612245}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac00ec44ad7aafc4490f4c13f9f2c940
+      internalID: 2047868579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yarnbomb25
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 534
+        width: 286
+        height: 243
+      alignment: 9
+      pivot: {x: 0.12062937, y: 0.4691358}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa4e6f2162541b94791ac38556fdc280
+      internalID: -848781317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 1f1134218bf01034dac8c66e74fbf72c
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Yarnbomb01: -1822834104
+      Yarnbomb02: 2088449199
+      Yarnbomb03: -921751265
+      Yarnbomb04: -1271758456
+      Yarnbomb05: 345173503
+      Yarnbomb06: 1657346868
+      Yarnbomb07: -1797472334
+      Yarnbomb08: 52859693
+      Yarnbomb09: -809849062
+      Yarnbomb10: -894046006
+      Yarnbomb11: -3621744
+      Yarnbomb12: 1349536166
+      Yarnbomb13: -79166509
+      Yarnbomb14: 1986453161
+      Yarnbomb15: -759425122
+      Yarnbomb16: 1193805245
+      Yarnbomb17: -176310075
+      Yarnbomb18: -16828473
+      Yarnbomb19: -140121189
+      Yarnbomb20: 1390316982
+      Yarnbomb21: -1467889416
+      Yarnbomb22: 1761327234
+      Yarnbomb23: -1486285163
+      Yarnbomb24: 2047868579
+      Yarnbomb25: -848781317
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

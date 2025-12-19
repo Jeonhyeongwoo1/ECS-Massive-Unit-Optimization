@@ -1,0 +1,34 @@
+{
+  "questDataList": [
+    {
+      "IDX": 1,
+      "NeedDailyPointReward_Id": 20,
+      "Reward_Id": 50001,
+      "Reward_Amount": 500
+    },
+    {
+      "IDX": 2,
+      "NeedDailyPointReward_Id": 40,
+      "Reward_Id": 50001,
+      "Reward_Amount": 1000
+    },
+    {
+      "IDX": 3,
+      "NeedDailyPointReward_Id": 60,
+      "Reward_Id": 50002,
+      "Reward_Amount": 2000
+    },
+    {
+      "IDX": 4,
+      "NeedDailyPointReward_Id": 80,
+      "Reward_Id": 50301,
+      "Reward_Amount": 10
+    },
+    {
+      "IDX": 5,
+      "NeedDailyPointReward_Id": 100,
+      "Reward_Id": 50202,
+      "Reward_Amount": 1
+    }
+  ]
+}

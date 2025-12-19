@@ -1,0 +1,119 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: SkillPrefab
+  m_EditorClassIdentifier: 
+  m_GroupName: SkillPrefab
+  m_GUID: 7ec91f893c8ae46eeb9c52dc1e822d55
+  m_SerializeEntries:
+  - m_GUID: 08b9c107f24e44cbbb33d2813d827b11
+    m_Address: SkillBehaviour_10121
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 11f1b326c5f45468eb967abfae1a6507
+    m_Address: SkillBehaviour_10111
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 29ab766d675be462ca25b6715b7eb1f5
+    m_Address: SkillBehaviour_10041
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 337d79c94117d472e9b9dedd35fef654
+    m_Address: SkillBehaviour_10001
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 63f15a801e79c49cdb42954c85413846
+    m_Address: SkillBehaviour_10101
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 68b44cf163b53ba4ea8260130aa629ae
+    m_Address: AuraSkill
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6931fca4e70604ebe8ab9c145adc1cc5
+    m_Address: SkillBehaviour_10091
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 69b81b61e98e042ed8c2f8c4934af99b
+    m_Address: SkillBehaviour_10061
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 75f18bb4bf1884119a068951f2ee000b
+    m_Address: SkillBehaviour_10131
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7d0cab7c878814c25aed7ed4114bec56
+    m_Address: SkillBehaviour_10141
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8388369f40eac4ab38d46c5f19f31339
+    m_Address: SkillBehaviour_10031
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 90295926ca2d8470f9b9a42eb996f8c6
+    m_Address: SkillBehaviour_10021
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9e280afb48d874be3ba77e7ba07b9a56
+    m_Address: SkillBehaviour_10081
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: adb46bf2866f3489fb00a71a2b870c7a
+    m_Address: SkillBehaviour_10011
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ea4c66264f50e43238d5f064abbaf4ea
+    m_Address: SkillBehaviour_10051
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f603c5b23bf52479ca15f1f58679608a
+    m_Address: SkillBehaviour_10071
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: ea05dd4d5f043fa4b93db9e6de435d8f, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 7da45bf175af74628a5beb83751c23a7, type: 2}
+    - {fileID: 11400000, guid: 3742e4c300c5841408e668bd8a24811e, type: 2}

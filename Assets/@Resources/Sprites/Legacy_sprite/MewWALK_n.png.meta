@@ -1,0 +1,514 @@
+fileFormatVersion: 2
+guid: a1899a3787b5f1d4d963464ef6800bad
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5882607239072418448
+    second: MewWALK_n_0
+  - first:
+      213: 171975759982371073
+    second: MewWALK_n_1
+  - first:
+      213: 130702645462872891
+    second: MewWALK_n_2
+  - first:
+      213: -3967857003216723674
+    second: MewWALK_n_3
+  - first:
+      213: 5970746706092625313
+    second: MewWALK_n_4
+  - first:
+      213: -5910519880792531912
+    second: MewWALK_n_5
+  - first:
+      213: -2563305820423575492
+    second: MewWALK_n_6
+  - first:
+      213: 6286216175654199310
+    second: MewWALK_n_7
+  - first:
+      213: 2529619826282342159
+    second: MewWALK_n_8
+  - first:
+      213: 8620625779838035946
+    second: MewWALK_n_9
+  - first:
+      213: 6657503669360293086
+    second: MewWALK_n_10
+  - first:
+      213: 4573600673205066553
+    second: MewWALK_n_11
+  - first:
+      213: -5560594077489456513
+    second: MewWALK_n_12
+  - first:
+      213: -6434300084841733674
+    second: MewWALK_n_13
+  - first:
+      213: 6004110924434272034
+    second: MewWALK_n_14
+  - first:
+      213: 389560653193735390
+    second: MewWALK_n_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 0
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 1
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MewWALK_n_0
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 815
+        width: 145
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09a8d06dd1833a150800000000000000
+      internalID: 5882607239072418448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MewWALK_n_1
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 815
+        width: 145
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1012ab3ea0bf26200800000000000000
+      internalID: 171975759982371073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MewWALK_n_2
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 815
+        width: 149
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b33b4021d5950d100800000000000000
+      internalID: 130702645462872891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MewWALK_n_3
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 815
+        width: 149
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 621a8b304175fe8c0800000000000000
+      internalID: -3967857003216723674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MewWALK_n_4
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 818
+        width: 161
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ad0c7cae7a5cd250800000000000000
+      internalID: 5970746706092625313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MewWALK_n_5
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 587
+        width: 161
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83c1a73db7d99fda0800000000000000
+      internalID: -5910519880792531912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MewWALK_n_6
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 583
+        width: 169
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3826f2ffee4d6cd0800000000000000
+      internalID: -2563305820423575492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MewWALK_n_7
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 583
+        width: 169
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e00ee235e402d3750800000000000000
+      internalID: 6286216175654199310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MewWALK_n_8
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 583
+        width: 172
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f07285a54d30b1320800000000000000
+      internalID: 2529619826282342159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MewWALK_n_9
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 352
+        width: 172
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae722d4097d92a770800000000000000
+      internalID: 8620625779838035946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MewWALK_n_10
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 352
+        width: 167
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed474177054346c50800000000000000
+      internalID: 6657503669360293086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MewWALK_n_11
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 352
+        width: 167
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93b10ee8491b87f30800000000000000
+      internalID: 4573600673205066553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MewWALK_n_12
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 352
+        width: 161
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7a9917d52dc4d2b0800000000000000
+      internalID: -5560594077489456513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MewWALK_n_13
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 116
+        width: 161
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d12eb8c926c4b6a0800000000000000
+      internalID: -6434300084841733674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MewWALK_n_14
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 116
+        width: 152
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22f62fa1313e25350800000000000000
+      internalID: 6004110924434272034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MewWALK_n_15
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 116
+        width: 152
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edce410a95ff76500800000000000000
+      internalID: 389560653193735390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      MewWALK_n_0: 5882607239072418448
+      MewWALK_n_1: 171975759982371073
+      MewWALK_n_10: 6657503669360293086
+      MewWALK_n_11: 4573600673205066553
+      MewWALK_n_12: -5560594077489456513
+      MewWALK_n_13: -6434300084841733674
+      MewWALK_n_14: 6004110924434272034
+      MewWALK_n_15: 389560653193735390
+      MewWALK_n_2: 130702645462872891
+      MewWALK_n_3: -3967857003216723674
+      MewWALK_n_4: 5970746706092625313
+      MewWALK_n_5: -5910519880792531912
+      MewWALK_n_6: -2563305820423575492
+      MewWALK_n_7: 6286216175654199310
+      MewWALK_n_8: 2529619826282342159
+      MewWALK_n_9: 8620625779838035946
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

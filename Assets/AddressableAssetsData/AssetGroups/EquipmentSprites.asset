@@ -1,0 +1,227 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: EquipmentSprites
+  m_EditorClassIdentifier: 
+  m_GroupName: EquipmentSprites
+  m_GUID: 09f50b6423696b6459002d0ce8f4795e
+  m_SerializeEntries:
+  - m_GUID: 035fdf87e8745114ba2a882507b0a1df
+    m_Address: Ring_Icon.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 21620db3435f95a499599844b0647a9e
+    m_Address: Armor_03.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 27b103b4f08aa524a85d93f26de62be2
+    m_Address: Gloves_01.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 301fa39b417b0e149bf2d68151725846
+    m_Address: Boots_Icon.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 30e484baf10ef0440a91bf24dd79bb7f
+    m_Address: Belt_04.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 38f5d16075fdbf44792fd37519c1adac
+    m_Address: Gloves_02.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 39550342f52b1104994426b7419ca9d6
+    m_Address: Armor_05.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3b54bbbb4b931bc44a9e8083074da9f7
+    m_Address: Weapon_01.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3cb4e1274b6787b4e82dc95bfb030da0
+    m_Address: Armor_01.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 406313b85ae9b914db221b0a68bc96b4
+    m_Address: Boots_01.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4b0c23c467e22054cbc8ad4080be8f0d
+    m_Address: Gloves_03.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4b4e140af262fab47a45ea9ba36d2971
+    m_Address: Boots_03.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4e511e699352a3042bb8eb5ec308b130
+    m_Address: Boots_05.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4ebc2ac0a821102418c01ad0a18b06ff
+    m_Address: Weapon_03.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4fed7d514a78db64283dde88c47c5d1f
+    m_Address: Armor_02.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 65c53572daa087e47a0e2ec1537cc89d
+    m_Address: Gloves_04.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 696228fd7547c0745849a50fdfe57cab
+    m_Address: Belt_01.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7d1c6a427aab06841a1a79866b434ca3
+    m_Address: Gloves_Icon.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7dca44e18b7921a44b77f9552cc7e460
+    m_Address: Ring_04.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8056f3c013f765b48a15e6af65a7004d
+    m_Address: Boots_02.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8a574cb401eba8347abd7d8b06656c95
+    m_Address: Boots_04.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 941a89c8a4bd391468c7e181dc6bbb4f
+    m_Address: Belt_05.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 96cb9b7b373213b42a9ceaadb5246c67
+    m_Address: Gloves_05.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 980b89b7c31c57145aade0ef636f924f
+    m_Address: Belt_Icon.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9bc30fe8056b7054dac6bf9868e561a6
+    m_Address: Ring_02.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9ddbe57028c84f1479e67ca6c2843821
+    m_Address: Armor_Icon.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a2eeef2540230e84fab83591c2665bc9
+    m_Address: Ring_05.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a574d18844ee8624193571f32b97e6dd
+    m_Address: Weapon_Icon.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a5ce2c9814c5b5d48a46d31eaa0a8178
+    m_Address: Belt_02.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c4082d2dacd66da438c7ec5dff972035
+    m_Address: Armor_04.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c9cb11c96860ca24da9ee08bcce519a5
+    m_Address: Ring_01.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e213a6c114209994cbac3ccbbfecfc60
+    m_Address: Belt_03.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e8853979949eb594499780c2e1a533cc
+    m_Address: Weapon_02.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: eab2cde7ecc6d9d4b94575ee9e1a9bb1
+    m_Address: Ring_03.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: ea05dd4d5f043fa4b93db9e6de435d8f, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 282fc85fed10e444a89b2c33012930b3, type: 2}
+    - {fileID: 11400000, guid: c3ac202763427e240a08906a2b6fef03, type: 2}

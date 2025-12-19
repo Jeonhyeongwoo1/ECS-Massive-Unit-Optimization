@@ -1,0 +1,173 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: SkillSprites
+  m_EditorClassIdentifier: 
+  m_GroupName: SkillSprites
+  m_GUID: 37189c9a034ab4872b197b964ee23fa2
+  m_SerializeEntries:
+  - m_GUID: 02ebddf04b29a9942b850dfb08713135
+    m_Address: Skill_Normal_10091.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0923c619872fa994aa14b80df6657908
+    m_Address: Skill_Normal_10041.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0bb2fc8413d2ecf4facc98deb7bd687e
+    m_Address: Skill_Ultimate_10141.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 11a8926704fd4c04298f248d0f2813d6
+    m_Address: Skill_Normal_10001.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 227d25dc4aff62e48a8bc16468606a9c
+    m_Address: Skill_Normal_10001.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2684ab4bd7d18b44da475aaf98861c36
+    m_Address: Skill_Normal_10061.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 36eb3f03a1daa3544b54d56f7b130dae
+    m_Address: Skill_Normal_10081.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5aaec199886897d46946dec87d4c43df
+    m_Address: Skill_Ultimate_10111_1.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5cc874b05e3eee747acf1cdf0cd8e009
+    m_Address: Skill_Normal_10051.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 623c7b86d9a1d714b81526ef6abe6972
+    m_Address: Skill_Ultimate_10111_0.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6854c970e79d5324c944f8d54c2868e0
+    m_Address: Skill_Normal_10111.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6a627d4be780a204db43af814f5dc705
+    m_Address: Skill_Ultimate_10131.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 81b56d444ec4ec54e99c2a3f4abddd3d
+    m_Address: Skill_Normal_10021.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 834c54dff3769cd44a8762ffd9e14bc5
+    m_Address: Skill_Normal_10011.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 859ce4c736bd1814cb18f89f364655ef
+    m_Address: Skill_Normal_10031.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9a80a293eaa08ae4f9b1fe945dad94c7
+    m_Address: Skill_Normal_10071.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a5aab75a964f61e449f5114f2aa69775
+    m_Address: Skill_Ultimate_10081.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a9e8151b368b2a64e8dccbc10c6dcdfd
+    m_Address: Skill_Normal_10141.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b8b674162695dab438176ec19e50a51b
+    m_Address: Skill_Normal_10131.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d3844e9eb64d3c2499205c1acbb307e0
+    m_Address: Skill_Normal_10141.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e1297d7619c8cb84ba22b61462bc9e08
+    m_Address: Skill_Ultimate_10001.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e2b74abfa2dd56f47a7d6e9b3122964e
+    m_Address: Skill_Ultimate_10021.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ef4405363f4cc2a44ab9092e9f3eb402
+    m_Address: Skill_Ultimate_10111_2.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fbcbccbf7f6c03a4891773667dc177ea
+    m_Address: Skill_Ultimate_10031.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fcb0ba8705b2fb04d97b442c55ab50aa
+    m_Address: Skill_Ultimate_10011.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: ea05dd4d5f043fa4b93db9e6de435d8f, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 808ecbdd3a6144fe89bcdbbaed18b094, type: 2}
+    - {fileID: 11400000, guid: c9095243e24734c78b9cb83bbc0d7ea1, type: 2}

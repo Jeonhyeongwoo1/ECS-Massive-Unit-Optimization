@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 82deca150187c40818eb60cc99951a59
+AssemblyDefinitionImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 80667
+  packageName: Soft Mask
+  packageVersion: 1.6.3
+  assetPath: Assets/SoftMask/Scripts/Editor/SoftMask-Editor.asmdef
+  uploadId: 465158

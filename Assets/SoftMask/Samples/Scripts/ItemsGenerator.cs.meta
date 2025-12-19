@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 7144d25876dc2934a9291195dc977527
+timeCreated: 1483647019
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 80667
+  packageName: Soft Mask
+  packageVersion: 1.6.3
+  assetPath: Assets/SoftMask/Samples/Scripts/ItemsGenerator.cs
+  uploadId: 465158

@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 2bc72675cbf50c643983af35d514db46
+timeCreated: 1495043543
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 80667
+  packageName: Soft Mask
+  packageVersion: 1.6.3
+  assetPath: Assets/SoftMask/Scripts/Editor/TextMeshPro/ShaderPatcher.cs
+  uploadId: 465158

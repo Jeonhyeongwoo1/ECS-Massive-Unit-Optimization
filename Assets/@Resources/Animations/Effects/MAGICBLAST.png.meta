@@ -1,0 +1,915 @@
+fileFormatVersion: 2
+guid: 7c2021ba46fb7f94381d83543e9e1de7
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: 51
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MagicBlast00
+      rect:
+        serializedVersion: 2
+        x: 1337
+        y: 1883
+        width: 188
+        height: 150
+      alignment: 9
+      pivot: {x: 0.5053192, y: 0.97333336}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4fe8bc99c0a2a64ca18379bb07bc104
+      internalID: 1131566284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicBlast01
+      rect:
+        serializedVersion: 2
+        x: 1555
+        y: 1856
+        width: 279
+        height: 177
+      alignment: 9
+      pivot: {x: 0.47311828, y: 0.78531075}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 839f7f5bbbfa541479fade1ff47f4296
+      internalID: 2017957279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicBlast02
+      rect:
+        serializedVersion: 2
+        x: 1335
+        y: 1639
+        width: 289
+        height: 187
+      alignment: 9
+      pivot: {x: 0.48096886, y: 0.7593583}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bd0d9e3e489bdc4bb057173ce58a65a
+      internalID: -1911557174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicBlast03
+      rect:
+        serializedVersion: 2
+        x: 1654
+        y: 1633
+        width: 291
+        height: 193
+      alignment: 9
+      pivot: {x: 0.48453608, y: 0.7253886}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 392e9413b4c99504582c009593ddd03f
+      internalID: 329829068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicBlast04
+      rect:
+        serializedVersion: 2
+        x: 921
+        y: 1176
+        width: 294
+        height: 201
+      alignment: 9
+      pivot: {x: 0.48979592, y: 0.7064677}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a7045f93a2fcfe4b85354f7d4c21bd7
+      internalID: 1404100593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicBlast05
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1177
+        width: 296
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49324325, y: 0.7}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d52809120aa997a44bd081dfaa696f06
+      internalID: 254972695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicBlast06
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 931
+        width: 299
+        height: 209
+      alignment: 9
+      pivot: {x: 0.49832776, y: 0.71291864}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c85f18fa34ea15e42835969a69118e29
+      internalID: 2009446795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicBlast07
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1643
+        width: 300
+        height: 183
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3106359a56760cb43a1b6cb6f9259bf4
+      internalID: -1690873942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicBlast08
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 1643
+        width: 300
+        height: 183
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6631c8ffdc300d14aa070d87cbbe5f2f
+      internalID: -1265489419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicBlast09
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 1408
+        width: 300
+        height: 195
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6769231}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b67e2863246724942ad94807706ec27e
+      internalID: -119713432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicBlast10
+      rect:
+        serializedVersion: 2
+        x: 977
+        y: 1408
+        width: 300
+        height: 195
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6769231}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd93ffa3528379948b0a4a304fcbaaa3
+      internalID: -984748387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicBlast11
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 1643
+        width: 300
+        height: 183
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6502732}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9163bc3e6b75ad14a9ab6b1294ffa0a0
+      internalID: 297331616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicBlast12
+      rect:
+        serializedVersion: 2
+        x: 1005
+        y: 1643
+        width: 300
+        height: 183
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6502732}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3185d90c0097277438d24a50abf5effa
+      internalID: -173797678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicBlast13
+      rect:
+        serializedVersion: 2
+        x: 920
+        y: 930
+        width: 300
+        height: 210
+      alignment: 9
+      pivot: {x: 0.5, y: 0.65238094}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d358e12fe35b9eb4ca88639c3fd42a95
+      internalID: -2118775016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicBlast14
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 930
+        width: 300
+        height: 210
+      alignment: 9
+      pivot: {x: 0.5, y: 0.65238094}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ef38141d3006714181e719298732a92
+      internalID: 129065741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicBlast15
+      rect:
+        serializedVersion: 2
+        x: 1307
+        y: 1407
+        width: 300
+        height: 196
+      alignment: 9
+      pivot: {x: 0.5, y: 0.64285713}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 890b8aab78d52b44b8031450a03d0e37
+      internalID: -1061766446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicBlast16
+      rect:
+        serializedVersion: 2
+        x: 1637
+        y: 1407
+        width: 300
+        height: 196
+      alignment: 9
+      pivot: {x: 0.5, y: 0.64285713}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6116eda8fb68e443a27e9541871b5b7
+      internalID: 555539719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicBlast17
+      rect:
+        serializedVersion: 2
+        x: 1245
+        y: 1170
+        width: 297
+        height: 207
+      alignment: 9
+      pivot: {x: 0.5050505, y: 0.6183575}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2247f8d8560051b4c895545c0035e6f5
+      internalID: -977672109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicBlast18
+      rect:
+        serializedVersion: 2
+        x: 1572
+        y: 1170
+        width: 297
+        height: 207
+      alignment: 9
+      pivot: {x: 0.5050505, y: 0.6183575}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efd1f239338a55f4daa42f7e76fe6097
+      internalID: -1044997205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicBlast19
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1409
+        width: 286
+        height: 194
+      alignment: 9
+      pivot: {x: 0.5244755, y: 0.6494845}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e597fa8203966424b929182a29d461bc
+      internalID: 9040051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicBlast20
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 1409
+        width: 286
+        height: 194
+      alignment: 9
+      pivot: {x: 0.5244755, y: 0.6494845}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9705063f752cf44b8825c458e953374
+      internalID: -1689083202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicBlast21
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 931
+        width: 258
+        height: 209
+      alignment: 9
+      pivot: {x: 0.5813953, y: 0.6315789}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4b32e77c041cda41870dfd8517bf4f0
+      internalID: 67200079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicBlast22
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 931
+        width: 258
+        height: 209
+      alignment: 9
+      pivot: {x: 0.5813953, y: 0.6315789}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60c2d3a8a7719b6478bcc64cdcd05f66
+      internalID: -1821327734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicBlast23
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 1177
+        width: 260
+        height: 200
+      alignment: 9
+      pivot: {x: 0.5769231, y: 0.625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df5387c9f1b360343897d9ee79c3ce39
+      internalID: -564708418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicBlast24
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 1177
+        width: 260
+        height: 200
+      alignment: 9
+      pivot: {x: 0.5769231, y: 0.625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 972faeaa5b0ffb8448867ed2b3382438
+      internalID: 327838847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicBlast25
+      rect:
+        serializedVersion: 2
+        x: 885
+        y: 1960
+        width: 196
+        height: 73
+      alignment: 9
+      pivot: {x: 0.52040815, y: 0.10958904}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b51cbdc9c84e7bc4e98b34fa6c00bc93
+      internalID: 1081286419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicBlast26
+      rect:
+        serializedVersion: 2
+        x: 1111
+        y: 1960
+        width: 196
+        height: 73
+      alignment: 9
+      pivot: {x: 0.52040815, y: 0.10958904}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac2f81837ced07443a7d295ad4894fa5
+      internalID: -832670153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicBlast27
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 1979
+        width: 176
+        height: 54
+      alignment: 9
+      pivot: {x: 0.53409094, y: -0.074074075}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0677ff1769d6416469384a45edd71fed
+      internalID: -448842346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicBlast28
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 1979
+        width: 176
+        height: 54
+      alignment: 9
+      pivot: {x: 0.53409094, y: -0.074074075}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b21c72d60bc0cd47bbd18e0538fcba2
+      internalID: 1082768918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicBlast29
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 1988
+        width: 168
+        height: 45
+      alignment: 9
+      pivot: {x: 0.5416667, y: -0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc76f6235b75f88448e389802f59e4a4
+      internalID: -1034862976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicBlast30
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 1988
+        width: 168
+        height: 45
+      alignment: 9
+      pivot: {x: 0.5416667, y: -0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e783fff957698549b28aee76326454b
+      internalID: 609317019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicBlast31
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 2032
+        width: 1
+        height: 1
+      alignment: 9
+      pivot: {x: 150, y: -149}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2116af1ad1f37c4186d2920303dabf1
+      internalID: -1485355907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicBlast32
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 2032
+        width: 1
+        height: 1
+      alignment: 9
+      pivot: {x: 150, y: -149}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33410c67d6a044347aec5182edfa06cf
+      internalID: 1052716239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 169bf5f5d510a8d47b2370bcc7b52f19
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      MagicBlast00: 1131566284
+      MagicBlast01: 2017957279
+      MagicBlast02: -1911557174
+      MagicBlast03: 329829068
+      MagicBlast04: 1404100593
+      MagicBlast05: 254972695
+      MagicBlast06: 2009446795
+      MagicBlast07: -1690873942
+      MagicBlast08: -1265489419
+      MagicBlast09: -119713432
+      MagicBlast10: -984748387
+      MagicBlast11: 297331616
+      MagicBlast12: -173797678
+      MagicBlast13: -2118775016
+      MagicBlast14: 129065741
+      MagicBlast15: -1061766446
+      MagicBlast16: 555539719
+      MagicBlast17: -977672109
+      MagicBlast18: -1044997205
+      MagicBlast19: 9040051
+      MagicBlast20: -1689083202
+      MagicBlast21: 67200079
+      MagicBlast22: -1821327734
+      MagicBlast23: -564708418
+      MagicBlast24: 327838847
+      MagicBlast25: 1081286419
+      MagicBlast26: -832670153
+      MagicBlast27: -448842346
+      MagicBlast28: 1082768918
+      MagicBlast29: -1034862976
+      MagicBlast30: 609317019
+      MagicBlast31: -1485355907
+      MagicBlast32: 1052716239
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

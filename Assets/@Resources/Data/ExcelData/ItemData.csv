@@ -1,0 +1,23 @@
+ID,MaterialType,MaterialGrade,~,~1,DescriptionTextID,SpriteName,~2,~3,~4,~5,~6,~7,~8
+50001,Gold,Epic,골드,장비를 강화할 때 사용,Text_50001,Gold_Icon.sprite,0,,Gold,,Common,Eqpt Box,Common Eqpt Box
+50002,Jewel,Epic,보석,상점에서 물품을 구매할 때 사용,Text_50002,Drop_Jewel_1.sprite,0,,Dia,,Uncommon,Eqpt Box,Uncommon Eqpt Box
+50003,Stamina,Epic,스테미나,스테이지 입장 시 사용,Text_50003,Stamina_Icon.sprite,0,,Stamina,,Rare,Eqpt Box,Rare Eqpt Box
+50004,Exp,Rare,Exp,캐릭터의 경험치,Text_50004,Exp_Icon.sprite,0,,Exp,,Epic,Eqpt Box,Epic Eqpt Box
+50005,QuestExp,Common,일일 퀘스트 경험치,일일 퀘스트 경험치,Text_50005,QuestExp_Icon.sprite,0,,,,,,
+50101,WeaponScroll,Common,무기 강화 스크롤,무기를 강화할 때 사용,Text_50101,Scroll_Weapon_Icon.sprite,1,,Weapon Scroll,,Epic1,Eqpt Box,Epic1 Eqpt Box
+50102,GlovesScroll,Common,장갑 강화 스크롤,장갑을 강화할 때 사용,Text_50102,Scroll_Gloves_Icon.sprite,1,,Gloves Scroll,,Epic2,Eqpt Box,Epic2 Eqpt Box
+50103,RingScroll,Common,반지 강화 스크롤,반지를 강화할 때 사용,Text_50103,Scroll_Ring_Icon.sprite,1,,Ring Scroll,,Legendary,Eqpt Box,Legendary Eqpt Box
+50104,BeltScroll,Common,벨트 강화 스크롤,벨트를 강화할 때 사용,Text_50104,Scroll_Belt_Icon.sprite,1,,Belt Scroll,,Legendary1,Eqpt Box,Legendary1 Eqpt Box
+50105,ArmorScroll,Common,아머 강화 스크롤,아머를 강화할 때 사용,Text_50105,Scroll_Armor_Icon.sprite,1,,Armor Scroll,,Legendary2,Eqpt Box,Legendary2 Eqpt Box
+50106,BootsScroll,Common,부츠 강화 스크롤,부츠를 강화할 때 사용,Text_50106,Scroll_Boots_Icon.sprite,1,,Boots Scroll,,myth,Eqpt Box,myth Eqpt Box
+50201,ReviveCost,Common,부활권,캐릭터를 부활 시 소모,Text_50201,Clover_Icon.sprite,2,,Bronze Key,,,,
+50202,SilverKey,Rare,실버 키,일반 장비 상자를 오픈 시 사용,Text_50202,Key_Silver_Icon.sprite,2,,Silver Key,,,,
+50203,GoldKey,Epic,골드 키,상급 장비 상자를 오픈 시 사용,Text_50203,Key_Gold_Icon.sprite,2,,Gold Key,,,,
+50301,RandomScroll,Common,랜덤 스크롤,랜덤한 강화 스크롤로 교환,Text_50301,Scroll_Random_Icon.sprite,3,,Random Scroll,,,,
+50302,AllRandomEquipmentBox,Common,일반~에픽 랜덤 장비,랜덤한 장비를 얻을 수 있는 상자,Text_50302,EqptBoxAllRandom_Icon.sprite,3,,All Random EqptBox,,,,
+50303,CommonEquipmentBox,Common,고급~전설 랜덤 장비,일반 등급의 장비를 얻을 수 있는 상자,Text_50303,EqptBox_Icon.sprite,3,,Common Eqpt Box,,,,
+50304,UncommonEquipmentBox,Uncommon,고급 장비 상자,고급 등급의 장비를 얻을 수 있는 상자,Text_50304,EqptBox_Icon.sprite,3,,Uncommon Eqpt Box,,,,
+50305,RareEquipmentBox,Rare,희귀 장비 상자,희귀 등급의 장비를 얻을 수 있는 상자,Text_50305,EqptBox_Icon.sprite,3,,Rare Eqpt Box,,,,
+50306,EpicEquipmentBox,Epic,에픽 장비 상자,에픽 등급의 장비를 얻을 수 있는 상자,Text_50306,EqptBox_Icon.sprite,3,,Epic Eqpt Box,,,,
+50307,LegendaryEquipmentBox,Legendary,레전드 장비 상자,레전드 등급의 장비를 얻을 수 있는 상자,Text_50307,EqptBox_Icon.sprite,3,,Legendary Eqpt Box,,,,
+50401,InfiniteTicket,Common,무한모드 입장권,아웃게임 랜덤 성장을 진행할 때 사용,Text_50401,Endless_Ticket.sprite,,,,,,,

@@ -1,0 +1,299 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Sprites
+  m_EditorClassIdentifier: 
+  m_GroupName: Sprites
+  m_GUID: ac690c26bf8054cf2ae7ca17cf4bdc4e
+  m_SerializeEntries:
+  - m_GUID: 0932b0cc52420934c8691310bd3ec69b
+    m_Address: Drop_Jewel_1.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0933d604d362a5f4eadc8fa7c20082a8
+    m_Address: 0_CoinIcon.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0a07673251749a6489ff13b1555c69a7
+    m_Address: Drop_Heal_Normal.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0e04d0ca64fffbf4483f5a9b8f39b4e7
+    m_Address: Drop_Jewel_5.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0f59e38cce762784cbd28fdb688830b5
+    m_Address: Shop_RewardBox_Scroll.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 103631f2764ce44dc8088795d7140efe
+    m_Address: Gold_Icon.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2780fc52211085c40915a4740e062621
+    m_Address: Drop_Gold_300.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2a5f71f479dcba744afa3644fd66088b
+    m_Address: Drop_ItemBox.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2de705335b5ee15459264d15f8ac3e41
+    m_Address: Drop_SkillUp.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2e044027584644d748fd50f4cf6e8d90
+    m_Address: BossBarrier.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3234f10fc5f71df4e82002fd9009d55f
+    m_Address: Drop_Gold_10.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 36d9297bab4503d419089812275a1310
+    m_Address: Epic.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 37844d76faa589f418d509496c30d8e6
+    m_Address: Exp_Icon.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3d6bbcc9f5dffa547800dfd35f66d3c5
+    m_Address: UnCommon.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4083cc41f5c716149b80c0a8a5bd9360
+    m_Address: Shop_RewardBox_Gold.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4c824e7f8a9f8574fb4a1b6b2f1dd213
+    m_Address: Scroll_Random_Icon.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 55350b6b975199546b85417e2d42f319
+    m_Address: BlueGem.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 582f084e4eb55a84ea28c17ac7ea4b96
+    m_Address: Drop_Bomb_Normal.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5ba084caebfacce4db0b73816035e320
+    m_Address: Drop_Heal_Small.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5f863489102bfbe4aa2a1ea50040faf0
+    m_Address: GreenGem.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 737e0797a44805e44aeeacf4d7eca290
+    m_Address: Drop_Gold_100.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 796f96344433df2488a75d320da83199
+    m_Address: QuestExp_Icon.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7af6cc4f1f7d9224ba28fd57bac628b6
+    m_Address: Icon_Ads.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 85c30dbf1987d26469f8b0bdadbd369c
+    m_Address: Legend.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 939f6e54ae86eb342badc289a819c02c
+    m_Address: Common.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9503d3c8412629f428a10d44fe4050bb
+    m_Address: Drop_Bomb_Small.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 974f1a453c64dd344b4f42fd7619f270
+    m_Address: Scroll_Armor_Icon.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9c54d77e5b6d54f669fcfd3257eeb36a
+    m_Address: Key_Silver_Icon.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9cda77d810a09a041a9f6aca2a339759
+    m_Address: Scroll_Ring_Icon.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9d7b78a9feb30884980e834b7eceff1d
+    m_Address: PassiveSKill_Icon.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a6f30001fe33e424eb088c0c0123ef1b
+    m_Address: Drop_Magnet.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b03f6aa77cd9e1948b38b28295e38a41
+    m_Address: Scroll_Belt_Icon.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b210cdfe504a2044a91e6394831e5930
+    m_Address: Scroll_Gloves_Icon.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b2329a548a1428c4bbf6a22400ff050e
+    m_Address: PurpleGem.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b49a3feaa2bdffc4d9e60f3a39e20b10
+    m_Address: Rare.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b946e48e7d3684b408a78a267ca82ea9
+    m_Address: Scroll_Boots_Icon.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b9be9f1d21023cb428b7dfb5f04ddd80
+    m_Address: Myth.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b9ea2efb7357adb468a6219eaaf79a75
+    m_Address: Shop_RewardBox_Jewel.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c334304fc2e71a7499265c7935e14a91
+    m_Address: Drop_Jewel_10.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c892d022c0d76de47b9e8a8b4f55c6e6
+    m_Address: Jewel_Default.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cdb296694dabd67458faeb5bfe4955f0
+    m_Address: Drop_Gold_50.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ce75ab15e007ced4084af953fb8753fd
+    m_Address: RedGem.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d7f2fcfac93ac4b4a8d412a054ed3fab
+    m_Address: ActiveSkill_Icon.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e4343a8f782e62c42b34b56de2d4d76f
+    m_Address: Scroll_Weapon_Icon.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e4bb4814b2b0440d5997371325fc2675
+    m_Address: Key_Gold_Icon.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e9e43ad8d76e6124a9e4edc3cc226417
+    m_Address: Endless_Ticket.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: ea05dd4d5f043fa4b93db9e6de435d8f, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 5e6477a1259c84b15ad7868e27b96608, type: 2}
+    - {fileID: 11400000, guid: d607f06dd5fa541518ad9b613e778579, type: 2}

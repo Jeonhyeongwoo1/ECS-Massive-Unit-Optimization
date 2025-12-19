@@ -1,0 +1,112 @@
+{
+  "evolutionDataList": [
+    {
+      "DataId": "Evolution_Atk",
+      "TitleTextKey": "Evolution_AtkTitle",
+      "DescriptionTextKey": "Evolution_AtkDescription",
+      "Grade": 0,
+      "EvolutionType": 0,
+      "DefaultEvolutionValue1": 10.0,
+      "DefaultEvolutionValue2": 0.0,
+      "LevelUpEvolutionValue1": 10.0,
+      "LevelUpEvolutionValue2": 0.0,
+      "MaxCount": 0
+    },
+    {
+      "DataId": "Evolution_Hp",
+      "TitleTextKey": "Evolution_HpTitle",
+      "DescriptionTextKey": "Evolution_HpDescription",
+      "Grade": 0,
+      "EvolutionType": 1,
+      "DefaultEvolutionValue1": 100.0,
+      "DefaultEvolutionValue2": 0.0,
+      "LevelUpEvolutionValue1": 100.0,
+      "LevelUpEvolutionValue2": 0.0,
+      "MaxCount": 0
+    },
+    {
+      "DataId": "Evolution_Move",
+      "TitleTextKey": "Evolution_MoveTitle",
+      "DescriptionTextKey": "Evolution_MoveDescription",
+      "Grade": 0,
+      "EvolutionType": 2,
+      "DefaultEvolutionValue1": 0.05,
+      "DefaultEvolutionValue2": 0.0,
+      "LevelUpEvolutionValue1": 0.005,
+      "LevelUpEvolutionValue2": 0.0,
+      "MaxCount": 1500
+    },
+    {
+      "DataId": "Evolution_Critical",
+      "TitleTextKey": "Evolution_CriticalTitle",
+      "DescriptionTextKey": "Evolution_CriticalDescription",
+      "Grade": 1,
+      "EvolutionType": 3,
+      "DefaultEvolutionValue1": 0.03,
+      "DefaultEvolutionValue2": 0.0,
+      "LevelUpEvolutionValue1": 0.003,
+      "LevelUpEvolutionValue2": 0.0,
+      "MaxCount": 2560
+    },
+    {
+      "DataId": "Evolution_CriticalDamage",
+      "TitleTextKey": "Evolution_CriticalDamageTitle",
+      "DescriptionTextKey": "Evolution_CriticalDamageDescription",
+      "Grade": 1,
+      "EvolutionType": 4,
+      "DefaultEvolutionValue1": 0.1,
+      "DefaultEvolutionValue2": 0.0,
+      "LevelUpEvolutionValue1": 0.01,
+      "LevelUpEvolutionValue2": 0.0,
+      "MaxCount": 0
+    },
+    {
+      "DataId": "Evolution_Boom",
+      "TitleTextKey": "Evolution_BoomTitle",
+      "DescriptionTextKey": "Evolution_BoomDescription",
+      "Grade": 1,
+      "EvolutionType": 5,
+      "DefaultEvolutionValue1": 1.0,
+      "DefaultEvolutionValue2": 300.0,
+      "LevelUpEvolutionValue1": 0.0,
+      "LevelUpEvolutionValue2": 30.0,
+      "MaxCount": 0
+    },
+    {
+      "DataId": "Evolution_SkillCool",
+      "TitleTextKey": "Evolution_SkillCoolTitle",
+      "DescriptionTextKey": "Evolution_SkillCoolDescription",
+      "Grade": 2,
+      "EvolutionType": 6,
+      "DefaultEvolutionValue1": 0.01,
+      "DefaultEvolutionValue2": 0.0,
+      "LevelUpEvolutionValue1": 0.005,
+      "LevelUpEvolutionValue2": 0.0,
+      "MaxCount": 900
+    },
+    {
+      "DataId": "Evolution_Berserker",
+      "TitleTextKey": "Evolution_BerserkerTitle",
+      "DescriptionTextKey": "Evolution_BerserkerDescription",
+      "Grade": 2,
+      "EvolutionType": 7,
+      "DefaultEvolutionValue1": 200.0,
+      "DefaultEvolutionValue2": 0.01,
+      "LevelUpEvolutionValue1": 0.0,
+      "LevelUpEvolutionValue2": 0.001,
+      "MaxCount": 0
+    },
+    {
+      "DataId": "Evolution_invincibility",
+      "TitleTextKey": "Evolution_invincibilityTitle",
+      "DescriptionTextKey": "Evolution_invincibilityDescription",
+      "Grade": 2,
+      "EvolutionType": 8,
+      "DefaultEvolutionValue1": 2.0,
+      "DefaultEvolutionValue2": 0.01,
+      "LevelUpEvolutionValue1": 0.0,
+      "LevelUpEvolutionValue2": 0.001,
+      "MaxCount": 600
+    }
+  ]
+}

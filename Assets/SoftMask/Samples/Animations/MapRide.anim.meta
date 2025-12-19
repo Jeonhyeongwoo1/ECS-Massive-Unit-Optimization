@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: ff170a8ba08563b40a8b9df53dd651ab
+timeCreated: 1483635628
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 80667
+  packageName: Soft Mask
+  packageVersion: 1.6.3
+  assetPath: Assets/SoftMask/Samples/Animations/MapRide.anim
+  uploadId: 465158

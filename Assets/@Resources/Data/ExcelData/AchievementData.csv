@@ -1,0 +1,17 @@
+AchievementMissionID,DescriptionTextKey,~,AchievementMissionTarget,AchievementMissionDefaultGoal,AchievementMissionIncreaseGoal,AchievementMissionMaxLevel,Reward_Id,Reward_Amount
+90001,AchievementText_90001,게임 참여,PlayGame,5,5,0,50002,10
+90002,AchievementText_90002,무한모드 기록 달성,InfiniteModeLifeTime,60,60,0,50002,20
+90003,AchievementText_90003,일반 장비 획득,GetEquipment,30,30,30,50002,30
+90004,AchievementText_90004,고급 장비 획득,GetEquipment,20,20,30,50002,30
+90005,AchievementText_90005,희귀 장비 획득,GetEquipment,10,10,30,50002,30
+90006,AchievementText_90006,에픽 장비 획득,GetEquipment,5,5,30,50002,30
+90007,AchievementText_90007,전설 장비 획득,GetEquipment,1,1,30,50002,300
+90008,AchievementText_90008,신화 장비 획득,GetEquipment,1,1,30,50002,300
+90009,AchievementText_90009,일반 몬스터 처치,MonsterKill,5000,5000,30,50002,10
+90010,AchievementText_90010,엘리트 몬스터 처치,MonsterKill,2,2,30,50002,20
+90011,AchievementText_90011,보스 몬스터 처치,MonsterKill,1,1,30,50002,20
+90012,AchievementText_90012,장비 등급업 진행,EquipmentGradeUp,3,3,30,50002,10
+90013,AchievementText_90013,장비 레벨업 진행,EquipmentLevelUp,3,3,30,50002,10
+90014,AchievementText_90014,성장 진행,PlayerGrowth,3,3,30,50002,10
+90015,AchievementText_90015,골드 사용,UseCost,10000,10000,0,50002,10
+90016,AchievementText_90016,보석 사용,UseCost,300,300,0,50002,10

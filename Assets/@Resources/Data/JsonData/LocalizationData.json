@@ -1,0 +1,2774 @@
+{
+  "localizationDataList": [
+    {
+      "TextKey": "Grade_Common",
+      "Kor": "일반",
+      "Eng": "Common"
+    },
+    {
+      "TextKey": "Grade_Uncommon",
+      "Kor": "고급",
+      "Eng": "Uncommon"
+    },
+    {
+      "TextKey": "Grade_Rare",
+      "Kor": "희귀",
+      "Eng": "Rare"
+    },
+    {
+      "TextKey": "Grade_Epic",
+      "Kor": "영웅",
+      "Eng": "Epic"
+    },
+    {
+      "TextKey": "Grade_Epic1",
+      "Kor": "영웅 +1",
+      "Eng": "Epic+1"
+    },
+    {
+      "TextKey": "Grade_Epic2",
+      "Kor": "영웅 +2",
+      "Eng": "Epic+2"
+    },
+    {
+      "TextKey": "Grade_Legendary",
+      "Kor": "전설",
+      "Eng": "Legendary"
+    },
+    {
+      "TextKey": "Grade_Legendary1",
+      "Kor": "전설 +1",
+      "Eng": "Legendary+1"
+    },
+    {
+      "TextKey": "Grade_Legendary2",
+      "Kor": "전설 +2",
+      "Eng": "Legendary+2"
+    },
+    {
+      "TextKey": "Grade_Mythic",
+      "Kor": "신화",
+      "Eng": "Mythic"
+    },
+    {
+      "TextKey": "SkillTitle_10001",
+      "Kor": "할퀴기",
+      "Eng": "Claw Swipe"
+    },
+    {
+      "TextKey": "SkillTitle_10002",
+      "Kor": "할퀴기",
+      "Eng": "Claw Swipe"
+    },
+    {
+      "TextKey": "SkillTitle_10003",
+      "Kor": "할퀴기",
+      "Eng": "Claw Swipe"
+    },
+    {
+      "TextKey": "SkillTitle_10004",
+      "Kor": "할퀴기",
+      "Eng": "Claw Swipe"
+    },
+    {
+      "TextKey": "SkillTitle_10005",
+      "Kor": "할퀴기",
+      "Eng": "Claw Swipe"
+    },
+    {
+      "TextKey": "SkillTitle_10006",
+      "Kor": "냥냥펀치",
+      "Eng": "Meow Punch"
+    },
+    {
+      "TextKey": "SkillTitle_10011",
+      "Kor": "털실",
+      "Eng": "Yarn Ball"
+    },
+    {
+      "TextKey": "SkillTitle_10012",
+      "Kor": "털실",
+      "Eng": "Yarn Ball"
+    },
+    {
+      "TextKey": "SkillTitle_10013",
+      "Kor": "털실",
+      "Eng": "Yarn Ball"
+    },
+    {
+      "TextKey": "SkillTitle_10014",
+      "Kor": "털실",
+      "Eng": "Yarn Ball"
+    },
+    {
+      "TextKey": "SkillTitle_10015",
+      "Kor": "털실",
+      "Eng": "Yarn Ball"
+    },
+    {
+      "TextKey": "SkillTitle_10016",
+      "Kor": "강철털실",
+      "Eng": "Steel Yarn"
+    },
+    {
+      "TextKey": "SkillTitle_10021",
+      "Kor": "구슬",
+      "Eng": "Shiny Marble"
+    },
+    {
+      "TextKey": "SkillTitle_10022",
+      "Kor": "구슬",
+      "Eng": "Shiny Marble"
+    },
+    {
+      "TextKey": "SkillTitle_10023",
+      "Kor": "구슬",
+      "Eng": "Shiny Marble"
+    },
+    {
+      "TextKey": "SkillTitle_10024",
+      "Kor": "구슬",
+      "Eng": "Shiny Marble"
+    },
+    {
+      "TextKey": "SkillTitle_10025",
+      "Kor": "구슬",
+      "Eng": "Shiny Marble"
+    },
+    {
+      "TextKey": "SkillTitle_10026",
+      "Kor": "여우 구슬",
+      "Eng": "Foxy Orb"
+    },
+    {
+      "TextKey": "SkillTitle_10031",
+      "Kor": "생선뼈",
+      "Eng": "Fishbone"
+    },
+    {
+      "TextKey": "SkillTitle_10032",
+      "Kor": "생선뼈",
+      "Eng": "Fishbone"
+    },
+    {
+      "TextKey": "SkillTitle_10033",
+      "Kor": "생선뼈",
+      "Eng": "Fishbone"
+    },
+    {
+      "TextKey": "SkillTitle_10034",
+      "Kor": "생선뼈",
+      "Eng": "Fishbone"
+    },
+    {
+      "TextKey": "SkillTitle_10035",
+      "Kor": "생선뼈",
+      "Eng": "Fishbone"
+    },
+    {
+      "TextKey": "SkillTitle_10036",
+      "Kor": "청새치",
+      "Eng": "Blue Marlin"
+    },
+    {
+      "TextKey": "SkillTitle_10041",
+      "Kor": "통조림",
+      "Eng": "Tuna Can"
+    },
+    {
+      "TextKey": "SkillTitle_10042",
+      "Kor": "통조림",
+      "Eng": "Tuna Can"
+    },
+    {
+      "TextKey": "SkillTitle_10043",
+      "Kor": "통조림",
+      "Eng": "Tuna Can"
+    },
+    {
+      "TextKey": "SkillTitle_10044",
+      "Kor": "통조림",
+      "Eng": "Tuna Can"
+    },
+    {
+      "TextKey": "SkillTitle_10045",
+      "Kor": "통조림",
+      "Eng": "Tuna Can"
+    },
+    {
+      "TextKey": "SkillTitle_10046",
+      "Kor": "통조림 세트",
+      "Eng": "Can Combo"
+    },
+    {
+      "TextKey": "SkillTitle_10051",
+      "Kor": "헤어볼 대포",
+      "Eng": "Hairball Cannon"
+    },
+    {
+      "TextKey": "SkillTitle_10052",
+      "Kor": "헤어볼 대포",
+      "Eng": "Hairball Cannon"
+    },
+    {
+      "TextKey": "SkillTitle_10053",
+      "Kor": "헤어볼 대포",
+      "Eng": "Hairball Cannon"
+    },
+    {
+      "TextKey": "SkillTitle_10054",
+      "Kor": "헤어볼 대포",
+      "Eng": "Hairball Cannon"
+    },
+    {
+      "TextKey": "SkillTitle_10055",
+      "Kor": "헤어볼 대포",
+      "Eng": "Hairball Cannon"
+    },
+    {
+      "TextKey": "SkillTitle_10056",
+      "Kor": "메가볼",
+      "Eng": "Mega Ball"
+    },
+    {
+      "TextKey": "SkillTitle_10061",
+      "Kor": "꼬리 채찍",
+      "Eng": "Tail Whip"
+    },
+    {
+      "TextKey": "SkillTitle_10062",
+      "Kor": "꼬리 채찍",
+      "Eng": "Tail Whip"
+    },
+    {
+      "TextKey": "SkillTitle_10063",
+      "Kor": "꼬리 채찍",
+      "Eng": "Tail Whip"
+    },
+    {
+      "TextKey": "SkillTitle_10064",
+      "Kor": "꼬리 채찍",
+      "Eng": "Tail Whip"
+    },
+    {
+      "TextKey": "SkillTitle_10065",
+      "Kor": "꼬리 채찍",
+      "Eng": "Tail Whip"
+    },
+    {
+      "TextKey": "SkillTitle_10066",
+      "Kor": "꼬리 스피너",
+      "Eng": "Tail Spinner"
+    },
+    {
+      "TextKey": "SkillTitle_10071",
+      "Kor": "자기장",
+      "Eng": "Magnetic Field"
+    },
+    {
+      "TextKey": "SkillTitle_10072",
+      "Kor": "자기장",
+      "Eng": "Magnetic Field"
+    },
+    {
+      "TextKey": "SkillTitle_10073",
+      "Kor": "자기장",
+      "Eng": "Magnetic Field"
+    },
+    {
+      "TextKey": "SkillTitle_10074",
+      "Kor": "자기장",
+      "Eng": "Magnetic Field"
+    },
+    {
+      "TextKey": "SkillTitle_10075",
+      "Kor": "자기장",
+      "Eng": "Magnetic Field"
+    },
+    {
+      "TextKey": "SkillTitle_10076",
+      "Kor": "고중력",
+      "Eng": "Heavy Gravity"
+    },
+    {
+      "TextKey": "SkillTitle_10081",
+      "Kor": "쳇바퀴 지뢰",
+      "Eng": "Wheel Trap"
+    },
+    {
+      "TextKey": "SkillTitle_10082",
+      "Kor": "쳇바퀴 지뢰",
+      "Eng": "Wheel Trap"
+    },
+    {
+      "TextKey": "SkillTitle_10083",
+      "Kor": "쳇바퀴 지뢰",
+      "Eng": "Wheel Trap"
+    },
+    {
+      "TextKey": "SkillTitle_10084",
+      "Kor": "쳇바퀴 지뢰",
+      "Eng": "Wheel Trap"
+    },
+    {
+      "TextKey": "SkillTitle_10085",
+      "Kor": "쳇바퀴 지뢰",
+      "Eng": "Wheel Trap"
+    },
+    {
+      "TextKey": "SkillTitle_10086",
+      "Kor": "가시 쳇바퀴",
+      "Eng": "Spiky Wheel Trap"
+    },
+    {
+      "TextKey": "SkillTitle_10091",
+      "Kor": "불타는 츄르",
+      "Eng": "Flaming Churu"
+    },
+    {
+      "TextKey": "SkillTitle_10092",
+      "Kor": "불타는 츄르",
+      "Eng": "Flaming Churu"
+    },
+    {
+      "TextKey": "SkillTitle_10093",
+      "Kor": "불타는 츄르",
+      "Eng": "Flaming Churu"
+    },
+    {
+      "TextKey": "SkillTitle_10094",
+      "Kor": "불타는 츄르",
+      "Eng": "Flaming Churu"
+    },
+    {
+      "TextKey": "SkillTitle_10095",
+      "Kor": "불타는 츄르",
+      "Eng": "Flaming Churu"
+    },
+    {
+      "TextKey": "SkillTitle_10096",
+      "Kor": "지옥불 츄르",
+      "Eng": "Inferno Churu"
+    },
+    {
+      "TextKey": "SkillTitle_10101",
+      "Kor": "골골송",
+      "Eng": "Purr Song"
+    },
+    {
+      "TextKey": "SkillTitle_10102",
+      "Kor": "골골송",
+      "Eng": "Purr Song"
+    },
+    {
+      "TextKey": "SkillTitle_10103",
+      "Kor": "골골송",
+      "Eng": "Purr Song"
+    },
+    {
+      "TextKey": "SkillTitle_10104",
+      "Kor": "골골송",
+      "Eng": "Purr Song"
+    },
+    {
+      "TextKey": "SkillTitle_10105",
+      "Kor": "골골송",
+      "Eng": "Purr Song"
+    },
+    {
+      "TextKey": "SkillTitle_10106",
+      "Kor": "하악질",
+      "Eng": "Hiss"
+    },
+    {
+      "TextKey": "SkillTitle_10111",
+      "Kor": "고양이 발",
+      "Eng": "Paw Strike"
+    },
+    {
+      "TextKey": "SkillTitle_10112",
+      "Kor": "고양이 발",
+      "Eng": "Paw Strike"
+    },
+    {
+      "TextKey": "SkillTitle_10113",
+      "Kor": "고양이 발",
+      "Eng": "Paw Strike"
+    },
+    {
+      "TextKey": "SkillTitle_10114",
+      "Kor": "고양이 발",
+      "Eng": "Paw Strike"
+    },
+    {
+      "TextKey": "SkillTitle_10115",
+      "Kor": "고양이 발",
+      "Eng": "Paw Strike"
+    },
+    {
+      "TextKey": "SkillTitle_10116",
+      "Kor": "쿵쿵쿵",
+      "Eng": "Thud Thud Thud"
+    },
+    {
+      "TextKey": "SkillTitle_10121",
+      "Kor": "번개",
+      "Eng": "Lightning Zap"
+    },
+    {
+      "TextKey": "SkillTitle_10122",
+      "Kor": "번개",
+      "Eng": "Lightning Zap"
+    },
+    {
+      "TextKey": "SkillTitle_10123",
+      "Kor": "번개",
+      "Eng": "Lightning Zap"
+    },
+    {
+      "TextKey": "SkillTitle_10124",
+      "Kor": "번개",
+      "Eng": "Lightning Zap"
+    },
+    {
+      "TextKey": "SkillTitle_10125",
+      "Kor": "번개",
+      "Eng": "Lightning Zap"
+    },
+    {
+      "TextKey": "SkillTitle_10126",
+      "Kor": "천벌",
+      "Eng": "Judgment"
+    },
+    {
+      "TextKey": "SkillTitle_10131",
+      "Kor": "부메랑",
+      "Eng": "Boomerang"
+    },
+    {
+      "TextKey": "SkillTitle_10132",
+      "Kor": "부메랑",
+      "Eng": "Boomerang"
+    },
+    {
+      "TextKey": "SkillTitle_10133",
+      "Kor": "부메랑",
+      "Eng": "Boomerang"
+    },
+    {
+      "TextKey": "SkillTitle_10134",
+      "Kor": "부메랑",
+      "Eng": "Boomerang"
+    },
+    {
+      "TextKey": "SkillTitle_10135",
+      "Kor": "부메랑",
+      "Eng": "Boomerang"
+    },
+    {
+      "TextKey": "SkillTitle_10136",
+      "Kor": "고성능 부메랑",
+      "Eng": "Turbo Boomerang"
+    },
+    {
+      "TextKey": "SkillTitle_10141",
+      "Kor": "캣닢",
+      "Eng": "Catnip Rush"
+    },
+    {
+      "TextKey": "SkillTitle_10142",
+      "Kor": "캣닢",
+      "Eng": "Catnip Rush"
+    },
+    {
+      "TextKey": "SkillTitle_10143",
+      "Kor": "캣닢",
+      "Eng": "Catnip Rush"
+    },
+    {
+      "TextKey": "SkillTitle_10144",
+      "Kor": "캣닢",
+      "Eng": "Catnip Rush"
+    },
+    {
+      "TextKey": "SkillTitle_10145",
+      "Kor": "캣닢",
+      "Eng": "Catnip Rush"
+    },
+    {
+      "TextKey": "SkillTitle_10146",
+      "Kor": "약초",
+      "Eng": "Herbal Boost"
+    },
+    {
+      "TextKey": "SkillTitle_20101",
+      "Kor": "글러브",
+      "Eng": "Boxing Glove"
+    },
+    {
+      "TextKey": "SkillTitle_20102",
+      "Kor": "고양이 신발",
+      "Eng": "Cat Sneakers"
+    },
+    {
+      "TextKey": "SkillTitle_20103",
+      "Kor": "고성능 탄",
+      "Eng": "Power Shot"
+    },
+    {
+      "TextKey": "SkillTitle_20104",
+      "Kor": "소생",
+      "Eng": "Revive"
+    },
+    {
+      "TextKey": "SkillTitle_20105",
+      "Kor": "덤벨",
+      "Eng": "Muscle Up"
+    },
+    {
+      "TextKey": "SkillTitle_20106",
+      "Kor": "고화력",
+      "Eng": "High Caliber"
+    },
+    {
+      "TextKey": "SkillTitle_20107",
+      "Kor": "배터리",
+      "Eng": "Battery Pack"
+    },
+    {
+      "TextKey": "SkillTitle_20108",
+      "Kor": "유전 발견",
+      "Eng": "Struck It Rich "
+    },
+    {
+      "TextKey": "SkillTitle_20109",
+      "Kor": "마이크",
+      "Eng": "Battle Mic"
+    },
+    {
+      "TextKey": "SkillTitle_20110",
+      "Kor": "갑옷",
+      "Eng": "Armor Up"
+    },
+    {
+      "TextKey": "SkillTitle_20111",
+      "Kor": "자석",
+      "Eng": "Item Magnet"
+    },
+    {
+      "TextKey": "SkillTitle_20112",
+      "Kor": "지식 학습",
+      "Eng": "Smart Kitty"
+    },
+    {
+      "TextKey": "SkillTitle_20113",
+      "Kor": "예리한 수염",
+      "Eng": "Sharp Whiskers"
+    },
+    {
+      "TextKey": "SkillTitle_20114",
+      "Kor": "날카로운 발톱",
+      "Eng": "Razor Claws"
+    },
+    {
+      "TextKey": "SkillTitle_20115",
+      "Kor": "고양이 영혼",
+      "Eng": "Cat Spirit"
+    },
+    {
+      "TextKey": "SkillDescription_10001",
+      "Kor": "기본 공격 데미지 증가",
+      "Eng": "Number of projectiles increased\nDamage increased\nCooldown reduced"
+    },
+    {
+      "TextKey": "SkillDescription_10002",
+      "Kor": "기본 공격 데미지 증가",
+      "Eng": "Number of projectiles increased\nDamage increased\nCooldown reduced"
+    },
+    {
+      "TextKey": "SkillDescription_10003",
+      "Kor": "기본 공격 사거리 증가",
+      "Eng": "Number of projectiles increased\nDamage increased\nCooldown reduced"
+    },
+    {
+      "TextKey": "SkillDescription_10004",
+      "Kor": "기본 공격 범위 증가",
+      "Eng": "Number of projectiles increased\nDamage increased\nCooldown reduced"
+    },
+    {
+      "TextKey": "SkillDescription_10005",
+      "Kor": "기본 공격 사거리 증가",
+      "Eng": "Number of projectiles increased\nDamage increased\nCooldown reduced"
+    },
+    {
+      "TextKey": "SkillDescription_10006",
+      "Kor": "마구 할퀴기",
+      "Eng": "Wild Scratch"
+    },
+    {
+      "TextKey": "SkillDescription_10011",
+      "Kor": "튕기는 털실 발사",
+      "Eng": "Bouncing Yarn Shot"
+    },
+    {
+      "TextKey": "SkillDescription_10012",
+      "Kor": "털실 개수 1개 증가",
+      "Eng": "Yarn count increased +1"
+    },
+    {
+      "TextKey": "SkillDescription_10013",
+      "Kor": "데미지 증가 속도 증가",
+      "Eng": "Increased damage and speed"
+    },
+    {
+      "TextKey": "SkillDescription_10014",
+      "Kor": "털실 개수 1개 증가",
+      "Eng": "Yarn count increased +1"
+    },
+    {
+      "TextKey": "SkillDescription_10015",
+      "Kor": "데미지 대폭 증가",
+      "Eng": "Greatly increased damage"
+    },
+    {
+      "TextKey": "SkillDescription_10016",
+      "Kor": "많이 아파요",
+      "Eng": "It really hurts!"
+    },
+    {
+      "TextKey": "SkillDescription_10021",
+      "Kor": "튕기는 구슬 발사",
+      "Eng": "Bouncing Marble Shot"
+    },
+    {
+      "TextKey": "SkillDescription_10022",
+      "Kor": "구슬 개수 1개 증가",
+      "Eng": "Marble count increased +1"
+    },
+    {
+      "TextKey": "SkillDescription_10023",
+      "Kor": "데미지 증가 투사체 속도 증가",
+      "Eng": "Increased damage and projectile speed"
+    },
+    {
+      "TextKey": "SkillDescription_10024",
+      "Kor": "구슬 개수 1개 증가",
+      "Eng": "Marble count increased +1"
+    },
+    {
+      "TextKey": "SkillDescription_10025",
+      "Kor": "데미지 대폭 증가",
+      "Eng": "Greatly increased damage"
+    },
+    {
+      "TextKey": "SkillDescription_10026",
+      "Kor": "이 구슬은 자아가 있어요",
+      "Eng": "This marble has a mind of its own."
+    },
+    {
+      "TextKey": "SkillDescription_10031",
+      "Kor": "생선뼈 투척",
+      "Eng": "Throw Fishbone"
+    },
+    {
+      "TextKey": "SkillDescription_10032",
+      "Kor": "생선뼈 공격력 증가",
+      "Eng": "Fishbone damage increased"
+    },
+    {
+      "TextKey": "SkillDescription_10033",
+      "Kor": "생선뼈 개수 1개 증가",
+      "Eng": "Fishbone count increased +1"
+    },
+    {
+      "TextKey": "SkillDescription_10034",
+      "Kor": "생선뼈 크기 증가",
+      "Eng": "Fishbone size increased"
+    },
+    {
+      "TextKey": "SkillDescription_10035",
+      "Kor": "생선뼈 공격력 증가",
+      "Eng": "Fishbone damage increased"
+    },
+    {
+      "TextKey": "SkillDescription_10036",
+      "Kor": "청새치 등장!",
+      "Eng": "Here comes the marlin!"
+    },
+    {
+      "TextKey": "SkillDescription_10041",
+      "Kor": "묵직한 통조림을 던져서 적들을 밀어내요",
+      "Eng": "Throw a heavy can to knock back enemies"
+    },
+    {
+      "TextKey": "SkillDescription_10042",
+      "Kor": "통조림 크기 증가\n데미지 증가",
+      "Eng": "Increased can size\nIncreased damage"
+    },
+    {
+      "TextKey": "SkillDescription_10043",
+      "Kor": "데미지 증가",
+      "Eng": "Increased damage"
+    },
+    {
+      "TextKey": "SkillDescription_10044",
+      "Kor": "데미지 증가",
+      "Eng": "Increased damage"
+    },
+    {
+      "TextKey": "SkillDescription_10045",
+      "Kor": "개수 증가 데미지 증가",
+      "Eng": "Increased count and increased damage"
+    },
+    {
+      "TextKey": "SkillDescription_10046",
+      "Kor": "바겐세일!",
+      "Eng": "Bargain sale!"
+    },
+    {
+      "TextKey": "SkillDescription_10051",
+      "Kor": "폭발하는 헤어볼 발사",
+      "Eng": "Exploding Hairball Shot"
+    },
+    {
+      "TextKey": "SkillDescription_10052",
+      "Kor": "폭발 데미지 증가",
+      "Eng": "Explosion damage increased"
+    },
+    {
+      "TextKey": "SkillDescription_10053",
+      "Kor": "폭발 데미지 증가\n폭발 범위 증가",
+      "Eng": "Explosion damage increased\nExplosion range increased"
+    },
+    {
+      "TextKey": "SkillDescription_10054",
+      "Kor": "헤어볼 개수 1개 증가\n폭발 데미지 증가",
+      "Eng": "Hairball count increased +1\nExplosion damage increased"
+    },
+    {
+      "TextKey": "SkillDescription_10055",
+      "Kor": "폭발 데미지 대폭 증가",
+      "Eng": "Explosion damage greatly increased"
+    },
+    {
+      "TextKey": "SkillDescription_10056",
+      "Kor": "이건 더이상 헤어볼이 아니야",
+      "Eng": "This is no longer just a hairball"
+    },
+    {
+      "TextKey": "SkillDescription_10061",
+      "Kor": "꼬리로 뒤에있는 적들을 밀어내요",
+      "Eng": "Swipe back enemies with your tail"
+    },
+    {
+      "TextKey": "SkillDescription_10062",
+      "Kor": "채찍 범위 증가\n데미지 증가",
+      "Eng": "Whip range increased\nDamage increased"
+    },
+    {
+      "TextKey": "SkillDescription_10063",
+      "Kor": "데미지 증가",
+      "Eng": "Damage increased"
+    },
+    {
+      "TextKey": "SkillDescription_10064",
+      "Kor": "채찍 범위 증가\n데미지 증가",
+      "Eng": "Whip range increased\nDamage increased"
+    },
+    {
+      "TextKey": "SkillDescription_10065",
+      "Kor": "데미지 증가",
+      "Eng": "Damage increased"
+    },
+    {
+      "TextKey": "SkillDescription_10066",
+      "Kor": "가까이 와보실래요?",
+      "Eng": "Wanna come closer?"
+    },
+    {
+      "TextKey": "SkillDescription_10071",
+      "Kor": "근처에 있는 적 공격",
+      "Eng": "Attack nearby enemies"
+    },
+    {
+      "TextKey": "SkillDescription_10072",
+      "Kor": "자기장 범위 증가",
+      "Eng": "Magnetic field range increased"
+    },
+    {
+      "TextKey": "SkillDescription_10073",
+      "Kor": "데미지 증가\n범위 증가",
+      "Eng": "Damage increased\nRange increased"
+    },
+    {
+      "TextKey": "SkillDescription_10074",
+      "Kor": "데미지 증가\n범위 증가",
+      "Eng": "Damage increased\nRange increased"
+    },
+    {
+      "TextKey": "SkillDescription_10075",
+      "Kor": "데미지 증가\n범위 증가",
+      "Eng": "Damage increased\nRange increased"
+    },
+    {
+      "TextKey": "SkillDescription_10076",
+      "Kor": "버텨보세요",
+      "Eng": "Try to hold on!"
+    },
+    {
+      "TextKey": "SkillDescription_10081",
+      "Kor": "주위에 쳇바퀴를 소환해요",
+      "Eng": "Summon spinning wheels around you"
+    },
+    {
+      "TextKey": "SkillDescription_10082",
+      "Kor": "쳇바퀴 개수 1개 증가",
+      "Eng": "Spinning wheel count increased +1"
+    },
+    {
+      "TextKey": "SkillDescription_10083",
+      "Kor": "쳇바퀴 크기 증가\n개수 1개 증가\n데미지 증가",
+      "Eng": "Wheel size increased\nCount increased +1\nDamage increased"
+    },
+    {
+      "TextKey": "SkillDescription_10084",
+      "Kor": "쳇바퀴 크기 증가\n개수 1개 증가\n데미지 증가",
+      "Eng": "Wheel size increased\nCount increased +1\nDamage increased"
+    },
+    {
+      "TextKey": "SkillDescription_10085",
+      "Kor": "쳇바퀴 크기 증가\n개수 1개 증가\n데미지 증가",
+      "Eng": "Wheel size increased\nCount increased +1\nDamage increased"
+    },
+    {
+      "TextKey": "SkillDescription_10086",
+      "Kor": "쳇바퀴에 왜 가시가있지?",
+      "Eng": "Why are there spikes on the wheel?"
+    },
+    {
+      "TextKey": "SkillDescription_10091",
+      "Kor": "츄르로 화염 지대를 생성해요",
+      "Eng": "Create a fire zone with Churu"
+    },
+    {
+      "TextKey": "SkillDescription_10092",
+      "Kor": "츄르 1개 증가\n화염 데미지 증가",
+      "Eng": "Churu count increased +1\nFire damage increased"
+    },
+    {
+      "TextKey": "SkillDescription_10093",
+      "Kor": "츄르 1개 증가\n화염 데미지 증가",
+      "Eng": "Churu count increased +1\nFire damage increased"
+    },
+    {
+      "TextKey": "SkillDescription_10094",
+      "Kor": "츄르 1개 증가\n화염 데미지 증가\n화염 지속 시간 증가",
+      "Eng": "Churu count increased +1\nFire damage increased\nBurn duration increased"
+    },
+    {
+      "TextKey": "SkillDescription_10095",
+      "Kor": "츄르 1개 증가\n화염 데미지 증가",
+      "Eng": "Churu count increased +1\nFire damage increased"
+    },
+    {
+      "TextKey": "SkillDescription_10096",
+      "Kor": "전부 태워요",
+      "Eng": "Burn them all!"
+    },
+    {
+      "TextKey": "SkillDescription_10101",
+      "Kor": "고양이 노래를 들으면 방어력이 약해져요",
+      "Eng": "Enemies lose defense when they hear the cat song"
+    },
+    {
+      "TextKey": "SkillDescription_10102",
+      "Kor": "골골송 범위 증가\n적 방어력 추가 감소",
+      "Eng": "Purr range increased\nEnemy defense further reduced"
+    },
+    {
+      "TextKey": "SkillDescription_10103",
+      "Kor": "적 방어력 추가 감소",
+      "Eng": "Enemy defense further reduced"
+    },
+    {
+      "TextKey": "SkillDescription_10104",
+      "Kor": "골골송 범위 증가\n적 방어력 추가 감소",
+      "Eng": "Purr range increased\nEnemy defense further reduced"
+    },
+    {
+      "TextKey": "SkillDescription_10105",
+      "Kor": "적 방어력 추가 감소",
+      "Eng": "Enemy defense further reduced"
+    },
+    {
+      "TextKey": "SkillDescription_10106",
+      "Kor": "겁먹은 적들의 이동속도가 느려져요",
+      "Eng": "Slows down frightened enemies"
+    },
+    {
+      "TextKey": "SkillDescription_10111",
+      "Kor": "거대 고양이 발에 찍히면 기절해요",
+      "Eng": "Getting stomped by a giant cat paw stuns enemies"
+    },
+    {
+      "TextKey": "SkillDescription_10112",
+      "Kor": "고양이 발 크기 증가\n데미지 증가",
+      "Eng": "Paw size increased\nDamage increased"
+    },
+    {
+      "TextKey": "SkillDescription_10113",
+      "Kor": "고양이 발 크기 증가\n데미지 증가",
+      "Eng": "Paw size increased\nDamage increased"
+    },
+    {
+      "TextKey": "SkillDescription_10114",
+      "Kor": "고양이 발 크기 증가\n데미지 증가",
+      "Eng": "Paw size increased\nDamage increased"
+    },
+    {
+      "TextKey": "SkillDescription_10115",
+      "Kor": "고양이 발 크기 증가\n데미지 증가",
+      "Eng": "Paw size increased\nDamage increased"
+    },
+    {
+      "TextKey": "SkillDescription_10116",
+      "Kor": "거대 고양이가 3마리",
+      "Eng": "Three giant cats!"
+    },
+    {
+      "TextKey": "SkillDescription_10121",
+      "Kor": "하늘에서 번개가 내리쳐요",
+      "Eng": "Lightning strikes from the sky"
+    },
+    {
+      "TextKey": "SkillDescription_10122",
+      "Kor": "번개 1개 증가",
+      "Eng": "Lightning count increased +1"
+    },
+    {
+      "TextKey": "SkillDescription_10123",
+      "Kor": "번개 데미지 증가",
+      "Eng": "Lightning damage increased"
+    },
+    {
+      "TextKey": "SkillDescription_10124",
+      "Kor": "번개 1개 증가",
+      "Eng": "Lightning count increased +1"
+    },
+    {
+      "TextKey": "SkillDescription_10125",
+      "Kor": "번개 데미지 대폭 증가",
+      "Eng": "Lightning damage greatly increased"
+    },
+    {
+      "TextKey": "SkillDescription_10126",
+      "Kor": "천벌!",
+      "Eng": "Divine punishment!"
+    },
+    {
+      "TextKey": "SkillDescription_10131",
+      "Kor": "부메랑을 던져요",
+      "Eng": "Throw a boomerang"
+    },
+    {
+      "TextKey": "SkillDescription_10132",
+      "Kor": "부메랑 크기 증가\n데미지 증가",
+      "Eng": "Boomerang size increased\nDamage increased"
+    },
+    {
+      "TextKey": "SkillDescription_10133",
+      "Kor": "부메랑 1개 증가\n데미지 증가",
+      "Eng": "Boomerang count increased +1\nDamage increased"
+    },
+    {
+      "TextKey": "SkillDescription_10134",
+      "Kor": "데미지 증가",
+      "Eng": "Damage increased"
+    },
+    {
+      "TextKey": "SkillDescription_10135",
+      "Kor": "데미지 대폭 증가",
+      "Eng": "Damage greatly increased"
+    },
+    {
+      "TextKey": "SkillDescription_10136",
+      "Kor": "이건 비싸보이네요",
+      "Eng": "Looks expensive"
+    },
+    {
+      "TextKey": "SkillDescription_10141",
+      "Kor": "공격하는 캣닢을 심어요",
+      "Eng": "Plant an attacking catnip"
+    },
+    {
+      "TextKey": "SkillDescription_10142",
+      "Kor": "캣닢 1개 추가\n데미지 증가",
+      "Eng": "Catnip count increased +1\nDamage increased"
+    },
+    {
+      "TextKey": "SkillDescription_10143",
+      "Kor": "캣닢 크기 증가\n데미지 증가",
+      "Eng": "Catnip size increased\nDamage increased"
+    },
+    {
+      "TextKey": "SkillDescription_10144",
+      "Kor": "캣닢 1개 추가\n데미지 증가",
+      "Eng": "Catnip count increased +1\nDamage increased"
+    },
+    {
+      "TextKey": "SkillDescription_10145",
+      "Kor": "데미지 대폭 증가",
+      "Eng": "Damage greatly increased"
+    },
+    {
+      "TextKey": "SkillDescription_10146",
+      "Kor": "낮은 확률로 나의 체력을 회복해주는 약초를 심어요.",
+      "Eng": "Occasionally plant a healing herb that restores your HP"
+    },
+    {
+      "TextKey": "SkillDescription_20101",
+      "Kor": "기본 공격 피해량 증가",
+      "Eng": "Increases basic attack damage"
+    },
+    {
+      "TextKey": "SkillDescription_20102",
+      "Kor": "이동 속도 증가",
+      "Eng": "Increases movement speed"
+    },
+    {
+      "TextKey": "SkillDescription_20103",
+      "Kor": "투사체 비행 속도 증가",
+      "Eng": "Increases projectile speed"
+    },
+    {
+      "TextKey": "SkillDescription_20104",
+      "Kor": "주기적으로 체력 회복",
+      "Eng": "Restores HP periodically"
+    },
+    {
+      "TextKey": "SkillDescription_20105",
+      "Kor": "최대 체력 증가",
+      "Eng": "Increases max HP"
+    },
+    {
+      "TextKey": "SkillDescription_20106",
+      "Kor": "폭발성 스킬의 폭발 데미지 증가",
+      "Eng": "Increases explosion skill damage"
+    },
+    {
+      "TextKey": "SkillDescription_20107",
+      "Kor": "범위형 스킬의 공격 범위 증가",
+      "Eng": "Increases AoE skill range"
+    },
+    {
+      "TextKey": "SkillDescription_20108",
+      "Kor": "골드 추가 획득",
+      "Eng": "Gain extra gold"
+    },
+    {
+      "TextKey": "SkillDescription_20109",
+      "Kor": "스킬 지속 시간 증가",
+      "Eng": "Increases skill duration"
+    },
+    {
+      "TextKey": "SkillDescription_20110",
+      "Kor": "받는 피해량 감소",
+      "Eng": "Reduces damage taken"
+    },
+    {
+      "TextKey": "SkillDescription_20111",
+      "Kor": "아이템 획득 범위 증가",
+      "Eng": "Increases item pickup range"
+    },
+    {
+      "TextKey": "SkillDescription_20112",
+      "Kor": "스킬의 공격 주기 감소",
+      "Eng": "Decreases skill cooldown"
+    },
+    {
+      "TextKey": "SkillDescription_20113",
+      "Kor": "치명타 확률 증가",
+      "Eng": "Increases critical hit chance"
+    },
+    {
+      "TextKey": "SkillDescription_20114",
+      "Kor": "치명타 데미지 증가",
+      "Eng": "Increases critical hit damage"
+    },
+    {
+      "TextKey": "SkillDescription_20115",
+      "Kor": "경험치 추가 획득",
+      "Eng": "Gain bonus XP"
+    },
+    {
+      "TextKey": "Weapon_Title_2",
+      "Kor": "고동의 추적자",
+      "Eng": "Pulse Tracker"
+    },
+    {
+      "TextKey": "Weapon_Title_3",
+      "Kor": "밤의 형상",
+      "Eng": "Shadowform"
+    },
+    {
+      "TextKey": "Ring_Title_1",
+      "Kor": "불꽃의 심장",
+      "Eng": "Heart of Flame"
+    },
+    {
+      "TextKey": "Ring_Title_2",
+      "Kor": "자연의 맥동",
+      "Eng": "Pulse of Nature"
+    },
+    {
+      "TextKey": "Ring_Title_3",
+      "Kor": "정적의 인장",
+      "Eng": "Seal of Stillness"
+    },
+    {
+      "TextKey": "Ring_Title_4",
+      "Kor": "내면의 눈동자",
+      "Eng": "Eye Within"
+    },
+    {
+      "TextKey": "Ring_Title_5",
+      "Kor": "피안의 고리",
+      "Eng": "Ring of Elsewhere"
+    },
+    {
+      "TextKey": "Gloves_Title_1",
+      "Kor": "야수 가죽 장갑",
+      "Eng": "Beast Hide Gloves"
+    },
+    {
+      "TextKey": "Gloves_Title_2",
+      "Kor": "금강의 장갑",
+      "Eng": "Adamant Gloves"
+    },
+    {
+      "TextKey": "Gloves_Title_3",
+      "Kor": "어스름 장갑",
+      "Eng": "Dusky Gloves"
+    },
+    {
+      "TextKey": "Gloves_Title_4",
+      "Kor": "심연의 손",
+      "Eng": "Abyssal Hand"
+    },
+    {
+      "TextKey": "Gloves_Title_5",
+      "Kor": "분노의 전류",
+      "Eng": "Voltage Vein"
+    },
+    {
+      "TextKey": "Belt_Title_1",
+      "Kor": "풍화된 코트",
+      "Eng": "Weathered Collar"
+    },
+    {
+      "TextKey": "Belt_Title_2",
+      "Kor": "전통의 갑주",
+      "Eng": "Heirloom Armor"
+    },
+    {
+      "TextKey": "Belt_Title_3",
+      "Kor": "신전의 장막",
+      "Eng": "Sanctified Shroud"
+    },
+    {
+      "TextKey": "Belt_Title_4",
+      "Kor": "정적의 외피",
+      "Eng": "Quiet Wrap"
+    },
+    {
+      "TextKey": "Belt_Title_5",
+      "Kor": "무한의 외피",
+      "Eng": "Infinite Shell"
+    },
+    {
+      "TextKey": "Armor_Title_1",
+      "Kor": "방랑자의 허리끈",
+      "Eng": "Wanderer's Strap"
+    },
+    {
+      "TextKey": "Armor_Title_2",
+      "Kor": "파편의 잔재",
+      "Eng": "Shrapnel Belt"
+    },
+    {
+      "TextKey": "Armor_Title_3",
+      "Kor": "두꺼운 뼈띠",
+      "Eng": "Bone Girdle"
+    },
+    {
+      "TextKey": "Armor_Title_4",
+      "Kor": "기도의 매듭",
+      "Eng": "Knot of Prayer"
+    },
+    {
+      "TextKey": "Armor_Title_5",
+      "Kor": "철제 접합띠",
+      "Eng": "Jointed Steel Belt"
+    },
+    {
+      "TextKey": "Boots_Title_1",
+      "Kor": "단단한 여정화",
+      "Eng": "Sturdy Travel Boots"
+    },
+    {
+      "TextKey": "Boots_Title_2",
+      "Kor": "은빛 걸음",
+      "Eng": "Silverstep Shoes"
+    },
+    {
+      "TextKey": "Boots_Title_3",
+      "Kor": "무게의 발걸음",
+      "Eng": "Heavywalker Boots"
+    },
+    {
+      "TextKey": "Boots_Title_4",
+      "Kor": "엘프의 흔적",
+      "Eng": "Elven Trace"
+    },
+    {
+      "TextKey": "Boots_Title_5",
+      "Kor": "기계 추진화",
+      "Eng": "Gearstride Boots"
+    },
+    {
+      "TextKey": "Weapon_Description_1",
+      "Kor": "발톱처럼 생겨서 보기만 해도 따끔하다.",
+      "Eng": "Looks sharp enough to sting just by looking."
+    },
+    {
+      "TextKey": "Weapon_Description_2",
+      "Kor": "둥근 장식이 살짝 흔들려서 자꾸 손이 간다.",
+      "Eng": "A dangling ornament makes it oddly touchable."
+    },
+    {
+      "TextKey": "Weapon_Description_3",
+      "Kor": "전체가 어두워서 배경에 잘 묻힌다.",
+      "Eng": "Dark enough to fade into the background."
+    },
+    {
+      "TextKey": "Ring_Description_1",
+      "Kor": "붉은 보석이 가운데서 은근히 튀어준다.",
+      "Eng": "The red gem pops just enough to catch your eye."
+    },
+    {
+      "TextKey": "Ring_Description_2",
+      "Kor": "나무결처럼 생겨서 손에 나무 낀 기분이다.",
+      "Eng": "Feels like wearing a tiny tree on your finger."
+    },
+    {
+      "TextKey": "Ring_Description_3",
+      "Kor": "무광이라 조용한 분위기를 풍긴다.",
+      "Eng": "Matte finish gives it a quiet charm."
+    },
+    {
+      "TextKey": "Ring_Description_4",
+      "Kor": "안쪽이 깊게 비쳐서 괜히 눈이 간다.",
+      "Eng": "Deep reflections make it hard to look away."
+    },
+    {
+      "TextKey": "Ring_Description_5",
+      "Kor": "한번 보면 쉽게 잊히지 않는 모양이다.",
+      "Eng": "Its shape sticks with you for no clear reason."
+    },
+    {
+      "TextKey": "Gloves_Description_1",
+      "Kor": "울퉁불퉁한 가죽이 손에 잘 붙는다.",
+      "Eng": "Rough texture that grips your hand nicely."
+    },
+    {
+      "TextKey": "Gloves_Description_2",
+      "Kor": "덩어리처럼 생겨서 아주 단단해 보인다.",
+      "Eng": "Chunky and solid just like it looks."
+    },
+    {
+      "TextKey": "Gloves_Description_3",
+      "Kor": "그을린 색이 은근히 멋을 낸다.",
+      "Eng": "Smoky tones give it a subtle flair."
+    },
+    {
+      "TextKey": "Gloves_Description_4",
+      "Kor": "차가운 느낌이 은근히 마음에 든다.",
+      "Eng": "The chill has a strangely pleasant feel."
+    },
+    {
+      "TextKey": "Gloves_Description_5",
+      "Kor": "작은 문양이 반짝여서 장난감 같다.",
+      "Eng": "Tiny sparkles make it oddly playful."
+    },
+    {
+      "TextKey": "Belt_Description_1",
+      "Kor": "낡은 듯한데 은근히 깔끔하게 보인다.",
+      "Eng": "Worn-looking but surprisingly neat."
+    },
+    {
+      "TextKey": "Belt_Description_2",
+      "Kor": "옛 무늬가 있어 눈길을 끈다.",
+      "Eng": "Classic patterns draw just enough attention."
+    },
+    {
+      "TextKey": "Belt_Description_3",
+      "Kor": "빛을 잘 받아서 눈에 잘 띈다.",
+      "Eng": "Catches the light just enough to be seen."
+    },
+    {
+      "TextKey": "Belt_Description_4",
+      "Kor": "색이 차분해서 잘 묻어난다.",
+      "Eng": "Muted tones blend in easily."
+    },
+    {
+      "TextKey": "Belt_Description_5",
+      "Kor": "움직일 때 반짝임이 은근히 따라온다.",
+      "Eng": "Subtle shimmer follows as you move."
+    },
+    {
+      "TextKey": "Armor_Description_1",
+      "Kor": "여기저기 닳은 자국이 정겹다.",
+      "Eng": "The scuffs add a certain charm."
+    },
+    {
+      "TextKey": "Armor_Description_2",
+      "Kor": "군데군데 금속이 박혀 있어 시선이 간다.",
+      "Eng": "Scattered metal bits keep it interesting."
+    },
+    {
+      "TextKey": "Armor_Description_3",
+      "Kor": "두툼한 뼈가 묘하게 믿음직스럽다.",
+      "Eng": "Thick bones give it a weirdly sturdy vibe."
+    },
+    {
+      "TextKey": "Armor_Description_4",
+      "Kor": "차분하게 잘 묶여서 보기 좋다.",
+      "Eng": "Neatly tied simple and tidy."
+    },
+    {
+      "TextKey": "Armor_Description_5",
+      "Kor": "이음새마다 딸깍거리는 게 특징이다.",
+      "Eng": "Every segment clicks just a little."
+    },
+    {
+      "TextKey": "Boots_Description_1",
+      "Kor": "발목을 잘 잡아줘서 든든하다.",
+      "Eng": "Ankle-high and reassuringly snug."
+    },
+    {
+      "TextKey": "Boots_Description_2",
+      "Kor": "밝은 데선 보이고 어두운 데선 안 보인다.",
+      "Eng": "Bright here gone in shadow."
+    },
+    {
+      "TextKey": "Boots_Description_3",
+      "Kor": "무거워 보이지만 모양은 안정적이다.",
+      "Eng": "Looks heavy but stands balanced."
+    },
+    {
+      "TextKey": "Boots_Description_4",
+      "Kor": "길쭉하고 날렵해서 가볍게 느껴진다.",
+      "Eng": "Sleek shape that feels featherlight."
+    },
+    {
+      "TextKey": "Boots_Description_5",
+      "Kor": "밑창 쪽이 살짝 기계처럼 생겼다.",
+      "Eng": "Sole looks like it might start spinning."
+    },
+    {
+      "TextKey": "DailyQuestMission_80001",
+      "Kor": "로그인",
+      "Eng": "Login"
+    },
+    {
+      "TextKey": "DailyQuestMission_80002",
+      "Kor": "게임 참여",
+      "Eng": "Start Game"
+    },
+    {
+      "TextKey": "DailyQuestMission_80003",
+      "Kor": "일반 몬스터 처치",
+      "Eng": "Hunt Normal Monster"
+    },
+    {
+      "TextKey": "DailyQuestMission_80004",
+      "Kor": "엘리트 몬스터 처치",
+      "Eng": "HuntElite Monster"
+    },
+    {
+      "TextKey": "DailyQuestMission_80005",
+      "Kor": "보스 몬스터 처치",
+      "Eng": "Hunt Boss Monster"
+    },
+    {
+      "TextKey": "DailyQuestMission_80006",
+      "Kor": "장비 레벨업",
+      "Eng": "Level Up Gear"
+    },
+    {
+      "TextKey": "DailyQuestMission_80007",
+      "Kor": "장비 합성",
+      "Eng": "Merge Gear"
+    },
+    {
+      "TextKey": "DailyQuestMission_80008",
+      "Kor": "상점에서 상품 구매",
+      "Eng": "Purchase from Shop"
+    },
+    {
+      "TextKey": "DailyQuestMission_80009",
+      "Kor": "장비 뽑기 진행",
+      "Eng": "Gear Draw"
+    },
+    {
+      "TextKey": "DailyQuestMission_80010",
+      "Kor": "광고 시청",
+      "Eng": "Watch Ad"
+    },
+    {
+      "TextKey": "AchievementText_90001",
+      "Kor": "게임 참여",
+      "Eng": "Start Game"
+    },
+    {
+      "TextKey": "AchievementText_90002",
+      "Kor": "무한모드 기록 달성",
+      "Eng": "Achieve Infinite Mode Best Record"
+    },
+    {
+      "TextKey": "AchievementText_90003",
+      "Kor": "일반 장비 획득",
+      "Eng": "Obtain Common Gear"
+    },
+    {
+      "TextKey": "AchievementText_90004",
+      "Kor": "고급 장비 획득",
+      "Eng": "Obtain Uncommon Gear"
+    },
+    {
+      "TextKey": "AchievementText_90005",
+      "Kor": "희귀 장비 획득",
+      "Eng": "Obtain Rare Gear"
+    },
+    {
+      "TextKey": "AchievementText_90006",
+      "Kor": "에픽 장비 획득",
+      "Eng": "Obtain Epic Gear"
+    },
+    {
+      "TextKey": "AchievementText_90007",
+      "Kor": "전설 장비 획득",
+      "Eng": "Obtain Legendary Gear"
+    },
+    {
+      "TextKey": "AchievementText_90008",
+      "Kor": "신화 장비 획득",
+      "Eng": "Obtain Mythic Gear"
+    },
+    {
+      "TextKey": "AchievementText_90009",
+      "Kor": "일반 몬스터 처치",
+      "Eng": "Hunt Normal Monster"
+    },
+    {
+      "TextKey": "AchievementText_90010",
+      "Kor": "엘리트 몬스터 처치",
+      "Eng": "Hunt Elite Monster"
+    },
+    {
+      "TextKey": "AchievementText_90011",
+      "Kor": "보스 몬스터 처치",
+      "Eng": "Hunt Boss Monster"
+    },
+    {
+      "TextKey": "AchievementText_90012",
+      "Kor": "장비 합성",
+      "Eng": "Perform Gear Merge"
+    },
+    {
+      "TextKey": "AchievementText_90013",
+      "Kor": "장비 레벨업 진행",
+      "Eng": "Perform Gear Level Up"
+    },
+    {
+      "TextKey": "AchievementText_90014",
+      "Kor": "진화 진행",
+      "Eng": "Progress Evolution"
+    },
+    {
+      "TextKey": "AchievementText_90015",
+      "Kor": "골드 사용",
+      "Eng": "Spend Gold"
+    },
+    {
+      "TextKey": "AchievementText_90016",
+      "Kor": "보석 사용",
+      "Eng": "Spend Gems"
+    },
+    {
+      "TextKey": "Text_VipRewardTitle",
+      "Kor": "VIP {0}일차 보상",
+      "Eng": "VIP Day {0} Reward"
+    },
+    {
+      "TextKey": "Text_VvipRewardTitle",
+      "Kor": "VVIP {0}일차 보상",
+      "Eng": "VVIP Day {0} Reward"
+    },
+    {
+      "TextKey": "Text_LevelUpRewardTitle",
+      "Kor": "{0} 레벨 달성 보상",
+      "Eng": "Level {0} Achievement Reward"
+    },
+    {
+      "TextKey": "Text_VipRewardContent",
+      "Kor": "월정액 상품",
+      "Eng": "Monthly Pass"
+    },
+    {
+      "TextKey": "Text_VvipRewardContent",
+      "Kor": "월정액 상품",
+      "Eng": "Monthly Pass"
+    },
+    {
+      "TextKey": "Text_LevelUpRewardContent",
+      "Kor": "레벨업 보상",
+      "Eng": "Level Up Reward"
+    },
+    {
+      "TextKey": "Evolution_AtkTitle",
+      "Kor": "공격력",
+      "Eng": "Attack Power"
+    },
+    {
+      "TextKey": "Evolution_HpTitle",
+      "Kor": "최대 체력",
+      "Eng": "Max HP"
+    },
+    {
+      "TextKey": "Evolution_MoveTitle",
+      "Kor": "이동속도",
+      "Eng": "Move Speed"
+    },
+    {
+      "TextKey": "Evolution_CriticalTitle",
+      "Kor": "치명타 확률",
+      "Eng": "Crit Rate"
+    },
+    {
+      "TextKey": "Evolution_CriticalDamageTitle",
+      "Kor": "치명타 데미지",
+      "Eng": "Crit Damage"
+    },
+    {
+      "TextKey": "Evolution_BoomTitle",
+      "Kor": "폭탄 설치",
+      "Eng": "Bomb"
+    },
+    {
+      "TextKey": "Evolution_SkillCoolTitle",
+      "Kor": "스킬 쿨타임",
+      "Eng": "Skill Cooldown"
+    },
+    {
+      "TextKey": "Evolution_BerserkerTitle",
+      "Kor": "투지",
+      "Eng": "Berserk"
+    },
+    {
+      "TextKey": "Evolution_invincibilityTitle",
+      "Kor": "긴급 회피",
+      "Eng": "Emergency Evasion"
+    },
+    {
+      "TextKey": "Evolution_AtkDescription",
+      "Kor": "공격력 {0}증가",
+      "Eng": "Attack Power +{0}"
+    },
+    {
+      "TextKey": "Evolution_HpDescription",
+      "Kor": "최대 체력 {0}증가",
+      "Eng": "Max HP +{0}"
+    },
+    {
+      "TextKey": "Evolution_MoveDescription",
+      "Kor": "이동속도 {0}% 증가",
+      "Eng": "Move Speed +{0}%"
+    },
+    {
+      "TextKey": "Evolution_CriticalDescription",
+      "Kor": "치명타 확률 {0}% 증가",
+      "Eng": "Crit Rate +{0}%"
+    },
+    {
+      "TextKey": "Evolution_CriticalDamageDescription",
+      "Kor": "치명타 데미지 {0}% 증가",
+      "Eng": "Crit Damage +{0}%"
+    },
+    {
+      "TextKey": "Evolution_BoomDescription",
+      "Kor": "기본 공격으로 처치한 몬스터가 폭발하여 {0}의 데미지를 줌",
+      "Eng": "Enemies killed by basic attacks explode dealing {0} damage"
+    },
+    {
+      "TextKey": "Evolution_SkillCoolDescription",
+      "Kor": "스킬 쿨타임 {0}% 감소",
+      "Eng": "Skill Cooldown -{0}%"
+    },
+    {
+      "TextKey": "Evolution_BerserkerDescription",
+      "Kor": "잃은 체력 {0}당 공격력 {1}%증가",
+      "Eng": "Gain {1}% attack power per {0} HP lost"
+    },
+    {
+      "TextKey": "Evolution_invincibilityDescription",
+      "Kor": "피해를 받으면 {0}% 확률로 {1}초간 무적 상태 적용",
+      "Eng": "{0}% chance to become invincible for {1} sec when hit"
+    },
+    {
+      "TextKey": "Text_50001",
+      "Kor": "골드",
+      "Eng": "Gold"
+    },
+    {
+      "TextKey": "Text_50002",
+      "Kor": "다이아",
+      "Eng": "Diamond"
+    },
+    {
+      "TextKey": "Text_50003",
+      "Kor": "스테미나",
+      "Eng": "Stamina"
+    },
+    {
+      "TextKey": "Text_50004",
+      "Kor": "Exp",
+      "Eng": "Exp"
+    },
+    {
+      "TextKey": "Text_50005",
+      "Kor": "일일 퀘스트 경험치",
+      "Eng": "Daily Quest EXP"
+    },
+    {
+      "TextKey": "Text_50101",
+      "Kor": "무기 레벨업 스크롤",
+      "Eng": "Weapon Level Up Scroll"
+    },
+    {
+      "TextKey": "Text_50102",
+      "Kor": "장갑 레벨업 스크롤",
+      "Eng": "Glove Level Up Scroll"
+    },
+    {
+      "TextKey": "Text_50103",
+      "Kor": "반지 레벨업 스크롤",
+      "Eng": "Ring Level Up Scroll"
+    },
+    {
+      "TextKey": "Text_50104",
+      "Kor": "벨트 레벨업 스크롤",
+      "Eng": "Belt Level Up Scroll"
+    },
+    {
+      "TextKey": "Text_50105",
+      "Kor": "아머 레벨업 스크롤",
+      "Eng": "Armor Level Up Scroll"
+    },
+    {
+      "TextKey": "Text_50106",
+      "Kor": "부츠 레벨업 스크롤",
+      "Eng": "Boots Level Up Scroll"
+    },
+    {
+      "TextKey": "Text_50201",
+      "Kor": "부활권",
+      "Eng": "Revive Ticket"
+    },
+    {
+      "TextKey": "Text_50202",
+      "Kor": "실버 키",
+      "Eng": "Silver Key"
+    },
+    {
+      "TextKey": "Text_50203",
+      "Kor": "골드 키",
+      "Eng": "Gold Key"
+    },
+    {
+      "TextKey": "Text_50301",
+      "Kor": "랜덤 스크롤",
+      "Eng": "Random Scroll"
+    },
+    {
+      "TextKey": "Text_50302",
+      "Kor": "일반~에픽 랜덤 장비",
+      "Eng": "Common–Epic Random Gear"
+    },
+    {
+      "TextKey": "Text_50303",
+      "Kor": "고급~전설 랜덤 장비",
+      "Eng": "Rare–Legendary Random Gear"
+    },
+    {
+      "TextKey": "Text_50304",
+      "Kor": "고급 장비 상자",
+      "Eng": "Uncommon Gear Box"
+    },
+    {
+      "TextKey": "Text_50305",
+      "Kor": "희귀 장비 상자",
+      "Eng": "Rare Gear Box"
+    },
+    {
+      "TextKey": "Text_50306",
+      "Kor": "에픽 장비 상자",
+      "Eng": "Epic Gear Box"
+    },
+    {
+      "TextKey": "Text_50307",
+      "Kor": "레전드 장비 상자",
+      "Eng": "Legendary Gear Box"
+    },
+    {
+      "TextKey": "Text_50401",
+      "Kor": "무한모드 입장권",
+      "Eng": "Infinite Mode Ticket"
+    },
+    {
+      "TextKey": "Form_Stage",
+      "Kor": "{0}.{1}",
+      "Eng": "{0}.{1}"
+    },
+    {
+      "TextKey": "From_SurvivalTime",
+      "Kor": "최장 생존시간: {0}분 {1}초",
+      "Eng": "Longest survival time: {0}m {1}s"
+    },
+    {
+      "TextKey": "Lobby_Btn_Setting",
+      "Kor": "설정",
+      "Eng": "Setting"
+    },
+    {
+      "TextKey": "Lobby_Btn_Mail",
+      "Kor": "우편",
+      "Eng": "Mail"
+    },
+    {
+      "TextKey": "Lobby_Btn_VIP",
+      "Kor": "VIP",
+      "Eng": "VIP"
+    },
+    {
+      "TextKey": "Lobby_Btn_Quest",
+      "Kor": "퀘스트",
+      "Eng": "Quests"
+    },
+    {
+      "TextKey": "Lobby_Btn_Huntpass",
+      "Kor": "사냥패스",
+      "Eng": "Huntpass"
+    },
+    {
+      "TextKey": "Huntpass_BoosterBefore",
+      "Kor": "사냥 포인트 2배",
+      "Eng": "2x Hunting Points"
+    },
+    {
+      "TextKey": "Huntpass_BoosterBefore1",
+      "Kor": "3회",
+      "Eng": "3 Times"
+    },
+    {
+      "TextKey": "HuntPass_BoosterAfter",
+      "Kor": "사냥 포인트2배",
+      "Eng": "2x Hunt Points"
+    },
+    {
+      "TextKey": "HuntPass_BoosterAfter1",
+      "Kor": "적용중",
+      "Eng": "Applied"
+    },
+    {
+      "TextKey": "Lobby_Btn_Start",
+      "Kor": "시작",
+      "Eng": "START"
+    },
+    {
+      "TextKey": "Bottom_Btn_Shop",
+      "Kor": "상점",
+      "Eng": "Shop"
+    },
+    {
+      "TextKey": "Bottom_Btn_Equip",
+      "Kor": "장비",
+      "Eng": "Gear"
+    },
+    {
+      "TextKey": "Bottom_Btn_Home",
+      "Kor": "홈",
+      "Eng": "Home"
+    },
+    {
+      "TextKey": "Bottom_Btn_Challenge",
+      "Kor": "도전",
+      "Eng": "Challenge"
+    },
+    {
+      "TextKey": "Bottom_Btn_Evolution",
+      "Kor": "진화",
+      "Eng": "Evolution"
+    },
+    {
+      "TextKey": "Pop_Profile_Title",
+      "Kor": "프로필",
+      "Eng": "Profile"
+    },
+    {
+      "TextKey": "Pop_Profile_EditName_Title",
+      "Kor": "닉네임 설정",
+      "Eng": "Nickname Setting"
+    },
+    {
+      "TextKey": "Pop_Profile_EditName_Des",
+      "Kor": "닉네임을 입력하세요..",
+      "Eng": "Please enter your nickname"
+    },
+    {
+      "TextKey": "Pop_Profile_EditName_FreeChange",
+      "Kor": "최초 1회 무료 변경",
+      "Eng": "First time change is free"
+    },
+    {
+      "TextKey": "Pop_Profile_EditName_Change",
+      "Kor": "변경",
+      "Eng": "Change"
+    },
+    {
+      "TextKey": "ErrorCode_Nickname_Length",
+      "Kor": "{0}~{1}자까지 입력 가능합니다.",
+      "Eng": "Enter between {0} and {1} characters"
+    },
+    {
+      "TextKey": "ErrorCode_Nickname_InvalidCharacter",
+      "Kor": "사용할 수 없는 텍스트가 포함되어 있습니다",
+      "Eng": "Contains unavailable texts"
+    },
+    {
+      "TextKey": "ErrorCode_Nickname_InvalidWord",
+      "Kor": "부적절한 텍스트가 포함되어 있습니다",
+      "Eng": "Contains inappropriate texts"
+    },
+    {
+      "TextKey": "ErrorCode_Nickname_Duplicate",
+      "Kor": "이미 사용중인 닉네임입니다",
+      "Eng": "Nickname already in use"
+    },
+    {
+      "TextKey": "ErrorCode_Nickname_SameName",
+      "Kor": "동일한 닉네임을 입력할 수 없습니다",
+      "Eng": "Nickname already exists"
+    },
+    {
+      "TextKey": "Vip_product",
+      "Kor": "VIP 뱃지",
+      "Eng": "VIP BADGE"
+    },
+    {
+      "TextKey": "Vvip_product",
+      "Kor": "VVIP 뱃지",
+      "Eng": "VVIP BADGE"
+    },
+    {
+      "TextKey": "Vip_Pop_description1",
+      "Kor": "월정액 상품",
+      "Eng": "SUBSCRIPTION"
+    },
+    {
+      "TextKey": "Vip_Pop_description2",
+      "Kor": "구매일로부터 30일간 적용됩니다",
+      "Eng": "APPLIES FOR 30 DAYS!"
+    },
+    {
+      "TextKey": "Vip_Pop_description3",
+      "Kor": "모두 구매 시 효과 중첩 적용!",
+      "Eng": "Rewards stack when purchasing both Badges!"
+    },
+    {
+      "TextKey": "Vip_Pop_InstantGain",
+      "Kor": "즉시 획득!",
+      "Eng": "Instant Gain"
+    },
+    {
+      "TextKey": "Vip_Pop_DailyGain",
+      "Kor": "매일 획득!",
+      "Eng": "Daily"
+    },
+    {
+      "TextKey": "Vip_Pop_RemoveAds",
+      "Kor": "광고 제거",
+      "Eng": "Remove Ads"
+    },
+    {
+      "TextKey": "Value_Description",
+      "Kor": "가치",
+      "Eng": "Value"
+    },
+    {
+      "TextKey": "Setting_Pop_BGM",
+      "Kor": "배경음",
+      "Eng": "BGM"
+    },
+    {
+      "TextKey": "Setting_Pop_SFX",
+      "Kor": "효과음",
+      "Eng": "SFX"
+    },
+    {
+      "TextKey": "Setting_Pop_Vib",
+      "Kor": "진동",
+      "Eng": "Vibration"
+    },
+    {
+      "TextKey": "Setting_Pop_English",
+      "Kor": "English",
+      "Eng": "English"
+    },
+    {
+      "TextKey": "Setting_Pop_Korean",
+      "Kor": "한국어",
+      "Eng": "한국어"
+    },
+    {
+      "TextKey": "Setting_Pop_UID",
+      "Kor": "UID",
+      "Eng": "UID"
+    },
+    {
+      "TextKey": "Mail_Pop_Receive",
+      "Kor": "받기",
+      "Eng": "Receive"
+    },
+    {
+      "TextKey": "Mail_Pop_ReceiveAll",
+      "Kor": "전체 받기",
+      "Eng": "Receive All"
+    },
+    {
+      "TextKey": "Mail_Pop_Empty",
+      "Kor": "우편함이 비어있습니다.",
+      "Eng": "Mailbox is empty"
+    },
+    {
+      "TextKey": "Mail_Pop_TimeDelete",
+      "Kor": "받지 않은 우편은 {0}일 후 삭제됩니다.",
+      "Eng": "Unclaimed mail will be deleted in {0} days"
+    },
+    {
+      "TextKey": "Quest_Btn_DailyQuest",
+      "Kor": "일일 퀘스트",
+      "Eng": "Daily Quests"
+    },
+    {
+      "TextKey": "Quest_Btn_Achievement",
+      "Kor": "업적",
+      "Eng": "Achievement"
+    },
+    {
+      "TextKey": "Form_HourMinuitSeconds",
+      "Kor": "{0}시간 {1}분 {2}초",
+      "Eng": "{0}h {1}m {2}s"
+    },
+    {
+      "TextKey": "Form_MinuitSeconds",
+      "Kor": "{0}분 {1}초",
+      "Eng": "{0}m {1}s"
+    },
+    {
+      "TextKey": "Form_HourMinuit",
+      "Kor": "{0}시간 {1}분",
+      "Eng": "{0}h {1}m"
+    },
+    {
+      "TextKey": "Pop_HuntPass_Title",
+      "Kor": "사냥 패스",
+      "Eng": "Hunt Pass"
+    },
+    {
+      "TextKey": "Pop_HuntPass_Free",
+      "Kor": "무료",
+      "Eng": "Free"
+    },
+    {
+      "TextKey": "Pop_HuntPass_Premium",
+      "Kor": "프리미엄",
+      "Eng": "Premium"
+    },
+    {
+      "TextKey": "StageName_1",
+      "Kor": "빈민가",
+      "Eng": "Slum"
+    },
+    {
+      "TextKey": "StageName_2",
+      "Kor": "연구소",
+      "Eng": "Lab"
+    },
+    {
+      "TextKey": "Shop_Title_1",
+      "Kor": "장비 지급소",
+      "Eng": "Gear Supply"
+    },
+    {
+      "TextKey": "Shop_Title_2",
+      "Kor": "골드",
+      "Eng": "Gold"
+    },
+    {
+      "TextKey": "Shop_Title_3",
+      "Kor": "보석",
+      "Eng": "Jewel"
+    },
+    {
+      "TextKey": "Shop_Title_4",
+      "Kor": "티켓",
+      "Eng": "Ticket"
+    },
+    {
+      "TextKey": "Shop_Title_5",
+      "Kor": "스크롤",
+      "Eng": "Scroll"
+    },
+    {
+      "TextKey": "Shop_Pack_1",
+      "Kor": "스타트패키지",
+      "Eng": "Starter Package"
+    },
+    {
+      "TextKey": "Shop_Pack_2",
+      "Kor": "성장 패키지",
+      "Eng": "Growth Package"
+    },
+    {
+      "TextKey": "Shop_Pack_3",
+      "Kor": "재화 패키지",
+      "Eng": "Currency Package"
+    },
+    {
+      "TextKey": "Shop_CommonGacha",
+      "Kor": "일반 지급소",
+      "Eng": "Common Supply"
+    },
+    {
+      "TextKey": "Shop_RareGacha",
+      "Kor": "고급 지급소",
+      "Eng": "Rare Supply"
+    },
+    {
+      "TextKey": "Shop_FirstPurchase",
+      "Kor": "첫 구매 <color=#FEAE05>두 배 지급!</color>",
+      "Eng": "<color=#FEAE05>2x Bonus</color>"
+    },
+    {
+      "TextKey": "Shop_EndlessTicket",
+      "Kor": "무한 모드",
+      "Eng": "Endless Mode"
+    },
+    {
+      "TextKey": "Shop_EndlessTicket_Des",
+      "Kor": "한계를 시험해보세요!",
+      "Eng": "Push your limits!"
+    },
+    {
+      "TextKey": "Shop_TodayLeft",
+      "Kor": "오늘 {0}회 구매 가능",
+      "Eng": "{0} left today"
+    },
+    {
+      "TextKey": "Shop_RandomScroll",
+      "Kor": "랜덤 스크롤",
+      "Eng": "Random Scroll"
+    },
+    {
+      "TextKey": "Shop_WeaponScroll",
+      "Kor": "무기 스크롤",
+      "Eng": "Weapon Scroll"
+    },
+    {
+      "TextKey": "Shop_PurchaseItem1",
+      "Kor": "상품 구매",
+      "Eng": "Purchase Item"
+    },
+    {
+      "TextKey": "Shop_PurchaseItem2",
+      "Kor": "아래 상품을 구매하시겠어요?",
+      "Eng": "Would you like to purchase the item below?"
+    },
+    {
+      "TextKey": "Shop_Btn_Purchase",
+      "Kor": "구매",
+      "Eng": "Purchase"
+    },
+    {
+      "TextKey": "Text_Applied",
+      "Kor": "적용중",
+      "Eng": "In Use"
+    },
+    {
+      "TextKey": "Text_RamainDay",
+      "Kor": "{0}일 남음",
+      "Eng": "{0}d left"
+    },
+    {
+      "TextKey": "Gear_MyGear",
+      "Kor": "나의 장비",
+      "Eng": "My Gear"
+    },
+    {
+      "TextKey": "Gear_Filter_Grade",
+      "Kor": "등급순",
+      "Eng": "By Grade"
+    },
+    {
+      "TextKey": "Gear_Filter_Level",
+      "Kor": "레벨순",
+      "Eng": "By Level"
+    },
+    {
+      "TextKey": "Gear_Btn_Merge",
+      "Kor": "합성",
+      "Eng": "Merge"
+    },
+    {
+      "TextKey": "Gear_Btn_MergeAll",
+      "Kor": "일괄 합성",
+      "Eng": "Merge All"
+    },
+    {
+      "TextKey": "Gear_MaxLevel",
+      "Kor": "최대 레벨",
+      "Eng": "Max Level"
+    },
+    {
+      "TextKey": "Text_Atk",
+      "Kor": "공격력",
+      "Eng": "ATK"
+    },
+    {
+      "TextKey": "Text_Hp",
+      "Kor": "체력",
+      "Eng": "HP"
+    },
+    {
+      "TextKey": "Text_Success",
+      "Kor": "성공",
+      "Eng": "Success"
+    },
+    {
+      "TextKey": "Gear_GradeSkill",
+      "Kor": "등급 스킬",
+      "Eng": "Grade Skill"
+    },
+    {
+      "TextKey": "Gear_Equip",
+      "Kor": "착용",
+      "Eng": "Equip"
+    },
+    {
+      "TextKey": "Gear_Unequip",
+      "Kor": "착용 해제",
+      "Eng": "Unequip"
+    },
+    {
+      "TextKey": "Gear_Btn_Levelup",
+      "Kor": "레벨업",
+      "Eng": "Level Up"
+    },
+    {
+      "TextKey": "Gear_Btn_LevelupAll",
+      "Kor": "일괄 레벨업",
+      "Eng": "Level Up All"
+    },
+    {
+      "TextKey": "Gear_LevelDownTitle",
+      "Kor": "장비 레벨 다운",
+      "Eng": "Gear Level Down"
+    },
+    {
+      "TextKey": "Gear_LevelDownDes",
+      "Kor": "장비 레벨 다운 시 레벨업에 사용한 스크롤을 모두 돌려받아요.",
+      "Eng": "Level Down refunds 100% of Scrolls"
+    },
+    {
+      "TextKey": "Gear_Btn_LevelDown",
+      "Kor": "레벨 다운",
+      "Eng": "Level Down"
+    },
+    {
+      "TextKey": "SkillText_EquipmentSkill_Power",
+      "Kor": "공격력 {0}% 증가",
+      "Eng": "Increases ATK by {0}%"
+    },
+    {
+      "TextKey": "SkillText_EquipmentSkill_MaxHP",
+      "Kor": "최대 체력 {0}% 증가",
+      "Eng": "Increases max HP by {0}%"
+    },
+    {
+      "TextKey": "SkillText_EquipmentSkill_SkillCoolTime",
+      "Kor": "스킬 쿨타임 {0}% 감소",
+      "Eng": "Reduces skill cooldown by {0}%"
+    },
+    {
+      "TextKey": "SkillText_EquipmentSkill_ResistDamage",
+      "Kor": "받는 피해량 {0}% 감소",
+      "Eng": "Reduces damage taken by {0}%"
+    },
+    {
+      "TextKey": "SkillText_EquipmentSkill_Critical",
+      "Kor": "치명타 확률 {0}% 증가",
+      "Eng": "Increases critical rate by {0}%"
+    },
+    {
+      "TextKey": "SkillText_EquipmentSkill_CriticalDamage",
+      "Kor": "치명타 피해량 {0}% 증가",
+      "Eng": "Increases critical damage by {0}%"
+    },
+    {
+      "TextKey": "SkillText_EquipmentSkill_HpRecoveryEfficiency",
+      "Kor": "회복 효과 {0}% 증가",
+      "Eng": "Increases healing effect by {0}%"
+    },
+    {
+      "TextKey": "SkillText_EquipmentSkill_MoveSpeed",
+      "Kor": "이동 속도 {0}% 증가",
+      "Eng": "Increases movement speed by {0}%"
+    },
+    {
+      "TextKey": "SkillText_EquipmentSkill_HpRecovery1s",
+      "Kor": "초당 회복량 {0} 증가",
+      "Eng": "Recovers {0} HP per second"
+    },
+    {
+      "TextKey": "SkillText_EquipmentSkill_ExplosionSkillSize",
+      "Kor": "스킬 폭발 범위 {0}% 증가",
+      "Eng": "Increases skill explosion range by {0}%"
+    },
+    {
+      "TextKey": "SkillText_EquipmentSkill_BulletSkillSize",
+      "Kor": "투사체 스킬 크기 {0}% 증가",
+      "Eng": "Increases projectile skill size by {0}%"
+    },
+    {
+      "TextKey": "SkillText_EquipmentSkill_CircleSkillSize",
+      "Kor": "범위형 스킬 크기 {0}% 증가",
+      "Eng": "Increases area skill size by {0}%"
+    },
+    {
+      "TextKey": "SkillText_EquipmentSkill_BasicAttackCool",
+      "Kor": "기본 공격 쿨타임 {0}% 감소",
+      "Eng": "Reduces basic attack cooldown by {0}%"
+    },
+    {
+      "TextKey": "SkillText_EquipmentSkill_ItemBoxCool",
+      "Kor": "아이템 생성 주기 {0}% 감소",
+      "Eng": "Reduces item spawn interval by {0}%"
+    },
+    {
+      "TextKey": "SkillText_EquipmentSkill_AuraDamage",
+      "Kor": "주변 적에게 피해를 입히는 오라 생성",
+      "Eng": "Creates an aura that damages nearby enemies"
+    },
+    {
+      "TextKey": "SkillText_EquipmentSkill_AuraDamageUp",
+      "Kor": "오라 데미지 {0}% 증가",
+      "Eng": "Increases aura damage by {0}%"
+    },
+    {
+      "TextKey": "SkillText_EquipmentSkill_Revive",
+      "Kor": "사망 시 {0}회 부활",
+      "Eng": "Revive {0} time upon death"
+    },
+    {
+      "TextKey": "SkillText_EquipmentSkill_AddRevive",
+      "Kor": "부활 {0}회 추가",
+      "Eng": "Adds {0} extra revive"
+    },
+    {
+      "TextKey": "Text_All",
+      "Kor": "전체",
+      "Eng": "All"
+    },
+    {
+      "TextKey": "Text_Challenge",
+      "Kor": "도전",
+      "Eng": "Challenge"
+    },
+    {
+      "TextKey": "Challenge_EndlessMode",
+      "Kor": "무한 모드",
+      "Eng": "Endless Mode"
+    },
+    {
+      "TextKey": "Challenge_EndlessModeDes",
+      "Kor": "몬스터를 많이 처치할수록 보상이 증가합니다.",
+      "Eng": "The more monsters you defeat the greater the rewards"
+    },
+    {
+      "TextKey": "Challenge_MaxDefeat",
+      "Kor": "최고 처치수",
+      "Eng": "Highest Kill Count"
+    },
+    {
+      "TextKey": "Challenge_OwnedTicket",
+      "Kor": "보유한 티켓",
+      "Eng": "Tickets Owned"
+    },
+    {
+      "TextKey": "Challenge_LongestTime",
+      "Kor": "최고 생존 시간",
+      "Eng": "Longest survival time"
+    },
+    {
+      "TextKey": "Ingame_AtkSkill",
+      "Kor": "공격 스킬",
+      "Eng": "Attack Skill"
+    },
+    {
+      "TextKey": "Ingame_Supportskill",
+      "Kor": "보조",
+      "Eng": "Support"
+    },
+    {
+      "TextKey": "Ingame_Pop_BackHome",
+      "Kor": "홈으로 돌아가기",
+      "Eng": "Return to Home"
+    },
+    {
+      "TextKey": "Ingame_Pop_BackHomeDes",
+      "Kor": "이번 게임 보상을 획득할 수 없게돼요.\n홈으로 돌아갈까요?",
+      "Eng": "Cannot claim rewards for this run.\nReturn to home?"
+    },
+    {
+      "TextKey": "Ingame_Pop_BackHomeQuit",
+      "Kor": "나가기",
+      "Eng": "Quit"
+    },
+    {
+      "TextKey": "Ingame_Pop_BackHomeResume",
+      "Kor": "계속하기",
+      "Eng": "Resume"
+    },
+    {
+      "TextKey": "Ingame_NewSkill",
+      "Kor": "새로운 스킬!",
+      "Eng": "New Skill!"
+    },
+    {
+      "TextKey": "Ingame_NewSkillLevelup",
+      "Kor": "레벨업!",
+      "Eng": "Level Up!"
+    },
+    {
+      "TextKey": "Ingame_SelectSkill",
+      "Kor": "스킬을 선택하세요",
+      "Eng": "Select Skill"
+    },
+    {
+      "TextKey": "Text_New",
+      "Kor": "신규",
+      "Eng": "NEW"
+    },
+    {
+      "TextKey": "Text_Refresh",
+      "Kor": "새로고침",
+      "Eng": "Refresh"
+    },
+    {
+      "TextKey": "Ingame_NewSkillEvo",
+      "Kor": "초월:",
+      "Eng": "EVO:"
+    },
+    {
+      "TextKey": "Ingame_Pop_Revive",
+      "Kor": "부활",
+      "Eng": "Revive"
+    },
+    {
+      "TextKey": "Ingame_Pop_ReviveDes",
+      "Kor": "거의 다왔어요!",
+      "Eng": "Almost there!"
+    },
+    {
+      "TextKey": "Text_OK",
+      "Kor": "OK",
+      "Eng": "OK"
+    },
+    {
+      "TextKey": "Ingame_BossAppear",
+      "Kor": "보스 출현",
+      "Eng": "Boss Assault"
+    },
+    {
+      "TextKey": "Ingame_BossWarning",
+      "Kor": "경고",
+      "Eng": "WARNING!"
+    },
+    {
+      "TextKey": "Ingame_Victory",
+      "Kor": "승리!",
+      "Eng": "Victory!"
+    },
+    {
+      "TextKey": "Form_Chapter",
+      "Kor": "{0} 챕터",
+      "Eng": "Chapter {0}"
+    },
+    {
+      "TextKey": "Text_NewRecord",
+      "Kor": "신규 기록!",
+      "Eng": "New Record!"
+    },
+    {
+      "TextKey": "Ingame_KilledMonster",
+      "Kor": "처치한 몬스터",
+      "Eng": "Monsters Defeated"
+    },
+    {
+      "TextKey": "Ingame_BestRecord",
+      "Kor": "최고 기록",
+      "Eng": "Best Record"
+    },
+    {
+      "TextKey": "Text_Confirm",
+      "Kor": "확인",
+      "Eng": "Confirm"
+    },
+    {
+      "TextKey": "Text_Cancel",
+      "Kor": "취소",
+      "Eng": "Cancel"
+    },
+    {
+      "TextKey": "Ingame_Defeat",
+      "Kor": "패배",
+      "Eng": "Defeat"
+    },
+    {
+      "TextKey": "Stage_name1",
+      "Kor": "도시 외곽",
+      "Eng": "City Outskirts"
+    },
+    {
+      "TextKey": "Stage_name2",
+      "Kor": "경계 지구",
+      "Eng": "Border District"
+    },
+    {
+      "TextKey": "Stage_name3",
+      "Kor": "산업 지대",
+      "Eng": "Industrial Zone"
+    },
+    {
+      "TextKey": "Stage_name4",
+      "Kor": "보안 구역",
+      "Eng": "Security Sector"
+    },
+    {
+      "TextKey": "Stage_name5",
+      "Kor": "고층 지구",
+      "Eng": "High-Rise District"
+    },
+    {
+      "TextKey": "Stage_name6",
+      "Kor": "하늘 통로",
+      "Eng": "Skyway"
+    },
+    {
+      "TextKey": "Stage_name7",
+      "Kor": "폐허 거리",
+      "Eng": "Ruin Street"
+    },
+    {
+      "TextKey": "Stage_name8",
+      "Kor": "감염 중심가",
+      "Eng": "Infected Downtown"
+    },
+    {
+      "TextKey": "Stage_name9",
+      "Kor": "통제 불능 지대",
+      "Eng": "Uncontrolled Zone"
+    },
+    {
+      "TextKey": "Shop_FailPurchase",
+      "Kor": "상품 구매에 실패했습니다.",
+      "Eng": "Failed purchaseditem"
+    },
+    {
+      "TextKey": "Shop_GachaProbability",
+      "Kor": "상품 확률",
+      "Eng": "Item Probability"
+    },
+    {
+      "TextKey": "Guest_Popup_1",
+      "Kor": "게스트 계정의 데이터는 이전할 수 없습니다. 안전한 이용을 위해 Google 또는 Apple 로그인을 권장합니다. 게스트 계정으로 계속 진행하시겠습니까?",
+      "Eng": "Guest account data can’t be transferred. For safety we recommend using Google or Apple login. Continue with a guest account?"
+    },
+    {
+      "TextKey": "Purhcase_success",
+      "Kor": "구매 성공",
+      "Eng": "Purchase Success"
+    },
+    {
+      "TextKey": "Select",
+      "Kor": "선택",
+      "Eng": "Select"
+    },
+    {
+      "TextKey": "App_Update_1",
+      "Kor": "스토어로 이동해서 최신 버전을 다운로드하세요!",
+      "Eng": "Head over to the store and grab the latest version!"
+    },
+    {
+      "TextKey": "NOT_Enought_Gold",
+      "Kor": "골드가 부족합니다.",
+      "Eng": "Not enough gold."
+    },
+    {
+      "TextKey": "NOT_Enought_Scroll",
+      "Kor": "스크롤이 부족합니다.",
+      "Eng": "Not enough scroll."
+    },
+    {
+      "TextKey": "Reward",
+      "Kor": "보상",
+      "Eng": "Reward"
+    },
+    {
+      "TextKey": "Purchased",
+      "Kor": "구매 완료",
+      "Eng": "Purchased"
+    },
+    {
+      "TextKey": "Equipment_desc_1",
+      "Kor": "일반 또는 <color=#8FF500>상급</color> 장비를 포함합니다.",
+      "Eng": "Contains normal or <color=#8FF500>Superior</color> Equipment "
+    },
+    {
+      "TextKey": "Equipment_desc_2",
+      "Kor": "상급 또는  <color=#5688f9>레어</color> or  <color=#b746ff>에픽</color> 장비를 포함합니다.",
+      "Eng": "\"Contains Superior"
+    },
+    {
+      "TextKey": "Remaining_time",
+      "Kor": "남은 시간",
+      "Eng": "Remaining"
+    },
+    {
+      "TextKey": "Logout",
+      "Kor": "로그아웃",
+      "Eng": "Logout"
+    },
+    {
+      "TextKey": "Vip_DailyReward",
+      "Kor": "VIP 패스 일일 보상",
+      "Eng": "VIP Pass Daily Reward"
+    },
+    {
+      "TextKey": "VVip_DailyReward",
+      "Kor": "VVIP 패스 일일 보상",
+      "Eng": "VVIP Pass Daily Reward"
+    },
+    {
+      "TextKey": "Vip_Active",
+      "Kor": "VIP 구독이 활성화되었습니다.",
+      "Eng": "VIP Subscription now active"
+    },
+    {
+      "TextKey": "VVip_Active",
+      "Kor": "VVIP 구독이 활성화되었습니다.",
+      "Eng": "VVIP Subscription now active"
+    },
+    {
+      "TextKey": "Level_Up",
+      "Kor": "축하합니다! {0}레벨에 도달했습니다!",
+      "Eng": "Congratulations! You've reached level {0} !"
+    },
+    {
+      "TextKey": "Vip_DailyReward_day",
+      "Kor": "VIP 패스 {0}일 보상",
+      "Eng": "VVIP Day {0} Reward"
+    },
+    {
+      "TextKey": "VVip_DailyReward_day",
+      "Kor": "VVIP 패스 {0} 보상",
+      "Eng": "VIP Day {0} Reward"
+    },
+    {
+      "TextKey": "Level_Up_!",
+      "Kor": "레벨업 !",
+      "Eng": "Level_Up!"
+    },
+    {
+      "TextKey": "Statistics_Title",
+      "Kor": "통계",
+      "Eng": "Total Damage"
+    },
+    {
+      "TextKey": "Guest_Login",
+      "Kor": "게스트 로그인",
+      "Eng": "Guest Sign in"
+    },
+    {
+      "TextKey": "Google_Login",
+      "Kor": "구글 로그인",
+      "Eng": "Sign in with Google"
+    },
+    {
+      "TextKey": "Apple_Login",
+      "Kor": "애플 로그인",
+      "Eng": "Sign in with Apple"
+    },
+    {
+      "TextKey": "Failed_google_Login",
+      "Kor": "구글 로그인에 실패했습니다.",
+      "Eng": "Failed google login"
+    },
+    {
+      "TextKey": "Failed_apple_Login",
+      "Kor": "애플 로그인에 실패했습니다.",
+      "Eng": "Failed apple login"
+    },
+    {
+      "TextKey": "Not_enough_stamina",
+      "Kor": "스테미너가 부족합니다.",
+      "Eng": "Not enough stamina"
+    },
+    {
+      "TextKey": "Not_enough_ticket",
+      "Kor": "티켓이 부족합니다.",
+      "Eng": "Not enough ticket"
+    },
+    {
+      "TextKey": "Conenct_Internet",
+      "Kor": "인터넷 연결 상태를 확인해주세요.",
+      "Eng": "Internet connection is unavailable."
+    },
+    {
+      "TextKey": "Duplicate_Logged",
+      "Kor": "다른 기기에서 로그인이 되었습니다.",
+      "Eng": "Logged in on another device."
+    },
+    {
+      "TextKey": "Failed_ads",
+      "Kor": "광고 보기에 실패했습니다.",
+      "Eng": "Failed ads"
+    },
+    {
+      "TextKey": "NOT_Enought_Jewel",
+      "Kor": "보석이 부족합니다.",
+      "Eng": "Not enough jewel"
+    },
+    {
+      "TextKey": "Name_NOT_Available",
+      "Kor": "해당 이름을 사용이 불가능합니다.",
+      "Eng": "This name is not available."
+    },
+    {
+      "TextKey": "NAME_ALREADY_EXISTS",
+      "Kor": "이미 존재하는 닉네임입니다.",
+      "Eng": "The name already exists."
+    },
+    {
+      "TextKey": "NAME_LENGTH_INVALID",
+      "Kor": "이름이 너무 깁니다.",
+      "Eng": "The name is too long"
+    },
+    {
+      "TextKey": "NAME_SPECIAL_CHARACTER_INVALID",
+      "Kor": "특수문자는 사용이 불가능합니다.",
+      "Eng": "Special characters are not allowed."
+    },
+    {
+      "TextKey": "NAME_INCLUDES_PROFANE_WORD",
+      "Kor": "금지된 문자가 포함되어있습니다.",
+      "Eng": "This name is not available."
+    },
+    {
+      "TextKey": "MAIL_NOT_FOUND_EXPIRED",
+      "Kor": "메일을 받을 수 있는 날짜가 지났습니다.",
+      "Eng": "The date I can receive the mail has passed."
+    },
+    {
+      "TextKey": "MAIL_ALREADY_CLAIMED",
+      "Kor": "이미 메일을 받으셨습니다.",
+      "Eng": "You have already received your mail."
+    },
+    {
+      "TextKey": "MAIL_NOT_FOUND",
+      "Kor": "메일을 찾을 수 없습니다.",
+      "Eng": "mail not found."
+    },
+    {
+      "TextKey": "USER_QUEST_NOT_COMPLETED",
+      "Kor": "퀘스트가 클리어되지 않았습니다.",
+      "Eng": "The quest has not been cleared."
+    },
+    {
+      "TextKey": "USER_QUEST_REWARD_ALREADY_CLAIMED",
+      "Kor": "퀘스트는 이미 클리어되었습니다.",
+      "Eng": "Quests have already been cleared."
+    },
+    {
+      "TextKey": "ACHIEVEMENT_NOT_FOUND",
+      "Kor": "업적을 찾을 수 없습니다.",
+      "Eng": "Achievements not founded."
+    },
+    {
+      "TextKey": "ACHIEVEMENT_NOT_CLEARED",
+      "Kor": "아직 업적에 달성하지 못했습니다.",
+      "Eng": "Achievements have not been cleared."
+    },
+    {
+      "TextKey": "Ads_Not_Ready",
+      "Kor": "광고가 아직 준비되지 않았습니다.",
+      "Eng": "The ad is not ready"
+    },
+    {
+      "TextKey": "Unknown_error",
+      "Kor": "알수없는 에러가 발생했습니다.",
+      "Eng": "An unknown error has occurred."
+    },
+    {
+      "TextKey": "WeaponScroll",
+      "Kor": "무기 스크롤",
+      "Eng": "WeaponScroll"
+    },
+    {
+      "TextKey": "GlovesScroll",
+      "Kor": "글로브 스크롤",
+      "Eng": "GlovesScroll"
+    },
+    {
+      "TextKey": "RingScroll",
+      "Kor": "링 스크롤",
+      "Eng": "RingScroll"
+    },
+    {
+      "TextKey": "BeltScroll",
+      "Kor": "벨트 스크롤",
+      "Eng": "BeltScroll"
+    },
+    {
+      "TextKey": "ArmorScroll",
+      "Kor": "아머 스크롤",
+      "Eng": "ArmorScroll"
+    },
+    {
+      "TextKey": "BootsScroll",
+      "Kor": "부츠 스크롤",
+      "Eng": "BootsScroll"
+    }
+  ]
+}

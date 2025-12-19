@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 540c5488d3a964026be9985f98434877
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 80667
+  packageName: Soft Mask
+  packageVersion: 1.6.3
+  assetPath: Assets/SoftMask/Shaders/Resources/SoftMaskETC1.shader
+  uploadId: 465158

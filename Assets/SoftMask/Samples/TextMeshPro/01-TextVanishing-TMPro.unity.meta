@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 33a45af1ee0757845a152ee66f24da3a
+timeCreated: 1482160536
+licenseType: Store
+DefaultImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 80667
+  packageName: Soft Mask
+  packageVersion: 1.6.3
+  assetPath: Assets/SoftMask/Samples/TextMeshPro/01-TextVanishing-TMPro.unity
+  uploadId: 465158

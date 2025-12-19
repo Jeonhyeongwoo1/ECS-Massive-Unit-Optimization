@@ -1,0 +1,16 @@
+DataId,PassiveSkillType,TitleTextKey,DescriptionTextKey,~?ㅽ궗 ?대쫫,~?ㅽ궗 ?ㅻ챸,IconLabel,Rate,LinkedSkillId,MatchSkillId,SkillType
+20101,Attack,SkillTitle_20101,SkillDescription_20101,글러브,기본 공격 피해량이 {n}% 증가함.,Skill_Normal_Icon_20101,0.1,10001,10001,PassiveSkill
+20102,MoveSpeed,SkillTitle_20102,SkillDescription_20102,고양이 신발,이동 속도가 {n}% 증가함.,Skill_Normal_Icon_20102,0.1,,10011,PassiveSkill
+20103,ProjectileSpeed,SkillTitle_20103,SkillDescription_20103,고성능 탄,모든 투사체 스킬의 비행 속도가 {n}% 증가함.,Skill_Normal_Icon_20103,0.1,10011&10021&10031&10041&10051&10131,10021,PassiveSkill
+20104,HpRecoveryEfficiency,SkillTitle_20104,SkillDescription_20104,소생,주기적으로 최대 체력의 {n}%를 회복함.,Skill_Normal_Icon_20104,0.003,,10031,PassiveSkill
+20105,MaxHP,SkillTitle_20105,SkillDescription_20105,덤벨,최대 체력이 {n}% 증가함.,Skill_Normal_Icon_20105,0.2,,10041,PassiveSkill
+20106,ExplsionRange,SkillTitle_20106,SkillDescription_20106,고화력,폭발하는 스킬의 스킬 데미지가 {n}% 증가함.,Skill_Normal_Icon_20106,0.2,10051,10051,PassiveSkill
+20107,SkillRange,SkillTitle_20107,SkillDescription_20107,배터리,범위형 스킬의 공격 범위가 증가함.,Skill_Normal_Icon_20107,0.1,10081&10071&10101&10111&10121,10071,PassiveSkill
+20108,AddGoldAmount,SkillTitle_20108,SkillDescription_20108,유전 발견,골드 획득 시 {n}% 추가 획득,Skill_Normal_Icon_20108,0.1,,10091,PassiveSkill
+20109,SkillDuration,SkillTitle_20109,SkillDescription_20109,마이크,모든 스킬의 지속 시간 {n}% 증가,Skill_Normal_Icon_20109,0.1,10141&10101&10091&10081,10101,PassiveSkill
+20110,Defence,SkillTitle_20110,SkillDescription_20110,갑옷,받는 피해량 {n}% 감소,Skill_Normal_Icon_20110,0.1,,10121,PassiveSkill
+20111,AddItemRange,SkillTitle_20111,SkillDescription_20111,자석,모든 아이템 획득 범위 {n}% 증가,Skill_Normal_Icon_20111,0.15,,10131,PassiveSkill
+20112,CoolTime,SkillTitle_20112,SkillDescription_20112,지식 학습,주기형 스킬의 공격 주기 {n}% 감소,Skill_Normal_Icon_20112,0.05,10011&10021&10031&10041&10051&10061&10081&10091&10101&10111&10121&10131&10141,10141,PassiveSkill
+20113,CriticalPercent,SkillTitle_20113,SkillDescription_20113,예리한 수염,모든 공격의 치명타 확률 {n}% 증가,Skill_Normal_Icon_20113,0.03,,10061,PassiveSkill
+20114,CriticalDamage,SkillTitle_20114,SkillDescription_20114,날카로운 발톱,모든 공격의 치명타 데미지 {n}% 증가,Skill_Normal_Icon_20114,0.2,,10081,PassiveSkill
+20115,EXP,SkillTitle_20115,SkillDescription_20115,고양이 영혼,경험치 획득량 {n}% 증가,Skill_Normal_Icon_20115,0.08,,10111,PassiveSkill

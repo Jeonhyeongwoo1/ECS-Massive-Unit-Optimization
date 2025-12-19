@@ -1,0 +1,556 @@
+TextKey,Kor,Eng
+Grade_Common,일반,Common
+Grade_Uncommon,고급,Uncommon
+Grade_Rare,희귀,Rare
+Grade_Epic,영웅,Epic
+Grade_Epic1,영웅 +1,Epic+1
+Grade_Epic2,영웅 +2,Epic+2
+Grade_Legendary,전설,Legendary
+Grade_Legendary1,전설 +1,Legendary+1
+Grade_Legendary2,전설 +2,Legendary+2
+Grade_Mythic,신화,Mythic
+SkillTitle_10001,할퀴기,Claw Swipe
+SkillTitle_10002,할퀴기,Claw Swipe
+SkillTitle_10003,할퀴기,Claw Swipe
+SkillTitle_10004,할퀴기,Claw Swipe
+SkillTitle_10005,할퀴기,Claw Swipe
+SkillTitle_10006,냥냥펀치,Meow Punch
+SkillTitle_10011,털실,Yarn Ball
+SkillTitle_10012,털실,Yarn Ball
+SkillTitle_10013,털실,Yarn Ball
+SkillTitle_10014,털실,Yarn Ball
+SkillTitle_10015,털실,Yarn Ball
+SkillTitle_10016,강철털실,Steel Yarn
+SkillTitle_10021,구슬,Shiny Marble
+SkillTitle_10022,구슬,Shiny Marble
+SkillTitle_10023,구슬,Shiny Marble
+SkillTitle_10024,구슬,Shiny Marble
+SkillTitle_10025,구슬,Shiny Marble
+SkillTitle_10026,여우 구슬,Foxy Orb
+SkillTitle_10031,생선뼈,Fishbone
+SkillTitle_10032,생선뼈,Fishbone
+SkillTitle_10033,생선뼈,Fishbone
+SkillTitle_10034,생선뼈,Fishbone
+SkillTitle_10035,생선뼈,Fishbone
+SkillTitle_10036,청새치,Blue Marlin
+SkillTitle_10041,통조림,Tuna Can
+SkillTitle_10042,통조림,Tuna Can
+SkillTitle_10043,통조림,Tuna Can
+SkillTitle_10044,통조림,Tuna Can
+SkillTitle_10045,통조림,Tuna Can
+SkillTitle_10046,통조림 세트,Can Combo
+SkillTitle_10051,헤어볼 대포,Hairball Cannon
+SkillTitle_10052,헤어볼 대포,Hairball Cannon
+SkillTitle_10053,헤어볼 대포,Hairball Cannon
+SkillTitle_10054,헤어볼 대포,Hairball Cannon
+SkillTitle_10055,헤어볼 대포,Hairball Cannon
+SkillTitle_10056,메가볼,Mega Ball
+SkillTitle_10061,꼬리 채찍,Tail Whip
+SkillTitle_10062,꼬리 채찍,Tail Whip
+SkillTitle_10063,꼬리 채찍,Tail Whip
+SkillTitle_10064,꼬리 채찍,Tail Whip
+SkillTitle_10065,꼬리 채찍,Tail Whip
+SkillTitle_10066,꼬리 스피너,Tail Spinner
+SkillTitle_10071,자기장,Magnetic Field
+SkillTitle_10072,자기장,Magnetic Field
+SkillTitle_10073,자기장,Magnetic Field
+SkillTitle_10074,자기장,Magnetic Field
+SkillTitle_10075,자기장,Magnetic Field
+SkillTitle_10076,고중력,Heavy Gravity
+SkillTitle_10081,쳇바퀴 지뢰,Wheel Trap
+SkillTitle_10082,쳇바퀴 지뢰,Wheel Trap
+SkillTitle_10083,쳇바퀴 지뢰,Wheel Trap
+SkillTitle_10084,쳇바퀴 지뢰,Wheel Trap
+SkillTitle_10085,쳇바퀴 지뢰,Wheel Trap
+SkillTitle_10086,가시 쳇바퀴,Spiky Wheel Trap
+SkillTitle_10091,불타는 츄르,Flaming Churu
+SkillTitle_10092,불타는 츄르,Flaming Churu
+SkillTitle_10093,불타는 츄르,Flaming Churu
+SkillTitle_10094,불타는 츄르,Flaming Churu
+SkillTitle_10095,불타는 츄르,Flaming Churu
+SkillTitle_10096,지옥불 츄르,Inferno Churu
+SkillTitle_10101,골골송,Purr Song
+SkillTitle_10102,골골송,Purr Song
+SkillTitle_10103,골골송,Purr Song
+SkillTitle_10104,골골송,Purr Song
+SkillTitle_10105,골골송,Purr Song
+SkillTitle_10106,하악질,Hiss
+SkillTitle_10111,고양이 발,Paw Strike
+SkillTitle_10112,고양이 발,Paw Strike
+SkillTitle_10113,고양이 발,Paw Strike
+SkillTitle_10114,고양이 발,Paw Strike
+SkillTitle_10115,고양이 발,Paw Strike
+SkillTitle_10116,쿵쿵쿵,Thud Thud Thud
+SkillTitle_10121,번개,Lightning Zap
+SkillTitle_10122,번개,Lightning Zap
+SkillTitle_10123,번개,Lightning Zap
+SkillTitle_10124,번개,Lightning Zap
+SkillTitle_10125,번개,Lightning Zap
+SkillTitle_10126,천벌,Judgment
+SkillTitle_10131,부메랑,Boomerang
+SkillTitle_10132,부메랑,Boomerang
+SkillTitle_10133,부메랑,Boomerang
+SkillTitle_10134,부메랑,Boomerang
+SkillTitle_10135,부메랑,Boomerang
+SkillTitle_10136,고성능 부메랑,Turbo Boomerang
+SkillTitle_10141,캣닢,Catnip Rush
+SkillTitle_10142,캣닢,Catnip Rush
+SkillTitle_10143,캣닢,Catnip Rush
+SkillTitle_10144,캣닢,Catnip Rush
+SkillTitle_10145,캣닢,Catnip Rush
+SkillTitle_10146,약초,Herbal Boost
+SkillTitle_20101,글러브,Boxing Glove
+SkillTitle_20102,고양이 신발,Cat Sneakers
+SkillTitle_20103,고성능 탄,Power Shot
+SkillTitle_20104,소생,Revive
+SkillTitle_20105,덤벨,Muscle Up
+SkillTitle_20106,고화력,High Caliber
+SkillTitle_20107,배터리,Battery Pack
+SkillTitle_20108,유전 발견,Struck It Rich 
+SkillTitle_20109,마이크,Battle Mic
+SkillTitle_20110,갑옷,Armor Up
+SkillTitle_20111,자석,Item Magnet
+SkillTitle_20112,지식 학습,Smart Kitty
+SkillTitle_20113,예리한 수염,Sharp Whiskers
+SkillTitle_20114,날카로운 발톱,Razor Claws
+SkillTitle_20115,고양이 영혼,Cat Spirit
+SkillDescription_10001,기본 공격 데미지 증가,Number of projectiles increased\nDamage increased\nCooldown reduced
+SkillDescription_10002,기본 공격 데미지 증가,Number of projectiles increased\nDamage increased\nCooldown reduced
+SkillDescription_10003,기본 공격 사거리 증가,Number of projectiles increased\nDamage increased\nCooldown reduced
+SkillDescription_10004,기본 공격 범위 증가,Number of projectiles increased\nDamage increased\nCooldown reduced
+SkillDescription_10005,기본 공격 사거리 증가,Number of projectiles increased\nDamage increased\nCooldown reduced
+SkillDescription_10006,마구 할퀴기,Wild Scratch
+SkillDescription_10011,튕기는 털실 발사,Bouncing Yarn Shot
+SkillDescription_10012,털실 개수 1개 증가,Yarn count increased +1
+SkillDescription_10013,데미지 증가 속도 증가,Increased damage and speed
+SkillDescription_10014,털실 개수 1개 증가,Yarn count increased +1
+SkillDescription_10015,데미지 대폭 증가,Greatly increased damage
+SkillDescription_10016,많이 아파요,It really hurts!
+SkillDescription_10021,튕기는 구슬 발사,Bouncing Marble Shot
+SkillDescription_10022,구슬 개수 1개 증가,Marble count increased +1
+SkillDescription_10023,데미지 증가 투사체 속도 증가,Increased damage and projectile speed
+SkillDescription_10024,구슬 개수 1개 증가,Marble count increased +1
+SkillDescription_10025,데미지 대폭 증가,Greatly increased damage
+SkillDescription_10026,이 구슬은 자아가 있어요,This marble has a mind of its own.
+SkillDescription_10031,생선뼈 투척,Throw Fishbone
+SkillDescription_10032,생선뼈 공격력 증가,Fishbone damage increased
+SkillDescription_10033,생선뼈 개수 1개 증가,Fishbone count increased +1
+SkillDescription_10034,생선뼈 크기 증가,Fishbone size increased
+SkillDescription_10035,생선뼈 공격력 증가,Fishbone damage increased
+SkillDescription_10036,청새치 등장!,Here comes the marlin!
+SkillDescription_10041,묵직한 통조림을 던져서 적들을 밀어내요,Throw a heavy can to knock back enemies
+SkillDescription_10042,통조림 크기 증가\n데미지 증가,Increased can size\nIncreased damage
+SkillDescription_10043,데미지 증가,Increased damage
+SkillDescription_10044,데미지 증가,Increased damage
+SkillDescription_10045,개수 증가 데미지 증가,Increased count and increased damage
+SkillDescription_10046,바겐세일!,Bargain sale!
+SkillDescription_10051,폭발하는 헤어볼 발사,Exploding Hairball Shot
+SkillDescription_10052,폭발 데미지 증가,Explosion damage increased
+SkillDescription_10053,폭발 데미지 증가\n폭발 범위 증가,Explosion damage increased\nExplosion range increased
+SkillDescription_10054,헤어볼 개수 1개 증가\n폭발 데미지 증가,Hairball count increased +1\nExplosion damage increased
+SkillDescription_10055,폭발 데미지 대폭 증가,Explosion damage greatly increased
+SkillDescription_10056,이건 더이상 헤어볼이 아니야,This is no longer just a hairball
+SkillDescription_10061,꼬리로 뒤에있는 적들을 밀어내요,Swipe back enemies with your tail
+SkillDescription_10062,채찍 범위 증가\n데미지 증가,Whip range increased\nDamage increased
+SkillDescription_10063,데미지 증가,Damage increased
+SkillDescription_10064,채찍 범위 증가\n데미지 증가,Whip range increased\nDamage increased
+SkillDescription_10065,데미지 증가,Damage increased
+SkillDescription_10066,가까이 와보실래요?,Wanna come closer?
+SkillDescription_10071,근처에 있는 적 공격,Attack nearby enemies
+SkillDescription_10072,자기장 범위 증가,Magnetic field range increased
+SkillDescription_10073,데미지 증가\n범위 증가,Damage increased\nRange increased
+SkillDescription_10074,데미지 증가\n범위 증가,Damage increased\nRange increased
+SkillDescription_10075,데미지 증가\n범위 증가,Damage increased\nRange increased
+SkillDescription_10076,버텨보세요,Try to hold on!
+SkillDescription_10081,주위에 쳇바퀴를 소환해요,Summon spinning wheels around you
+SkillDescription_10082,쳇바퀴 개수 1개 증가,Spinning wheel count increased +1
+SkillDescription_10083,쳇바퀴 크기 증가\n개수 1개 증가\n데미지 증가,Wheel size increased\nCount increased +1\nDamage increased
+SkillDescription_10084,쳇바퀴 크기 증가\n개수 1개 증가\n데미지 증가,Wheel size increased\nCount increased +1\nDamage increased
+SkillDescription_10085,쳇바퀴 크기 증가\n개수 1개 증가\n데미지 증가,Wheel size increased\nCount increased +1\nDamage increased
+SkillDescription_10086,쳇바퀴에 왜 가시가있지?,Why are there spikes on the wheel?
+SkillDescription_10091,츄르로 화염 지대를 생성해요,Create a fire zone with Churu
+SkillDescription_10092,츄르 1개 증가\n화염 데미지 증가,Churu count increased +1\nFire damage increased
+SkillDescription_10093,츄르 1개 증가\n화염 데미지 증가,Churu count increased +1\nFire damage increased
+SkillDescription_10094,츄르 1개 증가\n화염 데미지 증가\n화염 지속 시간 증가,Churu count increased +1\nFire damage increased\nBurn duration increased
+SkillDescription_10095,츄르 1개 증가\n화염 데미지 증가,Churu count increased +1\nFire damage increased
+SkillDescription_10096,전부 태워요,Burn them all!
+SkillDescription_10101,고양이 노래를 들으면 방어력이 약해져요,Enemies lose defense when they hear the cat song
+SkillDescription_10102,골골송 범위 증가\n적 방어력 추가 감소,Purr range increased\nEnemy defense further reduced
+SkillDescription_10103,적 방어력 추가 감소,Enemy defense further reduced
+SkillDescription_10104,골골송 범위 증가\n적 방어력 추가 감소,Purr range increased\nEnemy defense further reduced
+SkillDescription_10105,적 방어력 추가 감소,Enemy defense further reduced
+SkillDescription_10106,겁먹은 적들의 이동속도가 느려져요,Slows down frightened enemies
+SkillDescription_10111,거대 고양이 발에 찍히면 기절해요,Getting stomped by a giant cat paw stuns enemies
+SkillDescription_10112,고양이 발 크기 증가\n데미지 증가,Paw size increased\nDamage increased
+SkillDescription_10113,고양이 발 크기 증가\n데미지 증가,Paw size increased\nDamage increased
+SkillDescription_10114,고양이 발 크기 증가\n데미지 증가,Paw size increased\nDamage increased
+SkillDescription_10115,고양이 발 크기 증가\n데미지 증가,Paw size increased\nDamage increased
+SkillDescription_10116,거대 고양이가 3마리,Three giant cats!
+SkillDescription_10121,하늘에서 번개가 내리쳐요,Lightning strikes from the sky
+SkillDescription_10122,번개 1개 증가,Lightning count increased +1
+SkillDescription_10123,번개 데미지 증가,Lightning damage increased
+SkillDescription_10124,번개 1개 증가,Lightning count increased +1
+SkillDescription_10125,번개 데미지 대폭 증가,Lightning damage greatly increased
+SkillDescription_10126,천벌!,Divine punishment!
+SkillDescription_10131,부메랑을 던져요,Throw a boomerang
+SkillDescription_10132,부메랑 크기 증가\n데미지 증가,Boomerang size increased\nDamage increased
+SkillDescription_10133,부메랑 1개 증가\n데미지 증가,Boomerang count increased +1\nDamage increased
+SkillDescription_10134,데미지 증가,Damage increased
+SkillDescription_10135,데미지 대폭 증가,Damage greatly increased
+SkillDescription_10136,이건 비싸보이네요,Looks expensive
+SkillDescription_10141,공격하는 캣닢을 심어요,Plant an attacking catnip
+SkillDescription_10142,캣닢 1개 추가\n데미지 증가,Catnip count increased +1\nDamage increased
+SkillDescription_10143,캣닢 크기 증가\n데미지 증가,Catnip size increased\nDamage increased
+SkillDescription_10144,캣닢 1개 추가\n데미지 증가,Catnip count increased +1\nDamage increased
+SkillDescription_10145,데미지 대폭 증가,Damage greatly increased
+SkillDescription_10146,낮은 확률로 나의 체력을 회복해주는 약초를 심어요.,Occasionally plant a healing herb that restores your HP
+SkillDescription_20101,기본 공격 피해량 증가,Increases basic attack damage
+SkillDescription_20102,이동 속도 증가,Increases movement speed
+SkillDescription_20103,투사체 비행 속도 증가,Increases projectile speed
+SkillDescription_20104,주기적으로 체력 회복,Restores HP periodically
+SkillDescription_20105,최대 체력 증가,Increases max HP
+SkillDescription_20106,폭발성 스킬의 폭발 데미지 증가,Increases explosion skill damage
+SkillDescription_20107,범위형 스킬의 공격 범위 증가,Increases AoE skill range
+SkillDescription_20108,골드 추가 획득,Gain extra gold
+SkillDescription_20109,스킬 지속 시간 증가,Increases skill duration
+SkillDescription_20110,받는 피해량 감소,Reduces damage taken
+SkillDescription_20111,아이템 획득 범위 증가,Increases item pickup range
+SkillDescription_20112,스킬의 공격 주기 감소,Decreases skill cooldown
+SkillDescription_20113,치명타 확률 증가,Increases critical hit chance
+SkillDescription_20114,치명타 데미지 증가,Increases critical hit damage
+SkillDescription_20115,경험치 추가 획득,Gain bonus XP
+ ,야생의 발톱,Feral Claw
+Weapon_Title_2,고동의 추적자,Pulse Tracker
+Weapon_Title_3,밤의 형상,Shadowform
+Ring_Title_1,불꽃의 심장,Heart of Flame
+Ring_Title_2,자연의 맥동,Pulse of Nature
+Ring_Title_3,정적의 인장,Seal of Stillness
+Ring_Title_4,내면의 눈동자,Eye Within
+Ring_Title_5,피안의 고리,Ring of Elsewhere
+Gloves_Title_1,야수 가죽 장갑,Beast Hide Gloves
+Gloves_Title_2,금강의 장갑,Adamant Gloves
+Gloves_Title_3,어스름 장갑,Dusky Gloves
+Gloves_Title_4,심연의 손,Abyssal Hand
+Gloves_Title_5,분노의 전류,Voltage Vein
+Belt_Title_1,풍화된 코트,Weathered Collar
+Belt_Title_2,전통의 갑주,Heirloom Armor
+Belt_Title_3,신전의 장막,Sanctified Shroud
+Belt_Title_4,정적의 외피,Quiet Wrap
+Belt_Title_5,무한의 외피,Infinite Shell
+Armor_Title_1,방랑자의 허리끈,Wanderer's Strap
+Armor_Title_2,파편의 잔재,Shrapnel Belt
+Armor_Title_3,두꺼운 뼈띠,Bone Girdle
+Armor_Title_4,기도의 매듭,Knot of Prayer
+Armor_Title_5,철제 접합띠,Jointed Steel Belt
+Boots_Title_1,단단한 여정화,Sturdy Travel Boots
+Boots_Title_2,은빛 걸음,Silverstep Shoes
+Boots_Title_3,무게의 발걸음,Heavywalker Boots
+Boots_Title_4,엘프의 흔적,Elven Trace
+Boots_Title_5,기계 추진화,Gearstride Boots
+Weapon_Description_1,발톱처럼 생겨서 보기만 해도 따끔하다.,Looks sharp enough to sting just by looking.
+Weapon_Description_2,둥근 장식이 살짝 흔들려서 자꾸 손이 간다.,A dangling ornament makes it oddly touchable.
+Weapon_Description_3,전체가 어두워서 배경에 잘 묻힌다.,Dark enough to fade into the background.
+Ring_Description_1,붉은 보석이 가운데서 은근히 튀어준다.,The red gem pops just enough to catch your eye.
+Ring_Description_2,나무결처럼 생겨서 손에 나무 낀 기분이다.,Feels like wearing a tiny tree on your finger.
+Ring_Description_3,무광이라 조용한 분위기를 풍긴다.,Matte finish gives it a quiet charm.
+Ring_Description_4,안쪽이 깊게 비쳐서 괜히 눈이 간다.,Deep reflections make it hard to look away.
+Ring_Description_5,한번 보면 쉽게 잊히지 않는 모양이다.,Its shape sticks with you for no clear reason.
+Gloves_Description_1,울퉁불퉁한 가죽이 손에 잘 붙는다.,Rough texture that grips your hand nicely.
+Gloves_Description_2,덩어리처럼 생겨서 아주 단단해 보인다.,Chunky and solid just like it looks.
+Gloves_Description_3,그을린 색이 은근히 멋을 낸다.,Smoky tones give it a subtle flair.
+Gloves_Description_4,차가운 느낌이 은근히 마음에 든다.,The chill has a strangely pleasant feel.
+Gloves_Description_5,작은 문양이 반짝여서 장난감 같다.,Tiny sparkles make it oddly playful.
+Belt_Description_1,낡은 듯한데 은근히 깔끔하게 보인다.,Worn-looking but surprisingly neat.
+Belt_Description_2,옛 무늬가 있어 눈길을 끈다.,Classic patterns draw just enough attention.
+Belt_Description_3,빛을 잘 받아서 눈에 잘 띈다.,Catches the light just enough to be seen.
+Belt_Description_4,색이 차분해서 잘 묻어난다.,Muted tones blend in easily.
+Belt_Description_5,움직일 때 반짝임이 은근히 따라온다.,Subtle shimmer follows as you move.
+Armor_Description_1,여기저기 닳은 자국이 정겹다.,The scuffs add a certain charm.
+Armor_Description_2,군데군데 금속이 박혀 있어 시선이 간다.,Scattered metal bits keep it interesting.
+Armor_Description_3,두툼한 뼈가 묘하게 믿음직스럽다.,Thick bones give it a weirdly sturdy vibe.
+Armor_Description_4,차분하게 잘 묶여서 보기 좋다.,Neatly tied simple and tidy.
+Armor_Description_5,이음새마다 딸깍거리는 게 특징이다.,Every segment clicks just a little.
+Boots_Description_1,발목을 잘 잡아줘서 든든하다.,Ankle-high and reassuringly snug.
+Boots_Description_2,밝은 데선 보이고 어두운 데선 안 보인다.,Bright here gone in shadow.
+Boots_Description_3,무거워 보이지만 모양은 안정적이다.,Looks heavy but stands balanced.
+Boots_Description_4,길쭉하고 날렵해서 가볍게 느껴진다.,Sleek shape that feels featherlight.
+Boots_Description_5,밑창 쪽이 살짝 기계처럼 생겼다.,Sole looks like it might start spinning.
+DailyQuestMission_80001,로그인,Login
+DailyQuestMission_80002,게임 참여,Start Game
+DailyQuestMission_80003,일반 몬스터 처치,Hunt Normal Monster
+DailyQuestMission_80004,엘리트 몬스터 처치,HuntElite Monster
+DailyQuestMission_80005,보스 몬스터 처치,Hunt Boss Monster
+DailyQuestMission_80006,장비 레벨업,Level Up Gear
+DailyQuestMission_80007,장비 합성,Merge Gear
+DailyQuestMission_80008,상점에서 상품 구매,Purchase from Shop
+DailyQuestMission_80009,장비 뽑기 진행,Gear Draw
+DailyQuestMission_80010,광고 시청,Watch Ad
+AchievementText_90001,게임 참여,Start Game
+AchievementText_90002,무한모드 기록 달성,Achieve Infinite Mode Best Record
+AchievementText_90003,일반 장비 획득,Obtain Common Gear
+AchievementText_90004,고급 장비 획득,Obtain Uncommon Gear
+AchievementText_90005,희귀 장비 획득,Obtain Rare Gear
+AchievementText_90006,에픽 장비 획득,Obtain Epic Gear
+AchievementText_90007,전설 장비 획득,Obtain Legendary Gear
+AchievementText_90008,신화 장비 획득,Obtain Mythic Gear
+AchievementText_90009,일반 몬스터 처치,Hunt Normal Monster
+AchievementText_90010,엘리트 몬스터 처치,Hunt Elite Monster
+AchievementText_90011,보스 몬스터 처치,Hunt Boss Monster
+AchievementText_90012,장비 합성,Perform Gear Merge
+AchievementText_90013,장비 레벨업 진행,Perform Gear Level Up
+AchievementText_90014,진화 진행,Progress Evolution
+AchievementText_90015,골드 사용,Spend Gold
+AchievementText_90016,보석 사용,Spend Gems
+Text_VipRewardTitle,VIP {0}일차 보상,VIP Day {0} Reward
+Text_VvipRewardTitle,VVIP {0}일차 보상,VVIP Day {0} Reward
+Text_LevelUpRewardTitle,{0} 레벨 달성 보상,Level {0} Achievement Reward
+Text_VipRewardContent,월정액 상품,Monthly Pass
+Text_VvipRewardContent,월정액 상품,Monthly Pass
+Text_LevelUpRewardContent,레벨업 보상,Level Up Reward
+Evolution_AtkTitle,공격력,Attack Power
+Evolution_HpTitle,최대 체력,Max HP
+Evolution_MoveTitle,이동속도,Move Speed
+Evolution_CriticalTitle,치명타 확률,Crit Rate
+Evolution_CriticalDamageTitle,치명타 데미지,Crit Damage
+Evolution_BoomTitle,폭탄 설치,Bomb
+Evolution_SkillCoolTitle,스킬 쿨타임,Skill Cooldown
+Evolution_BerserkerTitle,투지,Berserk
+Evolution_invincibilityTitle,긴급 회피,Emergency Evasion
+Evolution_AtkDescription,공격력 {0}증가,Attack Power +{0}
+Evolution_HpDescription,최대 체력 {0}증가,Max HP +{0}
+Evolution_MoveDescription,이동속도 {0}% 증가,Move Speed +{0}%
+Evolution_CriticalDescription,치명타 확률 {0}% 증가,Crit Rate +{0}%
+Evolution_CriticalDamageDescription,치명타 데미지 {0}% 증가,Crit Damage +{0}%
+Evolution_BoomDescription,기본 공격으로 처치한 몬스터가 폭발하여 {0}의 데미지를 줌,Enemies killed by basic attacks explode dealing {0} damage
+Evolution_SkillCoolDescription,스킬 쿨타임 {0}% 감소,Skill Cooldown -{0}%
+Evolution_BerserkerDescription,잃은 체력 {0}당 공격력 {1}%증가,Gain {1}% attack power per {0} HP lost
+Evolution_invincibilityDescription,피해를 받으면 {0}% 확률로 {1}초간 무적 상태 적용,{0}% chance to become invincible for {1} sec when hit
+Text_50001,골드,Gold
+Text_50002,다이아,Diamond
+Text_50003,스테미나,Stamina
+Text_50004,Exp,Exp
+Text_50005,일일 퀘스트 경험치,Daily Quest EXP
+Text_50101,무기 레벨업 스크롤,Weapon Level Up Scroll
+Text_50102,장갑 레벨업 스크롤,Glove Level Up Scroll
+Text_50103,반지 레벨업 스크롤,Ring Level Up Scroll
+Text_50104,벨트 레벨업 스크롤,Belt Level Up Scroll
+Text_50105,아머 레벨업 스크롤,Armor Level Up Scroll
+Text_50106,부츠 레벨업 스크롤,Boots Level Up Scroll
+Text_50201,부활권,Revive Ticket
+Text_50202,실버 키,Silver Key
+Text_50203,골드 키,Gold Key
+Text_50301,랜덤 스크롤,Random Scroll
+Text_50302,일반~에픽 랜덤 장비,Common–Epic Random Gear
+Text_50303,고급~전설 랜덤 장비,Rare–Legendary Random Gear
+Text_50304,고급 장비 상자,Uncommon Gear Box
+Text_50305,희귀 장비 상자,Rare Gear Box
+Text_50306,에픽 장비 상자,Epic Gear Box
+Text_50307,레전드 장비 상자,Legendary Gear Box
+Text_50401,무한모드 입장권,Infinite Mode Ticket
+Form_Stage,{0}.{1},{0}.{1}
+From_SurvivalTime,최장 생존시간: {0}분 {1}초,Longest survival time: {0}m {1}s
+Lobby_Btn_Setting,설정,Setting
+Lobby_Btn_Mail,우편,Mail
+Lobby_Btn_VIP,VIP,VIP
+Lobby_Btn_Quest,퀘스트,Quests
+Lobby_Btn_Huntpass,사냥패스,Huntpass
+Huntpass_BoosterBefore,사냥 포인트 2배,2x Hunting Points
+Huntpass_BoosterBefore1,3회,3 Times
+HuntPass_BoosterAfter,사냥 포인트2배,2x Hunt Points
+HuntPass_BoosterAfter1,적용중,Applied
+Lobby_Btn_Start,시작,START
+Bottom_Btn_Shop,상점,Shop
+Bottom_Btn_Equip,장비,Gear
+Bottom_Btn_Home,홈,Home
+Bottom_Btn_Challenge,도전,Challenge
+Bottom_Btn_Evolution,진화,Evolution
+Pop_Profile_Title,프로필,Profile
+Pop_Profile_EditName_Title,닉네임 설정,Nickname Setting
+Pop_Profile_EditName_Des,닉네임을 입력하세요..,Please enter your nickname
+Pop_Profile_EditName_FreeChange,최초 1회 무료 변경,First time change is free
+Pop_Profile_EditName_Change,변경,Change
+ErrorCode_Nickname_Length,{0}~{1}자까지 입력 가능합니다.,Enter between {0} and {1} characters
+ErrorCode_Nickname_InvalidCharacter,사용할 수 없는 텍스트가 포함되어 있습니다,Contains unavailable texts
+ErrorCode_Nickname_InvalidWord,부적절한 텍스트가 포함되어 있습니다,Contains inappropriate texts
+ErrorCode_Nickname_Duplicate,이미 사용중인 닉네임입니다,Nickname already in use
+ErrorCode_Nickname_SameName,동일한 닉네임을 입력할 수 없습니다,Nickname already exists
+Vip_product,VIP 뱃지,VIP BADGE
+Vvip_product,VVIP 뱃지,VVIP BADGE
+Vip_Pop_description1,월정액 상품,SUBSCRIPTION
+Vip_Pop_description2,구매일로부터 30일간 적용됩니다,APPLIES FOR 30 DAYS!
+Vip_Pop_description3,모두 구매 시 효과 중첩 적용!,Rewards stack when purchasing both Badges!
+Vip_Pop_InstantGain,즉시 획득!,Instant Gain
+Vip_Pop_DailyGain,매일 획득!,Daily
+Vip_Pop_RemoveAds,광고 제거,Remove Ads
+Value_Description,가치,Value
+Setting_Pop_BGM,배경음,BGM
+Setting_Pop_SFX,효과음,SFX
+Setting_Pop_Vib,진동,Vibration
+Setting_Pop_English,English,English
+Setting_Pop_Korean,한국어,한국어
+Setting_Pop_UID,UID,UID
+Mail_Pop_Receive,받기,Receive
+Mail_Pop_ReceiveAll,전체 받기,Receive All
+Mail_Pop_Empty,우편함이 비어있습니다.,Mailbox is empty
+Mail_Pop_TimeDelete,받지 않은 우편은 {0}일 후 삭제됩니다.,Unclaimed mail will be deleted in {0} days
+Quest_Btn_DailyQuest,일일 퀘스트,Daily Quests
+Quest_Btn_Achievement,업적,Achievement
+Form_HourMinuitSeconds,{0}시간 {1}분 {2}초,{0}h {1}m {2}s
+Form_MinuitSeconds,{0}분 {1}초,{0}m {1}s
+Form_HourMinuit,{0}시간 {1}분,{0}h {1}m
+Pop_HuntPass_Title,사냥 패스,Hunt Pass
+Pop_HuntPass_Free,무료,Free
+Pop_HuntPass_Premium,프리미엄,Premium
+StageName_1,빈민가,Slum
+StageName_2,연구소,Lab
+Shop_Title_1,장비 지급소,Gear Supply
+Shop_Title_2,골드,Gold
+Shop_Title_3,보석,Jewel
+Shop_Title_4,티켓,Ticket
+Shop_Title_5,스크롤,Scroll
+Shop_Pack_1,스타트패키지,Starter Package
+Shop_Pack_2,성장 패키지,Growth Package
+Shop_Pack_3,재화 패키지,Currency Package
+Shop_CommonGacha,일반 지급소,Common Supply
+Shop_RareGacha,고급 지급소,Rare Supply
+Shop_FirstPurchase,첫 구매 <color=#FEAE05>두 배 지급!</color>,<color=#FEAE05>2x Bonus</color>
+Shop_EndlessTicket,무한 모드,Endless Mode
+Shop_EndlessTicket_Des,한계를 시험해보세요!,Push your limits!
+Shop_TodayLeft,오늘 {0}회 구매 가능,{0} left today
+Shop_RandomScroll,랜덤 스크롤,Random Scroll
+Shop_WeaponScroll,무기 스크롤,Weapon Scroll
+Shop_PurchaseItem1,상품 구매,Purchase Item
+Shop_PurchaseItem2,아래 상품을 구매하시겠어요?,Would you like to purchase the item below?
+Shop_Btn_Purchase,구매,Purchase
+Text_Applied,적용중,In Use
+Text_RamainDay,{0}일 남음,{0}d left
+Gear_MyGear,나의 장비,My Gear
+Gear_Filter_Grade,등급순,By Grade
+Gear_Filter_Level,레벨순,By Level
+Gear_Btn_Merge,합성,Merge
+Gear_Btn_MergeAll,일괄 합성,Merge All
+Gear_MaxLevel,최대 레벨,Max Level
+Text_Atk,공격력,ATK
+Text_Hp,체력,HP
+Text_Success,성공,Success
+Gear_GradeSkill,등급 스킬,Grade Skill
+Gear_Equip,착용,Equip
+Gear_Unequip,착용 해제,Unequip
+Gear_Btn_Levelup,레벨업,Level Up
+Gear_Btn_LevelupAll,일괄 레벨업,Level Up All
+Gear_LevelDownTitle,장비 레벨 다운,Gear Level Down
+Gear_LevelDownDes,장비 레벨 다운 시 레벨업에 사용한 스크롤을 모두 돌려받아요.,Level Down refunds 100% of Scrolls
+Gear_Btn_LevelDown,레벨 다운,Level Down
+SkillText_EquipmentSkill_Power,공격력 {0}% 증가,Increases ATK by {0}%
+SkillText_EquipmentSkill_MaxHP,최대 체력 {0}% 증가,Increases max HP by {0}%
+SkillText_EquipmentSkill_SkillCoolTime,스킬 쿨타임 {0}% 감소,Reduces skill cooldown by {0}%
+SkillText_EquipmentSkill_ResistDamage,받는 피해량 {0}% 감소,Reduces damage taken by {0}%
+SkillText_EquipmentSkill_Critical,치명타 확률 {0}% 증가,Increases critical rate by {0}%
+SkillText_EquipmentSkill_CriticalDamage,치명타 피해량 {0}% 증가,Increases critical damage by {0}%
+SkillText_EquipmentSkill_HpRecoveryEfficiency,회복 효과 {0}% 증가,Increases healing effect by {0}%
+SkillText_EquipmentSkill_MoveSpeed,이동 속도 {0}% 증가,Increases movement speed by {0}%
+SkillText_EquipmentSkill_HpRecovery1s,초당 회복량 {0} 증가,Recovers {0} HP per second
+SkillText_EquipmentSkill_ExplosionSkillSize,스킬 폭발 범위 {0}% 증가,Increases skill explosion range by {0}%
+SkillText_EquipmentSkill_BulletSkillSize,투사체 스킬 크기 {0}% 증가,Increases projectile skill size by {0}%
+SkillText_EquipmentSkill_CircleSkillSize,범위형 스킬 크기 {0}% 증가,Increases area skill size by {0}%
+SkillText_EquipmentSkill_BasicAttackCool,기본 공격 쿨타임 {0}% 감소,Reduces basic attack cooldown by {0}%
+SkillText_EquipmentSkill_ItemBoxCool,아이템 생성 주기 {0}% 감소,Reduces item spawn interval by {0}%
+SkillText_EquipmentSkill_AuraDamage,주변 적에게 피해를 입히는 오라 생성,Creates an aura that damages nearby enemies
+SkillText_EquipmentSkill_AuraDamageUp,오라 데미지 {0}% 증가,Increases aura damage by {0}%
+SkillText_EquipmentSkill_Revive,사망 시 {0}회 부활,Revive {0} time upon death
+SkillText_EquipmentSkill_AddRevive,부활 {0}회 추가,Adds {0} extra revive
+Text_All,전체,All
+Text_Challenge,도전,Challenge
+Challenge_EndlessMode,무한 모드,Endless Mode
+Challenge_EndlessModeDes,몬스터를 많이 처치할수록 보상이 증가합니다.,The more monsters you defeat the greater the rewards
+Challenge_MaxDefeat,최고 처치수,Highest Kill Count
+Challenge_OwnedTicket,보유한 티켓,Tickets Owned
+Challenge_LongestTime,최고 생존 시간,Longest survival time
+Ingame_AtkSkill,공격 스킬,Attack Skill
+Ingame_Supportskill,보조,Support
+Ingame_Pop_BackHome,홈으로 돌아가기,Return to Home
+Ingame_Pop_BackHomeDes,이번 게임 보상을 획득할 수 없게돼요.\n홈으로 돌아갈까요?,Cannot claim rewards for this run.\nReturn to home?
+Ingame_Pop_BackHomeQuit,나가기,Quit
+Ingame_Pop_BackHomeResume,계속하기,Resume
+Ingame_NewSkill,새로운 스킬!,New Skill!
+Ingame_NewSkillLevelup,레벨업!,Level Up!
+Ingame_SelectSkill,스킬을 선택하세요,Select Skill
+Text_New,신규,NEW
+Text_Refresh,새로고침,Refresh
+Ingame_NewSkillEvo,초월:,EVO:
+Ingame_Pop_Revive,부활,Revive
+Ingame_Pop_ReviveDes,거의 다왔어요!,Almost there!
+Text_OK,OK,OK
+Ingame_BossAppear,보스 출현,Boss Assault
+Ingame_BossWarning,경고,WARNING!
+Ingame_Victory,승리!,Victory!
+Form_Chapter,{0} 챕터,Chapter {0}
+Text_NewRecord,신규 기록!,New Record!
+Ingame_KilledMonster,처치한 몬스터,Monsters Defeated
+Ingame_BestRecord,최고 기록,Best Record
+Text_Confirm,확인,Confirm
+Text_Cancel,취소,Cancel
+Ingame_Defeat,패배,Defeat
+Stage_name1,도시 외곽,City Outskirts
+Stage_name2,경계 지구,Border District
+Stage_name3,산업 지대,Industrial Zone
+Stage_name4,보안 구역,Security Sector
+Stage_name5,고층 지구,High-Rise District
+Stage_name6,하늘 통로,Skyway
+Stage_name7,폐허 거리,Ruin Street
+Stage_name8,감염 중심가,Infected Downtown
+Stage_name9,통제 불능 지대,Uncontrolled Zone
+Shop_FailPurchase,상품 구매에 실패했습니다.,Failed purchaseditem
+Shop_GachaProbability,상품 확률,Item Probability
+Guest_Popup_1,게스트 계정의 데이터는 이전할 수 없습니다. 안전한 이용을 위해 Google 또는 Apple 로그인을 권장합니다. 게스트 계정으로 계속 진행하시겠습니까?,Guest account data can’t be transferred. For safety we recommend using Google or Apple login. Continue with a guest account?
+Purhcase_success,구매 성공,Purchase Success
+Select,선택,Select
+App_Update_1,스토어로 이동해서 최신 버전을 다운로드하세요!,Head over to the store and grab the latest version!
+NOT_Enought_Gold,골드가 부족합니다.,Not enough gold.
+NOT_Enought_Scroll,스크롤이 부족합니다.,Not enough scroll.
+Reward,보상,Reward
+Purchased,구매 완료,Purchased
+Equipment_desc_1,일반 또는 <color=#8FF500>상급</color> 장비를 포함합니다.,Contains normal or <color=#8FF500>Superior</color> Equipment 
+Equipment_desc_2,상급 또는  <color=#5688f9>레어</color> or  <color=#b746ff>에픽</color> 장비를 포함합니다.,"Contains Superior, <color=#5688f9>Rare</color> or <color=#b746ff>Epic</color> Epuipment"
+Remaining_time,남은 시간,Remaining
+Logout,로그아웃,Logout
+Vip_DailyReward,VIP 패스 일일 보상,VIP Pass Daily Reward
+VVip_DailyReward,VVIP 패스 일일 보상,VVIP Pass Daily Reward
+Vip_Active,VIP 구독이 활성화되었습니다.,VIP Subscription now active
+VVip_Active,VVIP 구독이 활성화되었습니다.,VVIP Subscription now active
+Level_Up,축하합니다! {0}레벨에 도달했습니다!,Congratulations! You've reached level {0} !
+Vip_DailyReward_day,VIP 패스 {0}일 보상,VVIP Day {0} Reward
+VVip_DailyReward_day,VVIP 패스 {0} 보상,VIP Day {0} Reward
+Level_Up_!,레벨업 !,Level_Up!
+Statistics_Title,통계,Total Damage
+Guest_Login,게스트 로그인,Guest Sign in
+Google_Login,구글 로그인,Sign in with Google
+Apple_Login,애플 로그인,Sign in with Apple
+Failed_google_Login,구글 로그인에 실패했습니다.,Failed google login
+Failed_apple_Login,애플 로그인에 실패했습니다.,Failed apple login
+Not_enough_stamina,스테미너가 부족합니다.,Not enough stamina
+Not_enough_ticket,티켓이 부족합니다.,Not enough ticket
+Conenct_Internet,인터넷 연결 상태를 확인해주세요.,Internet connection is unavailable.
+Duplicate_Logged,다른 기기에서 로그인이 되었습니다.,Logged in on another device.
+Failed_ads,광고 보기에 실패했습니다.,Failed ads
+NOT_Enought_Jewel,보석이 부족합니다.,Not enough jewel
+Name_NOT_Available,해당 이름을 사용이 불가능합니다.,This name is not available.
+NAME_ALREADY_EXISTS,이미 존재하는 닉네임입니다.,The name already exists.
+NAME_LENGTH_INVALID,이름이 너무 깁니다.,The name is too long
+NAME_SPECIAL_CHARACTER_INVALID,특수문자는 사용이 불가능합니다.,Special characters are not allowed.
+NAME_INCLUDES_PROFANE_WORD,금지된 문자가 포함되어있습니다.,This name is not available.
+MAIL_NOT_FOUND_EXPIRED,메일을 받을 수 있는 날짜가 지났습니다.,The date I can receive the mail has passed.
+MAIL_ALREADY_CLAIMED,이미 메일을 받으셨습니다.,You have already received your mail.
+MAIL_NOT_FOUND,메일을 찾을 수 없습니다.,mail not found.
+USER_QUEST_NOT_COMPLETED,퀘스트가 클리어되지 않았습니다.,The quest has not been cleared.
+USER_QUEST_REWARD_ALREADY_CLAIMED,퀘스트는 이미 클리어되었습니다.,Quests have already been cleared.
+ACHIEVEMENT_NOT_FOUND,업적을 찾을 수 없습니다.,Achievements not founded.
+ACHIEVEMENT_NOT_CLEARED,아직 업적에 달성하지 못했습니다.,Achievements have not been cleared.
+Ads_Not_Ready,광고가 아직 준비되지 않았습니다.,The ad is not ready
+Unknown_error,알수없는 에러가 발생했습니다.,An unknown error has occurred.
+WeaponScroll,무기 스크롤,WeaponScroll
+GlovesScroll,글로브 스크롤,GlovesScroll
+RingScroll,링 스크롤,RingScroll
+BeltScroll,벨트 스크롤,BeltScroll
+ArmorScroll,아머 스크롤,ArmorScroll
+BootsScroll,부츠 스크롤,BootsScroll

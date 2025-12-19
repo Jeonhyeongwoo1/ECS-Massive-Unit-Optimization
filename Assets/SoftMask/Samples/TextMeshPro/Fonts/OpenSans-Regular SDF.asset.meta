@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 6ca42843b15e53446920a2dbf11076f4
+timeCreated: 1504804597
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 80667
+  packageName: Soft Mask
+  packageVersion: 1.6.3
+  assetPath: Assets/SoftMask/Samples/TextMeshPro/Fonts/OpenSans-Regular SDF.asset
+  uploadId: 465158

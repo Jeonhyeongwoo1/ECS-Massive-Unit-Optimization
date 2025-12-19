@@ -1,0 +1,215 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: MosterPrefabs
+  m_EditorClassIdentifier: 
+  m_GroupName: MosterPrefabs
+  m_GUID: ac117f278364eb84aacf238efdf8b604
+  m_SerializeEntries:
+  - m_GUID: 04aa8db01ae5ad14d9f29f4646592c14
+    m_Address: PoliceDog_Hammer_Elite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 08cf05af06192d549b85a5bbfa9c29af
+    m_Address: Bombie
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0d315013411b8724893f85938e8d137b
+    m_Address: RobotDog_Elite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0d34d4763ef9c4c1f98bddabfbc81279
+    m_Address: SuicideBomberPrefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 16acbe60bc31f3148b2d19b9cf37df58
+    m_Address: PoliceDog_Club_Elite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2674f416bc62dcd4bbecca877a4465bd
+    m_Address: PoliceDog_Shield_Normal
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 27d75c688f7b5ae4d814c1630db0d260
+    m_Address: ZombieDog_V2_Normal
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 338f805ce1fb8c146bf859b487f8e42f
+    m_Address: PoliceDog_Club_Normal
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 39608699fd1cd7547a5b17f7529f881e
+    m_Address: DefaultEnemy_Normal
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3d8921620b05e3144801e2cde38495ee
+    m_Address: TwitterBird_Normal
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 40ce3faf4dd5c5540b30376c3b1a4e26
+    m_Address: ZombieDog_V2_Elite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4e51dc6933b7f6e4fbc6e76088627725
+    m_Address: PoliceDog_Club_Boss
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5ac3b3a8665f63f46a50423ccfe26123
+    m_Address: ZombieDog_V2_Boss
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5b01e798f87ee9549a375773c6cd6b4b
+    m_Address: ZombieDog_V1_Normal
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 67bab395a09e3924aac1e5380cdaebe0
+    m_Address: XWing_Normal
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6c99373fd15cdb247aff445bc33de6e3
+    m_Address: DefaultEnemy_Boss
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 799d754a8de5f6943947141832ff8a6b
+    m_Address: PoliceDog_Hammer_Normal
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7e35ad1804ddb25499800afdec342279
+    m_Address: PoliceDog_Shield_Elite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 81c4eaa80ce137b49862294ad0896e30
+    m_Address: PoliceDog_Shield_Boss
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8c7ea3ff24a5c2945a082fbb3d4f1b2c
+    m_Address: PoliceDog_Hammer_Boss
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 90166ef226e57a843956a3362e5fe25d
+    m_Address: ElitePrefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: afa90465babc7d0459001d8ed90baeff
+    m_Address: ZombieDog_V1_Elite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bf17141de8513eb45a1c7c549b7ef547
+    m_Address: XWing_Elite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c4b3b90e6b157ca4191b79e4750cbc25
+    m_Address: ZombieDog_V1_Boss
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cc075a064dfda1a4f8304e2ff51e9615
+    m_Address: BossPrefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cfd5b7af842bd7947b48367dcb33b3bb
+    m_Address: TwitterBird_Elite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dc8ce59075c7a164981cf239fafb3ff5
+    m_Address: DefaultEnemy_Elite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e0092ad197ef46f499de84f9f8d5ab6e
+    m_Address: TwitterBird_Boss
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e6dc6b7b26a2e514e8e751fca8147008
+    m_Address: XWing_Boss
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e94871f042e1a4142bec5a0154927449
+    m_Address: RobotDog_Normal
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: eda5e241d363bb24589f5eaa0583da5d
+    m_Address: RobotDog_Boss
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: eeaf616d5fc849d4cbf134a6f1206c06
+    m_Address: MonsterPrefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: ea05dd4d5f043fa4b93db9e6de435d8f, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 55043ead473abc4418bbc58be7057a33, type: 2}
+    - {fileID: 11400000, guid: 2840f961f89609540affd5557512d772, type: 2}

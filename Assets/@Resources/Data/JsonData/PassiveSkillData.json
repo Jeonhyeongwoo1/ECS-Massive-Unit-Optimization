@@ -1,0 +1,220 @@
+{
+  "passiveSkills": [
+    {
+      "PassiveSkillType": 20101,
+      "Rate": 0.1,
+      "LinkedSkillId": [
+        10001
+      ],
+      "DataId": 20101,
+      "TitleTextKey": "SkillTitle_20101",
+      "DescriptionTextKey": "SkillDescription_20101",
+      "IconLabel": "Skill_Normal_Icon_20101",
+      "MatchSkillId": 10001,
+      "CurrentLevel": 0,
+      "SkillType": 2
+    },
+    {
+      "PassiveSkillType": 20102,
+      "Rate": 0.1,
+      "LinkedSkillId": [],
+      "DataId": 20102,
+      "TitleTextKey": "SkillTitle_20102",
+      "DescriptionTextKey": "SkillDescription_20102",
+      "IconLabel": "Skill_Normal_Icon_20102",
+      "MatchSkillId": 10011,
+      "CurrentLevel": 0,
+      "SkillType": 2
+    },
+    {
+      "PassiveSkillType": 20103,
+      "Rate": 0.1,
+      "LinkedSkillId": [
+        10011,
+        10021,
+        10031,
+        10041,
+        10051,
+        10131
+      ],
+      "DataId": 20103,
+      "TitleTextKey": "SkillTitle_20103",
+      "DescriptionTextKey": "SkillDescription_20103",
+      "IconLabel": "Skill_Normal_Icon_20103",
+      "MatchSkillId": 10021,
+      "CurrentLevel": 0,
+      "SkillType": 2
+    },
+    {
+      "PassiveSkillType": 20104,
+      "Rate": 0.003,
+      "LinkedSkillId": [],
+      "DataId": 20104,
+      "TitleTextKey": "SkillTitle_20104",
+      "DescriptionTextKey": "SkillDescription_20104",
+      "IconLabel": "Skill_Normal_Icon_20104",
+      "MatchSkillId": 10031,
+      "CurrentLevel": 0,
+      "SkillType": 2
+    },
+    {
+      "PassiveSkillType": 20105,
+      "Rate": 0.2,
+      "LinkedSkillId": [],
+      "DataId": 20105,
+      "TitleTextKey": "SkillTitle_20105",
+      "DescriptionTextKey": "SkillDescription_20105",
+      "IconLabel": "Skill_Normal_Icon_20105",
+      "MatchSkillId": 10041,
+      "CurrentLevel": 0,
+      "SkillType": 2
+    },
+    {
+      "PassiveSkillType": 20106,
+      "Rate": 0.2,
+      "LinkedSkillId": [
+        10051
+      ],
+      "DataId": 20106,
+      "TitleTextKey": "SkillTitle_20106",
+      "DescriptionTextKey": "SkillDescription_20106",
+      "IconLabel": "Skill_Normal_Icon_20106",
+      "MatchSkillId": 10051,
+      "CurrentLevel": 0,
+      "SkillType": 2
+    },
+    {
+      "PassiveSkillType": 20107,
+      "Rate": 0.1,
+      "LinkedSkillId": [
+        10081,
+        10071,
+        10101,
+        10111,
+        10121
+      ],
+      "DataId": 20107,
+      "TitleTextKey": "SkillTitle_20107",
+      "DescriptionTextKey": "SkillDescription_20107",
+      "IconLabel": "Skill_Normal_Icon_20107",
+      "MatchSkillId": 10071,
+      "CurrentLevel": 0,
+      "SkillType": 2
+    },
+    {
+      "PassiveSkillType": 20108,
+      "Rate": 0.1,
+      "LinkedSkillId": [],
+      "DataId": 20108,
+      "TitleTextKey": "SkillTitle_20108",
+      "DescriptionTextKey": "SkillDescription_20108",
+      "IconLabel": "Skill_Normal_Icon_20108",
+      "MatchSkillId": 10091,
+      "CurrentLevel": 0,
+      "SkillType": 2
+    },
+    {
+      "PassiveSkillType": 20109,
+      "Rate": 0.1,
+      "LinkedSkillId": [
+        10141,
+        10101,
+        10091,
+        10081
+      ],
+      "DataId": 20109,
+      "TitleTextKey": "SkillTitle_20109",
+      "DescriptionTextKey": "SkillDescription_20109",
+      "IconLabel": "Skill_Normal_Icon_20109",
+      "MatchSkillId": 10101,
+      "CurrentLevel": 0,
+      "SkillType": 2
+    },
+    {
+      "PassiveSkillType": 20110,
+      "Rate": 0.1,
+      "LinkedSkillId": [],
+      "DataId": 20110,
+      "TitleTextKey": "SkillTitle_20110",
+      "DescriptionTextKey": "SkillDescription_20110",
+      "IconLabel": "Skill_Normal_Icon_20110",
+      "MatchSkillId": 10121,
+      "CurrentLevel": 0,
+      "SkillType": 2
+    },
+    {
+      "PassiveSkillType": 20111,
+      "Rate": 0.15,
+      "LinkedSkillId": [],
+      "DataId": 20111,
+      "TitleTextKey": "SkillTitle_20111",
+      "DescriptionTextKey": "SkillDescription_20111",
+      "IconLabel": "Skill_Normal_Icon_20111",
+      "MatchSkillId": 10131,
+      "CurrentLevel": 0,
+      "SkillType": 2
+    },
+    {
+      "PassiveSkillType": 20112,
+      "Rate": 0.05,
+      "LinkedSkillId": [
+        10011,
+        10021,
+        10031,
+        10041,
+        10051,
+        10061,
+        10081,
+        10091,
+        10101,
+        10111,
+        10121,
+        10131,
+        10141
+      ],
+      "DataId": 20112,
+      "TitleTextKey": "SkillTitle_20112",
+      "DescriptionTextKey": "SkillDescription_20112",
+      "IconLabel": "Skill_Normal_Icon_20112",
+      "MatchSkillId": 10141,
+      "CurrentLevel": 0,
+      "SkillType": 2
+    },
+    {
+      "PassiveSkillType": 20113,
+      "Rate": 0.03,
+      "LinkedSkillId": [],
+      "DataId": 20113,
+      "TitleTextKey": "SkillTitle_20113",
+      "DescriptionTextKey": "SkillDescription_20113",
+      "IconLabel": "Skill_Normal_Icon_20113",
+      "MatchSkillId": 10061,
+      "CurrentLevel": 0,
+      "SkillType": 2
+    },
+    {
+      "PassiveSkillType": 20114,
+      "Rate": 0.2,
+      "LinkedSkillId": [],
+      "DataId": 20114,
+      "TitleTextKey": "SkillTitle_20114",
+      "DescriptionTextKey": "SkillDescription_20114",
+      "IconLabel": "Skill_Normal_Icon_20114",
+      "MatchSkillId": 10081,
+      "CurrentLevel": 0,
+      "SkillType": 2
+    },
+    {
+      "PassiveSkillType": 20115,
+      "Rate": 0.08,
+      "LinkedSkillId": [],
+      "DataId": 20115,
+      "TitleTextKey": "SkillTitle_20115",
+      "DescriptionTextKey": "SkillDescription_20115",
+      "IconLabel": "Skill_Normal_Icon_20115",
+      "MatchSkillId": 10111,
+      "CurrentLevel": 0,
+      "SkillType": 2
+    }
+  ]
+}

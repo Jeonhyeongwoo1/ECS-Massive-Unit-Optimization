@@ -1,0 +1,14 @@
+Name,Value,Description
+WavePassAdsName,Shop_HuntPass,사냥 패스 프리미엄 상품 ID
+WavePassAdsCount,2,"하루에 활성화 할 수 있는 부스트 횟수
+- 값이 2일 경우, 하루에 2번 부스트를 활성화 할 수 있는 것을 의미함. (광고를 2번 봐야함)
+- UTC 00:00에 횟수는 초기화됨."
+WavePassBoostCount,3,부스트가 유지되는 인게임 수
+WavePassBoostRatio,2,"부스트 사용 시 추가로 획득하는 패스 포인트 비율
+- 값 2는 2배를 의미함."
+NormalMonsterKillPointCount,20,일반 몬스터 처치 기준 (몇 마리 처치 시 패스 포인트를 지급할 것인지)
+NormalMonsterKillPointAmount,1,일반 몬스터를 NormalMonsterKillPointCount만큼 처치할 경우 지급하는 패스 포인트 수량
+EliteMonsterKillPointCount,1,엘리트 몬스터 처치 기준
+EliteMonsterKillPointAmount,300,엘리트 몬스터를 EliteMonsterKillPointCount만큼 처치할 경우 지급하는 패스 포인트 수량
+BossMonsterKillPointCount,1,보스 몬스터 처치 기준
+BossMonsterKillPointAmount,1000,보스 몬스터를 BossMonsterKillPointCount만큼 처치할 경우 지급하는 패스 포인트 수량

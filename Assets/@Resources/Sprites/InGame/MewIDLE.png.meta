@@ -1,0 +1,572 @@
+fileFormatVersion: 2
+guid: 38976904896cec043994a8778d61d4f8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1840843535291734344
+    second: MewIDLE_0
+  - first:
+      213: -7950715209760890873
+    second: MewIDLE_1
+  - first:
+      213: -5850006394743407325
+    second: MewIDLE_2
+  - first:
+      213: 1294891511982970729
+    second: MewIDLE_3
+  - first:
+      213: 4627716403235611112
+    second: MewIDLE_4
+  - first:
+      213: -4649397499861282790
+    second: MewIDLE_5
+  - first:
+      213: -5273073858194647760
+    second: MewIDLE_6
+  - first:
+      213: -821538005680798039
+    second: MewIDLE_7
+  - first:
+      213: -6215504950234885074
+    second: MewIDLE_8
+  - first:
+      213: 1737186550151247728
+    second: MewIDLE_9
+  - first:
+      213: -6631562349904545223
+    second: MewIDLE_10
+  - first:
+      213: -2157884857666053799
+    second: MewIDLE_11
+  - first:
+      213: 2329998248304988444
+    second: MewIDLE_12
+  - first:
+      213: -392289230969842603
+    second: MewIDLE_13
+  - first:
+      213: 4190943944378483470
+    second: MewIDLE_14
+  - first:
+      213: -4209331265303487890
+    second: MewIDLE_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: 51
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Mew16
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 187
+        width: 154
+        height: 184
+      alignment: 9
+      pivot: {x: 0.6753247, y: 0.65217394}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 473eb06124be54d4e9a491f474b78c2e
+      internalID: 333923191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mew17
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 187
+        width: 154
+        height: 184
+      alignment: 9
+      pivot: {x: 0.6753247, y: 0.65217394}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b915318d81632a40be75344ef5d68bf
+      internalID: -1619078101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mew18
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 401
+        width: 159
+        height: 184
+      alignment: 9
+      pivot: {x: 0.6855346, y: 0.65217394}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a67d94a7e414a684698ec376a7413ce1
+      internalID: -1940675112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mew19
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 401
+        width: 159
+        height: 184
+      alignment: 9
+      pivot: {x: 0.6855346, y: 0.65217394}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 101dfdf340cf68b4cacce7cb415c7965
+      internalID: -323801199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mew20
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 399
+        width: 170
+        height: 184
+      alignment: 9
+      pivot: {x: 0.7058824, y: 0.65217394}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05ece0595ce10674cb07a9a4f9a4dfa5
+      internalID: -1738905834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mew21
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 399
+        width: 170
+        height: 184
+      alignment: 9
+      pivot: {x: 0.7058824, y: 0.65217394}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb3b7c1d6bad0014986afbdace12d698
+      internalID: -250488087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mew22
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 613
+        width: 177
+        height: 183
+      alignment: 9
+      pivot: {x: 0.7175141, y: 0.6557377}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fac7ba717ca1964d99b71552bb72206
+      internalID: -1112090380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mew23
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 613
+        width: 177
+        height: 183
+      alignment: 9
+      pivot: {x: 0.7175141, y: 0.6557377}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6322f74a2633a734fb1c3cf5ecda6740
+      internalID: 1656748089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mew24
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 826
+        width: 179
+        height: 183
+      alignment: 9
+      pivot: {x: 0.7206704, y: 0.6557377}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 332e5c076554001409fd682134795a7a
+      internalID: -15698822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mew25
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 826
+        width: 179
+        height: 183
+      alignment: 9
+      pivot: {x: 0.7206704, y: 0.6557377}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc761e27cbc600b409707ee30ea02c96
+      internalID: -375790297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mew26
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 827
+        width: 178
+        height: 182
+      alignment: 9
+      pivot: {x: 0.71910113, y: 0.6593407}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7a4c65d4abb9f54b8f235a7b5c6474a
+      internalID: -1433947873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mew27
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 827
+        width: 178
+        height: 182
+      alignment: 9
+      pivot: {x: 0.71910113, y: 0.6593407}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6c65c70759417641bfa770cbc570980
+      internalID: -387982517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mew28
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 615
+        width: 173
+        height: 182
+      alignment: 9
+      pivot: {x: 0.7109827, y: 0.6593407}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a79b8b29fd5ceb45a76b2b85d6fbe32
+      internalID: -879576971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mew29
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 615
+        width: 173
+        height: 182
+      alignment: 9
+      pivot: {x: 0.7109827, y: 0.6593407}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56ca41af25f4b5e42b89fdcd4de5cbcb
+      internalID: -1713584779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mew30
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 185
+        width: 167
+        height: 184
+      alignment: 9
+      pivot: {x: 0.7005988, y: 0.65217394}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e12203570eb311c45bd74052aab43e84
+      internalID: 1546793973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mew31
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 185
+        width: 167
+        height: 184
+      alignment: 9
+      pivot: {x: 0.7005988, y: 0.65217394}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e7b04d286f09f5429b1a7f027e629b2
+      internalID: 1577663507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 1935ff59774e66846ac4c482534f84fa
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Mew16: 333923191
+      Mew17: -1619078101
+      Mew18: -1940675112
+      Mew19: -323801199
+      Mew20: -1738905834
+      Mew21: -250488087
+      Mew22: -1112090380
+      Mew23: 1656748089
+      Mew24: -15698822
+      Mew25: -375790297
+      Mew26: -1433947873
+      Mew27: -387982517
+      Mew28: -879576971
+      Mew29: -1713584779
+      Mew30: 1546793973
+      Mew31: 1577663507
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

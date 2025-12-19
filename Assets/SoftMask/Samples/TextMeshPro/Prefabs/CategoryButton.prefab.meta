@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 27d3cda56efbbdd4b876d79062d15a60
+timeCreated: 1504872482
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 80667
+  packageName: Soft Mask
+  packageVersion: 1.6.3
+  assetPath: Assets/SoftMask/Samples/TextMeshPro/Prefabs/CategoryButton.prefab
+  uploadId: 465158

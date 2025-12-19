@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Animator
+  m_EditorClassIdentifier: 
+  m_GroupName: Animator
+  m_GUID: cc4d6b3eac9fe49718a42d13edcb9d94
+  m_SerializeEntries:
+  - m_GUID: 29736ba5809a93e409c69b8f544cdeb6
+    m_Address: DOGCLUB
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 30fe3bd1aa8d710439e119aebfcfb53a
+    m_Address: DefaultEnemyAnimator
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 36aff04b588bf1b42b76a705b7a5a8a1
+    m_Address: twitter_bird_AU
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5b241dae5c606504981f1fc9c8748cb3
+    m_Address: zombie_dog_AU
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6063cff286279db42a914b91c9788a9c
+    m_Address: zombie_dog_v2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 93d0f534a942198428220cd87cc990dc
+    m_Address: MECH
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c3c79f332d8335443ad33a6a752d4e16
+    m_Address: Bombie
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d1b909a62d76c6345b94c38149d824b8
+    m_Address: DOGHAMMER
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e743cc14403519d42837ffbcbbc25f34
+    m_Address: XWing
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f5dc7cbaeece83f49be580a40afa418a
+    m_Address: DOGSHIELD
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: ea05dd4d5f043fa4b93db9e6de435d8f, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: e5596f2c0d37f4ffaba99dad05038c8d, type: 2}
+    - {fileID: 11400000, guid: 24fcb8f5e0d2e4253b989a777cfebadd, type: 2}

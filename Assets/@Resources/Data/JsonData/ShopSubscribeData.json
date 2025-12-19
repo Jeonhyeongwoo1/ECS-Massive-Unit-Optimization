@@ -1,0 +1,16 @@
+{
+  "shopSubscribeDataList": [
+    {
+      "Id": "Shop_VIP",
+      "DurationDays": 30,
+      "Reward_ID": 50002,
+      "Reward_Amount": 200
+    },
+    {
+      "Id": "Shop_VVIP",
+      "DurationDays": 30,
+      "Reward_ID": 50002,
+      "Reward_Amount": 400
+    }
+  ]
+}

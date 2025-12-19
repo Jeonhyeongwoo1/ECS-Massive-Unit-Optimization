@@ -1,0 +1,500 @@
+{
+  "levels": [
+    {
+      "DataId": 101001,
+      "DescriptionTextID": "SkillText_EquipmentSkill_Power",
+      "EquipmentSkillType": 0,
+      "Type_Value1": 0.1,
+      "Type_Value2": 0.0,
+      "Type_Value3": 0.0
+    },
+    {
+      "DataId": 101002,
+      "DescriptionTextID": "SkillText_EquipmentSkill_Power",
+      "EquipmentSkillType": 0,
+      "Type_Value1": 0.15,
+      "Type_Value2": 0.0,
+      "Type_Value3": 0.0
+    },
+    {
+      "DataId": 101003,
+      "DescriptionTextID": "SkillText_EquipmentSkill_Power",
+      "EquipmentSkillType": 0,
+      "Type_Value1": 0.2,
+      "Type_Value2": 0.0,
+      "Type_Value3": 0.0
+    },
+    {
+      "DataId": 101004,
+      "DescriptionTextID": "SkillText_EquipmentSkill_Power",
+      "EquipmentSkillType": 0,
+      "Type_Value1": 0.25,
+      "Type_Value2": 0.0,
+      "Type_Value3": 0.0
+    },
+    {
+      "DataId": 102001,
+      "DescriptionTextID": "SkillText_EquipmentSkill_MaxHP",
+      "EquipmentSkillType": 2,
+      "Type_Value1": 0.1,
+      "Type_Value2": 0.0,
+      "Type_Value3": 0.0
+    },
+    {
+      "DataId": 102002,
+      "DescriptionTextID": "SkillText_EquipmentSkill_MaxHP",
+      "EquipmentSkillType": 2,
+      "Type_Value1": 0.3,
+      "Type_Value2": 0.0,
+      "Type_Value3": 0.0
+    },
+    {
+      "DataId": 102003,
+      "DescriptionTextID": "SkillText_EquipmentSkill_MaxHP",
+      "EquipmentSkillType": 2,
+      "Type_Value1": 0.5,
+      "Type_Value2": 0.0,
+      "Type_Value3": 0.0
+    },
+    {
+      "DataId": 102004,
+      "DescriptionTextID": "SkillText_EquipmentSkill_MaxHP",
+      "EquipmentSkillType": 2,
+      "Type_Value1": 1.0,
+      "Type_Value2": 0.0,
+      "Type_Value3": 0.0
+    },
+    {
+      "DataId": 103001,
+      "DescriptionTextID": "SkillText_EquipmentSkill_SkillCoolTime",
+      "EquipmentSkillType": 1,
+      "Type_Value1": 0.01,
+      "Type_Value2": 0.0,
+      "Type_Value3": 0.0
+    },
+    {
+      "DataId": 103002,
+      "DescriptionTextID": "SkillText_EquipmentSkill_SkillCoolTime",
+      "EquipmentSkillType": 1,
+      "Type_Value1": 0.03,
+      "Type_Value2": 0.0,
+      "Type_Value3": 0.0
+    },
+    {
+      "DataId": 103003,
+      "DescriptionTextID": "SkillText_EquipmentSkill_SkillCoolTime",
+      "EquipmentSkillType": 1,
+      "Type_Value1": 0.05,
+      "Type_Value2": 0.0,
+      "Type_Value3": 0.0
+    },
+    {
+      "DataId": 103004,
+      "DescriptionTextID": "SkillText_EquipmentSkill_SkillCoolTime",
+      "EquipmentSkillType": 1,
+      "Type_Value1": 0.1,
+      "Type_Value2": 0.0,
+      "Type_Value3": 0.0
+    },
+    {
+      "DataId": 104001,
+      "DescriptionTextID": "SkillText_EquipmentSkill_ResistDamage",
+      "EquipmentSkillType": 3,
+      "Type_Value1": 0.1,
+      "Type_Value2": 0.0,
+      "Type_Value3": 0.0
+    },
+    {
+      "DataId": 104002,
+      "DescriptionTextID": "SkillText_EquipmentSkill_ResistDamage",
+      "EquipmentSkillType": 3,
+      "Type_Value1": 0.15,
+      "Type_Value2": 0.0,
+      "Type_Value3": 0.0
+    },
+    {
+      "DataId": 104003,
+      "DescriptionTextID": "SkillText_EquipmentSkill_ResistDamage",
+      "EquipmentSkillType": 3,
+      "Type_Value1": 0.2,
+      "Type_Value2": 0.0,
+      "Type_Value3": 0.0
+    },
+    {
+      "DataId": 104004,
+      "DescriptionTextID": "SkillText_EquipmentSkill_ResistDamage",
+      "EquipmentSkillType": 3,
+      "Type_Value1": 0.3,
+      "Type_Value2": 0.0,
+      "Type_Value3": 0.0
+    },
+    {
+      "DataId": 105001,
+      "DescriptionTextID": "SkillText_EquipmentSkill_Critical",
+      "EquipmentSkillType": 4,
+      "Type_Value1": 0.01,
+      "Type_Value2": 0.0,
+      "Type_Value3": 0.0
+    },
+    {
+      "DataId": 105002,
+      "DescriptionTextID": "SkillText_EquipmentSkill_Critical",
+      "EquipmentSkillType": 4,
+      "Type_Value1": 0.03,
+      "Type_Value2": 0.0,
+      "Type_Value3": 0.0
+    },
+    {
+      "DataId": 105003,
+      "DescriptionTextID": "SkillText_EquipmentSkill_Critical",
+      "EquipmentSkillType": 4,
+      "Type_Value1": 0.05,
+      "Type_Value2": 0.0,
+      "Type_Value3": 0.0
+    },
+    {
+      "DataId": 105004,
+      "DescriptionTextID": "SkillText_EquipmentSkill_Critical",
+      "EquipmentSkillType": 4,
+      "Type_Value1": 0.1,
+      "Type_Value2": 0.0,
+      "Type_Value3": 0.0
+    },
+    {
+      "DataId": 106001,
+      "DescriptionTextID": "SkillText_EquipmentSkill_CriticalDamage",
+      "EquipmentSkillType": 5,
+      "Type_Value1": 0.1,
+      "Type_Value2": 0.0,
+      "Type_Value3": 0.0
+    },
+    {
+      "DataId": 106002,
+      "DescriptionTextID": "SkillText_EquipmentSkill_CriticalDamage",
+      "EquipmentSkillType": 5,
+      "Type_Value1": 0.3,
+      "Type_Value2": 0.0,
+      "Type_Value3": 0.0
+    },
+    {
+      "DataId": 106003,
+      "DescriptionTextID": "SkillText_EquipmentSkill_CriticalDamage",
+      "EquipmentSkillType": 5,
+      "Type_Value1": 0.5,
+      "Type_Value2": 0.0,
+      "Type_Value3": 0.0
+    },
+    {
+      "DataId": 106004,
+      "DescriptionTextID": "SkillText_EquipmentSkill_CriticalDamage",
+      "EquipmentSkillType": 5,
+      "Type_Value1": 1.0,
+      "Type_Value2": 0.0,
+      "Type_Value3": 0.0
+    },
+    {
+      "DataId": 107001,
+      "DescriptionTextID": "SkillText_EquipmentSkill_HpRecoveryEfficiency",
+      "EquipmentSkillType": 6,
+      "Type_Value1": 0.1,
+      "Type_Value2": 0.0,
+      "Type_Value3": 0.0
+    },
+    {
+      "DataId": 107002,
+      "DescriptionTextID": "SkillText_EquipmentSkill_HpRecoveryEfficiency",
+      "EquipmentSkillType": 6,
+      "Type_Value1": 0.2,
+      "Type_Value2": 0.0,
+      "Type_Value3": 0.0
+    },
+    {
+      "DataId": 107003,
+      "DescriptionTextID": "SkillText_EquipmentSkill_HpRecoveryEfficiency",
+      "EquipmentSkillType": 6,
+      "Type_Value1": 0.3,
+      "Type_Value2": 0.0,
+      "Type_Value3": 0.0
+    },
+    {
+      "DataId": 107004,
+      "DescriptionTextID": "SkillText_EquipmentSkill_HpRecoveryEfficiency",
+      "EquipmentSkillType": 6,
+      "Type_Value1": 0.5,
+      "Type_Value2": 0.0,
+      "Type_Value3": 0.0
+    },
+    {
+      "DataId": 108001,
+      "DescriptionTextID": "SkillText_EquipmentSkill_MoveSpeed",
+      "EquipmentSkillType": 7,
+      "Type_Value1": 0.1,
+      "Type_Value2": 0.0,
+      "Type_Value3": 0.0
+    },
+    {
+      "DataId": 108002,
+      "DescriptionTextID": "SkillText_EquipmentSkill_MoveSpeed",
+      "EquipmentSkillType": 7,
+      "Type_Value1": 0.15,
+      "Type_Value2": 0.0,
+      "Type_Value3": 0.0
+    },
+    {
+      "DataId": 108003,
+      "DescriptionTextID": "SkillText_EquipmentSkill_MoveSpeed",
+      "EquipmentSkillType": 7,
+      "Type_Value1": 0.2,
+      "Type_Value2": 0.0,
+      "Type_Value3": 0.0
+    },
+    {
+      "DataId": 108004,
+      "DescriptionTextID": "SkillText_EquipmentSkill_MoveSpeed",
+      "EquipmentSkillType": 7,
+      "Type_Value1": 0.3,
+      "Type_Value2": 0.0,
+      "Type_Value3": 0.0
+    },
+    {
+      "DataId": 109001,
+      "DescriptionTextID": "SkillText_EquipmentSkill_HpRecovery1s",
+      "EquipmentSkillType": 8,
+      "Type_Value1": 1.0,
+      "Type_Value2": 0.0,
+      "Type_Value3": 0.0
+    },
+    {
+      "DataId": 109002,
+      "DescriptionTextID": "SkillText_EquipmentSkill_HpRecovery1s",
+      "EquipmentSkillType": 8,
+      "Type_Value1": 2.0,
+      "Type_Value2": 0.0,
+      "Type_Value3": 0.0
+    },
+    {
+      "DataId": 109003,
+      "DescriptionTextID": "SkillText_EquipmentSkill_HpRecovery1s",
+      "EquipmentSkillType": 8,
+      "Type_Value1": 3.0,
+      "Type_Value2": 0.0,
+      "Type_Value3": 0.0
+    },
+    {
+      "DataId": 109004,
+      "DescriptionTextID": "SkillText_EquipmentSkill_HpRecovery1s",
+      "EquipmentSkillType": 8,
+      "Type_Value1": 5.0,
+      "Type_Value2": 0.0,
+      "Type_Value3": 0.0
+    },
+    {
+      "DataId": 110001,
+      "DescriptionTextID": "SkillText_EquipmentSkill_ExplosionSkillSize",
+      "EquipmentSkillType": 9,
+      "Type_Value1": 0.03,
+      "Type_Value2": 0.0,
+      "Type_Value3": 0.0
+    },
+    {
+      "DataId": 110002,
+      "DescriptionTextID": "SkillText_EquipmentSkill_ExplosionSkillSize",
+      "EquipmentSkillType": 9,
+      "Type_Value1": 0.05,
+      "Type_Value2": 0.0,
+      "Type_Value3": 0.0
+    },
+    {
+      "DataId": 110003,
+      "DescriptionTextID": "SkillText_EquipmentSkill_ExplosionSkillSize",
+      "EquipmentSkillType": 9,
+      "Type_Value1": 0.1,
+      "Type_Value2": 0.0,
+      "Type_Value3": 0.0
+    },
+    {
+      "DataId": 110004,
+      "DescriptionTextID": "SkillText_EquipmentSkill_ExplosionSkillSize",
+      "EquipmentSkillType": 9,
+      "Type_Value1": 0.2,
+      "Type_Value2": 0.0,
+      "Type_Value3": 0.0
+    },
+    {
+      "DataId": 111001,
+      "DescriptionTextID": "SkillText_EquipmentSkill_BulletSkillSize",
+      "EquipmentSkillType": 16,
+      "Type_Value1": 0.03,
+      "Type_Value2": 0.0,
+      "Type_Value3": 0.0
+    },
+    {
+      "DataId": 111002,
+      "DescriptionTextID": "SkillText_EquipmentSkill_BulletSkillSize",
+      "EquipmentSkillType": 16,
+      "Type_Value1": 0.05,
+      "Type_Value2": 0.0,
+      "Type_Value3": 0.0
+    },
+    {
+      "DataId": 111003,
+      "DescriptionTextID": "SkillText_EquipmentSkill_BulletSkillSize",
+      "EquipmentSkillType": 16,
+      "Type_Value1": 0.1,
+      "Type_Value2": 0.0,
+      "Type_Value3": 0.0
+    },
+    {
+      "DataId": 111004,
+      "DescriptionTextID": "SkillText_EquipmentSkill_BulletSkillSize",
+      "EquipmentSkillType": 16,
+      "Type_Value1": 0.2,
+      "Type_Value2": 0.0,
+      "Type_Value3": 0.0
+    },
+    {
+      "DataId": 112001,
+      "DescriptionTextID": "SkillText_EquipmentSkill_CircleSkillSize",
+      "EquipmentSkillType": 17,
+      "Type_Value1": 0.03,
+      "Type_Value2": 0.0,
+      "Type_Value3": 0.0
+    },
+    {
+      "DataId": 112002,
+      "DescriptionTextID": "SkillText_EquipmentSkill_CircleSkillSize",
+      "EquipmentSkillType": 17,
+      "Type_Value1": 0.05,
+      "Type_Value2": 0.0,
+      "Type_Value3": 0.0
+    },
+    {
+      "DataId": 112003,
+      "DescriptionTextID": "SkillText_EquipmentSkill_CircleSkillSize",
+      "EquipmentSkillType": 17,
+      "Type_Value1": 0.1,
+      "Type_Value2": 0.0,
+      "Type_Value3": 0.0
+    },
+    {
+      "DataId": 112004,
+      "DescriptionTextID": "SkillText_EquipmentSkill_CircleSkillSize",
+      "EquipmentSkillType": 17,
+      "Type_Value1": 0.2,
+      "Type_Value2": 0.0,
+      "Type_Value3": 0.0
+    },
+    {
+      "DataId": 113001,
+      "DescriptionTextID": "SkillText_EquipmentSkill_BasicAttackCool",
+      "EquipmentSkillType": 11,
+      "Type_Value1": 0.02,
+      "Type_Value2": 0.0,
+      "Type_Value3": 0.0
+    },
+    {
+      "DataId": 113002,
+      "DescriptionTextID": "SkillText_EquipmentSkill_BasicAttackCool",
+      "EquipmentSkillType": 11,
+      "Type_Value1": 0.04,
+      "Type_Value2": 0.0,
+      "Type_Value3": 0.0
+    },
+    {
+      "DataId": 113003,
+      "DescriptionTextID": "SkillText_EquipmentSkill_BasicAttackCool",
+      "EquipmentSkillType": 11,
+      "Type_Value1": 0.08,
+      "Type_Value2": 0.0,
+      "Type_Value3": 0.0
+    },
+    {
+      "DataId": 113004,
+      "DescriptionTextID": "SkillText_EquipmentSkill_BasicAttackCool",
+      "EquipmentSkillType": 11,
+      "Type_Value1": 0.12,
+      "Type_Value2": 0.0,
+      "Type_Value3": 0.0
+    },
+    {
+      "DataId": 114001,
+      "DescriptionTextID": "SkillText_EquipmentSkill_ItemBoxCool",
+      "EquipmentSkillType": 10,
+      "Type_Value1": 0.05,
+      "Type_Value2": 0.0,
+      "Type_Value3": 0.0
+    },
+    {
+      "DataId": 114002,
+      "DescriptionTextID": "SkillText_EquipmentSkill_ItemBoxCool",
+      "EquipmentSkillType": 10,
+      "Type_Value1": 0.1,
+      "Type_Value2": 0.0,
+      "Type_Value3": 0.0
+    },
+    {
+      "DataId": 114003,
+      "DescriptionTextID": "SkillText_EquipmentSkill_ItemBoxCool",
+      "EquipmentSkillType": 10,
+      "Type_Value1": 0.15,
+      "Type_Value2": 0.0,
+      "Type_Value3": 0.0
+    },
+    {
+      "DataId": 114004,
+      "DescriptionTextID": "SkillText_EquipmentSkill_ItemBoxCool",
+      "EquipmentSkillType": 10,
+      "Type_Value1": 0.25,
+      "Type_Value2": 0.0,
+      "Type_Value3": 0.0
+    },
+    {
+      "DataId": 115001,
+      "DescriptionTextID": "SkillText_EquipmentSkill_AuraDamage",
+      "EquipmentSkillType": 12,
+      "Type_Value1": 0.5,
+      "Type_Value2": 1.5,
+      "Type_Value3": 0.33
+    },
+    {
+      "DataId": 115002,
+      "DescriptionTextID": "SkillText_EquipmentSkill_AuraDamageUp",
+      "EquipmentSkillType": 13,
+      "Type_Value1": 0.5,
+      "Type_Value2": 0.0,
+      "Type_Value3": 0.0
+    },
+    {
+      "DataId": 115003,
+      "DescriptionTextID": "SkillText_EquipmentSkill_AuraDamageUp",
+      "EquipmentSkillType": 13,
+      "Type_Value1": 1.5,
+      "Type_Value2": 0.0,
+      "Type_Value3": 0.0
+    },
+    {
+      "DataId": 115004,
+      "DescriptionTextID": "SkillText_EquipmentSkill_AuraDamageUp",
+      "EquipmentSkillType": 13,
+      "Type_Value1": 3.0,
+      "Type_Value2": 0.0,
+      "Type_Value3": 0.0
+    },
+    {
+      "DataId": 116003,
+      "DescriptionTextID": "SkillText_EquipmentSkill_Revive",
+      "EquipmentSkillType": 14,
+      "Type_Value1": 1.0,
+      "Type_Value2": 0.0,
+      "Type_Value3": 0.0
+    },
+    {
+      "DataId": 116004,
+      "DescriptionTextID": "SkillText_EquipmentSkill_AddRevive",
+      "EquipmentSkillType": 15,
+      "Type_Value1": 1.0,
+      "Type_Value2": 0.0,
+      "Type_Value3": 0.0
+    }
+  ]
+}

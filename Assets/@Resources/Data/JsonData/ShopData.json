@@ -1,0 +1,553 @@
+{
+  "shops": [
+    {
+      "Id": "Shop_PackageNewbie",
+      "SlotIndex": 1,
+      "ShopGroupType": 0,
+      "Name": "Shop_Pack_1",
+      "PayType": 0,
+      "CostId": [],
+      "Efficient": 9,
+      "CostPrice": [],
+      "USD": 5.0,
+      "StoreProductId": 7,
+      "count": 0,
+      "BuyLimitType": 1,
+      "BuyLimitCount": 1,
+      "Reward_ID": [
+        284,
+        50001,
+        50002
+      ],
+      "Reward_Amount": [
+        1,
+        10000,
+        500
+      ],
+      "IsFirstDouble": false
+    },
+    {
+      "Id": "Shop_PackageGrowth",
+      "SlotIndex": 2,
+      "ShopGroupType": 0,
+      "Name": "Shop_Pack_2",
+      "PayType": 0,
+      "CostId": [],
+      "Efficient": 3,
+      "CostPrice": [],
+      "USD": 11.0,
+      "StoreProductId": 8,
+      "count": 0,
+      "BuyLimitType": 1,
+      "BuyLimitCount": 3,
+      "Reward_ID": [
+        50101,
+        50301,
+        50001
+      ],
+      "Reward_Amount": [
+        100,
+        300,
+        100000
+      ],
+      "IsFirstDouble": false
+    },
+    {
+      "Id": "Shop_PackageCost",
+      "SlotIndex": 3,
+      "ShopGroupType": 0,
+      "Name": "Shop_Pack_3",
+      "PayType": 0,
+      "CostId": [],
+      "Efficient": 3,
+      "CostPrice": [],
+      "USD": 8.0,
+      "StoreProductId": 9,
+      "count": 0,
+      "BuyLimitType": 1,
+      "BuyLimitCount": 1,
+      "Reward_ID": [
+        50001,
+        50002,
+        50301
+      ],
+      "Reward_Amount": [
+        100000,
+        1000,
+        100
+      ],
+      "IsFirstDouble": false
+    },
+    {
+      "Id": "Shop_VIP",
+      "SlotIndex": 1,
+      "ShopGroupType": 0,
+      "Name": null,
+      "PayType": 0,
+      "CostId": [],
+      "Efficient": 10,
+      "CostPrice": [],
+      "USD": 5.0,
+      "StoreProductId": 10,
+      "count": 0,
+      "BuyLimitType": 2,
+      "BuyLimitCount": 30,
+      "Reward_ID": [
+        50002
+      ],
+      "Reward_Amount": [
+        2000
+      ],
+      "IsFirstDouble": false
+    },
+    {
+      "Id": "Shop_VVIP",
+      "SlotIndex": 2,
+      "ShopGroupType": 0,
+      "Name": null,
+      "PayType": 0,
+      "CostId": [],
+      "Efficient": 10,
+      "CostPrice": [],
+      "USD": 10.0,
+      "StoreProductId": 11,
+      "count": 0,
+      "BuyLimitType": 2,
+      "BuyLimitCount": 30,
+      "Reward_ID": [
+        50002
+      ],
+      "Reward_Amount": [
+        4000
+      ],
+      "IsFirstDouble": false
+    },
+    {
+      "Id": "Shop_NormalGacha_Ads",
+      "SlotIndex": 1,
+      "ShopGroupType": 0,
+      "Name": "Shop_CommonGacha",
+      "PayType": 1,
+      "CostId": [],
+      "Efficient": 1,
+      "CostPrice": [
+        1,
+        100
+      ],
+      "USD": 0.0,
+      "StoreProductId": 0,
+      "count": 0,
+      "BuyLimitType": 3,
+      "BuyLimitCount": 1,
+      "Reward_ID": [
+        50302
+      ],
+      "Reward_Amount": [
+        1
+      ],
+      "IsFirstDouble": false
+    },
+    {
+      "Id": "Shop_NormalGacha",
+      "SlotIndex": 2,
+      "ShopGroupType": 0,
+      "Name": "Shop_CommonGacha",
+      "PayType": 0,
+      "CostId": [
+        50202,
+        50002
+      ],
+      "Efficient": 1,
+      "CostPrice": [
+        1,
+        100
+      ],
+      "USD": 0.0,
+      "StoreProductId": 0,
+      "count": 0,
+      "BuyLimitType": 0,
+      "BuyLimitCount": 0,
+      "Reward_ID": [
+        50302
+      ],
+      "Reward_Amount": [
+        1
+      ],
+      "IsFirstDouble": false
+    },
+    {
+      "Id": "Shop_RareGacha",
+      "SlotIndex": 2,
+      "ShopGroupType": 0,
+      "Name": "Shop_RareGacha",
+      "PayType": 0,
+      "CostId": [
+        50203,
+        50002
+      ],
+      "Efficient": 1,
+      "CostPrice": [
+        1,
+        200
+      ],
+      "USD": 0.0,
+      "StoreProductId": 0,
+      "count": 0,
+      "BuyLimitType": 0,
+      "BuyLimitCount": 0,
+      "Reward_ID": [
+        50303
+      ],
+      "Reward_Amount": [
+        1
+      ],
+      "IsFirstDouble": false
+    },
+    {
+      "Id": "Shop_Gold1",
+      "SlotIndex": 1,
+      "ShopGroupType": 0,
+      "Name": null,
+      "PayType": 4,
+      "CostId": [],
+      "Efficient": 1,
+      "CostPrice": [],
+      "USD": 0.0,
+      "StoreProductId": 0,
+      "count": 0,
+      "BuyLimitType": 3,
+      "BuyLimitCount": 1,
+      "Reward_ID": [
+        50001
+      ],
+      "Reward_Amount": [
+        500
+      ],
+      "IsFirstDouble": false
+    },
+    {
+      "Id": "Shop_Gold2",
+      "SlotIndex": 1,
+      "ShopGroupType": 0,
+      "Name": null,
+      "PayType": 1,
+      "CostId": [],
+      "Efficient": 1,
+      "CostPrice": [],
+      "USD": 0.0,
+      "StoreProductId": 0,
+      "count": 0,
+      "BuyLimitType": 3,
+      "BuyLimitCount": 2,
+      "Reward_ID": [
+        50001
+      ],
+      "Reward_Amount": [
+        500
+      ],
+      "IsFirstDouble": false
+    },
+    {
+      "Id": "Shop_Gold3",
+      "SlotIndex": 2,
+      "ShopGroupType": 0,
+      "Name": null,
+      "PayType": 5,
+      "CostId": [
+        50002
+      ],
+      "Efficient": 1,
+      "CostPrice": [
+        300
+      ],
+      "USD": 0.0,
+      "StoreProductId": 0,
+      "count": 0,
+      "BuyLimitType": 0,
+      "BuyLimitCount": 0,
+      "Reward_ID": [
+        50001
+      ],
+      "Reward_Amount": [
+        30000
+      ],
+      "IsFirstDouble": false
+    },
+    {
+      "Id": "Shop_Gold4",
+      "SlotIndex": 3,
+      "ShopGroupType": 0,
+      "Name": null,
+      "PayType": 5,
+      "CostId": [
+        50002
+      ],
+      "Efficient": 1,
+      "CostPrice": [
+        1000
+      ],
+      "USD": 0.0,
+      "StoreProductId": 0,
+      "count": 0,
+      "BuyLimitType": 0,
+      "BuyLimitCount": 0,
+      "Reward_ID": [
+        50001
+      ],
+      "Reward_Amount": [
+        100000
+      ],
+      "IsFirstDouble": false
+    },
+    {
+      "Id": "Shop_Jewel1",
+      "SlotIndex": 1,
+      "ShopGroupType": 0,
+      "Name": null,
+      "PayType": 4,
+      "CostId": [],
+      "Efficient": 1,
+      "CostPrice": [],
+      "USD": 0.0,
+      "StoreProductId": 0,
+      "count": 0,
+      "BuyLimitType": 3,
+      "BuyLimitCount": 1,
+      "Reward_ID": [
+        50002
+      ],
+      "Reward_Amount": [
+        10
+      ],
+      "IsFirstDouble": false
+    },
+    {
+      "Id": "Shop_Jewel2",
+      "SlotIndex": 1,
+      "ShopGroupType": 0,
+      "Name": null,
+      "PayType": 1,
+      "CostId": [],
+      "Efficient": 1,
+      "CostPrice": [],
+      "USD": 0.0,
+      "StoreProductId": 0,
+      "count": 0,
+      "BuyLimitType": 3,
+      "BuyLimitCount": 2,
+      "Reward_ID": [
+        50002
+      ],
+      "Reward_Amount": [
+        10
+      ],
+      "IsFirstDouble": false
+    },
+    {
+      "Id": "Shop_Jewel3",
+      "SlotIndex": 2,
+      "ShopGroupType": 0,
+      "Name": null,
+      "PayType": 0,
+      "CostId": [],
+      "Efficient": 1,
+      "CostPrice": [],
+      "USD": 1.0,
+      "StoreProductId": 2,
+      "count": 0,
+      "BuyLimitType": 0,
+      "BuyLimitCount": 0,
+      "Reward_ID": [
+        50002
+      ],
+      "Reward_Amount": [
+        100
+      ],
+      "IsFirstDouble": true
+    },
+    {
+      "Id": "Shop_Jewel4",
+      "SlotIndex": 3,
+      "ShopGroupType": 0,
+      "Name": null,
+      "PayType": 0,
+      "CostId": [],
+      "Efficient": 1,
+      "CostPrice": [],
+      "USD": 5.0,
+      "StoreProductId": 5,
+      "count": 0,
+      "BuyLimitType": 0,
+      "BuyLimitCount": 0,
+      "Reward_ID": [
+        50002
+      ],
+      "Reward_Amount": [
+        500
+      ],
+      "IsFirstDouble": true
+    },
+    {
+      "Id": "Shop_Jewel5",
+      "SlotIndex": 4,
+      "ShopGroupType": 0,
+      "Name": null,
+      "PayType": 0,
+      "CostId": [],
+      "Efficient": 1,
+      "CostPrice": [],
+      "USD": 30.0,
+      "StoreProductId": 4,
+      "count": 0,
+      "BuyLimitType": 0,
+      "BuyLimitCount": 0,
+      "Reward_ID": [
+        50002
+      ],
+      "Reward_Amount": [
+        3000
+      ],
+      "IsFirstDouble": true
+    },
+    {
+      "Id": "Shop_Jewel6",
+      "SlotIndex": 5,
+      "ShopGroupType": 0,
+      "Name": null,
+      "PayType": 0,
+      "CostId": [],
+      "Efficient": 1,
+      "CostPrice": [],
+      "USD": 50.0,
+      "StoreProductId": 6,
+      "count": 0,
+      "BuyLimitType": 0,
+      "BuyLimitCount": 0,
+      "Reward_ID": [
+        50002
+      ],
+      "Reward_Amount": [
+        5000
+      ],
+      "IsFirstDouble": true
+    },
+    {
+      "Id": "Shop_Jewel7",
+      "SlotIndex": 6,
+      "ShopGroupType": 0,
+      "Name": null,
+      "PayType": 0,
+      "CostId": [],
+      "Efficient": 1,
+      "CostPrice": [],
+      "USD": 100.0,
+      "StoreProductId": 3,
+      "count": 0,
+      "BuyLimitType": 0,
+      "BuyLimitCount": 0,
+      "Reward_ID": [
+        50002
+      ],
+      "Reward_Amount": [
+        10000
+      ],
+      "IsFirstDouble": true
+    },
+    {
+      "Id": "Shop_InfiniteTicket1",
+      "SlotIndex": 1,
+      "ShopGroupType": 0,
+      "Name": "Shop_EndlessTicket",
+      "PayType": 5,
+      "CostId": [
+        50002
+      ],
+      "Efficient": 1,
+      "CostPrice": [
+        100
+      ],
+      "USD": 0.0,
+      "StoreProductId": 0,
+      "count": 0,
+      "BuyLimitType": 3,
+      "BuyLimitCount": 3,
+      "Reward_ID": [
+        50401
+      ],
+      "Reward_Amount": [
+        1
+      ],
+      "IsFirstDouble": false
+    },
+    {
+      "Id": "Shop_HuntPass",
+      "SlotIndex": 1,
+      "ShopGroupType": 0,
+      "Name": null,
+      "PayType": 0,
+      "CostId": [],
+      "Efficient": 1,
+      "CostPrice": [],
+      "USD": 10.0,
+      "StoreProductId": 1,
+      "count": 0,
+      "BuyLimitType": 1,
+      "BuyLimitCount": 1,
+      "Reward_ID": [],
+      "Reward_Amount": [],
+      "IsFirstDouble": false
+    },
+    {
+      "Id": "Shop_RandomScroll",
+      "SlotIndex": 1,
+      "ShopGroupType": 0,
+      "Name": "Shop_RandomScroll",
+      "PayType": 5,
+      "CostId": [
+        50002
+      ],
+      "Efficient": 1,
+      "CostPrice": [
+        5
+      ],
+      "USD": 0.0,
+      "StoreProductId": 0,
+      "count": 0,
+      "BuyLimitType": 0,
+      "BuyLimitCount": 0,
+      "Reward_ID": [
+        50301
+      ],
+      "Reward_Amount": [
+        1
+      ],
+      "IsFirstDouble": false
+    },
+    {
+      "Id": "Shop_WeaponScroll",
+      "SlotIndex": 2,
+      "ShopGroupType": 0,
+      "Name": "Shop_WeaponScroll",
+      "PayType": 5,
+      "CostId": [
+        50002
+      ],
+      "Efficient": 1,
+      "CostPrice": [
+        20
+      ],
+      "USD": 0.0,
+      "StoreProductId": 0,
+      "count": 0,
+      "BuyLimitType": 0,
+      "BuyLimitCount": 0,
+      "Reward_ID": [
+        50101
+      ],
+      "Reward_Amount": [
+        1
+      ],
+      "IsFirstDouble": false
+    }
+  ]
+}

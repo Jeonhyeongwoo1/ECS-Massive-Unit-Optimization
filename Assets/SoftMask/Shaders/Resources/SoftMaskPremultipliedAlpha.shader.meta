@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 35dcfe58e964e4c3b840211d4513a140
+timeCreated: 1482822113
+licenseType: Store
+ShaderImporter:
+  defaultTextures: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 80667
+  packageName: Soft Mask
+  packageVersion: 1.6.3
+  assetPath: Assets/SoftMask/Shaders/Resources/SoftMaskPremultipliedAlpha.shader
+  uploadId: 465158

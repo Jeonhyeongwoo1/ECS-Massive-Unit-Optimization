@@ -1,0 +1,11 @@
+QuestMissionId,QuestMissionTyped,DescriptionTextKey,~,QuestMissionTarget,QuestMissionTargetValue,Reward_Id,Reward_Amount
+80001,Daily,DailyQuestMission_80001,로그인,Login,1,50005,10
+80002,Daily,DailyQuestMission_80002,게임 참여,PlayGame,3,50005,20
+80003,Daily,DailyQuestMission_80003,일반 몬스터 처치,MonsterKill,3000,50005,10
+80004,Daily,DailyQuestMission_80004,엘리트 몬스터 처치,MonsterKill,3,50005,10
+80005,Daily,DailyQuestMission_80005,보스 몬스터 처치,MonsterKill,1,50005,20
+80006,Daily,DailyQuestMission_80006,장비 레벨업,EqiupmentLevelUp,1,50005,10
+80007,Daily,DailyQuestMission_80007,장비 등급업,EqiupmentGradeUp,1,50005,10
+80008,Daily,DailyQuestMission_80008,상품 구매,BuyShopProduct,2,50005,20
+80009,Daily,DailyQuestMission_80009,장비 뽑기 진행,BuyGacha,1,50005,10
+80010,Daily,DailyQuestMission_80010,광고 시청,ADWatchIng,1,50005,20

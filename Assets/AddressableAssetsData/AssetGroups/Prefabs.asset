@@ -1,0 +1,131 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Prefabs
+  m_EditorClassIdentifier: 
+  m_GroupName: Prefabs
+  m_GUID: 30d849343399a6246b6dbf0d81a6736a
+  m_SerializeEntries:
+  - m_GUID: 05b84365df15e431cb46cb262c09168e
+    m_Address: Jewel
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 14a8e8fc03385704e8fddf4a8feb4f4a
+    m_Address: Bomb
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 16afdd4657a191141895ae3cee23db01
+    m_Address: Explosion
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1737332dcf88e486787ca28f85fbac46
+    m_Address: BossAndEliteSpawnAlarmCircle
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2b3560af846144030afdc7d05c0b4ae7
+    m_Address: BossBarrier
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2d0c1abb18f0ebb44943b8e52d6b6086
+    m_Address: CriticalDamageFont
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2ef93401a097fc84ab30ae2d81d7120a
+    m_Address: DamageFont
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 39b176de8b08bf94287136ed4ef3f36f
+    m_Address: SkillUp
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 55ac0f5e1107d4ba28a24ff8ba277363
+    m_Address: Gold
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6ba191ec7b32dba4aa9c8a9cc27093a4
+    m_Address: Potion
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6bfe6bb00284aca4687abf4e6bdba6a3
+    m_Address: Heal
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 70c9aa22e21054ed785eecc3d959d684
+    m_Address: BossBarrierController
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8aaa70343d2915e4aada39a6470d186f
+    m_Address: Explosion_Normal
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 90156a2aad2711f40bb9978a81d598de
+    m_Address: ItemBox
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d67a3d3fb8034604e9aff6a39346a6cf
+    m_Address: Explosion_Small
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d9cdb6a0f4095134bb5eb4f48df6828b
+    m_Address: Magnet
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: de65c9b6da74f2a42829ac13aa2b927e
+    m_Address: RevivePtcl
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e86f358a6e6af2b4a8263f5f1b235430
+    m_Address: ExpGem
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: ea05dd4d5f043fa4b93db9e6de435d8f, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: eb15d8a7b91ec894f9a19aeea3ed3431, type: 2}
+    - {fileID: 11400000, guid: 1c382e07ae52ee4449e77c953f667e63, type: 2}

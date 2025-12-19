@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: adc25c95f5efd41f3853d0e0f4f0ff3e
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 80667
+  packageName: Soft Mask
+  packageVersion: 1.6.3
+  assetPath: Assets/SoftMask/Shaders/Generated/dummy
+  uploadId: 465158

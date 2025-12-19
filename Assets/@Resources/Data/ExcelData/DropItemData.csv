@@ -1,0 +1,15 @@
+DataId,DropItemType,NameTextID,PROB,DescriptionTextID,~,Value,SpriteName
+60001,ItemBox,,0,,아이템박스 - 랜덤,,Drop_ItemBox.sprite
+60002,Magnet,,0.107,,아이템 박스 - 자석,,Drop_Magnet.sprite
+60003,Bomb,,0.3,,아이템 박스 - 소형 폭탄,10,Drop_Bomb_Small.sprite
+60004,Bomb,,0.1,,아이템 박스 - 폭탄,10000,Drop_Bomb_Normal.sprite
+60005,Potion,,0.15,,아이템 박스 - 소형 구급상자,0.1,Drop_Heal_Small.sprite
+60006,Potion,,0.12,,아이템 박스 - 중형 구급상자,0.3,Drop_Heal_Normal.sprite
+60007,SkillUp,,0.042,,아이템 박스 - 스킬업 아이템,,Drop_SkillUp.sprite
+60008,Gold,,0.04,,아이템 박스 - 10골드,10,Drop_Gold_10.sprite
+60009,Gold,,0.031,,아이템 박스 - 50골드,50,Drop_Gold_50.sprite
+60010,Gold,,0.03,,아이템 박스 - 100골드,100,Drop_Gold_100.sprite
+60011,Gold,,0.025,,아이템 박스 - 300골드,300,Drop_Gold_300.sprite
+60012,Jewel,,0.021,,아이템 박스 - 보석 1개,1,Drop_Jewel_1.sprite
+60013,Jewel,,0.019,,아이템 박스 - 보석 5개,5,Drop_Jewel_5.sprite
+60014,Jewel,,0.015,,아이템 박스 - 보석 10개,10,Drop_Jewel_10.sprite

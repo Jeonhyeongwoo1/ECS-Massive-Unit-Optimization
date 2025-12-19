@@ -1,0 +1,570 @@
+fileFormatVersion: 2
+guid: 8466b12086d5c9946b4cc39816e6b9cd
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: 51
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: DOG_SHIELD00
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 257
+        width: 130
+        height: 231
+      alignment: 9
+      pivot: {x: 0.5846154, y: 0.5497835}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3ec759fec8a1be4cb6c2c2b7e4ac3f3
+      internalID: 566388227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DOG_SHIELD01
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 257
+        width: 130
+        height: 231
+      alignment: 9
+      pivot: {x: 0.5846154, y: 0.5497835}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f47a39de34f9494489379196b7fc37d9
+      internalID: -1343590653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DOG_SHIELD02
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 257
+        width: 134
+        height: 230
+      alignment: 9
+      pivot: {x: 0.57462686, y: 0.54347825}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67398823b64e1bb4b853293d128e9cb0
+      internalID: 1812753395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DOG_SHIELD03
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 257
+        width: 134
+        height: 230
+      alignment: 9
+      pivot: {x: 0.57462686, y: 0.54347825}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e93965b287c94054491ca405f224a45f
+      internalID: -732314779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DOG_SHIELD04
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 517
+        width: 136
+        height: 230
+      alignment: 9
+      pivot: {x: 0.5661765, y: 0.53913045}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82ce004950285ff41b975c73d8fe4c60
+      internalID: 1438815029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DOG_SHIELD05
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 517
+        width: 136
+        height: 230
+      alignment: 9
+      pivot: {x: 0.5661765, y: 0.53913045}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8f5e989b2810c34e8f7665412af9603
+      internalID: 1374487968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DOG_SHIELD06
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 779
+        width: 138
+        height: 230
+      alignment: 9
+      pivot: {x: 0.557971, y: 0.53913045}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af97eabb5a38e874d9b5fff05648b080
+      internalID: -210973477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DOG_SHIELD07
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 779
+        width: 138
+        height: 230
+      alignment: 9
+      pivot: {x: 0.557971, y: 0.53913045}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adeaeac248984fa409aaa220f3c22c0d
+      internalID: 1475929225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DOG_SHIELD08
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 779
+        width: 139
+        height: 230
+      alignment: 9
+      pivot: {x: 0.5539568, y: 0.54347825}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe69d437199d4a74185e8d0b27cc0b85
+      internalID: -1317699459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DOG_SHIELD09
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 779
+        width: 139
+        height: 230
+      alignment: 9
+      pivot: {x: 0.5539568, y: 0.54347825}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cb79f168e25d27429fbdcf4a29c3c02
+      internalID: 2090162347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DOG_SHIELD10
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 777
+        width: 137
+        height: 232
+      alignment: 9
+      pivot: {x: 0.55474454, y: 0.54310346}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ed11af7ec6244145ab1315a124fc0c9
+      internalID: 344901743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DOG_SHIELD11
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 777
+        width: 137
+        height: 232
+      alignment: 9
+      pivot: {x: 0.55474454, y: 0.54310346}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca84ed3f9b5febb47b14a50788173d91
+      internalID: -261796746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DOG_SHIELD12
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 518
+        width: 132
+        height: 231
+      alignment: 9
+      pivot: {x: 0.5681818, y: 0.5367965}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: deb440459581b1648bda32c2efa55b71
+      internalID: -710578698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DOG_SHIELD13
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 518
+        width: 132
+        height: 231
+      alignment: 9
+      pivot: {x: 0.5681818, y: 0.5367965}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 258b096d3b50b834bbff238868711899
+      internalID: 1748092512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DOG_SHIELD14
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 518
+        width: 131
+        height: 231
+      alignment: 9
+      pivot: {x: 0.5801527, y: 0.5367965}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92d2b1bc161217f44891df2a2cf5e860
+      internalID: -1296750942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DOG_SHIELD15
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 518
+        width: 131
+        height: 231
+      alignment: 9
+      pivot: {x: 0.5801527, y: 0.5367965}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9938d65338f777744b2b75a4cdf517b9
+      internalID: -630247506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DOG_SHIELD16
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 257
+        width: 130
+        height: 231
+      alignment: 9
+      pivot: {x: 0.5846154, y: 0.54112554}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c785d052ab78e604bb233db7a2f2cce7
+      internalID: -497752917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DOG_SHIELD17
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 257
+        width: 130
+        height: 231
+      alignment: 9
+      pivot: {x: 0.5846154, y: 0.54112554}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6af9de3b421f2343a09e440aee67eba
+      internalID: 1804140495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 567b14603b2858b499e4f0a75050b82a
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      DOG_SHIELD00: 566388227
+      DOG_SHIELD01: -1343590653
+      DOG_SHIELD02: 1812753395
+      DOG_SHIELD03: -732314779
+      DOG_SHIELD04: 1438815029
+      DOG_SHIELD05: 1374487968
+      DOG_SHIELD06: -210973477
+      DOG_SHIELD07: 1475929225
+      DOG_SHIELD08: -1317699459
+      DOG_SHIELD09: 2090162347
+      DOG_SHIELD10: 344901743
+      DOG_SHIELD11: -261796746
+      DOG_SHIELD12: -710578698
+      DOG_SHIELD13: 1748092512
+      DOG_SHIELD14: -1296750942
+      DOG_SHIELD15: -630247506
+      DOG_SHIELD16: -497752917
+      DOG_SHIELD17: 1804140495
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

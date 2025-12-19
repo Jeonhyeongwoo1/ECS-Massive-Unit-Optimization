@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 0f47072ab362848c2b950a1cdd7c45e5
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 80667
+  packageName: Soft Mask
+  packageVersion: 1.6.3
+  assetPath: Assets/SoftMask/Shaders/Resources/SoftMask.cginc
+  uploadId: 465158

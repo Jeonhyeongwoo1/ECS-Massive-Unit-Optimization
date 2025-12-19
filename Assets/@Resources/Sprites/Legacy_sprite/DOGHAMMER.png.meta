@@ -1,0 +1,570 @@
+fileFormatVersion: 2
+guid: 4f38168f3cf15404cb697e5251124550
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: 51
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: DOG_HAMMER00
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 523
+        width: 176
+        height: 227
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5110132}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adf512286e8d05249a72b732abfb27be
+      internalID: 1143381587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DOG_HAMMER01
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 523
+        width: 176
+        height: 227
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5110132}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb65cc6f67c9dff4d82b69bcb6bf9305
+      internalID: -386093325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DOG_HAMMER02
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 780
+        width: 176
+        height: 229
+      alignment: 9
+      pivot: {x: 0.5, y: 0.510917}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8e6a1d654daa9b468ff8599dad58bf6
+      internalID: 463151193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DOG_HAMMER03
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 780
+        width: 176
+        height: 229
+      alignment: 9
+      pivot: {x: 0.5, y: 0.510917}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83087de39af878b4494445aac547ea88
+      internalID: 651117129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DOG_HAMMER04
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 779
+        width: 176
+        height: 230
+      alignment: 9
+      pivot: {x: 0.5, y: 0.50869566}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82f0a78bcb6f0ed44a672901597b45b4
+      internalID: 1856060693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DOG_HAMMER05
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 779
+        width: 176
+        height: 230
+      alignment: 9
+      pivot: {x: 0.5, y: 0.50869566}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6d02db80a1fad140b4e39cf5a26b5c4
+      internalID: 650759054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DOG_HAMMER06
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 254
+        width: 176
+        height: 230
+      alignment: 9
+      pivot: {x: 0.5, y: 0.50869566}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dd8833f37d579f428c139e50cc11c0c
+      internalID: 2024264882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DOG_HAMMER07
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 254
+        width: 176
+        height: 230
+      alignment: 9
+      pivot: {x: 0.5, y: 0.50869566}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 667d977c9ad0abf4bb6947851358b001
+      internalID: 1032247121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DOG_HAMMER08
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 260
+        width: 176
+        height: 229
+      alignment: 9
+      pivot: {x: 0.5, y: 0.510917}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcdb01f7ff9ea1b4f9da67363027f419
+      internalID: 1155797518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DOG_HAMMER09
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 260
+        width: 176
+        height: 229
+      alignment: 9
+      pivot: {x: 0.5, y: 0.510917}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6853b82a4b147f43901d5441335e596
+      internalID: 546740482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DOG_HAMMER10
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 781
+        width: 175
+        height: 228
+      alignment: 9
+      pivot: {x: 0.49714285, y: 0.50438595}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98da9b5fb91070942bdd2ab833823414
+      internalID: -344926617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DOG_HAMMER11
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 781
+        width: 175
+        height: 228
+      alignment: 9
+      pivot: {x: 0.49714285, y: 0.50438595}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a63232ec6d4ee94428faed62e7d8bbc2
+      internalID: -831357168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DOG_HAMMER12
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 514
+        width: 175
+        height: 233
+      alignment: 9
+      pivot: {x: 0.49714285, y: 0.5107296}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 346e5dc96c8327f4a87f6448fc8263c5
+      internalID: 2100508980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DOG_HAMMER13
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 514
+        width: 175
+        height: 233
+      alignment: 9
+      pivot: {x: 0.49714285, y: 0.5107296}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c6db6d1304a9234090cf780682c294f
+      internalID: 262474775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DOG_HAMMER14
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 777
+        width: 176
+        height: 232
+      alignment: 9
+      pivot: {x: 0.4943182, y: 0.5086207}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd7a0f61865af1b49a91ca37c5ee815f
+      internalID: -1380790782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DOG_HAMMER15
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 777
+        width: 176
+        height: 232
+      alignment: 9
+      pivot: {x: 0.4943182, y: 0.5086207}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7c8293d148f75c47890fc2ae54e72b7
+      internalID: 839878381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DOG_HAMMER16
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 519
+        width: 175
+        height: 230
+      alignment: 9
+      pivot: {x: 0.49714285, y: 0.50869566}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a7ce593b184afb46b4e4bb8b12590a1
+      internalID: 1927651781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DOG_HAMMER17
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 519
+        width: 175
+        height: 230
+      alignment: 9
+      pivot: {x: 0.49714285, y: 0.50869566}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72849db0235b92b43ac2031351dbc3cd
+      internalID: -1322508405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 667b1c766178fb94298905c7304601f1
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      DOG_HAMMER00: 1143381587
+      DOG_HAMMER01: -386093325
+      DOG_HAMMER02: 463151193
+      DOG_HAMMER03: 651117129
+      DOG_HAMMER04: 1856060693
+      DOG_HAMMER05: 650759054
+      DOG_HAMMER06: 2024264882
+      DOG_HAMMER07: 1032247121
+      DOG_HAMMER08: 1155797518
+      DOG_HAMMER09: 546740482
+      DOG_HAMMER10: -344926617
+      DOG_HAMMER11: -831357168
+      DOG_HAMMER12: 2100508980
+      DOG_HAMMER13: 262474775
+      DOG_HAMMER14: -1380790782
+      DOG_HAMMER15: 839878381
+      DOG_HAMMER16: 1927651781
+      DOG_HAMMER17: -1322508405
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

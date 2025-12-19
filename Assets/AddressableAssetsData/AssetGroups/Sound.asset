@@ -1,0 +1,233 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Sound
+  m_EditorClassIdentifier: 
+  m_GroupName: Sound
+  m_GUID: e6ad7b79585184e48b3a8e695b90a228
+  m_SerializeEntries:
+  - m_GUID: 08475137fb8fb4e2e828e6580c3eaa43
+    m_Address: GetBlueGem
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1bd7edcf9956e4784951d4ccbb029a7b
+    m_Address: GetRedGem
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1d09b448a003b44278a6b5fc393acf68
+    m_Address: UseSkill_10061
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 33de32a5ca48b45f1858e94f260d8262
+    m_Address: Button_Click
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 40a68b39265214c38aba316a2011b237
+    m_Address: BGM_Outgame
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 42cc9beaaaee54a53a3f4efe270b6899
+    m_Address: MonsterHit
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5acd0056ff0dc4e778f2b2dd3ef9fc61
+    m_Address: UseSkill_10031
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 64c88fc56141848578bedca4ac0330d6
+    m_Address: BGM_Ingame
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 67bafd7703dd3482e9c8c1e3014b7625
+    m_Address: UseSkill_10131
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6878cf6c426a748b7a75676e64985225
+    m_Address: GetExp
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7e603c180766a4fbfaad5680adc91ddd
+    m_Address: BossWarning
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8535a6d2af8a1406c950e6941d73ae30
+    m_Address: Equipment_MergeSuccess
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8758582459db54ffebb14c620378393d
+    m_Address: UseSkill_10101
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8f8b254c659ae4a23b5cfcda2001e9c0
+    m_Address: UseSkill_10041
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8feaffc4dc243475daaf3d7237ff3b9a
+    m_Address: GameClear
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 907770f66a3ef43f0bbec49e9888def4
+    m_Address: Equipment_Equip
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 924b3dd4816a5422c9c2741d5fe3cde5
+    m_Address: UseSkill_10021
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9256f87c6722744b3b2199afd590a3d5
+    m_Address: UseSkill_10001
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9e8c82baaa9264dc3ba4e003e5fd1976
+    m_Address: Popup_Open
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: acb79f9ce2d66407fbb616892857ea29
+    m_Address: StageClear
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: aeb69f2d3456d450582f0f82fbf00fbe
+    m_Address: GetGold
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b1d2b89001f1f4b83b69c3f47cdd1fb3
+    m_Address: BGM_Title
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b7555526bad5d4f38879c7a1bdf4a805
+    m_Address: UseSkill_10141
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bff14dd578841486bb00393cb41498c6
+    m_Address: UseSkill_10121
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c14c19533bbe74b2e973d5cfc1b2fed5
+    m_Address: UseSkill_10091
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c5b45104a875d4340b07c61e53b3fa66
+    m_Address: GetGreenGem
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ccf4a5e099e0a46918c61d1aa26cbb15
+    m_Address: BGM_BossWave
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d681d3fa9727f4c69bfcd04993faccab
+    m_Address: UseSkill_10071
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: da60c5edd57d94139b785427f855ecfd
+    m_Address: BGM_InfinityIngame
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dd038a0855fda4b1dbc9cc8e33127997
+    m_Address: UsingSkill_10091
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e3bf9ff91b54f44a7b2795a4035b5f99
+    m_Address: UseSkill_10111
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e6367571a489244aab4ca7a61136f575
+    m_Address: UseSkill_10051
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f41509571ab694f1dbcd0b68ac381317
+    m_Address: GetPurpleGem
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f56b3d3ab1ecc49d888d07a2f127220d
+    m_Address: UseSkill_10081
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fcd216687818a46fe9baca634f528b94
+    m_Address: UseSkill_10011
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: ea05dd4d5f043fa4b93db9e6de435d8f, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 6860cf47b8d7334449a20585e24d4fa9, type: 2}
+    - {fileID: 11400000, guid: e57737e103f543b4c8904a50020f3717, type: 2}

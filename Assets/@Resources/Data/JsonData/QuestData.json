@@ -1,0 +1,94 @@
+{
+  "questDataList": [
+    {
+      "QuestMissionId": 80001,
+      "QuestMissionTyped": 1,
+      "DescriptionTextKey": "DailyQuestMission_80001",
+      "QuestMissionTarget": 0,
+      "QuestMissionTargetValue": 1,
+      "Reward_Id": 50005,
+      "Reward_Amount": 10
+    },
+    {
+      "QuestMissionId": 80002,
+      "QuestMissionTyped": 1,
+      "DescriptionTextKey": "DailyQuestMission_80002",
+      "QuestMissionTarget": 1,
+      "QuestMissionTargetValue": 3,
+      "Reward_Id": 50005,
+      "Reward_Amount": 20
+    },
+    {
+      "QuestMissionId": 80003,
+      "QuestMissionTyped": 1,
+      "DescriptionTextKey": "DailyQuestMission_80003",
+      "QuestMissionTarget": 2,
+      "QuestMissionTargetValue": 3000,
+      "Reward_Id": 50005,
+      "Reward_Amount": 10
+    },
+    {
+      "QuestMissionId": 80004,
+      "QuestMissionTyped": 1,
+      "DescriptionTextKey": "DailyQuestMission_80004",
+      "QuestMissionTarget": 2,
+      "QuestMissionTargetValue": 3,
+      "Reward_Id": 50005,
+      "Reward_Amount": 10
+    },
+    {
+      "QuestMissionId": 80005,
+      "QuestMissionTyped": 1,
+      "DescriptionTextKey": "DailyQuestMission_80005",
+      "QuestMissionTarget": 2,
+      "QuestMissionTargetValue": 1,
+      "Reward_Id": 50005,
+      "Reward_Amount": 20
+    },
+    {
+      "QuestMissionId": 80006,
+      "QuestMissionTyped": 1,
+      "DescriptionTextKey": "DailyQuestMission_80006",
+      "QuestMissionTarget": 3,
+      "QuestMissionTargetValue": 1,
+      "Reward_Id": 50005,
+      "Reward_Amount": 10
+    },
+    {
+      "QuestMissionId": 80007,
+      "QuestMissionTyped": 1,
+      "DescriptionTextKey": "DailyQuestMission_80007",
+      "QuestMissionTarget": 4,
+      "QuestMissionTargetValue": 1,
+      "Reward_Id": 50005,
+      "Reward_Amount": 10
+    },
+    {
+      "QuestMissionId": 80008,
+      "QuestMissionTyped": 1,
+      "DescriptionTextKey": "DailyQuestMission_80008",
+      "QuestMissionTarget": 5,
+      "QuestMissionTargetValue": 2,
+      "Reward_Id": 50005,
+      "Reward_Amount": 20
+    },
+    {
+      "QuestMissionId": 80009,
+      "QuestMissionTyped": 1,
+      "DescriptionTextKey": "DailyQuestMission_80009",
+      "QuestMissionTarget": 6,
+      "QuestMissionTargetValue": 1,
+      "Reward_Id": 50005,
+      "Reward_Amount": 10
+    },
+    {
+      "QuestMissionId": 80010,
+      "QuestMissionTyped": 1,
+      "DescriptionTextKey": "DailyQuestMission_80010",
+      "QuestMissionTarget": 7,
+      "QuestMissionTargetValue": 1,
+      "Reward_Id": 50005,
+      "Reward_Amount": 20
+    }
+  ]
+}

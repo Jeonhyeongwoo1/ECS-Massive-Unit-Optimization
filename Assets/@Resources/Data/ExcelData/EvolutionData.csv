@@ -1,0 +1,10 @@
+DataId,~,TitleTextKey,DescriptionTextKey,Grade,EvolutionType,DefaultEvolutionValue1,DefaultEvolutionValue2,LevelUpEvolutionValue1,LevelUpEvolutionValue2,MaxCount
+Evolution_Atk,공격력 증가,Evolution_AtkTitle,Evolution_AtkDescription,UnCommon,Atk,10,0,10,0,
+Evolution_Hp,최대 체력 증가,Evolution_HpTitle,Evolution_HpDescription,UnCommon,MaxHp,100,0,100,0,
+Evolution_Move,이동속도 증가,Evolution_MoveTitle,Evolution_MoveDescription,UnCommon,MoveSpeed,0.05,0,0.005,0,1500
+Evolution_Critical,치명타 확률 증가,Evolution_CriticalTitle,Evolution_CriticalDescription,Rare,CriticalPercent,0.03,0,0.003,0,2560
+Evolution_CriticalDamage,치명타 데미지 증가,Evolution_CriticalDamageTitle,Evolution_CriticalDamageDescription,Rare,CriticalDamage,0.1,0,0.01,0,
+Evolution_Boom,폭탄 설치,Evolution_BoomTitle,Evolution_BoomDescription,Rare,Boom,1,300,0,30,
+Evolution_SkillCool,스킬 쿨타임 감소,Evolution_SkillCoolTitle,Evolution_SkillCoolDescription,Epic,SkillCoolDown,0.01,0,0.005,0,900
+Evolution_Berserker,투지,Evolution_BerserkerTitle,Evolution_BerserkerDescription,Epic,Berserker,200,0.01,0,0.001,
+Evolution_invincibility,긴급 회피,Evolution_invincibilityTitle,Evolution_invincibilityDescription,Epic,invincibility,2,0.01,0,0.001,600

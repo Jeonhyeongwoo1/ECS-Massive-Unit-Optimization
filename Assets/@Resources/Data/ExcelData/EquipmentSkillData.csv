@@ -1,0 +1,63 @@
+DataId,~ID?ì„±??~ID?ì„±??,~ID?ì„±??,DescriptionTextID,~,EquipmentSkillType,Type_Value1,Type_Value2,Type_Value3,,Power,
+101001,1,1,ê³ ê¸‰,SkillText_EquipmentSkill_Power,ê³µê²©??10% ì¦ê?,Power,0.1,,,,CoolTime
+101002,1,2,?¬ê?,SkillText_EquipmentSkill_Power,ê³µê²©??15% ì¦ê?,Power,0.15,,,,MaxHP
+101003,1,3,?ˆì–´,SkillText_EquipmentSkill_Power,ê³µê²©??20% ì¦ê?,Power,0.2,,,,ResistDamage
+101004,1,4,?„ì„¤,SkillText_EquipmentSkill_Power,ê³µê²©??25% ì¦ê?,Power,0.25,,,,Critical
+102001,2,1,ê³ ê¸‰,SkillText_EquipmentSkill_MaxHP,ìµœë? ì²´ë ¥ 10% ì¦ê?,MaxHP,0.1,,,,ExplosionRange
+102002,2,2,?¬ê?,SkillText_EquipmentSkill_MaxHP,ìµœë? ì²´ë ¥ 30% ì¦ê?,MaxHP,0.3,,,,ItemBoxCool
+102003,2,3,?ˆì–´,SkillText_EquipmentSkill_MaxHP,ìµœë? ì²´ë ¥ 50% ì¦ê?,MaxHP,0.5,,,,BasicAttackCool
+102004,2,4,?„ì„¤,SkillText_EquipmentSkill_MaxHP,ìµœë? ì²´ë ¥ 100% ì¦ê?,MaxHP,1,,,,AtkRange
+103001,3,1,ê³ ê¸‰,SkillText_EquipmentSkill_SkillCoolTime,?¤í‚¬ ë°œë™ ì¿¨í???1% ê°ì†Œ,SkillCoolTime,0.01,,,,CriticalDamage
+103002,3,2,?¬ê?,SkillText_EquipmentSkill_SkillCoolTime,?¤í‚¬ ë°œë™ ì¿¨í???3% ê°ì†Œ,SkillCoolTime,0.03,,,,HpRecoveryEfficiency
+103003,3,3,?ˆì–´,SkillText_EquipmentSkill_SkillCoolTime,?¤í‚¬ ë°œë™ ì¿¨í???5% ê°ì†Œ,SkillCoolTime,0.05,,,,MoveSpeed
+103004,3,4,?„ì„¤,SkillText_EquipmentSkill_SkillCoolTime,?¤í‚¬ ë°œë™ ì¿¨í???10% ê°ì†Œ,SkillCoolTime,0.1,,,,HpRecovery1s
+104001,4,1,ê³ ê¸‰,SkillText_EquipmentSkill_ResistDamage,ë°›ëŠ” ?¼í•´??10% ê°ì†Œ,ResistDamage,0.1,,,,AuraDamage
+104002,4,2,?¬ê?,SkillText_EquipmentSkill_ResistDamage,ë°›ëŠ” ?¼í•´??15% ê°ì†Œ,ResistDamage,0.15,,,,AuraDamageUp
+104003,4,3,?ˆì–´,SkillText_EquipmentSkill_ResistDamage,ë°›ëŠ” ?¼í•´??20% ê°ì†Œ,ResistDamage,0.2,,,,Revive
+104004,4,4,?„ì„¤,SkillText_EquipmentSkill_ResistDamage,ë°›ëŠ” ?¼í•´??30% ê°ì†Œ,ResistDamage,0.3,,,,AddRevive
+105001,5,1,?¬ê?,SkillText_EquipmentSkill_Critical,ì¹˜ëª…?€ ?•ë¥  +1% ì¦ê?,Critical,0.01,,,,
+105002,5,2,?ˆì–´,SkillText_EquipmentSkill_Critical,ì¹˜ëª…?€ ?•ë¥  +3% ì¦ê?,Critical,0.03,,,,
+105003,5,3,?ì›…,SkillText_EquipmentSkill_Critical,ì¹˜ëª…?€ ?•ë¥  +5% ì¦ê?,Critical,0.05,,,,
+105004,5,4,?„ì„¤,SkillText_EquipmentSkill_Critical,ì¹˜ëª…?€ ?•ë¥  +10% ì¦ê?,Critical,0.1,,,,
+106001,6,1,?¬ê?,SkillText_EquipmentSkill_CriticalDamage,ì¹˜ëª…?€ ?¼í•´??10% ì¦ê?,CriticalDamage,0.1,,,,
+106002,6,2,?ˆì–´,SkillText_EquipmentSkill_CriticalDamage,ì¹˜ëª…?€ ?¼í•´??30% ì¦ê?,CriticalDamage,0.3,,,,
+106003,6,3,?ì›…,SkillText_EquipmentSkill_CriticalDamage,ì¹˜ëª…?€ ?¼í•´??50% ì¦ê?,CriticalDamage,0.5,,,,
+106004,6,4,?„ì„¤,SkillText_EquipmentSkill_CriticalDamage,ì¹˜ëª…?€ ?¼í•´??100% ì¦ê?,CriticalDamage,1,,,,
+107001,7,1,?¬ê?,SkillText_EquipmentSkill_HpRecoveryEfficiency,?Œë³µ ?¨ê³¼ +10% ì¦ê?,HpRecoveryEfficiency,0.1,,,,
+107002,7,2,?ˆì–´,SkillText_EquipmentSkill_HpRecoveryEfficiency,?Œë³µ ?¨ê³¼ +20% ì¦ê?,HpRecoveryEfficiency,0.2,,,,
+107003,7,3,?ì›…,SkillText_EquipmentSkill_HpRecoveryEfficiency,?Œë³µ ?¨ê³¼ +30% ì¦ê?,HpRecoveryEfficiency,0.3,,,,
+107004,7,4,?„ì„¤,SkillText_EquipmentSkill_HpRecoveryEfficiency,?Œë³µ ?¨ê³¼ +50% ì¦ê?,HpRecoveryEfficiency,0.5,,,,
+108001,8,1,?¬ê?,SkillText_EquipmentSkill_MoveSpeed,?´ë™ ?ë„ +10% ì¦ê?,MoveSpeed,0.1,,,,
+108002,8,2,?ˆì–´,SkillText_EquipmentSkill_MoveSpeed,?´ë™ ?ë„ +15% ì¦ê?,MoveSpeed,0.15,,,,
+108003,8,3,?ì›…,SkillText_EquipmentSkill_MoveSpeed,?´ë™ ?ë„ +20% ì¦ê?,MoveSpeed,0.2,,,,
+108004,8,4,?„ì„¤,SkillText_EquipmentSkill_MoveSpeed,?´ë™ ?ë„ +30% ì¦ê?,MoveSpeed,0.3,,,,
+109001,9,1,?¬ê?,SkillText_EquipmentSkill_HpRecovery1s,ì´ˆë‹¹ ?Œë³µ???ì—° ?Œë³µ) +1 ì¦ê?,HpRecovery1s,1,,,,
+109002,9,2,?ˆì–´,SkillText_EquipmentSkill_HpRecovery1s,ì´ˆë‹¹ ?Œë³µ???ì—° ?Œë³µ) +2 ì¦ê?,HpRecovery1s,2,,,,
+109003,9,3,?ì›…,SkillText_EquipmentSkill_HpRecovery1s,ì´ˆë‹¹ ?Œë³µ???ì—° ?Œë³µ) +3 ì¦ê?,HpRecovery1s,3,,,,
+109004,9,4,?„ì„¤,SkillText_EquipmentSkill_HpRecovery1s,ì´ˆë‹¹ ?Œë³µ???ì—° ?Œë³µ) +5 ì¦ê?,HpRecovery1s,5,,,,
+110001,10,1,?¬ê?,SkillText_EquipmentSkill_ExplosionSkillSize,??°œ???¤í‚¬????°œ ë²”ìœ„ +3% ì¦ê?,ExplosionSkillSize,0.03,,,,
+110002,10,2,?ˆì–´,SkillText_EquipmentSkill_ExplosionSkillSize,??°œ???¤í‚¬????°œ ë²”ìœ„ +5% ì¦ê?,ExplosionSkillSize,0.05,,,,
+110003,10,3,?ì›…,SkillText_EquipmentSkill_ExplosionSkillSize,??°œ???¤í‚¬????°œ ë²”ìœ„ +10% ì¦ê?,ExplosionSkillSize,0.1,,,,
+110004,10,4,?„ì„¤,SkillText_EquipmentSkill_ExplosionSkillSize,??°œ???¤í‚¬????°œ ë²”ìœ„ +20% ì¦ê?,ExplosionSkillSize,0.2,,,,
+111001,11,1,?¬ê?,SkillText_EquipmentSkill_BulletSkillSize,ëª¨ë“  ?¬ì‚¬ì²??¤í‚¬ ?¬ê¸° 3% ì¦ê?,BulletSkillSize,0.03,,,,
+111002,11,2,?ˆì–´,SkillText_EquipmentSkill_BulletSkillSize,ëª¨ë“  ?¬ì‚¬ì²??¤í‚¬ ?¬ê¸° 5% ì¦ê?,BulletSkillSize,0.05,,,,
+111003,11,3,?ì›…,SkillText_EquipmentSkill_BulletSkillSize,ëª¨ë“  ?¬ì‚¬ì²??¤í‚¬ ?¬ê¸° 10% ì¦ê?,BulletSkillSize,0.1,,,,
+111004,11,4,?„ì„¤,SkillText_EquipmentSkill_BulletSkillSize,ëª¨ë“  ?¬ì‚¬ì²??¤í‚¬ ?¬ê¸° 20% ì¦ê?,BulletSkillSize,0.2,,,,
+112001,12,1,?¬ê?,SkillText_EquipmentSkill_CircleSkillSize,ë²”ìœ„???¤í‚¬ ?¬ê¸° 3% ì¦ê?,CircleSkillSize,0.03,,,,
+112002,12,2,?ˆì–´,SkillText_EquipmentSkill_CircleSkillSize,ë²”ìœ„???¤í‚¬ ?¬ê¸° 5% ì¦ê?,CircleSkillSize,0.05,,,,
+112003,12,3,?ì›…,SkillText_EquipmentSkill_CircleSkillSize,ë²”ìœ„???¤í‚¬ ?¬ê¸° 10% ì¦ê?,CircleSkillSize,0.1,,,,
+112004,12,4,?„ì„¤,SkillText_EquipmentSkill_CircleSkillSize,ë²”ìœ„???¤í‚¬ ?¬ê¸° 20% ì¦ê?,CircleSkillSize,0.2,,,,
+113001,13,1,?¬ê?,SkillText_EquipmentSkill_BasicAttackCool,ê¸°ë³¸ ê³µê²© ì¿¨í???2% ê°ì†Œ,BasicAttackCool,0.02,,,,
+113002,13,2,?ˆì–´,SkillText_EquipmentSkill_BasicAttackCool,ê¸°ë³¸ ê³µê²© ì¿¨í???4% ê°ì†Œ,BasicAttackCool,0.04,,,,
+113003,13,3,?ì›…,SkillText_EquipmentSkill_BasicAttackCool,ê¸°ë³¸ ê³µê²© ì¿¨í???8% ê°ì†Œ,BasicAttackCool,0.08,,,,
+113004,13,4,?„ì„¤,SkillText_EquipmentSkill_BasicAttackCool,ê¸°ë³¸ ê³µê²© ì¿¨í???12% ê°ì†Œ,BasicAttackCool,0.12,,,,
+114001,14,1,?¬ê?,SkillText_EquipmentSkill_ItemBoxCool,?„ì´???ì ?ì„± ì£¼ê¸° 5% ê°ì†Œ,ItemBoxCool,0.05,,,,
+114002,14,2,?ˆì–´,SkillText_EquipmentSkill_ItemBoxCool,?„ì´???ì ?ì„± ì£¼ê¸° 10% ê°ì†Œ,ItemBoxCool,0.1,,,,
+114003,14,3,?ì›…,SkillText_EquipmentSkill_ItemBoxCool,?„ì´???ì ?ì„± ì£¼ê¸° 15% ê°ì†Œ,ItemBoxCool,0.15,,,,
+114004,14,4,?„ì„¤,SkillText_EquipmentSkill_ItemBoxCool,?„ì´???ì ?ì„± ì£¼ê¸° 25% ê°ì†Œ,ItemBoxCool,0.25,,,,
+115001,15,1,?¬ê?,SkillText_EquipmentSkill_AuraDamage,ìºë¦­??ì£¼ë? ?ë“¤?ê²Œ ê³µê²©?¥ì˜ 50% ë§Œí¼ ì£¼ê¸°?ìœ¼ë¡??¼í•´ë¥??…íˆ???¤ë¼ ?ì„±,AuraDamage,0.5,1.5,0.33,,
+115002,15,2,?ˆì–´,SkillText_EquipmentSkill_AuraDamageUp,?¤ë¼ ?°ë?ì§€ 50% ì¦ê?,AuraDamageUp,0.3,,,,
+115003,15,3,?ì›…,SkillText_EquipmentSkill_AuraDamageUp,?¤ë¼ ?°ë?ì§€ 150% ì¦ê?,AuraDamageUp,0.5,,,,
+115004,15,4,?„ì„¤,SkillText_EquipmentSkill_AuraDamageUp,?¤ë¼ ?°ë?ì§€ 300% ì¦ê?,AuraDamageUp,1,,,,
+116003,16,3,?ˆì–´,SkillText_EquipmentSkill_Revive,ì²´ë ¥??100%ë¡?ë¶€??1??,Revive,1,,,,
+116004,16,4,?„ì„¤,SkillText_EquipmentSkill_AddRevive,ë¶€??1??ì¶”ê?,AddRevive,1,,,,

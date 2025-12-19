@@ -1,0 +1,3523 @@
+fileFormatVersion: 2
+guid: 76563bc42c3389f4184f33387f594909
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5193310118108220758
+    second: Smog_0
+  - first:
+      213: -9773160986764658
+    second: Smog_1
+  - first:
+      213: -6666426471981775860
+    second: Smog_2
+  - first:
+      213: -17599599714432414
+    second: Smog_3
+  - first:
+      213: -7099933036365525283
+    second: Smog_4
+  - first:
+      213: -5199015035755568506
+    second: Smog_5
+  - first:
+      213: 5989063003522628071
+    second: Smog_6
+  - first:
+      213: 3715416760268239609
+    second: Smog_7
+  - first:
+      213: 7007941868779651120
+    second: Smog_8
+  - first:
+      213: 3557220408208187034
+    second: Smog_9
+  - first:
+      213: 5048618560903273358
+    second: Smog_10
+  - first:
+      213: 5336791555693963056
+    second: Smog_11
+  - first:
+      213: 7918767911277456419
+    second: Smog_12
+  - first:
+      213: -5367602925333470997
+    second: Smog_13
+  - first:
+      213: 4277182941558460354
+    second: Smog_14
+  - first:
+      213: 4320996443288113377
+    second: Smog_15
+  - first:
+      213: 4579763521403092884
+    second: Smog_16
+  - first:
+      213: -7455395347521880443
+    second: Smog_17
+  - first:
+      213: 2998997740185428415
+    second: Smog_18
+  - first:
+      213: -1933627882507919940
+    second: Smog_19
+  - first:
+      213: -3833585373836873537
+    second: Smog_20
+  - first:
+      213: 5648192583321466592
+    second: Smog_21
+  - first:
+      213: 2488798033080103087
+    second: Smog_22
+  - first:
+      213: 3510346049298614140
+    second: Smog_23
+  - first:
+      213: -1057145689096465426
+    second: Smog_24
+  - first:
+      213: 6431379480636758882
+    second: Smog_25
+  - first:
+      213: -6385838802350537601
+    second: Smog_26
+  - first:
+      213: 8748945796613925188
+    second: Smog_27
+  - first:
+      213: -462315627566728573
+    second: Smog_28
+  - first:
+      213: -3252293963956949141
+    second: Smog_29
+  - first:
+      213: -4096261867786873625
+    second: Smog_30
+  - first:
+      213: -5221905696804664298
+    second: Smog_31
+  - first:
+      213: -7694750156202495964
+    second: Smog_32
+  - first:
+      213: -6876027140742855991
+    second: Smog_33
+  - first:
+      213: -8802161095751806602
+    second: Smog_34
+  - first:
+      213: -8162610937149875365
+    second: Smog_35
+  - first:
+      213: -6247782671794729494
+    second: Smog_36
+  - first:
+      213: 7177673877289154572
+    second: Smog_37
+  - first:
+      213: 6628793114479180175
+    second: Smog_38
+  - first:
+      213: 8013949611827943807
+    second: Smog_39
+  - first:
+      213: -849637573273044422
+    second: Smog_40
+  - first:
+      213: 5336820944679625158
+    second: Smog_41
+  - first:
+      213: -882613550484356957
+    second: Smog_42
+  - first:
+      213: -6182701127866249596
+    second: Smog_43
+  - first:
+      213: -3504965802735834667
+    second: Smog_44
+  - first:
+      213: -4052676177333712249
+    second: Smog_45
+  - first:
+      213: 2636381138565392825
+    second: Smog_46
+  - first:
+      213: 735583401200506996
+    second: Smog_47
+  - first:
+      213: -6716275162028199002
+    second: Smog_48
+  - first:
+      213: -4268189799874198373
+    second: Smog_49
+  - first:
+      213: 5073306887791077885
+    second: Smog_50
+  - first:
+      213: -1665393777819033589
+    second: Smog_51
+  - first:
+      213: -7160615757519981227
+    second: Smog_52
+  - first:
+      213: 4065148334953675274
+    second: Smog_53
+  - first:
+      213: 450961005695654363
+    second: Smog_54
+  - first:
+      213: -5285907810922631001
+    second: Smog_55
+  - first:
+      213: -1440829590654204633
+    second: Smog_56
+  - first:
+      213: -7315733037359565200
+    second: Smog_57
+  - first:
+      213: 433019697484479506
+    second: Smog_58
+  - first:
+      213: -430731596958950073
+    second: Smog_59
+  - first:
+      213: -8953472593230715818
+    second: Smog_60
+  - first:
+      213: 3330698013257232054
+    second: Smog_61
+  - first:
+      213: 5919792128928401442
+    second: Smog_62
+  - first:
+      213: 6916370215962181156
+    second: Smog_63
+  - first:
+      213: -6789621211927062130
+    second: Smog_64
+  - first:
+      213: -7757660930322000598
+    second: Smog_65
+  - first:
+      213: 1348072483005599960
+    second: Smog_66
+  - first:
+      213: -2633454323458198069
+    second: Smog_67
+  - first:
+      213: 8836302901431824288
+    second: Smog_68
+  - first:
+      213: 2345725498780580482
+    second: Smog_69
+  - first:
+      213: 676887530965883078
+    second: Smog_70
+  - first:
+      213: -7418651617304747360
+    second: Smog_71
+  - first:
+      213: -8834533343860469726
+    second: Smog_72
+  - first:
+      213: 5918933741833136131
+    second: Smog_73
+  - first:
+      213: -7118209287565491036
+    second: Smog_74
+  - first:
+      213: -3501359108569465812
+    second: Smog_75
+  - first:
+      213: -3491714172252900811
+    second: Smog_76
+  - first:
+      213: 6248773575015595595
+    second: Smog_77
+  - first:
+      213: -8406022829571905996
+    second: Smog_78
+  - first:
+      213: 2944215764046741467
+    second: Smog_79
+  - first:
+      213: -5259495067345001085
+    second: Smog_80
+  - first:
+      213: -8207583781212591948
+    second: Smog_81
+  - first:
+      213: -149118936348099722
+    second: Smog_82
+  - first:
+      213: 3796289588381682138
+    second: Smog_83
+  - first:
+      213: -9110479091670861493
+    second: Smog_84
+  - first:
+      213: 6026829506434012916
+    second: Smog_85
+  - first:
+      213: -7708430737814711336
+    second: Smog_86
+  - first:
+      213: -6785655744501518204
+    second: Smog_87
+  - first:
+      213: 2199630379846869137
+    second: Smog_88
+  - first:
+      213: 2001341704517240197
+    second: Smog_89
+  - first:
+      213: -1034114995549926073
+    second: Smog_90
+  - first:
+      213: -669245191977061372
+    second: Smog_91
+  - first:
+      213: -1714366025598050538
+    second: Smog_92
+  - first:
+      213: 8584755498949732408
+    second: Smog_93
+  - first:
+      213: 389321135797106787
+    second: Smog_94
+  - first:
+      213: 3628104350747338294
+    second: Smog_95
+  - first:
+      213: 7086172587274439086
+    second: Smog_96
+  - first:
+      213: 7597693927874408229
+    second: Smog_97
+  - first:
+      213: -7810772877833503435
+    second: Smog_98
+  - first:
+      213: 5218515308850071840
+    second: Smog_99
+  - first:
+      213: -3654175269260791026
+    second: Smog_100
+  - first:
+      213: -6867405237445396971
+    second: Smog_101
+  - first:
+      213: 3279927073547278916
+    second: Smog_102
+  - first:
+      213: -3331386872690718650
+    second: Smog_103
+  - first:
+      213: 6201855448979485467
+    second: Smog_104
+  - first:
+      213: 7992625459358179314
+    second: Smog_105
+  - first:
+      213: -7859174656708119021
+    second: Smog_106
+  - first:
+      213: 1413155405399635770
+    second: Smog_107
+  - first:
+      213: 5392002464168076913
+    second: Smog_108
+  - first:
+      213: -3973411238013576127
+    second: Smog_109
+  - first:
+      213: 8232137195279806245
+    second: Smog_110
+  - first:
+      213: 3125494393389166914
+    second: Smog_111
+  - first:
+      213: 8967909417498232957
+    second: Smog_112
+  - first:
+      213: 363563963510034728
+    second: Smog_113
+  - first:
+      213: -7360770939971274003
+    second: Smog_114
+  - first:
+      213: 8941925647122294864
+    second: Smog_115
+  - first:
+      213: -8795714729560309307
+    second: Smog_116
+  - first:
+      213: 3108778763178184418
+    second: Smog_117
+  - first:
+      213: 3340235769308914383
+    second: Smog_118
+  - first:
+      213: -5809992534082045660
+    second: Smog_119
+  - first:
+      213: 5513062847702312939
+    second: Smog_120
+  - first:
+      213: 5991571358033411779
+    second: Smog_121
+  - first:
+      213: 4996760115063537450
+    second: Smog_122
+  - first:
+      213: 6431045592594161668
+    second: Smog_123
+  - first:
+      213: 8586901919735339567
+    second: Smog_124
+  - first:
+      213: 6298189056475827989
+    second: Smog_125
+  - first:
+      213: -2511624419872007200
+    second: Smog_126
+  - first:
+      213: -1394575195243005893
+    second: Smog_127
+  - first:
+      213: -2700253126374633274
+    second: Smog_128
+  - first:
+      213: 6308826585053251294
+    second: Smog_129
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Smog_0
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 656
+        width: 76
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65d484e7908521840800000000000000
+      internalID: 5193310118108220758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smog_1
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 648
+        width: 91
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8a1d03ac574ddff0800000000000000
+      internalID: -9773160986764658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smog_2
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 637
+        width: 118
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c040448a1781c73a0800000000000000
+      internalID: -6666426471981775860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smog_3
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 630
+        width: 88
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26a05ded14971cff0800000000000000
+      internalID: -17599599714432414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smog_4
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 693
+        width: 27
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dde4f5e3588f77d90800000000000000
+      internalID: -7099933036365525283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smog_5
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 669
+        width: 45
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 682efdbde5369d7b0800000000000000
+      internalID: -5199015035755568506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smog_6
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 639
+        width: 16
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e9766ef11d6d1350800000000000000
+      internalID: 5989063003522628071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smog_7
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 649
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f2325cbbdfcf8330800000000000000
+      internalID: 3715416760268239609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smog_8
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 420
+        width: 97
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 030c23ffff5314160800000000000000
+      internalID: 7007941868779651120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smog_9
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 418
+        width: 98
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9ed4034d19cd5130800000000000000
+      internalID: 3557220408208187034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smog_10
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 530
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8b551915db401640800000000000000
+      internalID: 5048618560903273358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smog_11
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 416
+        width: 100
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0376175f4a7101a40800000000000000
+      internalID: 5336791555693963056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smog_12
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 547
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32c647ab57d15ed60800000000000000
+      internalID: 7918767911277456419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smog_13
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 414
+        width: 101
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be0a62404917285b0800000000000000
+      internalID: -5367602925333470997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smog_14
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 550
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cfc3fe493b9b5b30800000000000000
+      internalID: 4277182941558460354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smog_15
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 469
+        width: 57
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e01aed1f5347fb30800000000000000
+      internalID: 4320996443288113377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smog_16
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 467
+        width: 48
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49ff58878a69e8f30800000000000000
+      internalID: 4579763521403092884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smog_17
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 470
+        width: 21
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58ebbda8e6d198890800000000000000
+      internalID: -7455395347521880443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smog_18
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 464
+        width: 49
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb1a3f92e849e9920800000000000000
+      internalID: 2998997740185428415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smog_19
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 506
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbd13578faf5a25e0800000000000000
+      internalID: -1933627882507919940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smog_20
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 463
+        width: 50
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb0f158e96e5ccac0800000000000000
+      internalID: -3833585373836873537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smog_21
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 509
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e63fd7aa39626e40800000000000000
+      internalID: 5648192583321466592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smog_22
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 462
+        width: 52
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa03e67ff9cf98220800000000000000
+      internalID: 2488798033080103087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smog_23
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 469
+        width: 19
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c77c32b122147b030800000000000000
+      internalID: 3510346049298614140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smog_24
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 468
+        width: 21
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee3d195c8934451f0800000000000000
+      internalID: -1057145689096465426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smog_25
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 432
+        width: 15
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26b171f0099d04950800000000000000
+      internalID: 6431379480636758882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smog_26
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 443
+        width: 28
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f748df06171f067a0800000000000000
+      internalID: -6385838802350537601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smog_27
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 430
+        width: 15
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 449e15e19df7a6970800000000000000
+      internalID: 8748945796613925188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smog_28
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 440
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38af5ccd2668599f0800000000000000
+      internalID: -462315627566728573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smog_29
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 429
+        width: 15
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6fe2350fd78dd2d0800000000000000
+      internalID: -3252293963956949141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smog_30
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 435
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e4d59fb8872727c0800000000000000
+      internalID: -4096261867786873625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smog_31
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 427
+        width: 15
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61c8e538f601887b0800000000000000
+      internalID: -5221905696804664298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smog_32
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 432
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4203b206081c63590800000000000000
+      internalID: -7694750156202495964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smog_33
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 209
+        width: 103
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c2c31a0fb17390a0800000000000000
+      internalID: -6876027140742855991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smog_34
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 355
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67153f78e1178d580800000000000000
+      internalID: -8802161095751806602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smog_35
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 336
+        width: 49
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5b967b999498be80800000000000000
+      internalID: -8162610937149875365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smog_36
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 356
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aed85dd13ca6b49a0800000000000000
+      internalID: -6247782671794729494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smog_37
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 340
+        width: 47
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c08bb69cc583c9360800000000000000
+      internalID: 7177673877289154572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smog_38
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 260
+        width: 62
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f89361e77343efb50800000000000000
+      internalID: 6628793114479180175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smog_39
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 344
+        width: 47
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7952e456b4473f60800000000000000
+      internalID: 8013949611827943807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smog_40
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 228
+        width: 47
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3a3c31f02b7534f0800000000000000
+      internalID: -849637573273044422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smog_41
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 310
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c16e7d9f52301a40800000000000000
+      internalID: 5336820944679625158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smog_42
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 261
+        width: 52
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a00f61f6a350c3f0800000000000000
+      internalID: -882613550484356957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smog_43
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 263
+        width: 60
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48e0021e412a23aa0800000000000000
+      internalID: -6182701127866249596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smog_44
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 315
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d9e90a2c2cdb5fc0800000000000000
+      internalID: -3504965802735834667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smog_45
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 261
+        width: 51
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78a065c1d7002c7c0800000000000000
+      internalID: -4052676177333712249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smog_46
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 263
+        width: 65
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b9eab86dae469420800000000000000
+      internalID: 2636381138565392825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smog_47
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 319
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 478da33c431553a00800000000000000
+      internalID: 735583401200506996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smog_48
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 311
+        width: 20
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a3b781135ffac2a0800000000000000
+      internalID: -6716275162028199002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smog_49
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 329
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b948d88adf754c4c0800000000000000
+      internalID: -4268189799874198373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smog_50
+      rect:
+        serializedVersion: 2
+        x: 725
+        y: 322
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df964532cb1086640800000000000000
+      internalID: 5073306887791077885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smog_51
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 305
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0063f5ce2553e8e0800000000000000
+      internalID: -1665393777819033589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smog_52
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 306
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 555f4f738e160ac90800000000000000
+      internalID: -7160615757519981227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smog_53
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 306
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0a3f206fde4a6830800000000000000
+      internalID: 4065148334953675274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smog_54
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 307
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd9da0835a2224600800000000000000
+      internalID: 450961005695654363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smog_55
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 265
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a07e761adea4a6b0800000000000000
+      internalID: -5285907810922631001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smog_56
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 280
+        width: 25
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7254f230f15210ce0800000000000000
+      internalID: -1440829590654204633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smog_57
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 266
+        width: 25
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 076f79c109b497a90800000000000000
+      internalID: -7315733037359565200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smog_58
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 278
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21c3f41ee15620600800000000000000
+      internalID: 433019697484479506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smog_59
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 293
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74d99b905ebb50af0800000000000000
+      internalID: -430731596958950073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smog_60
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 266
+        width: 23
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 654a94e2d10eeb380800000000000000
+      internalID: -8953472593230715818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smog_61
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 280
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6beeb4e3234093e20800000000000000
+      internalID: 3330698013257232054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smog_62
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 290
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2284eeca393572250800000000000000
+      internalID: 5919792128928401442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smog_63
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 266
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42e74812112ebff50800000000000000
+      internalID: 6916370215962181156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smog_64
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 281
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8951af0b7b66c1a0800000000000000
+      internalID: -6789621211927062130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smog_65
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 282
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a251b385c70475490800000000000000
+      internalID: -7757660930322000598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smog_66
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 216
+        width: 56
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d01709e7c055b210800000000000000
+      internalID: 1348072483005599960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smog_67
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 269
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc5be06de37147bd0800000000000000
+      internalID: -2633454323458198069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smog_68
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 255
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0afe89f0caad0aa70800000000000000
+      internalID: 8836302901431824288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smog_69
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 243
+        width: 45
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28a7467b9e0bd8020800000000000000
+      internalID: 2345725498780580482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smog_70
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 256
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c8dc148f99c46900800000000000000
+      internalID: 676887530965883078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smog_71
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 263
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a26c26e8a7ab0990800000000000000
+      internalID: -7418651617304747360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smog_72
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 255
+        width: 17
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2205ada2bbe656580800000000000000
+      internalID: -8834533343860469726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smog_73
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 242
+        width: 13
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 308a90bd0e6442250800000000000000
+      internalID: 5918933741833136131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smog_74
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 263
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a4c5c9ed5a073d90800000000000000
+      internalID: -7118209287565491036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smog_75
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 255
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2c73a6117ca86fc0800000000000000
+      internalID: -3501359108569465812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smog_76
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 265
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5323ba1d570fa8fc0800000000000000
+      internalID: -3491714172252900811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smog_77
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 224
+        width: 15
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4ef6a4857a18b650800000000000000
+      internalID: 6248773575015595595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smog_78
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 243
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 436ea8506cec75b80800000000000000
+      internalID: -8406022829571905996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smog_79
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 224
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdf7c1663a4fbd820800000000000000
+      internalID: 2944215764046741467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smog_80
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 243
+        width: 23
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3856bfc2a158207b0800000000000000
+      internalID: -5259495067345001085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smog_81
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 247
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b8e090690ec81e80800000000000000
+      internalID: -8207583781212591948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smog_82
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 209
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67bffa11e193eedf0800000000000000
+      internalID: -149118936348099722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smog_83
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 216
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad9010c54412fa430800000000000000
+      internalID: 3796289588381682138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smog_84
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 223
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b49b5571983119180800000000000000
+      internalID: -9110479091670861493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smog_85
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 238
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f697dc218993a350800000000000000
+      internalID: 6026829506434012916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smog_86
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 212
+        width: 18
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d31ad0c517260590800000000000000
+      internalID: -7708430737814711336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smog_87
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 223
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 480f5e46d0284d1a0800000000000000
+      internalID: -6785655744501518204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smog_88
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 230
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1902ee32d28a68e10800000000000000
+      internalID: 2199630379846869137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smog_89
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 229
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 585cceb3da136cb10800000000000000
+      internalID: 2001341704517240197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smog_90
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 208
+        width: 33
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74d8759f3e516a1f0800000000000000
+      internalID: -1034114995549926073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smog_91
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 228
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 404b1903b0d56b6f0800000000000000
+      internalID: -669245191977061372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smog_92
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 208
+        width: 30
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61fda3dce295538e0800000000000000
+      internalID: -1714366025598050538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smog_93
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 160
+        width: 33
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 838ea7e64ad232770800000000000000
+      internalID: 8584755498949732408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smog_94
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 161
+        width: 26
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 368fcb2a285276500800000000000000
+      internalID: 389321135797106787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smog_95
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 170
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 636285a3fad995230800000000000000
+      internalID: 3628104350747338294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smog_96
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 133
+        width: 17
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea98a998c64275260800000000000000
+      internalID: 7086172587274439086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smog_97
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 161
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52fa8138f5e607960800000000000000
+      internalID: 7597693927874408229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smog_98
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 133
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53d7a7b637f8a9390800000000000000
+      internalID: -7810772877833503435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smog_99
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 69
+        width: 53
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02942f64604eb6840800000000000000
+      internalID: 5218515308850071840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smog_100
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 150
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0371b804f2c94dc0800000000000000
+      internalID: -3654175269260791026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smog_101
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 85
+        width: 31
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 516f865525312b0a0800000000000000
+      internalID: -6867405237445396971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smog_102
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 152
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44ad8fbab44a48d20800000000000000
+      internalID: 3279927073547278916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smog_103
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 133
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 648cedb2a4984c1d0800000000000000
+      internalID: -3331386872690718650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smog_104
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b133eb80caa611650800000000000000
+      internalID: 6201855448979485467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smog_105
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 127
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ff99cf22828bee60800000000000000
+      internalID: 7992625459358179314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smog_106
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 135
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 316f8271a4a9ee290800000000000000
+      internalID: -7859174656708119021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smog_107
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 131
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a37b44f9a598c9310800000000000000
+      internalID: 1413155405399635770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smog_108
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 125
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 176e4c05cad34da40800000000000000
+      internalID: 5392002464168076913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smog_109
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 58
+        width: 25
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14cd7a3f78b9bd8c0800000000000000
+      internalID: -3973411238013576127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smog_110
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 107
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52feee2d92d6e3270800000000000000
+      internalID: 8232137195279806245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smog_111
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 65
+        width: 69
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 241bf69579cff5b20800000000000000
+      internalID: 3125494393389166914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smog_112
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 83
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d78ccd7e91a647c70800000000000000
+      internalID: 8967909417498232957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smog_113
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 107
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8211622af73ab0500800000000000000
+      internalID: 363563963510034728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smog_114
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 107
+        width: 13
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dea7ef144d949d990800000000000000
+      internalID: -7360770939971274003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smog_115
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 60
+        width: 23
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 058edaceff9181c70800000000000000
+      internalID: 8941925647122294864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smog_116
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 69
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c103ee1e085fe580800000000000000
+      internalID: -8795714729560309307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smog_117
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 54
+        width: 90
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ee838860d9942b20800000000000000
+      internalID: 3108778763178184418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smog_118
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 43
+        width: 27
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc226bf1cb6ea5e20800000000000000
+      internalID: 3340235769308914383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smog_119
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 54
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4293e5aa292ce5fa0800000000000000
+      internalID: -5809992534082045660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smog_120
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 43
+        width: 39
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be723b55375528c40800000000000000
+      internalID: 5513062847702312939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smog_121
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 14
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ce7cf9c766562350800000000000000
+      internalID: 5991571358033411779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smog_122
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 19
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2fb336c9de085540800000000000000
+      internalID: 4996760115063537450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smog_123
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 22
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 400aae0b4e9af3950800000000000000
+      internalID: 6431045592594161668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smog_124
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 23
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2ad1f6fccdca2770800000000000000
+      internalID: 8586901919735339567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smog_125
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 13
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51f8e7fd399a76750800000000000000
+      internalID: 6298189056475827989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smog_126
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 19
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0eb1554b5eae42dd0800000000000000
+      internalID: -2511624419872007200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smog_127
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 22
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3838faaf3975ace0800000000000000
+      internalID: -1394575195243005893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smog_128
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 7
+        width: 21
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c05dce8616c68ad0800000000000000
+      internalID: -2700253126374633274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smog_129
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 7
+        width: 18
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed6c3af7a547d8750800000000000000
+      internalID: 6308826585053251294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Smog_0: 5193310118108220758
+      Smog_1: -9773160986764658
+      Smog_10: 5048618560903273358
+      Smog_100: -3654175269260791026
+      Smog_101: -6867405237445396971
+      Smog_102: 3279927073547278916
+      Smog_103: -3331386872690718650
+      Smog_104: 6201855448979485467
+      Smog_105: 7992625459358179314
+      Smog_106: -7859174656708119021
+      Smog_107: 1413155405399635770
+      Smog_108: 5392002464168076913
+      Smog_109: -3973411238013576127
+      Smog_11: 5336791555693963056
+      Smog_110: 8232137195279806245
+      Smog_111: 3125494393389166914
+      Smog_112: 8967909417498232957
+      Smog_113: 363563963510034728
+      Smog_114: -7360770939971274003
+      Smog_115: 8941925647122294864
+      Smog_116: -8795714729560309307
+      Smog_117: 3108778763178184418
+      Smog_118: 3340235769308914383
+      Smog_119: -5809992534082045660
+      Smog_12: 7918767911277456419
+      Smog_120: 5513062847702312939
+      Smog_121: 5991571358033411779
+      Smog_122: 4996760115063537450
+      Smog_123: 6431045592594161668
+      Smog_124: 8586901919735339567
+      Smog_125: 6298189056475827989
+      Smog_126: -2511624419872007200
+      Smog_127: -1394575195243005893
+      Smog_128: -2700253126374633274
+      Smog_129: 6308826585053251294
+      Smog_13: -5367602925333470997
+      Smog_14: 4277182941558460354
+      Smog_15: 4320996443288113377
+      Smog_16: 4579763521403092884
+      Smog_17: -7455395347521880443
+      Smog_18: 2998997740185428415
+      Smog_19: -1933627882507919940
+      Smog_2: -6666426471981775860
+      Smog_20: -3833585373836873537
+      Smog_21: 5648192583321466592
+      Smog_22: 2488798033080103087
+      Smog_23: 3510346049298614140
+      Smog_24: -1057145689096465426
+      Smog_25: 6431379480636758882
+      Smog_26: -6385838802350537601
+      Smog_27: 8748945796613925188
+      Smog_28: -462315627566728573
+      Smog_29: -3252293963956949141
+      Smog_3: -17599599714432414
+      Smog_30: -4096261867786873625
+      Smog_31: -5221905696804664298
+      Smog_32: -7694750156202495964
+      Smog_33: -6876027140742855991
+      Smog_34: -8802161095751806602
+      Smog_35: -8162610937149875365
+      Smog_36: -6247782671794729494
+      Smog_37: 7177673877289154572
+      Smog_38: 6628793114479180175
+      Smog_39: 8013949611827943807
+      Smog_4: -7099933036365525283
+      Smog_40: -849637573273044422
+      Smog_41: 5336820944679625158
+      Smog_42: -882613550484356957
+      Smog_43: -6182701127866249596
+      Smog_44: -3504965802735834667
+      Smog_45: -4052676177333712249
+      Smog_46: 2636381138565392825
+      Smog_47: 735583401200506996
+      Smog_48: -6716275162028199002
+      Smog_49: -4268189799874198373
+      Smog_5: -5199015035755568506
+      Smog_50: 5073306887791077885
+      Smog_51: -1665393777819033589
+      Smog_52: -7160615757519981227
+      Smog_53: 4065148334953675274
+      Smog_54: 450961005695654363
+      Smog_55: -5285907810922631001
+      Smog_56: -1440829590654204633
+      Smog_57: -7315733037359565200
+      Smog_58: 433019697484479506
+      Smog_59: -430731596958950073
+      Smog_6: 5989063003522628071
+      Smog_60: -8953472593230715818
+      Smog_61: 3330698013257232054
+      Smog_62: 5919792128928401442
+      Smog_63: 6916370215962181156
+      Smog_64: -6789621211927062130
+      Smog_65: -7757660930322000598
+      Smog_66: 1348072483005599960
+      Smog_67: -2633454323458198069
+      Smog_68: 8836302901431824288
+      Smog_69: 2345725498780580482
+      Smog_7: 3715416760268239609
+      Smog_70: 676887530965883078
+      Smog_71: -7418651617304747360
+      Smog_72: -8834533343860469726
+      Smog_73: 5918933741833136131
+      Smog_74: -7118209287565491036
+      Smog_75: -3501359108569465812
+      Smog_76: -3491714172252900811
+      Smog_77: 6248773575015595595
+      Smog_78: -8406022829571905996
+      Smog_79: 2944215764046741467
+      Smog_8: 7007941868779651120
+      Smog_80: -5259495067345001085
+      Smog_81: -8207583781212591948
+      Smog_82: -149118936348099722
+      Smog_83: 3796289588381682138
+      Smog_84: -9110479091670861493
+      Smog_85: 6026829506434012916
+      Smog_86: -7708430737814711336
+      Smog_87: -6785655744501518204
+      Smog_88: 2199630379846869137
+      Smog_89: 2001341704517240197
+      Smog_9: 3557220408208187034
+      Smog_90: -1034114995549926073
+      Smog_91: -669245191977061372
+      Smog_92: -1714366025598050538
+      Smog_93: 8584755498949732408
+      Smog_94: 389321135797106787
+      Smog_95: 3628104350747338294
+      Smog_96: 7086172587274439086
+      Smog_97: 7597693927874408229
+      Smog_98: -7810772877833503435
+      Smog_99: 5218515308850071840
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
