@@ -12,6 +12,7 @@ using MewVivor.InGame.Enum;
 using MewVivor.InGame.View;
 using MewVivor.Key;
 using MewVivor.Managers;
+using Unity.Entities;
 using Unity.Mathematics;
 using UnityEngine;
 using UnityEngine.UI.Extensions;
@@ -47,6 +48,7 @@ namespace MewVivor
         
         private List<MonsterController> _activateMonsterList = new();
         private List<DropItemController> _droppedItemControllerList = new();
+
         private PlayerController _player;
         private BossBarrierController _bossBarrier;
         
@@ -233,8 +235,23 @@ namespace MewVivor
                 Debug.Log($"monster is full / limit {monsterLimitCount.Value} / currentCount {ActivateMonsterCount}");
                 return null;
             }
-            
+
             CreatureData data = _data.CreatureDict[monsterId];
+            // var entityManager = World.DefaultGameObjectInjectionWorld.EntityManager;
+            // var requestEntity = entityManager.CreateEntity();
+            // spawnPosition += _player.Position;
+            // entityManager.AddComponentData(requestEntity, new MonsterSpawnRequestComponent()
+            // {
+            //     Count = 1,
+            //     PlayerPosition = new float3(spawnPosition.x, spawnPosition.y, spawnPosition.z),
+            //     Scale = 2.5f,
+            //     Speed = 2,
+            //     Radius = 2,
+            //     Atk = data.Atk
+            // });
+
+            return null;
+            
             GameObject monsterObj = _resource.Instantiate(data.PrefabLabel);
             var monster = Utils.AddOrGetComponent<MonsterController>(monsterObj);
 

@@ -114,8 +114,8 @@ public partial class GameCheatEditorWindow : OdinEditorWindow
             return;
         }
         
-        Manager.I.Event.AddEvent(GameEventType.LearnSkill, OnLearnSkill);
-        Manager.I.Event.AddEvent(GameEventType.GameStart, OnGameChanged);
+        // Manager.I.Event.AddEvent(GameEventType.LearnSkill, OnLearnSkill);
+        // Manager.I.Event.AddEvent(GameEventType.GameStart, OnGameChanged);
         LoadActiveSkillData();
     }
 

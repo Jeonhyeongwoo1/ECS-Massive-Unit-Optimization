@@ -15,6 +15,7 @@ namespace MewVivor.Managers
 
         public void Initialize()
         {
+            return;
             LoadRewardAdAsync().Forget();
 #if UNITY_IOS
             MobileAds.SetiOSAppPauseOnBackground(true);

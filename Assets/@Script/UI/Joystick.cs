@@ -1,11 +1,19 @@
 using System;
 using System.Collections;
 using MewVivor.InGame.Input;
+using Unity.Entities;
+using Unity.Mathematics;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
 namespace MewVivor.InGame.View
 {
+    public struct PlayerInputComponent : IComponentData
+    {
+        public float2 Movement;
+        public bool IsMoving;
+    }
+    
     public class Joystick : MonoBehaviour, IDragHandler, IPointerDownHandler, IPointerUpHandler
     {
         [SerializeField] private RectTransform _bgRectTransform;
@@ -14,6 +22,9 @@ namespace MewVivor.InGame.View
 
         private Vector2 _inputVector;
         private Coroutine _fadeCor;
+
+        private EntityManager _entityManager;
+        private Unity.Entities.Entity _playerInputEntity;
 
         private void OnEnable()
         {
@@ -25,6 +36,17 @@ namespace MewVivor.InGame.View
 
         private void Start()
         {
+            _entityManager = World.DefaultGameObjectInjectionWorld.EntityManager;
+            var query = _entityManager.CreateEntityQuery(typeof(PlayerInputComponent));
+            if (!query.IsEmpty)
+            {
+                _playerInputEntity = query.GetSingletonEntity();
+            }
+            else
+            {
+                _playerInputEntity = _entityManager.CreateEntity(typeof(PlayerInputComponent));
+            }
+
             InputHandler.onActivateInputHandlerAction += OnActivate;
         }
 
@@ -72,9 +94,16 @@ namespace MewVivor.InGame.View
                 _inputVector.y * (_bgRectTransform.sizeDelta.y / 2)
             );
 
+            // _entityManager.SetComponentData(_playerInputEntity,
+            //     new PlayerInputComponent
+            //     {
+            //         Movement = _inputVector,
+            //         IsMoving = _inputVector.x != 0 || _inputVector.y != 0
+            //     });
+
             InputHandler.onInputAction?.Invoke(_inputVector);
         }
-        
+
         public void OnPointerDown(PointerEventData eventData)
         {
             _bgRectTransform.position = eventData.position;

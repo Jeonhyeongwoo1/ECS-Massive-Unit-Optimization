@@ -3,6 +3,7 @@ using System.Collections;
 using DG.Tweening;
 using MewVivor.Data;
 using MewVivor.Enum;
+using Unity.Entities;
 using UnityEngine;
 
 namespace MewVivor.InGame.Skill.SKillBehaviour
@@ -15,6 +16,8 @@ namespace MewVivor.InGame.Skill.SKillBehaviour
         [SerializeField] private SpriteRenderer _sprite;
         
         private Camera _camera;
+        private Vector3 _dir;
+        private AttackSkillData _attackSkillData;
 
         private void Start()
         {
@@ -46,26 +49,33 @@ namespace MewVivor.InGame.Skill.SKillBehaviour
             bool isMaxLevel = currentLevel == Const.MAX_AttackSKiLL_Level;
             _sprite.sprite = isMaxLevel ? _ultimateSprite : _normalSprite;
 
+            _dir = dir;
+            _attackSkillData = attackSkillData;
             gameObject.SetActive(true);
-            if (!gameObject.activeInHierarchy) return;
+            // if (!gameObject.activeInHierarchy)
+            // {
+            //     return;
+            // }
 
-            // 속도 = 방향(단위벡터) * 탄속  → 항상 일정한 속도 보장
-            _rigidbody.linearVelocity = dir * attackSkillData.ProjectileSpeed;
+            // _rigidbody.linearVelocity = dir * attackSkillData.ProjectileSpeed;
+
+            var skillSpawnSystem = World.DefaultGameObjectInjectionWorld.GetOrCreateSystemManaged<SkillSpawnSystem>();
+            skillSpawnSystem.CreateSkill(gameObject, attackSkillData);
         }
         
         private void Update()
         {
-            if (_camera == null || !gameObject.activeInHierarchy)
-            {
-                return;
-            }
-            
-            var viewportPos = _camera.WorldToViewportPoint(transform.position);
-            bool reflected = false;
-            if (viewportPos.x < 0 || viewportPos.x > 1 || viewportPos.y < 0 || viewportPos.y > 1)
-            {
-                Release();
-            }
+            transform.Translate(_dir * _attackSkillData.ProjectileSpacing);
+            // if (_camera == null || !gameObject.activeInHierarchy)
+            // {
+            //     return;
+            // }
+            //
+            // var viewportPos = _camera.WorldToViewportPoint(transform.position);
+            // if (viewportPos.x < 0 || viewportPos.x > 1 || viewportPos.y < 0 || viewportPos.y > 1)
+            // {
+            //     Release();
+            // }
         }
     }
 }

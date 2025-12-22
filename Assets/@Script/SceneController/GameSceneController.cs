@@ -3,6 +3,8 @@ using MewVivor.Factory;
 using MewVivor.Managers;
 using MewVivor.Model;
 using MewVivor.Presenter;
+using Unity.Entities;
+using Unity.Mathematics;
 using UnityEngine;
 
 namespace MewVivor.Controller
@@ -12,6 +14,25 @@ namespace MewVivor.Controller
         private void Start()
         {
             Initialize();
+        }
+
+        private void Update()
+        {
+            if (Input.GetKeyDown(KeyCode.Alpha1))
+            {
+                var entityManager = World.DefaultGameObjectInjectionWorld.EntityManager;
+                var requestEntity = entityManager.CreateEntity();
+                entityManager.AddComponentData(requestEntity, new MonsterSpawnRequestComponent()
+                {
+                    Count = 1,
+                    PlayerPosition = new float3(0,0,0),
+                    Scale = 2.5f,
+                    Speed = 2,
+                    Radius = 2,
+                    Atk = 30
+                });
+
+            }
         }
 
         private void Initialize()

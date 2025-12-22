@@ -28,6 +28,18 @@ namespace MewVivor.InGame.Controller
     {
         public Transform AttackPoint => _attackPoint;
         public int Layer => _layer;
+        public float Radius
+        {
+            get
+            {
+                if (_circleCollider2D == null)
+                {
+                    _circleCollider2D = GetComponentInChildren<CircleCollider2D>();
+                }
+                
+                return _circleCollider2D.radius;
+            }
+        }
 
         public CreatureStat ExpStat { get; private set; }
         public CreatureStat Defense { get; private set; }
@@ -76,6 +88,7 @@ namespace MewVivor.InGame.Controller
         private PlayerStateType _playerStateType;
         private CancellationTokenSource _recoveryHPCts;
         private CancellationTokenSource _resurrectionCts;
+        private CircleCollider2D _circleCollider2D;
 
 
         public override void Initialize(CreatureData creatureData,
@@ -84,17 +97,19 @@ namespace MewVivor.InGame.Controller
             _playerModel = ModelFactory.CreateOrGetModel<PlayerModel>();
             _userModel = ModelFactory.CreateOrGetModel<UserModel>();
             _creatureType = CreatureType.Player;
+            _circleCollider2D = Collider as CircleCollider2D;
 
             base.Initialize(creatureData, skillDataList);
 
-            transform.localScale = Vector3.one * creatureData.Scale;
+            transform.localScale = Vector3.one;
+            // transform.localScale = Vector3.one * creatureData.Scale;
             InitializeEquipmentSkill();
             InitializeEvolution();
             _moveComponent.Initialize(_rigidbody, _indicatorTransform, _pivotTransform, MoveSpeed.Value);
             HP.Subscribe(CalculateAtkPercentByBerserker).AddTo(this);
             gameObject.SetActive(true);
         }
-
+ 
         private void CalculateAtkPercentByBerserker(float currentHP)
         {
             if (BerserkerStatModifer == null)
@@ -418,6 +433,45 @@ namespace MewVivor.InGame.Controller
                     int goldAmount = (int)(dropItemData.Value * GoldAmountPercent.Value);
                     _playerModel.Gold.Value += goldAmount;
                     break;
+            }
+        }
+
+        public void TakeDamage(float damage)
+        {
+            if (IsDead || _playerStateType == PlayerStateType.Invincibility)
+            {
+                return;
+            }
+
+            if (InvincibleChance != null)
+            {
+                if (Random.value < InvincibleChance.Value)
+                {
+                    //무적
+                    (float, float) tuple = _userModel.CalculateEvolutionStat(EvolutionType.invincibility);
+                    float duration = tuple.Item1;
+                    DOVirtual.DelayedCall(duration, () => { UpdatePlayerState(PlayerStateType.Normal); });
+                }
+            }
+
+            float defense = Mathf.Clamp01(Defense.Value);
+            damage *= (1 - defense);
+            if (IsDead)
+            {
+                return;
+            }
+
+            HP.Value -= damage;
+            if (HP.Value <= 0)
+            {
+                Dead();
+            }
+
+            _playerModel.CurrentHP.Value = HP.Value;
+            onHitReceived?.Invoke((int)HP.Value, (int)MaxHP.Value);
+            if (Manager.I.IsOnHaptic)
+            {
+                HapticPatterns.PlayPreset(HapticPatterns.PresetType.LightImpact);
             }
         }
 
