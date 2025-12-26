@@ -43,13 +43,11 @@ namespace MewVivor.InGame.Skill.SKillBehaviour
             // 회전도 정규화된 방향으로 계산 (안전)
             float angle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
             transform.rotation = Quaternion.AngleAxis(angle, Vector3.forward);
-
             transform.localScale = Vector3.one * attackSkillData.Scale;
 
             bool isMaxLevel = currentLevel == Const.MAX_AttackSKiLL_Level;
             _sprite.sprite = isMaxLevel ? _ultimateSprite : _normalSprite;
 
-            _dir = dir;
             _attackSkillData = attackSkillData;
             gameObject.SetActive(true);
             // if (!gameObject.activeInHierarchy)
@@ -65,17 +63,18 @@ namespace MewVivor.InGame.Skill.SKillBehaviour
         
         private void Update()
         {
-            transform.Translate(_dir * _attackSkillData.ProjectileSpacing);
-            // if (_camera == null || !gameObject.activeInHierarchy)
-            // {
-            //     return;
-            // }
-            //
-            // var viewportPos = _camera.WorldToViewportPoint(transform.position);
-            // if (viewportPos.x < 0 || viewportPos.x > 1 || viewportPos.y < 0 || viewportPos.y > 1)
-            // {
-            //     Release();
-            // }
+            transform.Translate(Vector2.right * (_attackSkillData.ProjectileSpeed * Time.deltaTime));
+            
+            if (_camera == null || !gameObject.activeInHierarchy)
+            {
+                return;
+            }
+            
+            var viewportPos = _camera.WorldToViewportPoint(transform.position);
+            if (viewportPos.x < 0 || viewportPos.x > 1 || viewportPos.y < 0 || viewportPos.y > 1)
+            {
+                Release();
+            }
         }
     }
 }

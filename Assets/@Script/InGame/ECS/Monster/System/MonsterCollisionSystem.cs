@@ -33,6 +33,11 @@ public partial struct MonsterCollisionSystem : ISystem
                      entity)
                  in SystemAPI.Query<RefRW<MonsterComponent>, RefRO<LocalTransform>>().WithEntityAccess())
         {
+            if (entity == Entity.Null)
+            {
+                continue;
+            }
+            
             float3 monsterPosition = monsterTransform.ValueRO.Position;
             float dist = math.distance(playerPosition, monsterPosition);
 

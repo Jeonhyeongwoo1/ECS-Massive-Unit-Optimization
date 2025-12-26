@@ -247,7 +247,8 @@ namespace MewVivor
             //     Scale = 2.5f,
             //     Speed = 2,
             //     Radius = 2,
-            //     Atk = data.Atk
+            //     Atk = data.Atk,
+            //     MaxHP = data.MaxHp
             // });
 
             return null;

@@ -8,19 +8,28 @@ public partial class SkillSpawnSystem : SystemBase
 {
     protected override void OnUpdate()
     {
-            
+
     }
 
     public void CreateSkill(GameObject referenceObject, AttackSkillData attackSkillData)
     {
-        var skillSpawnPrefabData = SystemAPI.ManagedAPI.GetSingleton<SkillSpawnPrefabData>();
-        Entity skillEntityRef =skillSpawnPrefabData.PrefabDict[AttackSkillType.Skill_10001];
-        Entity skillEntity = EntityManager.Instantiate(skillEntityRef);
+        if (!SystemAPI.ManagedAPI.TryGetSingleton<SkillSpawnPrefabData>(out var skillSpawnPrefabData))
+        {
+            return;
+        }
 
-        EntityManager.AddComponentData(skillEntity, new SkillComponent()
+        var skillEntityData =
+            skillSpawnPrefabData.SkillPrefabList.Find(v => v.AttackSkillType == attackSkillData.AttackSkillType);
+        Entity skillEntity = EntityManager.Instantiate(skillEntityData.Entity);
+        EntityManager.AddComponentData(skillEntity, new SkillBridgeComponentData()
         {
             BaseSkillData = attackSkillData,
             GameObjectReference = referenceObject
+        });
+
+        EntityManager.AddComponentData(skillEntity, new SkillInfoComponent()
+        {
+            DamagePercent = attackSkillData.DamagePercent
         });
     }
 }

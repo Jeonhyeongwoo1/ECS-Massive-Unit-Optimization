@@ -3,6 +3,8 @@ using Unity.Collections;
 using Unity.Entities;
 using Unity.Mathematics;
 using Unity.Transforms;
+using UnityEngine;
+using Random = Unity.Mathematics.Random;
 
 public struct MonsterSpawnRequestComponent : IComponentData
 {
@@ -12,6 +14,7 @@ public struct MonsterSpawnRequestComponent : IComponentData
     public float Speed;
     public float Radius;
     public float Atk;
+    public float MaxHP;
 }
 
 public struct MonsterSpawnTag : IComponentData
@@ -59,7 +62,9 @@ public partial struct MonsterSpawnSystem : ISystem
                 {
                     Speed = component.Speed,
                     Radius = component.Radius,
-                    Atk = component.Atk
+                    Atk = component.Atk,
+                    MaxHP = 10,
+                    CurrentHP = component.MaxHP
                 };
                 
                 ecb.AddComponent(enemyEntity, enemyData);

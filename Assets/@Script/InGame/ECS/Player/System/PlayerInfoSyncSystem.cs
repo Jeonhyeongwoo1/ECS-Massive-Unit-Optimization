@@ -11,22 +11,14 @@ public partial class PlayerInfoSyncSystem : SystemBase
         {
             return;
         }
-
-        if (SystemAPI.HasSingleton<PlayerInfoComponent>())
+        
+        EntityManager.SetOrCreateSingleton(new PlayerInfoComponent
         {
-            SystemAPI.SetSingleton(new PlayerInfoComponent()
-            {
-                Position = player.Position
-            });
-        }
-        else
-        {
-            Entity entity= EntityManager.CreateEntity(typeof(PlayerInfoComponent));
-            SystemAPI.SetComponent(entity, new PlayerInfoComponent()
-            {
-                Position = player.Position,
-                Radius = player.Radius
-            });
-        }
+            Position = player.Position,
+            Radius = player.Radius,
+            CriticalPercent = player.CriticalPercent.Value,
+            CriticalDamagePercent = player.CriticalDamagePercent.Value,
+            Atk = player.Atk.Value
+        });
     }
 }

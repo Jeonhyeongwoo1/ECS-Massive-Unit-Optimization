@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 3291366599645430937}
   - component: {fileID: 7352309629981924135}
   m_Layer: 0
-  m_Name: SkillBehaviour_10001
+  m_Name: ECS_SkillBehaviour_10001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

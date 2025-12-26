@@ -1,7 +1,7 @@
 using MewVivor;
+using MewVivor.InGame.Controller;
 using Unity.Collections;
 using Unity.Entities;
-using UnityEngine;
 
 public partial class MonsterAttackSystemBase : SystemBase
 {
@@ -11,16 +11,20 @@ public partial class MonsterAttackSystemBase : SystemBase
         foreach (var (monsterAttackEventComponent, entity) in SystemAPI.Query<RefRO<MonsterAttackEventComponent>>().WithEntityAccess())
         {
             var monsterEntity = monsterAttackEventComponent.ValueRO.MonsterEntity;
+            if (monsterEntity == Entity.Null)
+            {
+                continue;
+            }
+            
             var monsterComponent = SystemAPI.GetComponentRO<MonsterComponent>(monsterEntity);
-
-            var atk = monsterComponent.ValueRO.Atk;
-            var player = Manager.I.Object.Player;
+            float atk = monsterComponent.ValueRO.Atk;
+            PlayerController player = Manager.I.Object.Player;
 
             if (!player.IsDead)
             {
                 player.TakeDamage(atk);
             }
-        
+
             ecb.DestroyEntity(entity);
         }
         

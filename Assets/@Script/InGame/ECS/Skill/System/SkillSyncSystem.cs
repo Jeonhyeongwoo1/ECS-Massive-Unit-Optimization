@@ -15,9 +15,9 @@ public partial struct SkillSyncSystem : ISystem
         var ecb = SystemAPI.GetSingleton<EndSimulationEntityCommandBufferSystem.Singleton>()
                             .CreateCommandBuffer(state.WorldUnmanaged);
         foreach (var (transform, skillComponent, entity)
-                 in SystemAPI.Query<RefRW<LocalTransform>, SkillComponent>().WithEntityAccess())
+                 in SystemAPI.Query<RefRW<LocalTransform>, SkillBridgeComponentData>().WithEntityAccess())
         {
-            if (skillComponent.GameObjectReference == null)
+            if (skillComponent.GameObjectReference == null || skillComponent.GameObjectReference.activeInHierarchy == false)
             {
                 ecb.DestroyEntity(entity);
             }

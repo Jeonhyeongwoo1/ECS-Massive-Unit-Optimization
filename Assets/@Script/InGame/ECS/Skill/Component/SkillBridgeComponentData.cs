@@ -2,7 +2,7 @@ using MewVivor.Data;
 using Unity.Entities;
 using UnityEngine;
 
-public class SkillComponent : IComponentData
+public class SkillBridgeComponentData : IComponentData
 {
     public GameObject GameObjectReference;
     public BaseSkillData BaseSkillData;

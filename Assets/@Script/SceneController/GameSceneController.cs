@@ -29,9 +29,9 @@ namespace MewVivor.Controller
                     Scale = 2.5f,
                     Speed = 2,
                     Radius = 2,
-                    Atk = 30
+                    Atk = 10,
+                    MaxHP = 100,
                 });
-
             }
         }
 
