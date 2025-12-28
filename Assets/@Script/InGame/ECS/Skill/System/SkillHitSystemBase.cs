@@ -34,25 +34,10 @@ public partial class SkillHitSystemBase : SystemBase
             {
                 continue;
             }
-
+            
             var skillEntity = damageEvent.ValueRO.SkillEntity;
-            // var skillInfoComponent = skillInfoComponentLookup[skillEntity];
-            // if (skillInfoComponent.IntervalAttackTime > skillInfoComponent.AttackElapsedTime)
-            // {
-            //     skillInfoComponent.AttackElapsedTime += SystemAPI.Time.DeltaTime;
-            //     skillInfoComponentLookup[skillEntity] = skillInfoComponent;
-            //     return;
-            // }
-            // else
-            // {
-            //     if (!skillInfoComponent.IsIntervalAttack)
-            //     {
-            //         skillInfoComponent.CurrentAttackCount++;
-            //     }
-            //     
-            //     skillInfoComponent.AttackElapsedTime = 0;
-            //     skillInfoComponentLookup[skillEntity] = skillInfoComponent;
-            // }
+            var skillInfoComponent = skillInfoComponentLookup[skillEntity];
+       
 
             Entity targetMonster = damageEvent.ValueRO.MonsterEntity;
             float damage = damageEvent.ValueRO.Damage;
