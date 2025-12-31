@@ -1,6 +1,8 @@
 using System;
+using DG.Tweening;
 using MewVivor.Enum;
 using MewVivor.Factory;
+using MewVivor.InGame.Stat;
 using MewVivor.Managers;
 using MewVivor.Model;
 using MewVivor.Presenter;
@@ -31,10 +33,18 @@ namespace MewVivor.Controller
                     Speed = 2,
                     Radius = 2,
                     Atk = 10,
-                    MaxHP = 130,
+                    MaxHP = 13000,
                     MonsterType = MonsterType.Normal,
                     SpawnedWaveIndex = 1
                 });
+            }
+            
+            if (Input.GetKeyDown(KeyCode.Alpha2))
+            {
+                var player = Manager.I.Object.Player;
+                var modifer = new StatModifer(1000000, ModifyType.Flat, this);
+                player.Atk.AddModifier(modifer);
+                DOVirtual.DelayedCall(3, () => player.Atk.RemoveModifer(modifer));
             }
         }
 

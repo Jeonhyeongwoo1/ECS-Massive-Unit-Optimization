@@ -17,6 +17,8 @@ namespace MewVivor.InGame.Skill.SKillBehaviour
         private List<TriggerNotifier> _activateProjectileTriggerNotiferList = new(6);
         private Tween _tween;
 
+        private List<Unity.Entities.Entity> _entities = new List<Unity.Entities.Entity>(6);
+        
         public override void Generate(Transform targetTransform, Vector3 direction, AttackSkillData attackSkillData,
             CreatureController owner, int currentLevel)
         {
@@ -27,7 +29,7 @@ namespace MewVivor.InGame.Skill.SKillBehaviour
             {
                 trigger.gameObject.SetActive(false);
             }
-
+            
             int count = attackSkillData.NumOfProjectile;
             for (int i = 0; i < count; i++)
             {
@@ -37,9 +39,10 @@ namespace MewVivor.InGame.Skill.SKillBehaviour
                 float y = Mathf.Sin(angle) * radius;
                 Vector3 position = new Vector3(x, y) + owner.Position;
                 TriggerNotifier target = _projectileTriggerNotiferList[i];
-                target.Initialize(Tag.Monster,
-                    (v) => OnHit.Invoke(v, this),
-                    null);
+                // CreateBaseSkillEntity(attackSkillData)
+                // target.Initialize(Tag.Monster,
+                //     (v) => OnHit.Invoke(v, this),
+                //     null);
 
                 var modifer = owner.SkillBook.GetPassiveSkillStatModifer(PassiveSkillType.SkillRange);
                 float skillRange = Utils.CalculateStatValue(attackSkillData.Scale, modifer);
@@ -50,6 +53,11 @@ namespace MewVivor.InGame.Skill.SKillBehaviour
 
                 Sprite sprite = Manager.I.Resource.Load<Sprite>(attackSkillData.SkillSprite);
                 _spriteRendererList[i].sprite = sprite;
+                target.Initialize(() =>
+                {
+                    var skill = CreateBaseSkillEntity(target, attackSkillData);
+                    // _entities.Add(skill);
+                });
             }
 
             gameObject.SetActive(true);
@@ -70,7 +78,7 @@ namespace MewVivor.InGame.Skill.SKillBehaviour
             {
                 _tween.Kill();
             }
-
+            
             _activateProjectileTriggerNotiferList.ForEach(v => v.Release());
         }
     }

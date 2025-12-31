@@ -1,7 +1,9 @@
+using MewVivor.Enum;
 using Unity.Burst;
 using Unity.Entities;
 using Unity.Mathematics;
 using Unity.Transforms;
+using UnityEngine;
 
 public partial struct MonsterMoveSystem : ISystem
 {
@@ -55,15 +57,27 @@ public partial struct MonsterMoveJob : IJobEntity
         
     void Execute(ref LocalTransform monsterTransform, ref MonsterComponent monsterComponent, Entity entity)
     {
-        float3 position = monsterTransform.Position;
-        float3 direction = (PlayerPosition - position);
-
-        if (math.length(direction) > 0.1f)
+        if (monsterComponent.StateType == CreatureStateType.Stun)
         {
-            direction = math.normalize(direction);
-            monsterTransform.Position += direction * DeltaTime * monsterComponent.Speed;
+            return;
+        }
+        //먼 Enemy 업데이트 빈도를 (50%) 감소
+        // float distanceSq = math.distancesq(monsterTransform.Position, PlayerPosition);
+        // if (distanceSq > 100f && entity.Index % 2 == 0)
+        // {
+        //     return;
+        // }
+        
+        // Player 방향의 벡터를 계산
+        var direction = math.normalize(PlayerPosition - monsterTransform.Position);
 
-            float yRotation = direction.x < 0 ? math.PI : 0f;
+        //이동처리
+        monsterTransform.Position += direction * DeltaTime * monsterComponent.Speed;
+
+        //facing 처리
+        float yRotation = direction.x < 0 ? math.PI : 0f;
+        if (math.abs(monsterTransform.Position.y - yRotation) > 0.01f)
+        {
             monsterTransform.Rotation = quaternion.RotateY(yRotation);
         }
     }

@@ -42,20 +42,8 @@ namespace MewVivor.InGame.Skill.SKillBehaviour
 
         private void UseSKill(Vector3 direction, bool isMaxLevel, AttackSkillData attackSkillData)
         {
-            PlayerController player = Manager.I.Object.Player;
-            float ratio = Random.value;
-            float damage = 0;
-            bool isCritical = false;
             float angle = isMaxLevel ? 360 : attackSkillData.ConeAngle;
-            if (ratio < player.CriticalPercent.Value)
-            {
-                damage *= player.CriticalDamagePercent.Value;
-                isCritical = true;
-            }
-            
             Manager.I.Object.AttackMonsterAndBossEntityListInFanShape(_skillEntity, 
-                damage, 
-                isCritical, 
                 transform.position,
                 direction * -1,
                 attackSkillData.AttackRange,

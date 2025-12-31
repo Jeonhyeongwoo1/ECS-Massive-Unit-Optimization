@@ -62,9 +62,9 @@ namespace MewVivor.InGame.Skill.SKillBehaviour
         
         private void Update()
         {
-            // transform.Translate(Vector2.right * (_attackSkillData.ProjectileSpeed * Time.deltaTime));
+            transform.Translate(Vector2.right * (_attackSkillData.ProjectileSpeed * Time.deltaTime));
             
-            gameObject.SetActive(false);
+            // gameObject.SetActive(false);
             if (_camera == null || !gameObject.activeInHierarchy)
             {
                 return;

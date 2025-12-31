@@ -41,23 +41,27 @@ namespace MewVivor.InGame.Skill.SKillBehaviour
             var modifer = owner.SkillBook.GetPassiveSkillStatModifer(PassiveSkillType.SkillRange);
             float skillRange = Utils.CalculateStatValue(attackSkillData.AttackRange, modifer);
             skillRange *= Utils.GetPlayerStat(CreatureStatType.ExplosionSkillSize);
-            int cnt = Physics2D.OverlapCircleNonAlloc(skillTransform.position, skillRange,
-                _collider2Ds, Layer.AttackableLayer);
 
-            _skillRange = skillRange;
-            if (cnt > 0)
-            {
-                for (int i = 0; i < cnt; i++)
-                {
-                    Collider2D col = _collider2Ds[i];
-                    if (col == null)
-                    {
-                        continue;
-                    }
-
-                    OnHit?.Invoke(col.transform, this);
-                }
-            }
+            var skillEntity = CreateBaseSkillEntity(attackSkillData);
+            CreateExplosionSkillComponent(skillEntity,  skillRange);
+            
+            // int cnt = Physics2D.OverlapCircleNonAlloc(skillTransform.position, skillRange,
+            //     _collider2Ds, Layer.AttackableLayer);
+            //
+            // _skillRange = skillRange;
+            // if (cnt > 0)
+            // {
+            //     for (int i = 0; i < cnt; i++)
+            //     {
+            //         Collider2D col = _collider2Ds[i];
+            //         if (col == null)
+            //         {
+            //             continue;
+            //         }
+            //
+            //         OnHit?.Invoke(col.transform, this);
+            //     }
+            // }
 
             if (attackSkillData.SkillCategoryType == SkillCategoryType.Normal)
             {
@@ -82,8 +86,10 @@ namespace MewVivor.InGame.Skill.SKillBehaviour
             }
 
             //TODO : 추후에 스킬의 스피드로 변경해야함
-            _rigidbody.linearVelocity = direction * 20f;
+            // _rigidbody.linearVelocity = direction * 20f;
 
+            //새롭게 생성
+            skillEntity = CreateBaseSkillEntity(attackSkillData);
             float elapsed = 0;
             float bookReleaseDuration = 3;
             while (true)
@@ -99,19 +105,21 @@ namespace MewVivor.InGame.Skill.SKillBehaviour
                 {
                     break;
                 }
+
+                transform.Translate(direction * (20 * Time.deltaTime));
                 yield return null;
             }
             
             Release();
         }
 
-        protected override void OnTriggerEnter2D(Collider2D other)
-        {
-            if (_skillCategoryType == SkillCategoryType.Ultimate)
-            {
-                base.OnTriggerEnter2D(other);
-            }
-        }
+        // protected override void OnTriggerEnter2D(Collider2D other)
+        // {
+        //     if (_skillCategoryType == SkillCategoryType.Ultimate)
+        //     {
+        //         base.OnTriggerEnter2D(other);
+        //     }
+        // }
         
         private void OnDrawGizmos()
         {

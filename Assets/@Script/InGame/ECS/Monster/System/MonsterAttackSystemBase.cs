@@ -8,8 +8,8 @@ public partial class MonsterAttackSystemBase : SystemBase
     protected override void OnUpdate()
     {
         var ecb = new EntityCommandBuffer(Allocator.Temp);
-        foreach (var (monsterAttackEventComponent, entity) 
-                 in SystemAPI.Query<RefRO<MonsterAttackEventComponent>>().WithEntityAccess())
+        foreach (var (monsterAttackEventComponent, monsterComponent, entity) 
+                 in SystemAPI.Query<RefRO<MonsterAttackEventComponent>, RefRO<MonsterComponent>>().WithEntityAccess())
         {
             var monsterEntity = monsterAttackEventComponent.ValueRO.MonsterEntity;
             if (monsterEntity == Entity.Null || !SystemAPI.Exists(monsterEntity))
@@ -17,10 +17,8 @@ public partial class MonsterAttackSystemBase : SystemBase
                 continue;
             }
             
-            var monsterComponent = SystemAPI.GetComponentRO<MonsterComponent>(monsterEntity);
             float atk = monsterComponent.ValueRO.Atk;
             PlayerController player = Manager.I.Object.Player;
-
             if (!player.IsDead)
             {
                 player.TakeDamage(atk);

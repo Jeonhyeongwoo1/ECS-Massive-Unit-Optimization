@@ -18,6 +18,7 @@ namespace MewVivor.InGame.Skill.SKillBehaviour
         [SerializeField] private Material _ultimateMaterial;
         private List<Transform> _onTriggerEnterTransformList = new();
         private float _skillRange;
+        private Unity.Entities.Entity _skillEntity;
         
         public override void Generate(Transform targetTransform, Vector3 direction, AttackSkillData attackSkillData, CreatureController owner, int currentLevel)
         {
@@ -37,27 +38,28 @@ namespace MewVivor.InGame.Skill.SKillBehaviour
             renderer.material = currentLevel == Const.MAX_AttackSKiLL_Level ? _ultimateMaterial : _noramlMaterial;
             gameObject.SetActive(true);
 
-            StartCoroutine(ApplyDamageInterval(attackSkillData.AttackInterval));
+            _skillEntity = CreateBaseSkillEntity(attackSkillData, true, attackSkillData.AttackInterval);
+            // StartCoroutine(ApplyDamageInterval(attackSkillData.AttackInterval));
         }
         
-        protected override void OnTriggerEnter2D(Collider2D other)
-        {
-            if ((other.CompareTag(Tag.Monster) || other.CompareTag(Tag.ItemBox)) &&
-                !_onTriggerEnterTransformList.Contains(other.transform))
-            {
-                _onTriggerEnterTransformList.Add(other.transform);
-                OnHit?.Invoke(other.transform, this);
-            }
-        }
-
-        protected override void OnTriggerExit2D(Collider2D other)
-        {
-            if ((other.CompareTag(Tag.Monster) || other.CompareTag(Tag.ItemBox)) &&
-                _onTriggerEnterTransformList.Contains(other.transform))
-            {
-                _onTriggerEnterTransformList.Remove(other.transform);
-            }
-        }
+        // protected override void OnTriggerEnter2D(Collider2D other)
+        // {
+        //     if ((other.CompareTag(Tag.Monster) || other.CompareTag(Tag.ItemBox)) &&
+        //         !_onTriggerEnterTransformList.Contains(other.transform))
+        //     {
+        //         _onTriggerEnterTransformList.Add(other.transform);
+        //         OnHit?.Invoke(other.transform, this);
+        //     }
+        // }
+        //
+        // protected override void OnTriggerExit2D(Collider2D other)
+        // {
+        //     if ((other.CompareTag(Tag.Monster) || other.CompareTag(Tag.ItemBox)) &&
+        //         _onTriggerEnterTransformList.Contains(other.transform))
+        //     {
+        //         _onTriggerEnterTransformList.Remove(other.transform);
+        //     }
+        // }
    
         private IEnumerator ApplyDamageInterval(float interval)
         {
@@ -70,7 +72,14 @@ namespace MewVivor.InGame.Skill.SKillBehaviour
                 }
             }
         }
-        
+
+        public override void Release()
+        {
+            base.Release();
+            
+            DestroySkillEntity(_skillEntity);
+        }
+
         private void OnDrawGizmos()
         {
             Gizmos.color = Color.red;

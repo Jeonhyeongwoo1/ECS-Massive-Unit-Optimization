@@ -11,6 +11,8 @@ using Unity.Transforms;
 [UpdateAfter(typeof(PhysicsSystemGroup))]
 public partial struct MonsterCollisionSystem : ISystem
 {
+    public PlayerInfoComponent playerInfoComponent;
+    
     [BurstCompile]
     public void OnCreate(ref SystemState state)
     {
@@ -18,12 +20,12 @@ public partial struct MonsterCollisionSystem : ISystem
         state.RequireForUpdate<SimulationSingleton>();
         state.RequireForUpdate<MonsterTag>();
         state.RequireForUpdate<PlayerInfoComponent>();
+        playerInfoComponent = SystemAPI.GetSingleton<PlayerInfoComponent>();
     }
 
     [BurstCompile]
     public void OnUpdate(ref SystemState state)
     {
-        var playerInfoComponent = SystemAPI.GetSingleton<PlayerInfoComponent>();
         float3 playerPosition = playerInfoComponent.Position;
         var ecb = SystemAPI.GetSingleton<EndSimulationEntityCommandBufferSystem.Singleton>()
             .CreateCommandBuffer(state.WorldUnmanaged);
@@ -40,11 +42,9 @@ public partial struct MonsterCollisionSystem : ISystem
             
             float3 monsterPosition = monsterTransform.ValueRO.Position;
             float dist = math.distance(playerPosition, monsterPosition);
-
             float monsterRadius = monsterComponent.ValueRO.Radius;
             float playerRadius = playerInfoComponent.Radius;
             float resultRadius = monsterRadius + playerRadius;
-
             if (dist < resultRadius)
             {
                 monsterComponent.ValueRW.AttackElapsedTime += SystemAPI.Time.DeltaTime;
@@ -64,27 +64,5 @@ public partial struct MonsterCollisionSystem : ISystem
                 monsterComponent.ValueRW.AttackElapsedTime = 0;
             }
         }
-
-        // state.Dependency = 
-        //     new MonsterCollisionJob().Schedule(SystemAPI.GetSingleton<SimulationSingleton>(), 
-        //         state.Dependency
-        // );
     }
-
-    [BurstCompile]
-    public void OnDestroy(ref SystemState state)
-    {
-
-    }
-    
-    // [BurstCompile]
-    // public partial struct MonsterCollisionJob : ITriggerEventsJob
-    // {
-    //
-    //     public void Execute(TriggerEvent triggerEvent)
-    //     { 
-    //         //A가 적인가 B가 적인가 체크
-    //     
-    //     }
-    // }
 }

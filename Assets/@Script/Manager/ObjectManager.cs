@@ -290,22 +290,21 @@ namespace MewVivor
                 Debug.Log($"monster is full / limit {monsterLimitCount.Value} / currentCount {ActivateMonsterCount}");
                 return null;
             }
-
+            
             CreatureData data = _data.CreatureDict[monsterId];
-
-            return null;
             var entityManager = World.DefaultGameObjectInjectionWorld.EntityManager;
             var requestEntity = entityManager.CreateEntity();
             spawnPosition += _player.Position;
+            (float finalAtk, float finalHp) = Manager.I.Game.GetMonsterAtkAndHP(monsterType, data);
             entityManager.AddComponentData(requestEntity, new MonsterSpawnRequestComponent()
             {
-                Count = 1,
+                Count = monsterType == MonsterType.Normal ? 10 : 1,
                 PlayerPosition = new float3(spawnPosition.x, spawnPosition.y, spawnPosition.z),
-                Scale = 2.5f,
-                Speed = 2,
+                Scale = monsterType == MonsterType.Normal ? 2.5f : 5f,
+                Speed = data.MoveSpeed,
                 Radius = 2,
-                MaxHP = 130,
-                Atk = data.Atk,
+                MaxHP = finalHp,
+                Atk = finalAtk,
                 MonsterType = monsterType,
                 SpawnedWaveIndex = waveIndex
             });
@@ -319,7 +318,8 @@ namespace MewVivor
                     var bossBarrierController = prefab.GetComponent<BossBarrierController>();
                     bossBarrierController.Initialize(BarrierType.Circle);
                     _bossBarrier = bossBarrierController;
-                    RemoveMonster(MonsterType.Normal, false);
+                    // RemoveMonster(MonsterType.Normal, false);
+                    RemoveMonsterEntity();
                     break;
             }
             
@@ -354,6 +354,17 @@ namespace MewVivor
             return monster;
         }
 
+        public void RemoveMonsterEntity()
+        {
+            int length = _monsterEntityArray.Length;
+            for (int i = length - 1; i >= 0; i--)
+            {
+                var monsterEntity = _monsterEntityArray[i];
+                _entityManager.DestroyEntity(monsterEntity);
+            }
+        }
+
+   
         private void RemoveMonster(MonsterType monsterType, bool forceKill)
         {
             for (int i = _activateMonsterList.Count - 1; i >= 0; i--)
@@ -496,15 +507,85 @@ namespace MewVivor
             return monsterArray;
         }
 
-        public void AttackMonsterAndBossEntityListInFanShape(Entity skillEntity, float damage, bool isCritical,
+        public void AttackMonsterAndBossEntityListInFanShape(Entity skillEntity,
             Vector3 position, Vector3 direction, float radius,
             float angle = 180)
         {
             var skillHitSystemBase = _entityManager.World.GetOrCreateSystemManaged<SkillHitSystemBase>();
-            skillHitSystemBase.AttackMonsterAndBossEntityListInFanShape(skillEntity, damage, isCritical, position,
+            skillHitSystemBase.AttackMonsterAndBossEntityListInFanShape(skillEntity, position,
                 direction, radius, angle);
         }
 
+        private Dictionary<int, List<Vector3>> _quadAreaPositionDict = new();
+        
+        public List<Vector3> GetCenterMonsterEntityPositionInCameraArea(int count = 1)
+        {
+            _quadAreaPositionDict.Clear();
+            var monsterPositionList = _monsterLocalTransfromArray
+                .Select(x => x.Position.ToVector3())
+                .ToList();
+            foreach (Vector3 monsterPosition in monsterPositionList)
+            {
+                Vector3 viewportPoint = Camera.WorldToViewportPoint(monsterPosition);
+                if (viewportPoint.x < 0f || viewportPoint.x > 1f || viewportPoint.y < 0f || viewportPoint.y > 1f)
+                {
+                    continue;
+                }
+
+                int area = (viewportPoint.x < 0.5f ? (viewportPoint.y > 0.5f ? 1 : 3) : (viewportPoint.y > 0.5f ? 2 : 4));
+                AddQuadAreaDict(monsterPosition, area);
+            }
+            
+            var sortedAreas = _quadAreaPositionDict
+                .OrderByDescending(kv => kv.Value.Count)
+                .Take(Mathf.Clamp(count, 1, 4)) // count만큼 영역 선택
+                .ToList();
+            
+            List<Vector3> list = new ();
+            foreach (var (key, monsterList) in sortedAreas)
+            {
+                Vector3 centerPosition = Vector3.zero;
+                foreach (Vector3 monsterPosition in monsterList)
+                {
+                    centerPosition += monsterPosition;
+                }
+                
+                centerPosition /= monsterList.Count;
+
+                Vector3 closest = default;
+                float minDistance = Mathf.Infinity;
+
+                foreach (var monsterPosition in monsterList)
+                {
+                    float distance = Vector3.SqrMagnitude(monsterPosition - centerPosition);
+                    if (distance < minDistance)
+                    {
+                        minDistance = distance;
+                        closest = monsterPosition;
+                    }
+                }
+
+                if (!closest.Equals(default))
+                {
+                    list.Add(closest);
+                }
+            }
+
+            return list.Count == 0 ? null : list;
+        }
+
+        private void AddQuadAreaDict(Vector3 monsterPosition, int area)
+        {
+            if (!_quadAreaPositionDict.ContainsKey(area))
+            {
+                _quadAreaPositionDict[area] = new List<Vector3>();
+            }
+            
+            List<Vector3> list = _quadAreaPositionDict[area];
+            list.Add(monsterPosition);
+            _quadAreaPositionDict[area] = list;
+        }
+        
         #endregion
        
         public List<MonsterController> GetNearestMonsterList(int count = 1, float minDistance = 0f)

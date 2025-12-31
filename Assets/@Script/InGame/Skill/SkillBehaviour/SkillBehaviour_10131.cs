@@ -32,7 +32,8 @@ namespace MewVivor.InGame.Skill.SKillBehaviour
             {
                 StopCoroutine(_skillLogicCor);
             }
-            
+
+            CreateBaseSkillEntity(attackSkillData);
             _skillLogicCor = StartCoroutine(SkillLogicCor(spawnPosition, direction, attackSkillData, owner));
         }
 
@@ -47,7 +48,7 @@ namespace MewVivor.InGame.Skill.SKillBehaviour
             var audio = Manager.I.Audio.Play(Sound.SFX, SoundKey.UseSkill_10131, 0.5f, 0.15f);
             while (true)
             {
-                direction = (transform.position - targetPoint).normalized;
+                direction = (targetPoint - transform.position).normalized;
                 transform.Translate(direction * (speed * Time.deltaTime), Space.World);
 
                 Vector3 viewPoint = _camera.WorldToViewportPoint(transform.position);

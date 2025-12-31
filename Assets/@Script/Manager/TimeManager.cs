@@ -26,7 +26,7 @@ public class TimeManager
         }
         
         _staminaCts = new CancellationTokenSource();
-        StaminaTimerAsync().Forget();
+        // StaminaTimerAsync().Forget();
     }
     
     public void InfiniteTicketTimer()
@@ -37,7 +37,7 @@ public class TimeManager
         }
 
         _infinityTicketCts = new CancellationTokenSource();
-        InfiniteTicketTimerAsync().Forget();
+        // InfiniteTicketTimerAsync().Forget();
     }
 
     private async UniTaskVoid StaminaTimerAsync()

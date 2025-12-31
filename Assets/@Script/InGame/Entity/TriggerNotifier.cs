@@ -7,11 +7,13 @@ using UnityEngine;
 
 namespace MewVivor.InGame.Entity
 {
-    public class TriggerNotifier : MonoBehaviour
+    public class TriggerNotifier : MonoBehaviour, IHitableObject
     {
         private Action<Transform> _onTriggerEnterAction;
         private Action<Transform> _onTriggerExitAction;
         private string _tag;
+        public GameObject GameObject => gameObject;
+        private Unity.Entities.Entity _skillEntity;
         
         public void Initialize(string tag, Action<Transform> onTriggerEnterAction, Action<Transform> onTriggerExitAction)
         {
@@ -19,22 +21,27 @@ namespace MewVivor.InGame.Entity
             _onTriggerEnterAction = onTriggerEnterAction;
             _onTriggerExitAction = onTriggerExitAction;
         }
-        
-        private void OnTriggerEnter2D(Collider2D other)
-        {
-            if (other.CompareTag(Tag.Monster) || other.CompareTag(Tag.ItemBox))
-            {
-                _onTriggerEnterAction?.Invoke(other.transform);
-            }
-        }
 
-        private void OnTriggerExit2D(Collider2D other)
+        public void Initialize(Action onCreateSkillEntity)
         {
-            if (other.CompareTag(Tag.Monster) || other.CompareTag(Tag.ItemBox))
-            {
-                _onTriggerExitAction?.Invoke(other.transform);
-            }
+            onCreateSkillEntity.Invoke();
         }
+        
+        // private void OnTriggerEnter2D(Collider2D other)
+        // {
+        //     if (other.CompareTag(Tag.Monster) || other.CompareTag(Tag.ItemBox))
+        //     {
+        //         _onTriggerEnterAction?.Invoke(other.transform);
+        //     }
+        // }
+        //
+        // private void OnTriggerExit2D(Collider2D other)
+        // {
+        //     if (other.CompareTag(Tag.Monster) || other.CompareTag(Tag.ItemBox))
+        //     {
+        //         _onTriggerExitAction?.Invoke(other.transform);
+        //     }
+        // }
 
         public void Release()
         {
@@ -48,6 +55,11 @@ namespace MewVivor.InGame.Entity
                 transform.localScale = Vector3.one;
                 gameObject.SetActive(false);
             });
+        }
+
+        public void OnHitMonsterEntity(Unity.Entities.Entity entity)
+        {
+            
         }
     }
 }

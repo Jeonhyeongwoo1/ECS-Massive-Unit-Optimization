@@ -17,14 +17,14 @@ public partial struct SkillSyncSystem : ISystem
         foreach (var (transform, skillComponent, entity)
                  in SystemAPI.Query<RefRW<LocalTransform>, SkillBridgeComponentData>().WithEntityAccess())
         {
-            if (skillComponent.Projectile.gameObject == null || skillComponent.Projectile.gameObject.activeInHierarchy == false)
+            if (skillComponent.hitableObject?.GameObject == null || skillComponent.hitableObject?.GameObject.activeInHierarchy == false)
             {
                 ecb.DestroyEntity(entity);
             }
             else
             {
-                transform.ValueRW.Position = skillComponent.Projectile.transform.position;
-                transform.ValueRW.Rotation = skillComponent.Projectile.transform.rotation;
+                transform.ValueRW.Position = skillComponent.hitableObject.GameObject.transform.position;
+                transform.ValueRW.Rotation = skillComponent.hitableObject.GameObject.transform.rotation;
             }
         }
     }

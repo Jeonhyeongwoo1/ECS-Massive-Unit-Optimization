@@ -20,9 +20,7 @@ public partial struct SkillRangeCollisionSystem : ISystem
         CollisionWorld collisionWorld = 
                 SystemAPI.GetSingleton<PhysicsWorldSingleton>().PhysicsWorld.CollisionWorld;
 
-        var collisionFilter = ECSExtensions.CreateMonsterCollisionFilter();
-        uint distinctSeed = (uint)SystemAPI.Time.ElapsedTime + 1;
-        var playerInfoComponent = SystemAPI.GetSingleton<PlayerInfoComponent>();
+        var collisionFilter = ECSHelper.CreateMonsterCollisionFilter();
         var monsterLookup = SystemAPI.GetComponentLookup<MonsterComponent>();
         EntityCommandBuffer ecb = new EntityCommandBuffer(Allocator.Temp);
         
@@ -35,7 +33,6 @@ public partial struct SkillRangeCollisionSystem : ISystem
             var hits = new NativeList<DistanceHit>(Allocator.Temp);
             float range = skillRangeAttackComponentData.ValueRO.Range;
             float3 position = localTransform.ValueRO.Position;
-
             if (collisionWorld.OverlapSphere(position, range, ref hits, collisionFilter))
             {
                 foreach (DistanceHit hit in hits)
@@ -45,18 +42,10 @@ public partial struct SkillRangeCollisionSystem : ISystem
                         continue;
                     }
 
-                    uint seed = distinctSeed ^ (uint)entity.Index;
-                    float damage = 0;
-                    bool isCritical = false;
-                    (damage, isCritical) = 
-                            ECSExtensions.GetDamage(skillInfoComponent.ValueRO, playerInfoComponent, seed);
-                    
                     var monsterTakeDamagedEventComponent = new MonsterTakeDamagedEventComponent
                     {
                         MonsterEntity = hit.Entity,
                         SkillEntity = entity,
-                        Damage = damage,
-                        IsCritical = isCritical
                     };
 
                     var newEntity = ecb.CreateEntity();
@@ -69,11 +58,5 @@ public partial struct SkillRangeCollisionSystem : ISystem
         
         ecb.Playback(state.EntityManager);
         ecb.Dispose();
-    }
-
-    [BurstCompile]
-    public void OnDestroy(ref SystemState state)
-    {
-
     }
 }

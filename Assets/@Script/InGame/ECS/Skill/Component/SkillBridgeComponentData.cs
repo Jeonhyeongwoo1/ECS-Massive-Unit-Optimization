@@ -3,9 +3,16 @@ using MewVivor.InGame.Skill;
 using Unity.Entities;
 using UnityEngine;
 
+
+public interface IHitableObject
+{
+    public void OnHitMonsterEntity(Entity entity);
+    public GameObject GameObject { get; }
+}
+
 public class SkillBridgeComponentData : IComponentData
 {
-    public Projectile Projectile;
+    public IHitableObject hitableObject;
     public BaseSkillData BaseSkillData;
 }
 

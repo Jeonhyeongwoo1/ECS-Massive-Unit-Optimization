@@ -35,29 +35,16 @@ namespace MewVivor.InGame.Skill.SKillBehaviour
 
             float attackRange = attackSkillData.AttackRange * Utils.GetPlayerStat(CreatureStatType.CircleSkillSize);
             StartCoroutine(LaunchParabolaProjectile(spawnPosition, targetPosition, _projectileSpeed, _heightArc,
-                () => ActivateParticle(attackRange)));
+                () => ActivateParticle(attackRange, attackSkillData)));
 
             _skillCategoryType = attackSkillData.SkillCategoryType;
             StatModifer statModifer = owner.SkillBook.GetPassiveSkillStatModifer(PassiveSkillType.SkillDuration);
             float skillDuration = Utils.CalculateStatValue(attackSkillData.SkillDuration, statModifer);
             StartCoroutine(WaitDuration(skillDuration, Release));
-            StartCoroutine(ApplyDamageInterval(attackSkillData.AttackInterval));
+            // StartCoroutine(ApplyDamageInterval(attackSkillData.AttackInterval));
         }
 
-        private IEnumerator ApplyDamageInterval(float interval)
-        {
-            while (true)
-            {
-                foreach (Transform tr in _onTriggerEnterTransformList)
-                {
-                    OnHit?.Invoke(tr, this);
-                }
-
-                yield return new WaitForSeconds(interval);
-            }
-        }
-
-        private void ActivateParticle(float attackRange)
+        private void ActivateParticle(float attackRange, AttackSkillData attackSkillData)
         {
             _isPossibleAttack = true;
             _spriteObject.SetActive(false);
@@ -65,16 +52,20 @@ namespace MewVivor.InGame.Skill.SKillBehaviour
             _normalParticleObject.SetActive(_skillCategoryType == SkillCategoryType.Normal);
             _ultimateEffectParticleObject.SetActive(_skillCategoryType == SkillCategoryType.Ultimate);
 
-            if (_skillCategoryType == SkillCategoryType.Normal)
-            {
-                _normalParticleObject.transform.localScale = Vector3.zero;
-                _normalParticleObject.transform.DOScale(Vector3.one * attackRange, 0.3f).SetEase(Ease.OutBack);
-            }
-            else
-            {
-                _ultimateEffectParticleObject.transform.localScale = Vector3.zero;
-                _ultimateEffectParticleObject.transform.DOScale(Vector3.one * attackRange, 0.3f).SetEase(Ease.OutBack);
-            }
+            // if (_skillCategoryType == SkillCategoryType.Normal)
+            // {
+            //     _normalParticleObject.transform.localScale = Vector3.zero;
+            //     _normalParticleObject.transform.DOScale(Vector3.one * attackRange, 0.3f).SetEase(Ease.OutBack);
+            // }
+            // else
+            // {
+            //     _ultimateEffectParticleObject.transform.localScale = Vector3.zero;
+            //     _ultimateEffectParticleObject.transform.DOScale(Vector3.one * attackRange, 0.3f).SetEase(Ease.OutBack);
+            // }
+            
+            transform.localScale = Vector3.zero;
+            transform.DOScale(Vector3.one * attackRange, 0.3f).SetEase(Ease.OutBack);
+            CreateBaseSkillEntity(attackSkillData, true, attackSkillData.AttackInterval);
         }
 
         public override void Release()
@@ -93,28 +84,41 @@ namespace MewVivor.InGame.Skill.SKillBehaviour
                 });
         }
         
-        private void OnTriggerStay2D(Collider2D other)
-        {
-            if (!_isPossibleAttack)
-            {
-                return;
-            }
-         
-            if ( (other.CompareTag(Tag.Monster) || other.CompareTag(Tag.ItemBox))
-                 &&!_onTriggerEnterTransformList.Contains(other.transform))
-            {
-                _onTriggerEnterTransformList.Add(other.transform);
-                OnHit?.Invoke(other.transform, this);
-            }
-        }
+        // private IEnumerator ApplyDamageInterval(float interval)
+        // {
+        //     while (true)
+        //     {
+        //         foreach (Transform tr in _onTriggerEnterTransformList)
+        //         {
+        //             OnHit?.Invoke(tr, this);
+        //         }
+        //
+        //         yield return new WaitForSeconds(interval);
+        //     }
+        // }
         
-        protected override void OnTriggerExit2D(Collider2D other)
-        {
-            if ((other.CompareTag(Tag.Monster) || other.CompareTag(Tag.ItemBox))
-                && _onTriggerEnterTransformList.Contains(other.transform))
-            {
-                _onTriggerEnterTransformList.Remove(other.transform);
-            }
-        }
+        // private void OnTriggerStay2D(Collider2D other)
+        // {
+        //     if (!_isPossibleAttack)
+        //     {
+        //         return;
+        //     }
+        //  
+        //     if ( (other.CompareTag(Tag.Monster) || other.CompareTag(Tag.ItemBox))
+        //          &&!_onTriggerEnterTransformList.Contains(other.transform))
+        //     {
+        //         _onTriggerEnterTransformList.Add(other.transform);
+        //         OnHit?.Invoke(other.transform, this);
+        //     }
+        // }
+        //
+        // protected override void OnTriggerExit2D(Collider2D other)
+        // {
+        //     if ((other.CompareTag(Tag.Monster) || other.CompareTag(Tag.ItemBox))
+        //         && _onTriggerEnterTransformList.Contains(other.transform))
+        //     {
+        //         _onTriggerEnterTransformList.Remove(other.transform);
+        //     }
+        // }
     }
 }

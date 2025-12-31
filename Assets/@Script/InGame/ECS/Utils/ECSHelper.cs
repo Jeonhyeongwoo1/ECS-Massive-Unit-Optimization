@@ -1,10 +1,11 @@
+using MewVivor.Enum;
 using Unity.Entities;
 using Unity.Mathematics;
 using Unity.Physics;
 using UnityEngine;
 using Random = Unity.Mathematics.Random;
 
-public static class ECSExtensions
+public static class ECSHelper
 {
     // 싱글톤이 있으면 값을 업데이트하고, 없으면 새로 만들어서 값을 넣는 함수
     public static void SetOrCreateSingleton<T>(this EntityManager entityManager, T data) 
@@ -30,7 +31,11 @@ public static class ECSExtensions
         return new Vector3(value.x, value.y, value.z);
     }
     
-    public static (float, bool) GetDamage(SkillInfoComponent skillInfo, PlayerInfoComponent playerInfo, uint seed)
+    public static (float, bool) GetDamage(SkillInfoComponent skillInfo, 
+        PlayerInfoComponent playerInfo,
+        Entity monsterEntity,
+        BufferLookup<MonsterBuffElementData> monsterBuffElementDataLookup,
+        uint seed)
     {
         float damage = playerInfo.Atk;
         if (skillInfo.DamagePercent > 0)
@@ -46,7 +51,27 @@ public static class ECSExtensions
             isCritical = true;
             damage *= playerInfo.CriticalDamagePercent;
         }
-        
+
+        if (monsterBuffElementDataLookup.HasBuffer(monsterEntity))
+        {
+            float percent = 0;
+            var monsterBuffElementData = monsterBuffElementDataLookup[monsterEntity];
+            foreach (MonsterBuffElementData buffElementData in monsterBuffElementData)
+            {
+                if (buffElementData.BuffStateType == BuffStateType.Exit)
+                {
+                    continue;
+                }
+                
+                if (buffElementData.DebuffType == DebuffType.AddDamage)
+                {
+                    percent += buffElementData.DebuffValuePercent;
+                }
+            }
+
+            damage *= (1 + percent);
+        }
+
         return (damage, isCritical);
     }
 
@@ -60,5 +85,22 @@ public static class ECSExtensions
         };
 
         return collisionFilter;
+    }
+
+    public static void RemoveBuff(BufferLookup<MonsterBuffElementData> monsterBuffLookup, Entity monsterEntity,
+        Entity skillEntity)
+    {
+        if (monsterBuffLookup.HasBuffer(monsterEntity))
+        {
+            var monsterBuffBuffer = monsterBuffLookup[monsterEntity];
+            for (int j = monsterBuffBuffer.Length - 1; j >= 0; j--)
+            {
+                ref var data = ref monsterBuffBuffer.ElementAt(j);
+                if (data.SkillEntity == skillEntity && data.RemoveOnTriggerExit)
+                {
+                    data.BuffStateType = BuffStateType.Exit;
+                }
+            }
+        }
     }
 }

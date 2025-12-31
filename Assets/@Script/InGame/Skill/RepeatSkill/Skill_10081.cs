@@ -44,7 +44,7 @@ namespace MewVivor.InGame.Skill
             var audio = await Manager.I.Audio.Play(Sound.SFX, SoundKey.UseSkill_10081, 0.5f, 0.25f);
             try
             {
-                await UniTask.WaitForSeconds(skillDuration, cancellationToken: _skillLogicCts.Token);
+                await UniTask.WaitForSeconds(10, cancellationToken: _skillLogicCts.Token);
             }
             catch (Exception e) when(e is not OperationCanceledException)
             {

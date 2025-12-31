@@ -23,8 +23,8 @@ namespace MewVivor.InGame.Skill
         {
             _generatableList.Clear();
             int cnt = AttackSkillData.NumOfProjectile;
-            List<Transform> monsterList = Manager.I.Object.GetCenterMonsterInCameraArea(cnt);
-            if (monsterList == null)
+            List<Vector3> monsterPositionList = Manager.I.Object.GetCenterMonsterEntityPositionInCameraArea(cnt);
+            if (monsterPositionList == null)
             {
                 for (int i = 0; i < cnt; i++)
                 {
@@ -42,7 +42,7 @@ namespace MewVivor.InGame.Skill
             {
                 for (int i = 0; i < cnt; i++)
                 {
-                    if (monsterList.Count <= i)
+                    if (monsterPositionList.Count <= i)
                     {
                         break;
                     }
@@ -51,7 +51,7 @@ namespace MewVivor.InGame.Skill
                     GameObject prefab = Manager.I.Resource.Instantiate(AttackSkillData.PrefabLabel);
                     var generatable = prefab.GetComponent<IGeneratable>();
                     generatable.OnHit = OnHit;
-                    generatable.Generate(monsterList[i].position, Vector3.zero, AttackSkillData, _owner);   
+                    generatable.Generate(monsterPositionList[i], Vector3.zero, AttackSkillData, _owner);   
                     _generatableList.Add(generatable);
                 }
             }

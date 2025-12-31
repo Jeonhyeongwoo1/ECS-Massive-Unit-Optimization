@@ -52,22 +52,22 @@ namespace MewVivor.InGame.Skill
             }
         }
         
-        protected override void OnExit(Transform target, Projectile projectile)
-        {
-            if (Utils.TryGetComponentInParent(target.gameObject, out CreatureController creature))
-            {
-                if (AttackSkillData.DebuffType1 != DebuffType.None)
-                {
-                    var monster = creature as MonsterController;
-                    monster.RemoveBuff(AttackSkillData.DebuffType1);
-                }
-
-                if (AttackSkillData.DebuffType2 != DebuffType.None)
-                {
-                    var monster = creature as MonsterController;
-                    monster.RemoveBuff(AttackSkillData.DebuffType2);
-                }
-            }
-        }
+        // protected override void OnExit(Transform target, Projectile projectile)
+        // {
+        //     if (Utils.TryGetComponentInParent(target.gameObject, out CreatureController creature))
+        //     {
+        //         if (AttackSkillData.DebuffType1 != DebuffType.None)
+        //         {
+        //             var monster = creature as MonsterController;
+        //             monster.RemoveBuff(AttackSkillData.DebuffType1);
+        //         }
+        //
+        //         if (AttackSkillData.DebuffType2 != DebuffType.None)
+        //         {
+        //             var monster = creature as MonsterController;
+        //             monster.RemoveBuff(AttackSkillData.DebuffType2);
+        //         }
+        //     }
+        // }
     }
 }

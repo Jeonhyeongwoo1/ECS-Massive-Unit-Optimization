@@ -22,7 +22,6 @@ public struct MonsterSpawnRequestComponent : IComponentData
 
 public struct MonsterSpawnTag : IComponentData
 {
-    
 }
 
 [BurstCompile]
@@ -54,23 +53,21 @@ public partial struct MonsterSpawnSystem : ISystem
             for (int i = 0; i < count; i++)
             {
                 Entity enemyEntity = state.EntityManager.Instantiate(monsterComponent.MonsterEntity);
-                
-                //랜덤한 위치에 설정
                 float angle = random.NextFloat(5, math.PI * 2f); //0 ~ 360 각도
                 float distance = random.NextFloat(10f, 20);
                 float3 position = new float3(math.cos(angle) * distance, math.sin(angle) * distance, -1f) 
                                   + component.PlayerPosition;
-                
-                //Enemy에 컴포넌트 데이터 추가 (랜덤한 속도설정)
                 var enemyData = new MonsterComponent()
                 {
                     Speed = component.Speed,
+                    oringSpeed = component.Speed,
                     Radius = component.Radius,
                     Atk = component.Atk,
                     MaxHP = component.MaxHP,
                     CurrentHP = component.MaxHP,
                     MonsterType = component.MonsterType,
                     SpawnedWaveIndex = component.SpawnedWaveIndex,
+                    StateType = CreatureStateType.Move
                 };
                 
                 ecb.AddComponent(enemyEntity, enemyData);

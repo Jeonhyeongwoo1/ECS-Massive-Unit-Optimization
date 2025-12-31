@@ -11,13 +11,14 @@ using UnityEngine;
 using Random = UnityEngine.Random;
 
 namespace MewVivor.InGame.Skill
-{
-    public abstract class Projectile : MonoBehaviour, IGeneratable
+{   
+    public abstract class Projectile : MonoBehaviour, IGeneratable, IHitableObject
     {
         public Vector3 Velocity => _rigidbody.linearVelocity;
         public Action<Transform, Projectile> OnHit { get; set; }
         public Action<Transform, Projectile> OnExit { get; set; }
         public Projectile ProjectileMono => this;
+        public GameObject GameObject => gameObject;
 
         public bool IsRelease { get; private set; }
         public int Level { get; set; }
@@ -134,19 +135,33 @@ namespace MewVivor.InGame.Skill
             yield return new WaitForSeconds(duration);
             done?.Invoke();
         }
+        
+        protected virtual Unity.Entities.Entity CreateBaseSkillEntity(IHitableObject hitableObject, AttackSkillData attackSkillData, bool isIntervalAttack = false,
+            float intervalAttackTime = 0, int attackCount = 1)
+        {
+            var skillSpawnSystem = World.DefaultGameObjectInjectionWorld.GetOrCreateSystemManaged<SkillLifeCycleSystem>();
+            return skillSpawnSystem.CreateBaseSkillEntity(hitableObject, attackSkillData, isIntervalAttack, intervalAttackTime,
+                attackCount);
+        }
 
         protected virtual Unity.Entities.Entity CreateBaseSkillEntity(AttackSkillData attackSkillData, bool isIntervalAttack = false,
             float intervalAttackTime = 0, int attackCount = 1)
         {
-            var skillSpawnSystem = World.DefaultGameObjectInjectionWorld.GetOrCreateSystemManaged<SkillSpawnSystem>();
+            var skillSpawnSystem = World.DefaultGameObjectInjectionWorld.GetOrCreateSystemManaged<SkillLifeCycleSystem>();
             return skillSpawnSystem.CreateBaseSkillEntity(this, attackSkillData, isIntervalAttack, intervalAttackTime,
                 attackCount);
         }
 
         protected virtual Unity.Entities.Entity CreateExplosionSkillComponent(Unity.Entities.Entity skillEntity, float attackRange)
         {
-            var skillSpawnSystem = World.DefaultGameObjectInjectionWorld.GetOrCreateSystemManaged<SkillSpawnSystem>();
+            var skillSpawnSystem = World.DefaultGameObjectInjectionWorld.GetOrCreateSystemManaged<SkillLifeCycleSystem>();
             return skillSpawnSystem.CreateExplosionSkill(skillEntity, attackRange);
+        }
+
+        protected virtual void DestroySkillEntity(Unity.Entities.Entity skillEntity)
+        {
+            var skillSpawnSystem = World.DefaultGameObjectInjectionWorld.GetOrCreateSystemManaged<SkillLifeCycleSystem>();
+            skillSpawnSystem.DestroySkillEntity(skillEntity);
         }
     }
 }

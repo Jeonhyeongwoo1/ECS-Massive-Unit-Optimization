@@ -23,17 +23,16 @@ namespace MewVivor.InGame.Skill.SKillBehaviour
         private readonly float _defaultColliderRadius = 3f;
         private bool _isPossibleAttack;
         private AudioSource _audio;
+        private float _range;
         
         public override void Generate(Vector3 spawnPosition, Vector3 targetPosition, AttackSkillData attackSkillData,
             CreatureController owner)
         {
             _isPossibleAttack = false;
             transform.position = owner.transform.position;
-
-            float range = attackSkillData.Scale * Utils.GetPlayerStat(CreatureStatType.CircleSkillSize);
-            _collider2D.radius = _defaultColliderRadius * range;
-            _particleObject.transform.localScale = Vector3.one * range;
-
+            transform.localScale = Vector3.one;
+            _range = attackSkillData.Scale * Utils.GetPlayerStat(CreatureStatType.CircleSkillSize);
+            _particleObject.transform.localScale = Vector3.one * _range;
             Manager.I.Audio.Play(Sound.SFX, SoundKey.UseSkill_10091, 0.5f, 0.25f);
             gameObject.SetActive(true);
             StartCoroutine(LaunchParabolaProjectile(transform.position, targetPosition, _projectileSpeed,
@@ -46,10 +45,13 @@ namespace MewVivor.InGame.Skill.SKillBehaviour
             _particleObject.SetActive(true);
             _isPossibleAttack = true;
             transform.eulerAngles = Vector3.zero;
+            transform.localScale = Vector3.one * _range;
             StatModifer statModifer = owner.SkillBook.GetPassiveSkillStatModifer(PassiveSkillType.SkillDuration);
             float skillDuration = Utils.CalculateStatValue(attackSkillData.SkillDuration, statModifer);
             StartCoroutine(WaitDuration(skillDuration, Release));
-            StartCoroutine(ApplyDamageInterval(attackSkillData.AttackInterval));
+            // StartCoroutine(ApplyDamageInterval(attackSkillData.AttackInterval));
+             CreateBaseSkillEntity(attackSkillData, true, attackSkillData.AttackInterval);
+            
             _audio = await Manager.I.Audio.Play(Sound.SFX, SoundKey.UsingSkill_10091,0.5f, 0.25f);
         }
 
@@ -66,40 +68,40 @@ namespace MewVivor.InGame.Skill.SKillBehaviour
             _particleObject.SetActive(false);
         }
 
-        private void OnTriggerStay2D(Collider2D other)
-        {
-            if (!_isPossibleAttack)
-            {
-                return;
-            }
-            if ( (other.CompareTag(Tag.Monster) || other.CompareTag(Tag.ItemBox))
-                    &&!_onTriggerEnterTransformList.Contains(other.transform))
-            {
-                _onTriggerEnterTransformList.Add(other.transform);
-                OnHit?.Invoke(other.transform, this);
-            }
-        }
-        
-        protected override void OnTriggerExit2D(Collider2D other)
-        {
-            if ((other.CompareTag(Tag.Monster) || other.CompareTag(Tag.ItemBox))
-                && _onTriggerEnterTransformList.Contains(other.transform))
-            {
-                _onTriggerEnterTransformList.Remove(other.transform);
-            }
-        }
-        
-        private IEnumerator ApplyDamageInterval(float interval)
-        {
-            while (true)
-            {
-                yield return new WaitForSeconds(interval);
-
-                foreach (Transform tr in _onTriggerEnterTransformList)
-                {
-                    OnHit?.Invoke(tr, this);
-                }
-            }
-        }
+        // private void OnTriggerStay2D(Collider2D other)
+        // {
+        //     if (!_isPossibleAttack)
+        //     {
+        //         return;
+        //     }
+        //     if ( (other.CompareTag(Tag.Monster) || other.CompareTag(Tag.ItemBox))
+        //             &&!_onTriggerEnterTransformList.Contains(other.transform))
+        //     {
+        //         _onTriggerEnterTransformList.Add(other.transform);
+        //         OnHit?.Invoke(other.transform, this);
+        //     }
+        // }
+        //
+        // protected override void OnTriggerExit2D(Collider2D other)
+        // {
+        //     if ((other.CompareTag(Tag.Monster) || other.CompareTag(Tag.ItemBox))
+        //         && _onTriggerEnterTransformList.Contains(other.transform))
+        //     {
+        //         _onTriggerEnterTransformList.Remove(other.transform);
+        //     }
+        // }
+        //
+        // private IEnumerator ApplyDamageInterval(float interval)
+        // {
+        //     while (true)
+        //     {
+        //         yield return new WaitForSeconds(interval);
+        //
+        //         foreach (Transform tr in _onTriggerEnterTransformList)
+        //         {
+        //             OnHit?.Invoke(tr, this);
+        //         }
+        //     }
+        // }
     }
 }

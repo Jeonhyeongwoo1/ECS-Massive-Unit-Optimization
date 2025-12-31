@@ -11,58 +11,55 @@ public partial struct SkillCollisionSystem : ISystem
     [BurstCompile]
     public void OnCreate(ref SystemState state)
     {
+        state.RequireForUpdate<EndFixedStepSimulationEntityCommandBufferSystem.Singleton>();
+        state.RequireForUpdate<SkillCollisionMapData>();
         state.RequireForUpdate<SimulationSingleton>();
         state.RequireForUpdate<SkillTag>();
         state.RequireForUpdate<MonsterComponent>();
         state.RequireForUpdate<PlayerInfoComponent>();
+        
+        var entity = state.EntityManager.CreateEntity();
+        state.EntityManager.AddComponentData(entity, new SkillCollisionMapData
+        {
+            CollisionMap = new NativeParallelMultiHashMap<Entity, Entity>(10000, Allocator.Persistent)
+        });
+    }
+
+    [BurstCompile]
+    public void OnDestroy(ref SystemState state)
+    {
+        if (SystemAPI.TryGetSingleton(out SkillCollisionMapData skillCollisionMapData))
+        {
+            skillCollisionMapData.CollisionMap.Dispose();
+        }
     }
 
     [BurstCompile]
     public void OnUpdate(ref SystemState state)
     {
-        var ecb = new EntityCommandBuffer(Allocator.TempJob);
         var skillLookup = SystemAPI.GetComponentLookup<SkillTag>(true); // ReadOnly
         var monsterLookup = SystemAPI.GetComponentLookup<MonsterComponent>(); // Read-Write
-        var skillInfoLookup = SystemAPI.GetComponentLookup<SkillInfoComponent>(); // ReadOnly
-        var playerInfoComponent = SystemAPI.GetSingleton<PlayerInfoComponent>();
-        var skillHitEntityBufferLookup = SystemAPI.GetBufferLookup<SkillHitEntityBufferData>();
-        uint distinctSeed = (uint)SystemAPI.Time.ElapsedTime + 1;
+        var collisionMap = SystemAPI.GetSingleton<SkillCollisionMapData>().CollisionMap;
 
-        skillLookup.Update(ref state);
-        monsterLookup.Update(ref state);
-        skillInfoLookup.Update(ref state);
-        skillHitEntityBufferLookup.Update(ref state);
-
+        collisionMap.Clear();
         // 3. Job 예약
         state.Dependency = new SkillTriggerJob
         {
             SkillLookup = skillLookup,
             MonsterLookup = monsterLookup,
-            SkillInfoComponentLookup = skillInfoLookup,
-            PlayerInfoComponent = playerInfoComponent,
-            ECB = ecb.AsParallelWriter(),
-            BaseSeed = distinctSeed,
-            SkillHitEntityBufferLookup = skillHitEntityBufferLookup,
-            DeltaTime = (float)SystemAPI.Time.ElapsedTime
+            SkillHitEntityBufferMap = collisionMap.AsParallelWriter()
         }.Schedule(SystemAPI.GetSingleton<SimulationSingleton>(), state.Dependency);
-
+        
         state.Dependency.Complete();
-        ecb.Playback(state.EntityManager);
-        ecb.Dispose();
     }
 
     [BurstCompile]
     public struct SkillTriggerJob : ITriggerEventsJob
     {
         [ReadOnly] public ComponentLookup<SkillTag> SkillLookup;
-        [ReadOnly] public ComponentLookup<SkillInfoComponent> SkillInfoComponentLookup;
         [ReadOnly] public ComponentLookup<MonsterComponent> MonsterLookup;
-        [ReadOnly] public BufferLookup<SkillHitEntityBufferData> SkillHitEntityBufferLookup;
-        [ReadOnly] public PlayerInfoComponent PlayerInfoComponent;
         
-        public EntityCommandBuffer.ParallelWriter ECB;
-        public uint BaseSeed;
-        public float DeltaTime;
+        public NativeParallelMultiHashMap<Entity, Entity>.ParallelWriter SkillHitEntityBufferMap;
 
         public void Execute(TriggerEvent triggerEvent)
         {
@@ -85,37 +82,34 @@ public partial struct SkillCollisionSystem : ISystem
 
         private void ProcessCollision(Entity skill, Entity monster, int sortOffset)
         {
-            SkillInfoComponent skillInfoComponent = SkillInfoComponentLookup[skill];
-            if (SkillHitEntityBufferLookup.HasBuffer(skill))
-            {
-                var hitBuffer = SkillHitEntityBufferLookup[skill];
-                for (int i = 0; i < hitBuffer.Length; i++)
-                {
-                    if (hitBuffer[i].Entity == monster)
-                    {
-                        return;
-                    }
-                }
-            }
+            SkillHitEntityBufferMap.Add(skill, monster);
+            
+            // SkillInfoComponent skillInfoComponent = SkillInfoComponentLookup[skill];
+            // if (SkillHitEntityBufferLookup.HasBuffer(skill))
+            // {
+            //     var hitBuffer = SkillHitEntityBufferLookup[skill];
+            //     for (int i = 0; i < hitBuffer.Length; i++)
+            //     {
+            //         if (hitBuffer[i].Entity == monster)
+            //         {
+            //             return;
+            //         }
+            //     }
+            // }
 
-            uint seed = BaseSeed ^ (uint)monster.Index ^ (uint)skill.Index ^ (uint)(sortOffset * 7919);
-            bool isCritical = false;
-            float damage = 0;
-            (damage, isCritical) = ECSExtensions.GetDamage(skillInfoComponent, PlayerInfoComponent, seed);
-            var monsterTakeDamagedEventComponent = new MonsterTakeDamagedEventComponent
-            {
-                MonsterEntity = monster,
-                SkillEntity = skill,
-                Damage = damage,
-                IsCritical = isCritical
-            };
-
-            var entity = ECB.CreateEntity(0);
-            ECB.AddComponent(0, entity, monsterTakeDamagedEventComponent);
-            ECB.AppendToBuffer(sortOffset, skill, new SkillHitEntityBufferData()
-            {
-                Entity = monster
-            });
+            // uint seed = BaseSeed ^ (uint)monster.Index ^ (uint)skill.Index ^ (uint)(sortOffset * 7919);
+            // var monsterTakeDamagedEventComponent = new MonsterTakeDamagedEventComponent
+            // {
+            //     MonsterEntity = monster,
+            //     SkillEntity = skill,
+            // };
+            //
+            // var entity = ECB.CreateEntity(0);
+            // ECB.AddComponent(0, entity, monsterTakeDamagedEventComponent);
+            // ECB.AppendToBuffer(sortOffset, skill, new SkillHitEntityBufferData()
+            // {
+            //     Entity = monster
+            // });
         }
     }
 }

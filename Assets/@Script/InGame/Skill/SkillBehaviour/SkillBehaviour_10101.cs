@@ -32,6 +32,7 @@ namespace MewVivor.InGame.Skill.SKillBehaviour
             StatModifer statModifer = owner.SkillBook.GetPassiveSkillStatModifer(PassiveSkillType.SkillDuration);
             float skillDuration = Utils.CalculateStatValue(attackSkillData.SkillDuration, statModifer);
             StartCoroutine(WaitDuration(skillDuration, Release));
+            CreateBaseSkillEntity(attackSkillData);
         }
 
         public override void Release()

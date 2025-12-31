@@ -1,9 +1,10 @@
 using MewVivor.Data;
+using MewVivor.Enum;
 using MewVivor.InGame.Skill;
 using Unity.Entities;
 using Unity.Transforms;
 
-public partial class SkillSpawnSystem : SystemBase
+public partial class SkillLifeCycleSystem : SystemBase
 {
     protected override void OnUpdate()
     {
@@ -11,7 +12,7 @@ public partial class SkillSpawnSystem : SystemBase
     }
 
     //모든 스킬의 Base 엔티티
-    public Entity CreateBaseSkillEntity(Projectile projectile, AttackSkillData attackSkillData, bool isIntervalAttack,
+    public Entity CreateBaseSkillEntity(IHitableObject hitableObject, AttackSkillData attackSkillData, bool isIntervalAttack,
         float intervalAttackTime = 0, int attackCount = 1)
     {
         if (!SystemAPI.ManagedAPI.TryGetSingleton<SkillSpawnPrefabData>(out var skillSpawnPrefabData))
@@ -25,7 +26,7 @@ public partial class SkillSpawnSystem : SystemBase
         EntityManager.AddComponentData(skillEntity, new SkillBridgeComponentData()
         {
             BaseSkillData = attackSkillData,
-            Projectile = projectile
+            hitableObject = hitableObject
         });
 
         EntityManager.AddComponentData(skillEntity, new SkillInfoComponent()
@@ -38,10 +39,11 @@ public partial class SkillSpawnSystem : SystemBase
             AttackElapsedTime = 0
         });
 
+        EntityManager.AddComponentData(skillEntity, new SkillTag());
         EntityManager.AddBuffer<SkillHitEntityBufferData>(skillEntity);
         var skillTransform = SystemAPI.GetComponent<LocalTransform>(skillEntity);
-        skillTransform.Position = projectile.transform.position;
-        skillTransform.Rotation = projectile.transform.rotation;
+        skillTransform.Position = hitableObject.GameObject.transform.position;
+        skillTransform.Rotation = hitableObject.GameObject.transform.rotation;
         skillTransform.Scale = attackSkillData.Scale;
         EntityManager.SetComponentData(skillEntity, skillTransform);
         return skillEntity;
@@ -57,5 +59,17 @@ public partial class SkillSpawnSystem : SystemBase
         });
 
         return skillEntity;
+    }
+
+    public void DestroySkillEntity(Entity skillEntity)
+    {
+        if (!SystemAPI.Exists(skillEntity))
+        {
+            return;
+        }
+
+        var ecb = SystemAPI.GetSingleton<EndSimulationEntityCommandBufferSystem.Singleton>()
+                            .CreateCommandBuffer(World.Unmanaged);
+        ecb.DestroyEntity(skillEntity);
     }
 }

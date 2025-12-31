@@ -5267,9 +5267,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _rigidbody: {fileID: 1947890620923638030}
   _skillObjectList:
-  - {fileID: 1346955276629582962}
-  - {fileID: 2759519137353034306}
-  - {fileID: 2735072568756431657}
+  - {fileID: 284582412010455117}
+  - {fileID: 9167026584840806996}
+  - {fileID: 4055102803091179182}
 --- !u!1 &2608132625361778051
 GameObject:
   m_ObjectHideFlags: 0
@@ -5370,6 +5370,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2759519137353034306}
   - component: {fileID: 1835236330739257504}
+  - component: {fileID: 9167026584840806996}
   m_Layer: 12
   m_Name: Animation (1)
   m_TagString: Untagged
@@ -5415,6 +5416,18 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &9167026584840806996
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2741120810154872106}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fc4e5eadab84a78a859c81e7894c3f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TriggerHitComponent
 --- !u!1 &2967015748409400144
 GameObject:
   m_ObjectHideFlags: 0
@@ -5515,6 +5528,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2735072568756431657}
   - component: {fileID: 3914487081892862507}
+  - component: {fileID: 4055102803091179182}
   m_Layer: 12
   m_Name: Animation (2)
   m_TagString: Untagged
@@ -5560,6 +5574,18 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &4055102803091179182
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3820050514775192153}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fc4e5eadab84a78a859c81e7894c3f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TriggerHitComponent
 --- !u!1 &4942383708622091449
 GameObject:
   m_ObjectHideFlags: 0
@@ -5695,6 +5721,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1346955276629582962}
   - component: {fileID: 5810652846479164121}
+  - component: {fileID: 284582412010455117}
   m_Layer: 12
   m_Name: Animation
   m_TagString: Untagged
@@ -5740,6 +5767,18 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &284582412010455117
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5207267202986866002}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fc4e5eadab84a78a859c81e7894c3f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TriggerHitComponent
 --- !u!1 &5827770230250942429
 GameObject:
   m_ObjectHideFlags: 0
