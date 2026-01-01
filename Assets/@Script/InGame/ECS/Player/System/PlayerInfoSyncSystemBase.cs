@@ -2,7 +2,7 @@ using MewVivor;
 using MewVivor.InGame.Controller;
 using Unity.Entities;
 
-public partial class PlayerInfoSyncSystem : SystemBase
+public partial class PlayerInfoSyncSystemBase : SystemBase
 {
     protected override void OnUpdate()
     {

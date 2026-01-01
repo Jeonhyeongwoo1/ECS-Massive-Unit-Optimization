@@ -99,8 +99,8 @@ namespace MewVivor
 
         public void GameEnd()
         {
-            _activateMonsterList.Clear();
-            _droppedItemControllerList.Clear();
+            _activateMonsterList?.Clear();
+            _droppedItemControllerList?.Clear();
             _player = null;
         }
 
@@ -298,7 +298,7 @@ namespace MewVivor
             (float finalAtk, float finalHp) = Manager.I.Game.GetMonsterAtkAndHP(monsterType, data);
             entityManager.AddComponentData(requestEntity, new MonsterSpawnRequestComponent()
             {
-                Count = monsterType == MonsterType.Normal ? 10 : 1,
+                Count = monsterType == MonsterType.Normal ? 1 : 1,
                 PlayerPosition = new float3(spawnPosition.x, spawnPosition.y, spawnPosition.z),
                 Scale = monsterType == MonsterType.Normal ? 2.5f : 5f,
                 Speed = data.MoveSpeed,
@@ -308,7 +308,7 @@ namespace MewVivor
                 MonsterType = monsterType,
                 SpawnedWaveIndex = waveIndex
             });
-
+            
             switch (monsterType)
             {
                 case MonsterType.Boss:

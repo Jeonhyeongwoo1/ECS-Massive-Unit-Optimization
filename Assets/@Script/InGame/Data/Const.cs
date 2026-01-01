@@ -60,7 +60,7 @@ namespace MewVivor.Data
         public static string HourPerName = "시간당";
         public static int MIN_OFFLINE_REWARD_MINUTE = 10;
         
-        public static float MonsterAttackIntervalTime = .1f; //몬스터 공격 시간
+        public static float MonsterAttackIntervalTime = 0.1f; //몬스터 공격 시간
         public static float PlayerInvincibilityTime = 3f; //플레이어 무적 시간
         public static int ResurrectionRemainTime = 10;
         public static float KNOCKBACK_TIME = 0.3f;// 밀려나는시간

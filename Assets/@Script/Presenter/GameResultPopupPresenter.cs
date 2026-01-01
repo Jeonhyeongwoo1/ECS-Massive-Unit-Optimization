@@ -69,7 +69,7 @@ namespace MewVivor.Presenter
             }
             
             TimeScaleHandler.ReleasePause();
-            await Manager.I.Game.RequestGameEnd(_gameEndType);
+            // await Manager.I.Game.RequestGameEnd(_gameEndType);
             Manager.I.Game.GameEnd();
         }
     }

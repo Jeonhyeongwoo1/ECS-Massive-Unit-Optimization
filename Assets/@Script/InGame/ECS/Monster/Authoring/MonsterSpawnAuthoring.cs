@@ -8,7 +8,6 @@ namespace Script.InGame.ECS.Monster
         public GameObject MonsterPrefab => monsterPrefab;
 
         [SerializeField] private GameObject monsterPrefab;
-        [SerializeField] private int spawnCount = 3000;
 
         private class MonsterSpawnAuthoringBaker : Baker<MonsterSpawnAuthoring>
         {

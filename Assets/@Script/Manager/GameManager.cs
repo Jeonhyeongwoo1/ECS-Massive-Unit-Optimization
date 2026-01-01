@@ -12,6 +12,8 @@ using MewVivor.Managers;
 using MewVivor.Model;
 using MewVivor.Presenter;
 using MewVivor.Util;
+using Unity.Collections;
+using Unity.Entities;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using Object = UnityEngine.Object;
@@ -142,7 +144,7 @@ namespace MewVivor
                     { Const.ID_JEWEL.ToString(), playerModel.Jewel.Value }
                 }
             };
-
+            
             var rewardItemDict = playerModel.GetAcquiredRewardItemDict();
             if (rewardItemDict != null)
             {
@@ -151,11 +153,11 @@ namespace MewVivor
                     gameEndRequestData.dropItems.TryAdd(key.ToString(), value);
                 }
             }
-
+            
             var response =
                 await Manager.I.Web.SendRequest<GameEndResponseData>($"/user-game/end/{gameEndType}", gameEndRequestData,
                     MethodType.POST.ToString());
-
+            
             if (response.statusCode != (int)ServerStatusCodeType.Success)
             {
                 Manager.I.ChangeTitleScene();
@@ -204,7 +206,126 @@ namespace MewVivor
             playerModel.Reset();
             var stageModel = ModelFactory.CreateOrGetModel<StageModel>();
             stageModel.Reset();
-            await Manager.I.MoveToLobbyScene();
+            
+            Manager.I.ChangeTitleScene();
+            CleanUpRuntimeEntites();
+            // await Manager.I.MoveToLobbyScene();
+        }
+
+        private void CleanUpRuntimeEntites()
+        {
+            var entityManager = World.DefaultGameObjectInjectionWorld.EntityManager;
+
+            var monsterEntityQuery = entityManager.CreateEntityQuery(typeof(MonsterTag));
+            if (!monsterEntityQuery.IsEmpty)
+            {
+                var monsterEntites = monsterEntityQuery.ToEntityArray(Allocator.Temp);
+                foreach (Entity monsterEntity in monsterEntites)
+                {
+                    entityManager.DestroyEntity(monsterEntity);
+                }
+            }
+            
+            monsterEntityQuery.Dispose();
+
+            var playerEntityQuery = entityManager.CreateEntityQuery(typeof(PlayerInfoComponent));
+            if (!playerEntityQuery.IsEmpty)
+            {
+                entityManager.DestroyEntity(playerEntityQuery);
+            }
+            
+            playerEntityQuery.Dispose();
+
+            var skillEntityQuery = entityManager.CreateEntityQuery(typeof(SkillTag));
+            if (!skillEntityQuery.IsEmpty)
+            {
+                entityManager.DestroyEntity(skillEntityQuery);
+            }
+
+            skillEntityQuery.Dispose();
+
+            var skillSpawnEntityQuery = entityManager.CreateEntityQuery(typeof(SkillSpawnTag));
+            if (!skillSpawnEntityQuery.IsEmpty)
+            {
+                entityManager.DestroyEntity(skillSpawnEntityQuery);
+            }
+            skillSpawnEntityQuery.Dispose();
+            
+            var monsterSpawnEntityQuery =  entityManager.CreateEntityQuery(typeof(MonsterSpawnTag));
+            if (!monsterSpawnEntityQuery.IsEmpty)
+            {
+                entityManager.DestroyEntity(monsterSpawnEntityQuery);
+            }
+            
+            monsterSpawnEntityQuery.Dispose();
+            
+            var skillCollisionMapData = entityManager.CreateEntityQuery(typeof(SkillCollisionMapData));
+            if (!skillCollisionMapData.IsEmpty)
+            {
+                entityManager.DestroyEntity(skillCollisionMapData);
+            }
+            
+            skillCollisionMapData.Dispose();
+
+            ResetSystem();
+        }
+
+        private void ResetSystem()
+        {
+            var world = World.DefaultGameObjectInjectionWorld;
+            var monsterBuffSystemHandle = world.GetExistingSystem<MonsterBuffSystem>();
+            if (monsterBuffSystemHandle != default)
+            {
+                world.Unmanaged.ResolveSystemStateRef(monsterBuffSystemHandle).Enabled = true;
+            }
+            
+            var monsterCollisionSystemHandle = world.GetExistingSystem<MonsterCollisionSystem>();
+            if (monsterCollisionSystemHandle != default)
+            {
+                world.Unmanaged.ResolveSystemStateRef(monsterCollisionSystemHandle).Enabled = true;
+            }
+            
+            var monsterMoveSystemHandle = world.GetExistingSystem<MonsterMoveSystem>();
+            if (monsterMoveSystemHandle != default)
+            {
+                world.Unmanaged.ResolveSystemStateRef(monsterMoveSystemHandle).Enabled = true;
+            }
+            
+            var monsterSpawnSystemHandle =  world.GetExistingSystem<MonsterSpawnSystem>();
+            if (monsterSpawnSystemHandle != default)
+            {
+                world.Unmanaged.ResolveSystemStateRef(monsterSpawnSystemHandle).Enabled = true;
+            }
+            
+            var skillCollisionSystemHandle = world.GetExistingSystem<SkillCollisionSystem>();
+            if (skillCollisionSystemHandle != default)
+            {
+                world.Unmanaged.ResolveSystemStateRef(skillCollisionSystemHandle).Enabled = true;
+            }
+            
+            var skillLifeCycleSystemHandle = world.GetExistingSystem<SkillLifeCycleSystem>();
+            if (skillLifeCycleSystemHandle != default)
+            {
+                world.Unmanaged.ResolveSystemStateRef(skillLifeCycleSystemHandle).Enabled = true;
+            }
+            
+            var skillRangeCollisionSystem =  world.GetExistingSystem<SkillRangeCollisionSystem>();
+            if (skillRangeCollisionSystem != default)
+            {
+                world.Unmanaged.ResolveSystemStateRef(skillRangeCollisionSystem).Enabled = true;
+            }
+            
+            var skillSyncSystemHandle = world.GetExistingSystem<SkillSyncSystem>();
+            if (skillSyncSystemHandle != default)
+            {
+                world.Unmanaged.ResolveSystemStateRef(skillSyncSystemHandle).Enabled = true;
+            }
+            
+            var skillUpdateSystemHandle = world.GetExistingSystem<SkillUpdateSystem>();
+            if (skillUpdateSystemHandle != default)
+            {
+                world.Unmanaged.ResolveSystemStateRef(skillUpdateSystemHandle).Enabled = true;
+            }
         }
 
         public void SpawnDropItem(DropItemData dropItemData, Vector3 spawnPosition, bool useRandomSpawnPosition = true)

@@ -6,13 +6,12 @@ using Unity.Mathematics;
 using Unity.Physics;
 using Unity.Physics.Systems;
 using Unity.Transforms;
+using UnityEngine;
 
 [UpdateInGroup(typeof(FixedStepSimulationSystemGroup))]
 [UpdateAfter(typeof(PhysicsSystemGroup))]
 public partial struct MonsterCollisionSystem : ISystem
 {
-    public PlayerInfoComponent playerInfoComponent;
-    
     [BurstCompile]
     public void OnCreate(ref SystemState state)
     {
@@ -20,48 +19,61 @@ public partial struct MonsterCollisionSystem : ISystem
         state.RequireForUpdate<SimulationSingleton>();
         state.RequireForUpdate<MonsterTag>();
         state.RequireForUpdate<PlayerInfoComponent>();
-        playerInfoComponent = SystemAPI.GetSingleton<PlayerInfoComponent>();
     }
 
     [BurstCompile]
     public void OnUpdate(ref SystemState state)
     {
-        float3 playerPosition = playerInfoComponent.Position;
+        var playerInfoComponent = SystemAPI.GetSingleton<PlayerInfoComponent>();
         var ecb = SystemAPI.GetSingleton<EndSimulationEntityCommandBufferSystem.Singleton>()
             .CreateCommandBuffer(state.WorldUnmanaged);
-        
-        foreach (var (monsterComponent,
-                     monsterTransform,
-                     entity)
-                 in SystemAPI.Query<RefRW<MonsterComponent>, RefRO<LocalTransform>>().WithEntityAccess())
+
+        state.Dependency = new CollisionJob()
         {
-            if (entity == Entity.Null)
-            {
-                continue;
-            }
-            
-            float3 monsterPosition = monsterTransform.ValueRO.Position;
-            float dist = math.distance(playerPosition, monsterPosition);
-            float monsterRadius = monsterComponent.ValueRO.Radius;
-            float playerRadius = playerInfoComponent.Radius;
-            float resultRadius = monsterRadius + playerRadius;
+            PlayerInfoComponent = playerInfoComponent,
+            ecb = ecb.AsParallelWriter(),
+            DeltaTime = SystemAPI.Time.DeltaTime,
+            AttackInterval = Const.MonsterAttackIntervalTime
+        }.ScheduleParallel(state.Dependency);
+        
+    }
+
+    [BurstCompile]
+    public partial struct CollisionJob : IJobEntity
+    {
+        [ReadOnly] public PlayerInfoComponent PlayerInfoComponent;
+
+        public EntityCommandBuffer.ParallelWriter ecb;
+        public float DeltaTime;
+        public float AttackInterval;
+
+        void Execute([EntityIndexInQuery] int sortKey, 
+            ref MonsterComponent monsterComponent,
+            ref LocalTransform monsterTransform, 
+            Entity entity)
+        {
+            float3 monsterPosition = monsterTransform.Position;
+            float dist = math.distance(PlayerInfoComponent.Position, monsterPosition);
+            float monsterRadius = monsterComponent.Radius;
+            float playerRadius = PlayerInfoComponent.Radius;
+            float resultRadius = monsterRadius + playerRadius - 0.5f;//offest;
             if (dist < resultRadius)
             {
-                monsterComponent.ValueRW.AttackElapsedTime += SystemAPI.Time.DeltaTime;
-                if (monsterComponent.ValueRW.AttackElapsedTime > Const.MonsterAttackIntervalTime)
+                monsterComponent.AttackElapsedTime += DeltaTime;
+                if (monsterComponent.AttackElapsedTime > AttackInterval)
                 {
-                    var newEntity = ecb.CreateEntity();
-                    ecb.AddComponent(newEntity, new MonsterAttackEventComponent()
+                    var newEntity = ecb.CreateEntity(sortKey);
+                    ecb.AddComponent(sortKey, newEntity, new MonsterAttackEventComponent()
                     {
                         MonsterEntity = entity
                     });
                     
-                    monsterComponent.ValueRW.AttackElapsedTime = 0;
+                    monsterComponent.AttackElapsedTime = 0;
                 }
             }
             else
             {
-                monsterComponent.ValueRW.AttackElapsedTime = 0;
+                monsterComponent.AttackElapsedTime = 0;
             }
         }
     }

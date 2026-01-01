@@ -23,7 +23,8 @@ namespace MewVivor.Presenter
             }
 
             UserModel userModel = ModelFactory.CreateOrGetModel<UserModel>();
-            int aliveTime = userModel.GetStageBestAliveTime(Manager.I.Game.StageLevel);
+            // int aliveTime = userModel.GetStageBestAliveTime(Manager.I.Game.StageLevel);
+            int aliveTime = 0;
             TimeSpan playTimeSpan = TimeSpan.FromSeconds(playTime);
             TimeSpan aliveTimeSpan = TimeSpan.FromMilliseconds(aliveTime);
             string playTimeValue = $"{playTimeSpan.Minutes:D2}:{playTimeSpan.Seconds:D2}";
@@ -63,7 +64,7 @@ namespace MewVivor.Presenter
             }
             
             TimeScaleHandler.ReleasePause();
-            await Manager.I.Game.RequestGameEnd(_gameEndType);
+            // await Manager.I.Game.RequestGameEnd(_gameEndType);
             Manager.I.Game.GameEnd();
         }
     }
